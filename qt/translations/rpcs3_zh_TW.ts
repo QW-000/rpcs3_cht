@@ -664,9 +664,11 @@ Leave this on auto if performance is negatively affected when setting a small va
     <message>
         <location filename="rpcs3qt/tooltips.h" line="81"/>
         <source>Enables extra accuracy on FMA instructions, which can be needed by some games.
-It can impact performance negatively on CPUs without FMA acceleration support</source>
+It can impact performance negatively on CPUs without FMA acceleration support.</source>
+        <oldsource>Enables extra accuracy on FMA instructions, which can be needed by some games.
+It can impact performance negatively on CPUs without FMA acceleration support</oldsource>
         <translation>啟用某些遊戲可能需要 FMA 指令的附加準確度。
-如果沒有 FMA 加速支援，將對 CPU 效能產生影響</translation>
+如果沒有 FMA 加速支援，將對 CPU 效能產生影響。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="83"/>
@@ -982,7 +984,10 @@ Set this value to 100% if you want to use the normal Resolution options.</source
         <location filename="rpcs3qt/tooltips.h" line="137"/>
         <source>Only framebuffers greater than this size will be upscaled.
 Increasing this value might fix problems with missing graphics when upscaling, especially when Write Color Buffers is enabled.
-Do not touch this setting if you are unsure.</source>
+If unsure, don&apos;t change this option.</source>
+        <oldsource>Only framebuffers greater than this size will be upscaled.
+Increasing this value might fix problems with missing graphics when upscaling, especially when Write Color Buffers is enabled.
+Do not touch this setting if you are unsure.</oldsource>
         <translation>僅大於此大小的框緩衝才會被放大。
 增加此值可能在倍增時修復缺少圖形的問題，尤其是在啟用「寫入色彩緩衝」時。
 如果您不確定，請不要碰此設定。</translation>
@@ -1188,18 +1193,21 @@ Mouse: Emulate PSMove with Mouse handler.</source>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="176"/>
-        <source>DNS used to resolve hostnames by applications</source>
-        <translation>DNS 用於解析主機名的應用程式</translation>
+        <source>DNS used to resolve hostnames by applications.</source>
+        <oldsource>DNS used to resolve hostnames by applications</oldsource>
+        <translation>DNS 用於解析主機名的應用程式。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="177"/>
-        <source>Identifier representing your account</source>
-        <translation>識別碼代表您的帳號</translation>
+        <source>Identifier representing your PSN account.</source>
+        <oldsource>Identifier representing your account</oldsource>
+        <translation>識別碼代表您的帳號。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="178"/>
-        <source>DNS Swap List</source>
-        <translation>DNS 調換清單</translation>
+        <source>DNS Swap List.</source>
+        <oldsource>DNS Swap List</oldsource>
+        <translation>DNS 調換清單。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="182"/>
@@ -1212,16 +1220,21 @@ It is recommended leaving this on a language supported by the game.</source>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="183"/>
-        <source> Sets the used keyboard layout.
+        <source>Sets the used keyboard layout.
 Currently only US, Japanese and German layouts are fully supported at this moment.</source>
+        <oldsource> Sets the used keyboard layout.
+Currently only US, Japanese and German layouts are fully supported at this moment.</oldsource>
         <translation>設定使用的鍵盤布局。
 目前僅支援美國、日本和德國布局。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="184"/>
         <source>The button used for enter/accept/confirm in system dialogs.
-Change this to use the circle button instead, which is the default configuration on Japanese systems and in many Japanese games.
+Change this to use the Circle button instead, which is the default configuration on Japanese systems and in many Japanese games.
 In these cases having the cross button assigned can often lead to confusion.</source>
+        <oldsource>The button used for enter/accept/confirm in system dialogs.
+Change this to use the circle button instead, which is the default configuration on Japanese systems and in many Japanese games.
+In these cases having the cross button assigned can often lead to confusion.</oldsource>
         <translation>用於進入、接受、確定系統訊息框中的按鈕。
 將其更改為使用 ○ 按鈕，這是日版系統及許多日版遊戲中的預設設定。
 在這些情況下，指定 ╳ 按鈕通常會導致混淆。</translation>
@@ -1247,8 +1260,10 @@ Games can use the cache folder to temporarily store data outside of system memor
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="192"/>
-        <source>While it is possible to use a keyboard as a pad in RPCS3, the use of an actual controller is strongly recommended. To bind mouse movement to a button or joystick, click on the desired button to activate it, then click and hold while dragging the mouse to a direction</source>
-        <translation>雖然可以在 RPCS3 中使用鍵盤當作 PAD，但強烈建議使用實際控制器。 如需映射滑鼠移動到按鈕或搖桿，點擊觸發所需的按鈕再次按住滑鼠拖曳到某個方向</translation>
+        <source>While it is possible to use a keyboard as a pad in RPCS3, the use of an actual controller is strongly recommended.
+To bind mouse movement to a button or joystick, click on the desired button to activate it, then click and hold while dragging the mouse to a direction.</source>
+        <oldsource>While it is possible to use a keyboard as a pad in RPCS3, the use of an actual controller is strongly recommended. To bind mouse movement to a button or joystick, click on the desired button to activate it, then click and hold while dragging the mouse to a direction</oldsource>
+        <translation>雖然可以在 RPCS3 中使用鍵盤當作 PAD，但強烈建議使用實際控制器。 如需映射滑鼠移動到按鈕或搖桿，點擊觸發所需的按鈕再次按住滑鼠拖曳到某個方向。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="193"/>
@@ -2477,8 +2492,12 @@ This change will only be final when you save the config.</source>
     </message>
     <message>
         <location filename="rpcs3qt/game_compatibility.cpp" line="173"/>
+        <source>Please wait...</source>
+        <translation>請稍後...</translation>
+    </message>
+    <message>
         <source>Please wait ...</source>
-        <translation>請稍候 ...</translation>
+        <translation type="vanished">請稍候 ...</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_compatibility.cpp" line="173"/>
@@ -3464,7 +3483,8 @@ Any unsaved progress will be lost!
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="386"/>
-        <source>Install application from pkg file</source>
+        <source>Install application from a .pkg file</source>
+        <oldsource>Install application from pkg file</oldsource>
         <translation>從 PKG 檔案安裝應用程式</translation>
     </message>
     <message>
@@ -3486,7 +3506,9 @@ Any unsaved progress will be lost!
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="409"/>
-        <source>Start Emulation</source>
+        <location filename="rpcs3qt/main_window.ui" line="848"/>
+        <source>Start emulation</source>
+        <oldsource>Start Emulation</oldsource>
         <translation>啟動仿真</translation>
     </message>
     <message>
@@ -3498,7 +3520,9 @@ Any unsaved progress will be lost!
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="424"/>
-        <source>Stop Emulation</source>
+        <location filename="rpcs3qt/main_window.ui" line="860"/>
+        <source>Stop emulation</source>
+        <oldsource>Stop Emulation</oldsource>
         <translation>停止仿真</translation>
     </message>
     <message>
@@ -3528,7 +3552,8 @@ Any unsaved progress will be lost!
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="456"/>
-        <source>Configure Graphics</source>
+        <source>Configure graphics</source>
+        <oldsource>Configure Graphics</oldsource>
         <translation>設定圖形</translation>
     </message>
     <message>
@@ -3540,7 +3565,9 @@ Any unsaved progress will be lost!
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="467"/>
-        <source>Configure Controls</source>
+        <location filename="rpcs3qt/main_window.ui" line="884"/>
+        <source>Configure controls</source>
+        <oldsource>Configure Controls</oldsource>
         <translation>設定控制器</translation>
     </message>
     <message>
@@ -3550,7 +3577,8 @@ Any unsaved progress will be lost!
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="475"/>
-        <source>Configure Audio</source>
+        <source>Configure audio</source>
+        <oldsource>Configure Audio</oldsource>
         <translation>設定聲音</translation>
     </message>
     <message>
@@ -3570,7 +3598,8 @@ Any unsaved progress will be lost!
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="491"/>
-        <source>Configure System</source>
+        <source>Configure system</source>
+        <oldsource>Configure System</oldsource>
         <translation>設定系統</translation>
     </message>
     <message>
@@ -3595,8 +3624,9 @@ Any unsaved progress will be lost!
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="513"/>
-        <source>Exit the application</source>
-        <translation>關閉應用程式</translation>
+        <source>Exit the application.</source>
+        <oldsource>Exit the application</oldsource>
+        <translation>關閉應用程式。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="521"/>
@@ -3605,7 +3635,8 @@ Any unsaved progress will be lost!
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="524"/>
-        <source>Manage Save Data</source>
+        <source>Manage save data</source>
+        <oldsource>Manage Save Data</oldsource>
         <translation>管理儲存資料</translation>
     </message>
     <message>
@@ -3615,7 +3646,8 @@ Any unsaved progress will be lost!
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="535"/>
-        <source>Manage Trophies</source>
+        <source>Manage trophies</source>
+        <oldsource>Manage Trophies</oldsource>
         <translation>管理獎盃</translation>
     </message>
     <message>
@@ -3625,7 +3657,8 @@ Any unsaved progress will be lost!
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="543"/>
-        <source>Manage User Accounts</source>
+        <source>Manage user accounts</source>
+        <oldsource>Manage User Accounts</oldsource>
         <translation>管理使用者帳號</translation>
     </message>
     <message>
@@ -3813,16 +3846,6 @@ Any unsaved progress will be lost!
         <translation>啟動</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="848"/>
-        <source>Start emulation</source>
-        <translation>啟動仿真</translation>
-    </message>
-    <message>
-        <location filename="rpcs3qt/main_window.ui" line="860"/>
-        <source>Stop emulation</source>
-        <translation>停止仿真</translation>
-    </message>
-    <message>
         <location filename="rpcs3qt/main_window.ui" line="869"/>
         <source>Config</source>
         <translation>設定</translation>
@@ -3831,11 +3854,6 @@ Any unsaved progress will be lost!
         <location filename="rpcs3qt/main_window.ui" line="872"/>
         <source>Configure the emulator</source>
         <translation>設定仿真器</translation>
-    </message>
-    <message>
-        <location filename="rpcs3qt/main_window.ui" line="884"/>
-        <source>Configure controls</source>
-        <translation>設定控制器</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="893"/>
@@ -3884,7 +3902,8 @@ Any unsaved progress will be lost!
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="944"/>
-        <source>Boot game</source>
+        <source>Boot a game</source>
+        <oldsource>Boot game</oldsource>
         <translation>啟動遊戲</translation>
     </message>
     <message>
@@ -4616,8 +4635,9 @@ image</source>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="394"/>
-        <source>Left Analog</source>
-        <translation>左類比</translation>
+        <source>Left Stick</source>
+        <oldsource>Left Analog</oldsource>
+        <translation>左搖桿</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="662"/>
@@ -4837,8 +4857,9 @@ image</source>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="1818"/>
-        <source>Right Analog</source>
-        <translation>右類比</translation>
+        <source>Right Stick</source>
+        <oldsource>Right Analog</oldsource>
+        <translation>右搖桿</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="1882"/>
@@ -4862,8 +4883,9 @@ image</source>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="2077"/>
-        <source>Analog Deadzones</source>
-        <translation>類比盲區</translation>
+        <source>Analog Stick Deadzones</source>
+        <oldsource>Analog Deadzones</oldsource>
+        <translation>類比搖桿盲區</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="2153"/>
@@ -7358,9 +7380,11 @@ Preview:
     <name>trophy_notification_frame</name>
     <message>
         <location filename="rpcs3qt/trophy_notification_frame.cpp" line="53"/>
-        <source>You have earned the %1 trophy
+        <source>You have earned the %1 trophy.
 </source>
-        <translation>你獲得了 %1 獎盃</translation>
+        <oldsource>You have earned the %1 trophy
+</oldsource>
+        <translation>你獲得了 %1 獎盃。</translation>
     </message>
 </context>
 <context>
