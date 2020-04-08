@@ -1746,26 +1746,12 @@ Restart of the game is required to apply. You can enable/disable this in the set
 <context>
     <name>emu_settings</name>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="171"/>
-        <source>Vulkan Check Timeout</source>
-        <translation>Vulkan 檢查超時</translation>
-    </message>
-    <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="172"/>
-        <source>Querying for Vulkan-compatible devices is taking too long. This is usually caused by malfunctioning graphics drivers, reinstalling them could fix the issue.
-
-Selecting ignore starts the emulator without Vulkan support.</source>
-        <translation>查詢 Vulkan 相容的裝置花費時間過久。 這通常是由圖形驅動程式故障引起的，重新安裝即可解決問題。
-
-選擇忽略將在沒有 Vulkan 支持的情況下啟動仿真器。</translation>
-    </message>
-    <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="601"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="507"/>
         <source>Fix invalid settings?</source>
         <translation>修正無效的設定?</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="602"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="508"/>
         <source>Your config file contained one or more unrecognized values for settings.
 Their default value will be used until they are corrected.
 Consider that a correction might render them invalid for other versions of RPCS3.
@@ -1780,636 +1766,424 @@ This change will only be final when you save the config.</source>
 當您儲存設定時，此更改將會是最終決定。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="632"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="538"/>
         <source>Safe</source>
         <comment>SPU block size</comment>
         <translation>Safe</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="633"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="539"/>
         <source>Mega</source>
         <comment>SPU block size</comment>
         <translation>Mega</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="634"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="540"/>
         <source>Giga</source>
         <comment>SPU block size</comment>
         <translation>Giga</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="640"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="546"/>
         <source>Disabled</source>
         <comment>Enable TSX</comment>
         <translation>停用</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="641"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="547"/>
         <source>Enabled</source>
         <comment>Enable TSX</comment>
         <translation>啟用</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="642"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="548"/>
         <source>Forced</source>
         <comment>Enable TSX</comment>
         <translation>強制</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="648"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="554"/>
         <source>Disable Video Output</source>
         <comment>Video renderer</comment>
         <translation>停用視訊輸出</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="649"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="555"/>
         <source>OpenGL</source>
         <comment>Video renderer</comment>
         <translation>OpenGL</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="650"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="556"/>
         <source>Vulkan</source>
         <comment>Video renderer</comment>
         <translation>Vulkan</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="656"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="562"/>
         <source>Off</source>
         <comment>Frame limit</comment>
         <translation>關閉</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="657"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="563"/>
         <source>59.94</source>
         <comment>Frame limit</comment>
         <translation>59.94</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="658"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="564"/>
         <source>50</source>
         <comment>Frame limit</comment>
         <translation>50</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="659"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="565"/>
         <source>60</source>
         <comment>Frame limit</comment>
         <translation>60</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="660"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="566"/>
         <source>30</source>
         <comment>Frame limit</comment>
         <translation>30</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="661"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="567"/>
         <source>Auto</source>
         <comment>Frame limit</comment>
         <translation>自動</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="667"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="573"/>
         <source>Disabled</source>
         <comment>MSAA</comment>
         <translation>停用</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="668"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="574"/>
         <source>Auto</source>
         <comment>MSAA</comment>
         <translation>自動</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="674"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="580"/>
         <source>Disable Audio Output</source>
         <comment>Audio renderer</comment>
         <translation>停用音訊輸出</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="676"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="582"/>
         <source>XAudio2</source>
         <comment>Audio renderer</comment>
         <translation>XAudio2</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="679"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="585"/>
         <source>ALSA</source>
         <comment>Audio renderer</comment>
         <translation>ALSA</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="682"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="588"/>
         <source>PulseAudio</source>
         <comment>Audio renderer</comment>
         <translation>PulseAudio</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="684"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="590"/>
         <source>OpenAL</source>
         <comment>Audio renderer</comment>
         <translation>OpenAL</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="686"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="592"/>
         <source>FAudio</source>
         <comment>Audio renderer</comment>
         <translation>FAudio</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="693"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="599"/>
         <source>Disabled</source>
         <comment>Microphone handler</comment>
         <translation>停用</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="694"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="600"/>
         <source>Standard</source>
         <comment>Microphone handler</comment>
         <translation>標準</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="695"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="601"/>
         <source>SingStar</source>
         <comment>Microphone handler</comment>
         <translation>SingStar</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="696"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="602"/>
         <source>Real SingStar</source>
         <comment>Microphone handler</comment>
         <translation>Real SingStar</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="697"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="603"/>
         <source>Rocksmith</source>
         <comment>Microphone handler</comment>
         <translation>Rocksmith</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="703"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="609"/>
         <source>Null</source>
         <comment>Keyboard handler</comment>
         <translation>空</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="704"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="610"/>
         <source>Basic</source>
         <comment>Keyboard handler</comment>
         <translation>基本</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="710"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="616"/>
         <source>Null</source>
         <comment>Mouse handler</comment>
         <translation>空</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="711"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="617"/>
         <source>Basic</source>
         <comment>Mouse handler</comment>
         <translation>基本</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="717"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="623"/>
         <source>Unknown</source>
         <comment>Camera type</comment>
         <translation>未知</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="718"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="624"/>
         <source>EyeToy</source>
         <comment>Camera type</comment>
         <translation>EyeToy</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="719"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="625"/>
         <source>PS Eye</source>
         <comment>Camera type</comment>
         <translation>PS Eye</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="720"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="626"/>
         <source>UVC 1.1</source>
         <comment>Camera type</comment>
         <translation>UVC 1.1</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="726"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="632"/>
         <source>Null</source>
         <comment>Camera handler</comment>
         <translation>空</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="727"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="633"/>
         <source>Fake</source>
         <comment>Camera handler</comment>
         <translation>虛設</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="733"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="639"/>
         <source>Null</source>
         <comment>Move handler</comment>
         <translation>空</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="734"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="640"/>
         <source>Fake</source>
         <comment>Move handler</comment>
         <translation>虛設</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="735"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="641"/>
         <source>Mouse</source>
         <comment>Move handler</comment>
         <translation>滑鼠</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="741"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="647"/>
         <source>Disconnected</source>
         <comment>Internet Status</comment>
         <translation>斷線</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="742"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="648"/>
         <source>Connected</source>
         <comment>Internet Status</comment>
         <translation>連結</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="748"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="654"/>
         <source>Disconnected</source>
         <comment>PSN Status</comment>
         <translation>斷線</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="749"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="655"/>
         <source>Simulated</source>
         <comment>PSN Status</comment>
         <translation>模擬</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="755"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="661"/>
         <source>As Host</source>
         <comment>Sleep timers accuracy</comment>
         <translation>As Host</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="756"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="662"/>
         <source>Usleep Only</source>
         <comment>Sleep timers accuracy</comment>
         <translation>Usleep Only</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="757"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="663"/>
         <source>All Timers</source>
         <comment>Sleep timers accuracy</comment>
         <translation>All Timers</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="763"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="669"/>
         <source>Minimal</source>
         <comment>Detail Level</comment>
         <translation>最小</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="764"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="670"/>
         <source>Low</source>
         <comment>Detail Level</comment>
         <translation>低</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="765"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="671"/>
         <source>Medium</source>
         <comment>Detail Level</comment>
         <translation>中</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="766"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="672"/>
         <source>High</source>
         <comment>Detail Level</comment>
         <translation>高</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="772"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="678"/>
         <source>Top Left</source>
         <comment>Performance overlay position</comment>
         <translation>左上</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="773"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="679"/>
         <source>Top Right</source>
         <comment>Performance overlay position</comment>
         <translation>右上</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="774"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="680"/>
         <source>Bottom Left</source>
         <comment>Performance overlay position</comment>
         <translation>左下</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="775"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="681"/>
         <source>Bottom Right</source>
         <comment>Performance overlay position</comment>
         <translation>右下</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="781"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="687"/>
         <source>Manually load selected libraries</source>
         <comment>Libraries</comment>
         <translation>讀取自選的庫</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="782"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="688"/>
         <source>Load automatic and manual selection</source>
         <comment>Libraries</comment>
         <translation>自動讀取與自選</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="783"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="689"/>
         <source>Load liblv2.sprx only</source>
         <comment>Libraries</comment>
         <translation>僅讀取 liblv2.sprx</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="784"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="690"/>
         <source>Load liblv2.sprx and manual selection</source>
         <comment>Libraries</comment>
         <translation>讀取 liblv2.sprx 與自選</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="785"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="691"/>
         <source>Load liblv2.sprx and strict selection</source>
         <comment>Libraries</comment>
         <translation>讀取 liblv2.sprx 與精確選擇</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="791"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="697"/>
         <source>Interpreter (precise)</source>
         <comment>PPU decoder</comment>
         <translation>直譯器 (準確)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="792"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="698"/>
         <source>Interpreter (fast)</source>
         <comment>PPU decoder</comment>
         <translation>直譯器 (快速)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="793"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="699"/>
         <source>Recompiler (LLVM)</source>
         <comment>PPU decoder</comment>
         <translation>反編譯 (LLVM)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="799"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="705"/>
         <source>Interpreter (precise)</source>
         <comment>SPU decoder</comment>
         <translation>直譯器 (準確)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="800"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="706"/>
         <source>Interpreter (fast)</source>
         <comment>SPU decoder</comment>
         <translation>直譯器 (快速)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="801"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="707"/>
         <source>Recompiler (ASMJIT)</source>
         <comment>SPU decoder</comment>
         <translation>反編譯 (ASMJIT)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="802"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="708"/>
         <source>Recompiler (LLVM)</source>
         <comment>SPU decoder</comment>
         <translation>反編譯 (LLVM)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="808"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="714"/>
         <source>Enter with circle</source>
         <comment>Enter button assignment</comment>
         <translation>用 ○ 輸入</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="809"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="715"/>
         <source>Enter with cross</source>
         <comment>Enter button assignment</comment>
         <translation>用 ╳ 輸入</translation>
-    </message>
-    <message>
-        <source>Safe</source>
-        <translation type="vanished">Safe</translation>
-    </message>
-    <message>
-        <source>Mega</source>
-        <translation type="vanished">Mega</translation>
-    </message>
-    <message>
-        <source>Giga</source>
-        <translation type="vanished">Giga</translation>
-    </message>
-    <message>
-        <source>Disabled</source>
-        <translation type="vanished">停用</translation>
-    </message>
-    <message>
-        <source>Enabled</source>
-        <translation type="vanished">啟用</translation>
-    </message>
-    <message>
-        <source>Forced</source>
-        <translation type="vanished">強制</translation>
-    </message>
-    <message>
-        <source>Disable Video Output</source>
-        <translation type="vanished">停用視訊輸出</translation>
-    </message>
-    <message>
-        <source>Vulkan</source>
-        <translation type="vanished">Vulkan</translation>
-    </message>
-    <message>
-        <source>Off</source>
-        <translation type="vanished">關閉</translation>
-    </message>
-    <message>
-        <source>59.94</source>
-        <translation type="vanished">59.94</translation>
-    </message>
-    <message>
-        <source>50</source>
-        <translation type="vanished">50</translation>
-    </message>
-    <message>
-        <source>60</source>
-        <translation type="vanished">60</translation>
-    </message>
-    <message>
-        <source>30</source>
-        <translation type="vanished">30</translation>
-    </message>
-    <message>
-        <source>Auto</source>
-        <translation type="vanished">自動</translation>
-    </message>
-    <message>
-        <source>Disable Audio Output</source>
-        <translation type="vanished">停用音訊輸出</translation>
-    </message>
-    <message>
-        <source>XAudio2</source>
-        <translation type="vanished">XAudio2</translation>
-    </message>
-    <message>
-        <source>ALSA</source>
-        <translation type="vanished">ALSA</translation>
-    </message>
-    <message>
-        <source>PulseAudio</source>
-        <translation type="vanished">PulseAudio</translation>
-    </message>
-    <message>
-        <source>OpenAL</source>
-        <translation type="vanished">OpenAL</translation>
-    </message>
-    <message>
-        <source>FAudio</source>
-        <translation type="vanished">FAudio</translation>
-    </message>
-    <message>
-        <source>Standard</source>
-        <translation type="vanished">標準</translation>
-    </message>
-    <message>
-        <source>SingStar</source>
-        <translation type="vanished">SingStar</translation>
-    </message>
-    <message>
-        <source>Real SingStar</source>
-        <translation type="vanished">Real SingStar</translation>
-    </message>
-    <message>
-        <source>Rocksmith</source>
-        <translation type="vanished">Rocksmith</translation>
-    </message>
-    <message>
-        <source>Null</source>
-        <translation type="vanished">空</translation>
-    </message>
-    <message>
-        <source>Basic</source>
-        <translation type="vanished">基本</translation>
-    </message>
-    <message>
-        <source>Unknown</source>
-        <translation type="vanished">未知</translation>
-    </message>
-    <message>
-        <source>EyeToy</source>
-        <translation type="vanished">EyeToy</translation>
-    </message>
-    <message>
-        <source>PS Eye</source>
-        <translation type="vanished">PS Eye</translation>
-    </message>
-    <message>
-        <source>UVC 1.1</source>
-        <translation type="vanished">UVC 1.1</translation>
-    </message>
-    <message>
-        <source>Fake</source>
-        <translation type="vanished">虛設</translation>
-    </message>
-    <message>
-        <source>Mouse</source>
-        <translation type="vanished">滑鼠</translation>
-    </message>
-    <message>
-        <source>Disconnected</source>
-        <translation type="vanished">斷線</translation>
-    </message>
-    <message>
-        <source>Connected</source>
-        <translation type="vanished">連結</translation>
-    </message>
-    <message>
-        <source>Simulated</source>
-        <translation type="vanished">模擬</translation>
-    </message>
-    <message>
-        <source>As Host</source>
-        <translation type="vanished">As Host</translation>
-    </message>
-    <message>
-        <source>Usleep Only</source>
-        <translation type="vanished">Usleep Only</translation>
-    </message>
-    <message>
-        <source>All Timers</source>
-        <translation type="vanished">All Timers</translation>
-    </message>
-    <message>
-        <source>Minimal</source>
-        <translation type="vanished">最小</translation>
-    </message>
-    <message>
-        <source>Low</source>
-        <translation type="vanished">低</translation>
-    </message>
-    <message>
-        <source>Medium</source>
-        <translation type="vanished">中</translation>
-    </message>
-    <message>
-        <source>High</source>
-        <translation type="vanished">高</translation>
-    </message>
-    <message>
-        <source>Manually load selected libraries</source>
-        <translation type="vanished">讀取自選的庫</translation>
-    </message>
-    <message>
-        <source>Load automatic and manual selection</source>
-        <translation type="vanished">自動讀取與自選</translation>
-    </message>
-    <message>
-        <source>Load liblv2.sprx only</source>
-        <translation type="vanished">僅讀取 liblv2.sprx</translation>
-    </message>
-    <message>
-        <source>Load liblv2.sprx and manual selection</source>
-        <translation type="vanished">讀取 liblv2.sprx 與自選</translation>
-    </message>
-    <message>
-        <source>Load liblv2.sprx and strict selection</source>
-        <translation type="vanished">讀取 liblv2.sprx 與精確選擇</translation>
-    </message>
-    <message>
-        <source>Interpreter (precise)</source>
-        <translation type="vanished">直譯器 (準確)</translation>
-    </message>
-    <message>
-        <source>Interpreter (fast)</source>
-        <translation type="vanished">直譯器 (快速)</translation>
-    </message>
-    <message>
-        <source>Recompiler (LLVM)</source>
-        <translation type="vanished">反編譯 (LLVM)</translation>
-    </message>
-    <message>
-        <source>Recompiler (ASMJIT)</source>
-        <translation type="vanished">反編譯 (ASMJIT)</translation>
-    </message>
-    <message>
-        <source>OpenGL</source>
-        <translation type="vanished">OpenGL</translation>
-    </message>
-    <message>
-        <source>None</source>
-        <translation type="vanished">空</translation>
     </message>
 </context>
 <context>
@@ -2494,10 +2268,6 @@ This change will only be final when you save the config.</source>
         <location filename="rpcs3qt/game_compatibility.cpp" line="173"/>
         <source>Please wait...</source>
         <translation>請稍後...</translation>
-    </message>
-    <message>
-        <source>Please wait ...</source>
-        <translation type="vanished">請稍候 ...</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_compatibility.cpp" line="173"/>
@@ -4807,10 +4577,6 @@ image</source>
         <translation>描述</translation>
     </message>
     <message>
-        <source>This text should be replaced by an actual description.&lt;br/&gt;&lt;br/&gt;</source>
-        <translation type="vanished">本文應該由實際的描述替代。&lt;br/&gt;&lt;br/&gt;</translation>
-    </message>
-    <message>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="1581"/>
         <source>Face Buttons</source>
         <translation>正面按鍵</translation>
@@ -5104,6 +4870,23 @@ Reorder and/or exclude them if needed, then click &quot;Install&quot; to proceed
 No changes were made.</source>
         <translation>此值無法轉換。
 未進行任何更改。</translation>
+    </message>
+</context>
+<context>
+    <name>render_creator</name>
+    <message>
+        <location filename="rpcs3qt/render_creator.cpp" line="72"/>
+        <source>Vulkan Check Timeout</source>
+        <translation>Vulkan 檢查超時</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/render_creator.cpp" line="73"/>
+        <source>Querying for Vulkan-compatible devices is taking too long. This is usually caused by malfunctioning graphics drivers, reinstalling them could fix the issue.
+
+Selecting ignore starts the emulator without Vulkan support.</source>
+        <translation>查詢 Vulkan 相容的裝置花費時間過久。 這通常是由圖形驅動程式故障引起的，重新安裝即可解決問題。
+
+選擇忽略將在沒有 Vulkan 支持的情況下啟動仿真器。</translation>
     </message>
 </context>
 <context>
@@ -5527,25 +5310,9 @@ No changes were made.</source>
         <translation>PPU 譯碼器</translation>
     </message>
     <message>
-        <source>Interpreter (precise)</source>
-        <translation type="vanished">直譯器 (準確)</translation>
-    </message>
-    <message>
-        <source>Interpreter (fast)</source>
-        <translation type="vanished">直譯器 (快速)</translation>
-    </message>
-    <message>
-        <source>LLVM Recompiler (fastest)</source>
-        <translation type="vanished">LLVM 反編譯 (最快)</translation>
-    </message>
-    <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="83"/>
         <source>SPU Decoder</source>
         <translation>SPU 譯碼器</translation>
-    </message>
-    <message>
-        <source>ASMJIT Recompiler (faster)</source>
-        <translation type="vanished">ASMJIT 反編譯 (更快</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="140"/>
@@ -5915,14 +5682,6 @@ No changes were made.</source>
         <translation>輸入按鈕指定</translation>
     </message>
     <message>
-        <source>Enter with circle</source>
-        <translation type="vanished">用 ○ 輸入</translation>
-    </message>
-    <message>
-        <source>Enter with cross</source>
-        <translation type="vanished">用 ╳ 輸入</translation>
-    </message>
-    <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="1408"/>
         <source>Disk cache</source>
         <translation>磁碟快取</translation>
@@ -6022,26 +5781,6 @@ No changes were made.</source>
         <location filename="rpcs3qt/settings_dialog.ui" line="1782"/>
         <source>Firmware Settings</source>
         <translation>韌體設定</translation>
-    </message>
-    <message>
-        <source>Manually load selected libraries</source>
-        <translation type="vanished">讀取自選的庫</translation>
-    </message>
-    <message>
-        <source>Load automatic and manual selection</source>
-        <translation type="vanished">自動讀取與自選</translation>
-    </message>
-    <message>
-        <source>Load liblv2.sprx only</source>
-        <translation type="vanished">僅讀取 liblv2.sprx</translation>
-    </message>
-    <message>
-        <source>Load liblv2.sprx and manual selection</source>
-        <translation type="vanished">讀取 liblv2.sprx 與自選</translation>
-    </message>
-    <message>
-        <source>Load liblv2.sprx and strict selection</source>
-        <translation type="vanished">讀取 liblv2.sprx 與精確選擇</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="1879"/>
@@ -6202,10 +5941,6 @@ No changes were made.</source>
         <location filename="rpcs3qt/settings_dialog.ui" line="2408"/>
         <source>Game Window Title</source>
         <translation>遊戲視窗標題</translation>
-    </message>
-    <message>
-        <source>FPS: 60 | Renderer | Version | Game [ID]</source>
-        <translation type="vanished">FPS: 60 | 渲染器 | 版本 | 遊戲 [ID]</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="2426"/>
@@ -6510,48 +6245,36 @@ No changes were made.</source>
         <translation>掛鉤靜態函數</translation>
     </message>
     <message>
-        <source>Save custom configuration</source>
-        <translation type="vanished">儲存自訂組態</translation>
-    </message>
-    <message>
-        <source>Settings: [</source>
-        <translation type="vanished">設定: [</translation>
-    </message>
-    <message>
-        <source>Auto</source>
-        <translation type="vanished">自動</translation>
-    </message>
-    <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="63"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="66"/>
         <source>Save custom configuration</source>
         <comment>Settings dialog</comment>
         <translation>儲存自訂組態</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="87"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="90"/>
         <source>Settings: [%0] %1</source>
         <comment>Settings dialog</comment>
         <translation>設定: [%0] %1</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="92"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="95"/>
         <source>Settings</source>
         <comment>Settings dialog</comment>
         <translation>設定</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="197"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="200"/>
         <source>Auto</source>
         <comment>Preferred SPU threads</comment>
         <translation>自動</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="210"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="213"/>
         <source>Haswell/Broadwell TSX Warning</source>
         <translation>Haswell/Broadwell TSX 警告</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="210"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="213"/>
         <source>
 					&lt;p style=&quot;white-space: nowrap;&quot;&gt;
 						RPCS3 has detected you are using TSX functions on a Haswell or Broadwell CPU.&lt;br&gt;
@@ -6572,229 +6295,229 @@ No changes were made.</source>
 				</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="230"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="233"/>
         <source>Not supported</source>
         <comment>Enable TSX</comment>
         <translation>不支援</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="231"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="234"/>
         <source>Unfortunately your CPU model does not support this instruction set.</source>
         <comment>Enable TSX</comment>
         <translation>很可惜你的 CPU 型號不支援此指令集。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="333"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="349"/>
         <source>1280x720 (Recommended)</source>
         <comment>Resolution</comment>
         <translation>1280x720 (建議)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="359"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="375"/>
         <source>Auto</source>
         <comment>Anisotropic filter override</comment>
         <translation>自動</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="365"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="381"/>
         <source>%1x</source>
         <comment>Anisotropic filter override</comment>
         <translation>%1x</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="421"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="437"/>
         <source>100% (Default)</source>
         <comment>Resolution scale</comment>
         <translation>100% (預設)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="423"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="439"/>
         <source>%1% (%2x%3)</source>
         <comment>Resolution scale</comment>
         <translation>%1% (%2x%3)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="450"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="466"/>
         <source>%1x%1 (Default)</source>
         <comment>Minimum scalable dimension</comment>
         <translation>%1x%1 (預設)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="452"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="468"/>
         <source>%1x%1</source>
         <comment>Minimum scalable dimension</comment>
         <translation>%1x%1</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="514"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="530"/>
         <source>Disabled</source>
         <comment>MSAA</comment>
         <translation>停用</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="521"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="537"/>
         <source>Not needed for %1 renderer</source>
         <comment>Graphics adapter</comment>
         <translation>「%1」無需渲染</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="777"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="793"/>
         <source>Master: %0 %</source>
         <comment>Master volume</comment>
         <translation>主要: %0 %</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="780"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="796"/>
         <source>Audio Buffer Duration: %0 ms</source>
         <comment>Audio buffer duration</comment>
         <translation>音訊緩衝存續期間: %0 毫秒</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="783"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="799"/>
         <source>Time Stretching Threshold: %0 %</source>
         <comment>Time stretching threshold</comment>
         <translation>時間延伸定限: %0 %</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="838"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="854"/>
         <source>Maximum size: %0 MB</source>
         <comment>Maximum cache size</comment>
         <translation>最大容量: %0 MB</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="942"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="958"/>
         <source>Unlimited (Default)</source>
         <comment>Max SPURS threads</comment>
         <translation>無限制 (預設)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="960"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="976"/>
         <source>%0 Hz</source>
         <comment>VBlank rate</comment>
         <translation>%0 Hz</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="969"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="985"/>
         <source>%0 %</source>
         <comment>Clocks scale</comment>
         <translation>%0 %</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1060"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1076"/>
         <source>Search libraries</source>
         <comment>Library search box</comment>
         <translation>搜尋庫</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1134"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1150"/>
         <source>All (%1)</source>
         <comment>Max LLVM threads</comment>
         <translation>全部 (%1)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1228"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1244"/>
         <source>Update Interval: %0 ms</source>
         <comment>Performance overlay update interval</comment>
         <translation>更新間隔: %0 毫秒</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1231"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1247"/>
         <source>Font Size: %0 px</source>
         <comment>Performance overlay font size</comment>
         <translation>字型大小: %0 像素</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1234"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1250"/>
         <source>Opacity: %0 %</source>
         <comment>Performance overlay opacity</comment>
         <translation>不透明度: %0 %</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1237"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1253"/>
         <source>Background darkening: %0 %</source>
         <comment>Shader load background darkening</comment>
         <translation>背景變暗: %0 %</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1240"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1256"/>
         <source>Background blur: %0 %</source>
         <comment>Shader load background blur</comment>
         <translation>背景模糊: %0 %</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1245"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1261"/>
         <source>px</source>
         <comment>Performance overlay margin x</comment>
         <translation>像素</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1248"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1264"/>
         <source>px</source>
         <comment>Performance overlay margin y</comment>
         <translation>像素</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1315"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1331"/>
         <source>My Game</source>
         <comment>Game window title</comment>
         <translation>我的遊戲</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1350"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1366"/>
         <source>GPU Model</source>
         <comment>Game window title</comment>
         <translation>GPU 型號</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1351"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1367"/>
         <source>CPU Model</source>
         <comment>Game window title</comment>
         <translation>CPU 型號</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1352"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1368"/>
         <source>Thread Count</source>
         <comment>Game window title</comment>
         <translation>執行緒數</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1353"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1369"/>
         <source>System Memory</source>
         <comment>Game window title</comment>
         <translation>系統記憶體</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1354"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1370"/>
         <source>Framerate</source>
         <comment>Game window title</comment>
         <translation>框速</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1355"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1371"/>
         <source>Renderer</source>
         <comment>Game window title</comment>
         <translation>渲染</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1356"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1372"/>
         <source>Title</source>
         <comment>Game window title</comment>
         <translation>標題</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1357"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1373"/>
         <source>Title ID</source>
         <comment>Game window title</comment>
         <translation>標題 ID</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1358"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1374"/>
         <source>RPCS3 Version</source>
         <comment>Game window title</comment>
         <translation>RPCS3 版本</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1368"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1384"/>
         <source>Glossary:
 
 %0
@@ -6812,304 +6535,100 @@ Preview:
 </translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1375"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1391"/>
         <source>Game Window Title Format</source>
         <comment>Game window title</comment>
         <translation>遊戲視窗標題格式</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1544"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1560"/>
         <source>Reset GUI to default?</source>
         <comment>Reset</comment>
         <translation>將 GUI 重設為預設值?</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1544"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1560"/>
         <source>This will include your stylesheet as well. Do you wish to proceed?</source>
         <comment>Reset</comment>
         <translation>這將包括您的風格。你想繼續嗎?</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1622"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1638"/>
         <source>Choose gamelist icon color</source>
         <comment>Settings: color dialog</comment>
         <translation>選擇遊戲清單圖示色彩</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1626"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1642"/>
         <source>Choose save manager icon color</source>
         <comment>Settings: color dialog</comment>
         <translation>選擇儲存管理器圖示色彩</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1630"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1646"/>
         <source>Choose trophy manager icon color</source>
         <comment>Settings: color dialog</comment>
         <translation>選擇獎盃管理器圖示色彩</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1773"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1789"/>
         <source>None</source>
         <comment>Stylesheets</comment>
         <translation>空</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1774"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1790"/>
         <source>Default (Bright)</source>
         <comment>Stylesheets</comment>
         <translation>預設 (明亮)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1800"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1816"/>
         <source>Choose a unique name</source>
         <comment>Backup GUI config</comment>
         <translation>命名一個唯一的名稱</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1801"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1817"/>
         <source>Configuration Name: </source>
         <comment>Backup GUI config</comment>
         <translation>組態名稱: </translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1812"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1828"/>
         <source>Error</source>
         <comment>Backup GUI config warning 1</comment>
         <translation>錯誤</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1812"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1828"/>
         <source>Name cannot be empty</source>
         <comment>Backup GUI config warning 1</comment>
         <translation>名稱不能是空的</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1817"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1833"/>
         <source>Error</source>
         <comment>Backup GUI config warning 2</comment>
         <translation>錯誤</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1817"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1833"/>
         <source>Must choose a name with no &apos;.&apos;</source>
         <comment>Backup GUI config warning 2</comment>
         <translation>必須命名不帶 &apos;.&apos; 的名稱</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1822"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1838"/>
         <source>Error</source>
         <comment>Backup GUI config warning 3</comment>
         <translation>錯誤</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1822"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1838"/>
         <source>Please choose a non-existing name</source>
         <comment>Backup GUI config warning 3</comment>
         <translation>請命名不存在的名稱</translation>
-    </message>
-    <message>
-        <source>Not supported</source>
-        <translation type="vanished">不支援</translation>
-    </message>
-    <message>
-        <source>Unfortunately your CPU model does not support this instruction set.</source>
-        <translation type="vanished">很可惜你的 CPU 型號不支援此指令集。</translation>
-    </message>
-    <message>
-        <source>1280x720 (Recommended)</source>
-        <translation type="vanished">1280x720 (建議)</translation>
-    </message>
-    <message>
-        <source>%1x</source>
-        <translation type="vanished">%1x</translation>
-    </message>
-    <message>
-        <source>100% (Default)</source>
-        <translation type="vanished">100% (預設)</translation>
-    </message>
-    <message>
-        <source>%1x%1 (Default)</source>
-        <translation type="vanished">%1x%1 (預設)</translation>
-    </message>
-    <message>
-        <source>Disabled</source>
-        <translation type="vanished">停用</translation>
-    </message>
-    <message>
-        <source>Not needed for %1 renderer</source>
-        <translation type="vanished">「%1」無需渲染</translation>
-    </message>
-    <message>
-        <source>Disable Audio Output</source>
-        <translation type="vanished">停用音訊輸出</translation>
-    </message>
-    <message>
-        <source>Master: %0 %</source>
-        <translation type="vanished">主要: %0 %</translation>
-    </message>
-    <message>
-        <source>Audio Buffer Duration: %0 ms</source>
-        <translation type="vanished">音訊緩衝存續期間: %0 毫秒</translation>
-    </message>
-    <message>
-        <source>Time Stretching Threshold: %0 %</source>
-        <translation type="vanished">時間延伸定限: %0 %</translation>
-    </message>
-    <message>
-        <source>Maximum size: %0 MB</source>
-        <translation type="vanished">最大容量: %0 MB</translation>
-    </message>
-    <message>
-        <source>Unlimited (Default)</source>
-        <translation type="vanished">無限制 (預設)</translation>
-    </message>
-    <message>
-        <source>%0 Hz</source>
-        <translation type="vanished">%0 Hz</translation>
-    </message>
-    <message>
-        <source>%0 %</source>
-        <translation type="vanished">%0 %</translation>
-    </message>
-    <message>
-        <source>Search libraries</source>
-        <translation type="vanished">搜尋庫</translation>
-    </message>
-    <message>
-        <source>All (%1)</source>
-        <translation type="vanished">全部 (%1)</translation>
-    </message>
-    <message>
-        <source>Update Interval: %0 ms</source>
-        <translation type="vanished">更新間隔: %0 毫秒</translation>
-    </message>
-    <message>
-        <source>Font Size: %0 px</source>
-        <translation type="vanished">字型大小: %0 像素</translation>
-    </message>
-    <message>
-        <source>Opacity: %0 %</source>
-        <translation type="vanished">不透明度: %0 %</translation>
-    </message>
-    <message>
-        <source>Background darkening: %0 %</source>
-        <translation type="vanished">背景變暗: %0 %</translation>
-    </message>
-    <message>
-        <source>Background blur: %0 %</source>
-        <translation type="vanished">背景模糊: %0 %</translation>
-    </message>
-    <message>
-        <source>px</source>
-        <translation type="vanished">像素</translation>
-    </message>
-    <message>
-        <source>My Game</source>
-        <translation type="vanished">我的遊戲</translation>
-    </message>
-    <message>
-        <source>GPU Model</source>
-        <translation type="vanished">GPU 型號</translation>
-    </message>
-    <message>
-        <source>CPU Model</source>
-        <translation type="vanished">CPU 型號</translation>
-    </message>
-    <message>
-        <source>Thread Count</source>
-        <translation type="vanished">執行緒數</translation>
-    </message>
-    <message>
-        <source>System Memory</source>
-        <translation type="vanished">系統記憶體</translation>
-    </message>
-    <message>
-        <source>Framerate</source>
-        <translation type="vanished">框速</translation>
-    </message>
-    <message>
-        <source>Title</source>
-        <translation type="vanished">標題</translation>
-    </message>
-    <message>
-        <source>Title ID</source>
-        <translation type="vanished">標題 ID</translation>
-    </message>
-    <message>
-        <source>RPCS3 Version</source>
-        <translation type="vanished">RPCS3 版本</translation>
-    </message>
-    <message>
-        <source>Glossary:
-
-%0
-Preview:
-
-%1
-</source>
-        <translation type="vanished">字彙:
-
-%0
-預覽:
-
-%1
-</translation>
-    </message>
-    <message>
-        <source>Game Window Title Format</source>
-        <translation type="vanished">遊戲視窗標題格式</translation>
-    </message>
-    <message>
-        <source>Reset GUI to default?</source>
-        <translation type="vanished">將 GUI 重設為預設值?</translation>
-    </message>
-    <message>
-        <source>This will include your stylesheet as well. Do you wish to proceed?</source>
-        <translation type="vanished">這將包括您的風格。你想繼續嗎?</translation>
-    </message>
-    <message>
-        <source>Choose gamelist icon color</source>
-        <translation type="vanished">選擇遊戲清單圖示色彩</translation>
-    </message>
-    <message>
-        <source>Choose save manager icon color</source>
-        <translation type="vanished">選擇儲存管理器圖示色彩</translation>
-    </message>
-    <message>
-        <source>Choose trophy manager icon color</source>
-        <translation type="vanished">選擇獎盃管理器圖示色彩</translation>
-    </message>
-    <message>
-        <source>None</source>
-        <translation type="vanished">空</translation>
-    </message>
-    <message>
-        <source>Default (Bright)</source>
-        <translation type="vanished">預設 (明亮)</translation>
-    </message>
-    <message>
-        <source>Choose a unique name</source>
-        <translation type="vanished">請命名唯一的名稱</translation>
-    </message>
-    <message>
-        <source>Configuration Name: </source>
-        <translation type="vanished">組態名稱: </translation>
-    </message>
-    <message>
-        <source>Error</source>
-        <translation type="vanished">錯誤</translation>
-    </message>
-    <message>
-        <source>Name cannot be empty</source>
-        <translation type="vanished">名稱不能是空的</translation>
-    </message>
-    <message>
-        <source>Must choose a name with no &apos;.&apos;</source>
-        <translation type="vanished">必須命名不帶 &apos;.&apos; 的名稱</translation>
-    </message>
-    <message>
-        <source>Please choose a non-existing name</source>
-        <translation type="vanished">請命名不存在的名稱</translation>
     </message>
 </context>
 <context>
@@ -7626,22 +7145,22 @@ Stop the emulator now?</source>
 <context>
     <name>vfs_dialog</name>
     <message>
-        <location filename="rpcs3qt/vfs_dialog.cpp" line="48"/>
+        <location filename="rpcs3qt/vfs_dialog.cpp" line="49"/>
         <source>Reset Directories</source>
         <translation>重設目錄</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/vfs_dialog.cpp" line="55"/>
+        <location filename="rpcs3qt/vfs_dialog.cpp" line="56"/>
         <source>Confirm Reset</source>
         <translation>確認重設</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/vfs_dialog.cpp" line="55"/>
+        <location filename="rpcs3qt/vfs_dialog.cpp" line="56"/>
         <source>Reset all file system directories?</source>
         <translation>重設全部的檔案系統目錄?</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/vfs_dialog.cpp" line="90"/>
+        <location filename="rpcs3qt/vfs_dialog.cpp" line="91"/>
         <source>Virtual File System</source>
         <translation>虛擬檔案系統</translation>
     </message>
@@ -7670,7 +7189,7 @@ Stop the emulator now?</source>
         <translation>選取一個目錄</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/vfs_dialog_tab.h" line="37"/>
+        <location filename="rpcs3qt/vfs_dialog_tab.h" line="38"/>
         <source>Empty Path</source>
         <translation>空路徑</translation>
     </message>
