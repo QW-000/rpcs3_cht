@@ -663,12 +663,14 @@ Leave this on auto if performance is negatively affected when setting a small va
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="81"/>
-        <source>Improves extra accuracy on FMA instructions&apos; at the cost of performance.
-While disabling it might give a decent performance boost, it may also introduce subtle bugs that otherwise do not occur.</source>
-        <oldsource>Enables extra accuracy on FMA instructions, which can be needed by some games.
-It can impact performance negatively on CPUs without FMA acceleration support.</oldsource>
+        <source>Provides extra accuracy on FMA instructions at the cost of performance.
+While disabling it might give a decent performance boost if your CPU doesn&apos;t support FMA, it may also introduce subtle bugs that otherwise do not occur.
+You can&apos;t disable it if your CPU supports FMA.</source>
+        <oldsource>Improves extra accuracy on FMA instructions&apos; at the cost of performance.
+While disabling it might give a decent performance boost, it may also introduce subtle bugs that otherwise do not occur.</oldsource>
         <translation>以付出效能提高了 FMA 指令的附加準確性。
-停用可帶來不錯的效能提升，但可能引起本將不該發生的細微錯誤。</translation>
+要是 CPU 不支援 FMA，停用可帶來不錯的效能提升，但可能引起本將不該發生的細微錯誤。
+要是 CPU 支持 FMA，則無法停用。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="83"/>
@@ -6386,139 +6388,139 @@ Selecting ignore starts the emulator without Vulkan support.</source>
         <translation>最大容量: %0 MB</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="965"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="959"/>
         <source>Unlimited (Default)</source>
         <comment>Max SPURS threads</comment>
         <translation>無限制 (預設)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="983"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="977"/>
         <source>%0 Hz</source>
         <comment>VBlank rate</comment>
         <translation>%0 Hz</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="992"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="986"/>
         <source>%0 %</source>
         <comment>Clocks scale</comment>
         <translation>%0 %</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1083"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1077"/>
         <source>Search libraries</source>
         <comment>Library search box</comment>
         <translation>搜尋庫</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1157"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1151"/>
         <source>All (%1)</source>
         <comment>Max LLVM threads</comment>
         <translation>全部 (%1)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1251"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1245"/>
         <source>Update Interval: %0 ms</source>
         <comment>Performance overlay update interval</comment>
         <translation>更新間隔: %0 毫秒</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1254"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1248"/>
         <source>Font Size: %0 px</source>
         <comment>Performance overlay font size</comment>
         <translation>字型大小: %0 像素</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1257"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1251"/>
         <source>Opacity: %0 %</source>
         <comment>Performance overlay opacity</comment>
         <translation>不透明度: %0 %</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1260"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1254"/>
         <source>Background darkening: %0 %</source>
         <comment>Shader load background darkening</comment>
         <translation>背景變暗: %0 %</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1263"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1257"/>
         <source>Background blur: %0 %</source>
         <comment>Shader load background blur</comment>
         <translation>背景模糊: %0 %</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1268"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1262"/>
         <source>px</source>
         <comment>Performance overlay margin x</comment>
         <translation>像素</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1271"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1265"/>
         <source>px</source>
         <comment>Performance overlay margin y</comment>
         <translation>像素</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1338"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1332"/>
         <source>My Game</source>
         <comment>Game window title</comment>
         <translation>我的遊戲</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1373"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1367"/>
         <source>GPU Model</source>
         <comment>Game window title</comment>
         <translation>GPU 型號</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1374"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1368"/>
         <source>CPU Model</source>
         <comment>Game window title</comment>
         <translation>CPU 型號</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1375"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1369"/>
         <source>Thread Count</source>
         <comment>Game window title</comment>
         <translation>執行緒數</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1376"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1370"/>
         <source>System Memory</source>
         <comment>Game window title</comment>
         <translation>系統記憶體</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1377"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1371"/>
         <source>Framerate</source>
         <comment>Game window title</comment>
         <translation>框速</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1378"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1372"/>
         <source>Renderer</source>
         <comment>Game window title</comment>
         <translation>渲染</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1379"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1373"/>
         <source>Title</source>
         <comment>Game window title</comment>
         <translation>標題</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1380"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1374"/>
         <source>Title ID</source>
         <comment>Game window title</comment>
         <translation>標題 ID</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1381"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1375"/>
         <source>RPCS3 Version</source>
         <comment>Game window title</comment>
         <translation>RPCS3 版本</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1391"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1385"/>
         <source>Glossary:
 
 %0
@@ -6536,97 +6538,97 @@ Preview:
 </translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1398"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1392"/>
         <source>Game Window Title Format</source>
         <comment>Game window title</comment>
         <translation>遊戲視窗標題格式</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1567"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1561"/>
         <source>Reset GUI to default?</source>
         <comment>Reset</comment>
         <translation>將 GUI 重設為預設值?</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1567"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1561"/>
         <source>This will include your stylesheet as well. Do you wish to proceed?</source>
         <comment>Reset</comment>
         <translation>這將包括您的風格。你想繼續嗎?</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1645"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1639"/>
         <source>Choose gamelist icon color</source>
         <comment>Settings: color dialog</comment>
         <translation>選擇遊戲清單圖示色彩</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1649"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1643"/>
         <source>Choose save manager icon color</source>
         <comment>Settings: color dialog</comment>
         <translation>選擇儲存管理器圖示色彩</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1653"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1647"/>
         <source>Choose trophy manager icon color</source>
         <comment>Settings: color dialog</comment>
         <translation>選擇獎盃管理器圖示色彩</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1796"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1790"/>
         <source>None</source>
         <comment>Stylesheets</comment>
         <translation>空</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1797"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1791"/>
         <source>Default (Bright)</source>
         <comment>Stylesheets</comment>
         <translation>預設 (明亮)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1823"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1817"/>
         <source>Choose a unique name</source>
         <comment>Backup GUI config</comment>
         <translation>命名一個唯一的名稱</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1824"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1818"/>
         <source>Configuration Name: </source>
         <comment>Backup GUI config</comment>
         <translation>組態名稱: </translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1835"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1829"/>
         <source>Error</source>
         <comment>Backup GUI config warning 1</comment>
         <translation>錯誤</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1835"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1829"/>
         <source>Name cannot be empty</source>
         <comment>Backup GUI config warning 1</comment>
         <translation>名稱不能是空的</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1840"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1834"/>
         <source>Error</source>
         <comment>Backup GUI config warning 2</comment>
         <translation>錯誤</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1840"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1834"/>
         <source>Must choose a name with no &apos;.&apos;</source>
         <comment>Backup GUI config warning 2</comment>
         <translation>必須命名不帶 &apos;.&apos; 的名稱</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1845"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1839"/>
         <source>Error</source>
         <comment>Backup GUI config warning 3</comment>
         <translation>錯誤</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1845"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1839"/>
         <source>Please choose a non-existing name</source>
         <comment>Backup GUI config warning 3</comment>
         <translation>請命名不存在的名稱</translation>
