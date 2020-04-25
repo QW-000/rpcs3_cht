@@ -434,7 +434,7 @@ Affects timing of events which rely on these signals.</source>
         <source>Changes the scale of emulated system time.
 Affects software which uses system time to calculate things such as dynamic timesteps.</source>
         <translation>更改模擬系統時間的比例。
-影響使用系統時間計算動態時間步長等事物的軟體。</translation>
+影響軟體使用系統時間計算動態時間步長等事物。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="39"/>
@@ -3321,8 +3321,8 @@ Any unsaved progress will be lost!
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="417"/>
-        <location filename="rpcs3qt/main_window.cpp" line="949"/>
-        <location filename="rpcs3qt/main_window.cpp" line="972"/>
+        <location filename="rpcs3qt/main_window.cpp" line="967"/>
+        <location filename="rpcs3qt/main_window.cpp" line="990"/>
         <source>Pause</source>
         <translation>暫停</translation>
     </message>
@@ -3611,9 +3611,9 @@ Any unsaved progress will be lost!
     <message>
         <location filename="rpcs3qt/main_window.ui" line="748"/>
         <location filename="rpcs3qt/main_window.cpp" line="160"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1028"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1819"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1842"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1046"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1837"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1860"/>
         <source>Restart</source>
         <translation>重啟</translation>
     </message>
@@ -3851,20 +3851,20 @@ Any unsaved progress will be lost!
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="132"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1002"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1048"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1823"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1833"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1846"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1020"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1066"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1841"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1851"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1864"/>
         <source>Play %0</source>
         <translation>遊戲 %0</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="132"/>
-        <location filename="rpcs3qt/main_window.cpp" line="989"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1021"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1058"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1826"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1007"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1039"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1076"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1844"/>
         <source>Play</source>
         <translation>遊戲</translation>
     </message>
@@ -3985,92 +3985,106 @@ Any unsaved progress will be lost!
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="486"/>
-        <location filename="rpcs3qt/main_window.cpp" line="684"/>
+        <location filename="rpcs3qt/main_window.cpp" line="702"/>
         <source>Cancel</source>
         <translation>取消</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="499"/>
+        <location filename="rpcs3qt/main_window.cpp" line="501"/>
         <source>Installing package (%0/%1), please wait...</source>
         <translation>安裝軟體 (%0/%1)，請稍候...</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="553"/>
-        <location filename="rpcs3qt/main_window.cpp" line="751"/>
+        <location filename="rpcs3qt/main_window.cpp" line="563"/>
+        <location filename="rpcs3qt/main_window.cpp" line="769"/>
         <source>Success!</source>
         <translation>成功!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="553"/>
+        <location filename="rpcs3qt/main_window.cpp" line="563"/>
         <source>Successfully installed software from package(s)!</source>
         <translation>成功從軟體包安裝軟體!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="561"/>
-        <location filename="rpcs3qt/main_window.cpp" line="623"/>
-        <location filename="rpcs3qt/main_window.cpp" line="630"/>
+        <location filename="rpcs3qt/main_window.cpp" line="573"/>
+        <source>Warning!</source>
+        <translation>警告!</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/main_window.cpp" line="573"/>
+        <source>The following package cannot be installed on top of the current data:
+%1!</source>
+        <translation>無法在當前資料之上安裝以下軟體包:
+%1!</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/main_window.cpp" line="578"/>
         <location filename="rpcs3qt/main_window.cpp" line="641"/>
-        <location filename="rpcs3qt/main_window.cpp" line="649"/>
-        <location filename="rpcs3qt/main_window.cpp" line="656"/>
-        <location filename="rpcs3qt/main_window.cpp" line="708"/>
-        <location filename="rpcs3qt/main_window.cpp" line="716"/>
+        <location filename="rpcs3qt/main_window.cpp" line="648"/>
+        <location filename="rpcs3qt/main_window.cpp" line="659"/>
+        <location filename="rpcs3qt/main_window.cpp" line="667"/>
+        <location filename="rpcs3qt/main_window.cpp" line="674"/>
+        <location filename="rpcs3qt/main_window.cpp" line="726"/>
+        <location filename="rpcs3qt/main_window.cpp" line="734"/>
         <source>Failure!</source>
         <translation>失敗!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="561"/>
-        <source>Failed to install software from package %1!</source>
-        <translation>無法從軟體包 %1 安裝軟體!</translation>
+        <location filename="rpcs3qt/main_window.cpp" line="578"/>
+        <source>Failed to install software from package:
+%1!</source>
+        <translation>無法從軟體包安裝軟體:
+%1!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="579"/>
+        <location filename="rpcs3qt/main_window.cpp" line="597"/>
         <source>Select PS3UPDAT.PUP To Install</source>
         <translation>選擇 PS3UPDAT.PUP 安裝</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="579"/>
+        <location filename="rpcs3qt/main_window.cpp" line="597"/>
         <source>PS3 update file (PS3UPDAT.PUP);;All pup files (*.pup);;All files (*.*)</source>
         <translation>PS3 更新檔案 (PS3UPDAT.PUP);;全部 PUP 檔案 (*.pup);;全部檔案 (*.*)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="583"/>
-        <location filename="rpcs3qt/main_window.cpp" line="678"/>
-        <location filename="rpcs3qt/main_window.cpp" line="684"/>
+        <location filename="rpcs3qt/main_window.cpp" line="601"/>
+        <location filename="rpcs3qt/main_window.cpp" line="696"/>
+        <location filename="rpcs3qt/main_window.cpp" line="702"/>
         <source>RPCS3 Firmware Installer</source>
         <translation>RPCS3 韌體安裝程式</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="583"/>
+        <location filename="rpcs3qt/main_window.cpp" line="601"/>
         <source>Install firmware: %1?</source>
         <translation>安裝韌體: %1?</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="623"/>
+        <location filename="rpcs3qt/main_window.cpp" line="641"/>
         <source>The selected firmware file couldn&apos;t be opened.</source>
         <translation>選擇的韌體檔案無法開啟。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="630"/>
+        <location filename="rpcs3qt/main_window.cpp" line="648"/>
         <source>Error while installing firmware: PUP file size is invalid.</source>
         <translation>安裝韌體時錯誤: PUP 檔案大小無效。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="641"/>
+        <location filename="rpcs3qt/main_window.cpp" line="659"/>
         <source>Error while installing firmware: PUP file is corrupted.</source>
         <translation>安裝韌體時錯誤: PUP 檔案已損壞。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="649"/>
+        <location filename="rpcs3qt/main_window.cpp" line="667"/>
         <source>Error while installing firmware: PUP file is invalid.</source>
         <translation>安裝韌體時錯誤: PUP 檔案無效。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="656"/>
+        <location filename="rpcs3qt/main_window.cpp" line="674"/>
         <source>Error while installing firmware: PUP file contents are invalid.</source>
         <translation>安裝韌體時錯誤: PUP 檔案內容無效。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="678"/>
+        <location filename="rpcs3qt/main_window.cpp" line="696"/>
         <source>Old firmware detected.
 The newest firmware version is %1 and you are trying to install version %2
 Continue installation?</source>
@@ -4079,154 +4093,154 @@ Continue installation?</source>
 您想繼續安裝嗎?</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="684"/>
+        <location filename="rpcs3qt/main_window.cpp" line="702"/>
         <source>Installing firmware version %1
 Please wait...</source>
         <translation>安裝韌體 %1 版本
 請稍候...</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="708"/>
+        <location filename="rpcs3qt/main_window.cpp" line="726"/>
         <source>Error while installing firmware: PUP contents are invalid.</source>
         <translation>安裝韌體時錯誤: PUP 內容無效。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="716"/>
+        <location filename="rpcs3qt/main_window.cpp" line="734"/>
         <source>Error while installing firmware: TAR contents are invalid.</source>
         <translation>安裝韌體時錯誤: TAR 內容無效。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="751"/>
+        <location filename="rpcs3qt/main_window.cpp" line="769"/>
         <source>Successfully installed PS3 firmware and LLE Modules!</source>
         <translation>已成功安裝 PS3 韌體與 LLE 模組!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="763"/>
+        <location filename="rpcs3qt/main_window.cpp" line="781"/>
         <source>Select binary files</source>
         <translation>選擇二進位檔案</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="763"/>
+        <location filename="rpcs3qt/main_window.cpp" line="781"/>
         <source>All Binaries (*.BIN *.self *.sprx);;BIN files (*.BIN);;SELF files (*.self);;SPRX files (*.sprx);;All files (*.*)</source>
         <translation>全部二進位 (*.BIN *.self *.sprx);;BIN 檔案 (*.BIN);;SELF 檔案 (*.self);;SPRX 檔案 (*.sprx);;全部檔案 (*.*)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="934"/>
-        <location filename="rpcs3qt/main_window.cpp" line="959"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1003"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1816"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1839"/>
+        <location filename="rpcs3qt/main_window.cpp" line="952"/>
+        <location filename="rpcs3qt/main_window.cpp" line="977"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1021"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1834"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1857"/>
         <source>Restart %0</source>
         <translation>重啟 %0</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="935"/>
-        <location filename="rpcs3qt/main_window.cpp" line="960"/>
+        <location filename="rpcs3qt/main_window.cpp" line="953"/>
+        <location filename="rpcs3qt/main_window.cpp" line="978"/>
         <source>Pause %0</source>
         <translation>暫停 %0</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="936"/>
-        <location filename="rpcs3qt/main_window.cpp" line="961"/>
+        <location filename="rpcs3qt/main_window.cpp" line="954"/>
+        <location filename="rpcs3qt/main_window.cpp" line="979"/>
         <source>Stop %0</source>
         <translation>停止 %0</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="946"/>
-        <location filename="rpcs3qt/main_window.cpp" line="969"/>
+        <location filename="rpcs3qt/main_window.cpp" line="964"/>
+        <location filename="rpcs3qt/main_window.cpp" line="987"/>
         <source>&amp;Pause	Ctrl+P</source>
         <translation>暫停(&amp;P)	Ctrl+P</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="980"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1002"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1048"/>
+        <location filename="rpcs3qt/main_window.cpp" line="998"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1020"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1066"/>
         <source>Resume %0</source>
         <translation>繼續 %0</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="986"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1009"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1055"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1004"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1027"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1073"/>
         <source>&amp;Resume	Ctrl+E</source>
         <translation>繼續(&amp;E)	Ctrl+E</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1009"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1055"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1027"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1073"/>
         <source>&amp;Play	Ctrl+E</source>
         <translation>遊戲(&amp;P)	Ctrl+E</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1142"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1187"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1253"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1160"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1205"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1271"/>
         <source>Ctrl+%1</source>
         <translation>Ctrl+%1</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1375"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1393"/>
         <source>Select a folder containing one or more games</source>
         <translation>選擇包含單個或數個遊戲資料夾</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1444"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1462"/>
         <source>Send &amp;%0 system menu cmd</source>
         <translation>傳送 &amp;%0 系統選單 CMD</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1444"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1462"/>
         <source>close</source>
         <translation>關閉</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1444"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1462"/>
         <source>open</source>
         <translation>開啟</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1650"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1655"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1668"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1673"/>
         <source>Auto-updater</source>
         <translation>自動更新</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1650"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1668"/>
         <source>The auto-updater currently isn&apos;t available for your os.</source>
         <translation>自動更新程式當前不適用於您的作業系統。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1655"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1673"/>
         <source>Please stop the emulation before trying to update.</source>
         <translation>在嘗試更新之前，請停止仿真。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="2005"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2023"/>
         <source>Cache Cleared</source>
         <translation>快取已清除</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="2005"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2023"/>
         <source>Disk cache was cleared successfully</source>
         <translation>磁碟快取已成功清除</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="2009"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2027"/>
         <source>Error</source>
         <translation>錯誤</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="2009"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2027"/>
         <source>Could not remove disk cache</source>
         <translation>無法刪除磁碟快取</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="2020"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2038"/>
         <source>Confirm Removal</source>
         <translation>確認刪除</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="2020"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2038"/>
         <source>Remove firmware cache?</source>
         <translation>刪除韌體快取?</translation>
     </message>
@@ -4398,7 +4412,7 @@ image</source>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="203"/>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="440"/>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="458"/>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1864"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1891"/>
         <source>Up</source>
         <translation>上</translation>
     </message>
@@ -4411,8 +4425,8 @@ image</source>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="252"/>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="489"/>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="507"/>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1913"/>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2171"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1940"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2198"/>
         <source>Left</source>
         <translation>左</translation>
     </message>
@@ -4425,8 +4439,8 @@ image</source>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="283"/>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="520"/>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="538"/>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1944"/>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2201"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1971"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2228"/>
         <source>Right</source>
         <translation>右</translation>
     </message>
@@ -4439,7 +4453,7 @@ image</source>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="344"/>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="581"/>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="599"/>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2005"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2032"/>
         <source>Down</source>
         <translation>下</translation>
     </message>
@@ -4607,237 +4621,285 @@ image</source>
         <translation>裝置類別:</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1490"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1505"/>
         <source>Battery status and LED</source>
         <translation>電池狀態與 LED</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1518"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1545"/>
         <source>LED Settings</source>
         <translation>LED 設定</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1546"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1573"/>
         <source>Description</source>
         <translation>描述</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1581"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1608"/>
         <source>Face Buttons</source>
         <translation>正面按鍵</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1627"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1654"/>
         <source>Triangle</source>
         <translation>△</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1645"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1672"/>
         <source>V</source>
         <translation>V</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1676"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1703"/>
         <source>Square</source>
         <translation>□</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1694"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1721"/>
         <source>Z</source>
         <translation>Z</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1707"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1734"/>
         <source>Circle</source>
         <translation>○</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1725"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1752"/>
         <source>C</source>
         <translation>C</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1768"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1795"/>
         <source>Cross</source>
         <translation>╳</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1786"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1813"/>
         <source>X</source>
         <translation>X</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1818"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1845"/>
         <source>Right Stick</source>
         <oldsource>Right Analog</oldsource>
         <translation>右搖桿</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1882"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1909"/>
         <source>PgUp</source>
         <translation>PgUp</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1931"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1958"/>
         <source>Home</source>
         <translation>Home</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1962"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1989"/>
         <source>End</source>
         <translation>End</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2023"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2050"/>
         <source>PgDown</source>
         <translation>PgDown</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2077"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2104"/>
         <source>Analog Stick Deadzones</source>
         <oldsource>Analog Deadzones</oldsource>
         <translation>類比搖桿盲區</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2153"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2180"/>
         <source>Stick Interpolation</source>
         <translation>線性插值</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2272"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2299"/>
         <source>Filter Noise</source>
         <translation>過濾雜訊</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2282"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2309"/>
         <source>Restore Defaults</source>
         <translation>還原預設值</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="67"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="68"/>
         <source>Gamepad Settings: [%0] %1</source>
         <translation>遊戲控制器設定: [%0] %1</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="72"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="73"/>
         <source>Gamepad Settings</source>
         <translation>遊戲控制器設定</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="80"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="81"/>
         <source>Player %0</source>
         <translation>玩家 %0</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="142"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="143"/>
         <source>Choose a unique name</source>
         <translation>命名唯一的名稱</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="143"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="144"/>
         <source>Profile Name: </source>
         <translation>設定檔名: </translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="152"/>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="157"/>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="162"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="153"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="158"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="163"/>
         <source>Error</source>
         <translation>錯誤</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="152"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="153"/>
         <source>Name cannot be empty</source>
         <translation>名稱不能是空的</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="157"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="158"/>
         <source>Must choose a name without &apos;.&apos;</source>
         <translation>必須命名不帶 &apos;.&apos; 的名稱</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="162"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="163"/>
         <source>Please choose a non-existing name</source>
         <translation>請命名不存在的名稱</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="183"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="184"/>
         <source>Standard (Pad)</source>
         <translation>標準 (Pad)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="184"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="185"/>
         <source>Guitar</source>
         <translation>吉他</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="185"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="186"/>
         <source>Drum</source>
         <translation>鼓</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="186"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="187"/>
         <source>DJ</source>
         <translation>DJ</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="187"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="188"/>
         <source>Dance Mat</source>
         <translation>跳舞墊</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="188"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="189"/>
         <source>Navigation</source>
         <translation>巡覽控制器</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="274"/>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="933"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="277"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="952"/>
         <source>[ Waiting %1 ]</source>
         <translation>[ 等候 %1 ]</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1135"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1155"/>
         <source>No Profiles</source>
         <translation>沒有設定檔</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1136"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1156"/>
         <source>No Device Detected</source>
         <translation>未偵測到裝置</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1302"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1251"/>
+        <source>PS3 Controller</source>
+        <comment>PlayStation 3 Controller</comment>
+        <translation>PS3 控制器</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1256"/>
+        <source>Dance Dance Revolution</source>
+        <comment>Dance Dance Revolution Mat</comment>
+        <translation>勁爆熱舞</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1261"/>
+        <source>DJ Hero Turntable</source>
+        <comment>DJ Hero Turntable</comment>
+        <translation>DJ 英雄轉盤</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1266"/>
+        <source>Rockband</source>
+        <comment>Harmonix Rockband Drum Kit</comment>
+        <translation>搖滾樂隊</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1271"/>
+        <source>Rockband</source>
+        <comment>Harmonix Rockband Guitar</comment>
+        <translation>搖滾樂隊</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1276"/>
+        <source>Guitar Hero</source>
+        <comment>RedOctane Guitar Hero Drum Kit</comment>
+        <translation>吉他英雄</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1281"/>
+        <source>Guitar Hero</source>
+        <comment>RedOctane Guitar Hero Guitar</comment>
+        <translation>吉他英雄</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1286"/>
+        <source>Rock Revolution</source>
+        <comment>Rock Revolution Drum Controller</comment>
+        <translation>搖滾革命</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1385"/>
         <source>Null</source>
         <translation>空</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1303"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1386"/>
         <source>Keyboard</source>
         <translation>鍵盤</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1304"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1387"/>
         <source>DualShock 3</source>
         <translation>DualShock 3</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1305"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1388"/>
         <source>DualShock 4</source>
         <translation>DualShock 4</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1307"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1390"/>
         <source>XInput</source>
         <translation>XInput</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1308"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1391"/>
         <source>MMJoystick</source>
         <translation>MMJoystick</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1311"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1394"/>
         <source>Evdev</source>
         <translation>Evdev</translation>
     </message>
