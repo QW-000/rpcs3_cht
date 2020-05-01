@@ -1032,14 +1032,6 @@ May degrade performance.</source>
 可能會降低效能。</translation>
     </message>
     <message>
-        <source>Disables asynchronous shader compilation.
-Fixes missing graphics while shaders are compiling but introduces stuttering.
-Disable if you do not want to deal with graphics pop-in, or for testing before filing any bug reports.</source>
-        <translation type="vanished">停用非同步著色編譯。
-修正著色器正在編譯時缺少的圖形，但是引入了卡頓。
-不想處理圖形彈出視窗或在提交任何錯誤報告之前進行測試，請停用。</translation>
-    </message>
-    <message>
         <location filename="rpcs3qt/tooltips.h" line="142"/>
         <source>Overrides the aspect ratio and stretches the image to the full display area.</source>
         <translation>覆蓋「寬高比」並將圖像延伸到完整顯示區域。</translation>
@@ -1866,13 +1858,13 @@ This change will only be final when you save the config.</source>
         <location filename="rpcs3qt/emu_settings.cpp" line="537"/>
         <source>Async with Shader Interpreter</source>
         <comment>Shader Mode</comment>
-        <translation>非同步著色器直譯器</translation>
+        <translation>非同步直譯器著色</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="538"/>
         <source>Shader Interpreter only</source>
         <comment>Shader Mode</comment>
-        <translation>僅著色器直譯器</translation>
+        <translation>僅直譯器著色</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="544"/>
@@ -5682,10 +5674,6 @@ Selecting ignore starts the emulator without Vulkan support.</source>
         <location filename="rpcs3qt/settings_dialog.ui" line="735"/>
         <source>Multithreaded RSX</source>
         <translation>RSX 多執行緒</translation>
-    </message>
-    <message>
-        <source>Disable Async Shader Compiler</source>
-        <translation type="vanished">停用非同步著色編譯器</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="810"/>
