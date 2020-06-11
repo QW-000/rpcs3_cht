@@ -3247,19 +3247,159 @@ Any unsaved progress will be lost!
 <context>
     <name>kernel_explorer</name>
     <message>
-        <location filename="rpcs3qt/kernel_explorer.cpp" line="33"/>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="136"/>
         <source>Kernel Explorer</source>
         <translation>核心瀏覽器</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/kernel_explorer.cpp" line="40"/>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="143"/>
         <source>Refresh</source>
         <translation>更新</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/kernel_explorer.cpp" line="46"/>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="149"/>
         <source>Kernel</source>
         <translation>核心</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="179"/>
+        <source>Memory</source>
+        <translation>記憶體</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="180"/>
+        <source>Mutexes</source>
+        <translation>互斥鎖</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="181"/>
+        <source>Condition Variables</source>
+        <translation>情況變數</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="182"/>
+        <source>Reader Writer Locks</source>
+        <translation>讀寫器鎖</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="183"/>
+        <source>Interrupt Tags</source>
+        <translation>中斷標籤</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="184"/>
+        <source>Interrupt Service Handles</source>
+        <translation>中斷服務處理</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="185"/>
+        <source>Event Queues</source>
+        <translation>事件佇列</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="186"/>
+        <source>Event Ports</source>
+        <translation>事件埠</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="187"/>
+        <source>Traces</source>
+        <translation>追蹤</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="188"/>
+        <source>SPU Images</source>
+        <translation>SPU 影像</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="189"/>
+        <source>PRX Modules</source>
+        <translation>PRX 模組</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="190"/>
+        <source>SPU Ports</source>
+        <translation>SPU 埠</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="191"/>
+        <source>Overlay Modules</source>
+        <translation>覆蓋模組</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="192"/>
+        <source>Light Weight Mutexes</source>
+        <translation>輕量互斥鎖</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="193"/>
+        <source>Timers</source>
+        <translation>計時器</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="194"/>
+        <source>Semaphores</source>
+        <translation>信號量</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="195"/>
+        <source>File Descriptors ?</source>
+        <translation>檔案描述符?</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="196"/>
+        <source>Light Weight Condition Variables</source>
+        <translation>輕量情況變數</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="197"/>
+        <source>Event Flags</source>
+        <translation>事件旗標</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="199"/>
+        <source>Memory Containers</source>
+        <translation>記憶體容器</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="200"/>
+        <source>PPU Threads</source>
+        <translation>PPU 執行緒</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="201"/>
+        <source>SPU Threads</source>
+        <translation>SPU 執行緒</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="202"/>
+        <source>SPU Thread Groups</source>
+        <translation>SPU 執行緒群</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="203"/>
+        <source>RSX Contexts</source>
+        <translation>RSX 上下文</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="204"/>
+        <source>File Descriptors</source>
+        <translation>檔案描述符</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="494"/>
+        <source>IO-EA Table</source>
+        <translation>IO-EA 表</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="495"/>
+        <source>Zcull Bindings</source>
+        <translation>Zcull 連結</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="496"/>
+        <source>Display Buffers</source>
+        <translation>顯示緩衝區</translation>
     </message>
 </context>
 <context>
