@@ -3247,157 +3247,171 @@ Any unsaved progress will be lost!
 <context>
     <name>kernel_explorer</name>
     <message>
-        <location filename="rpcs3qt/kernel_explorer.cpp" line="136"/>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="139"/>
         <source>Kernel Explorer</source>
         <translation>核心瀏覽器</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/kernel_explorer.cpp" line="143"/>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="146"/>
         <source>Refresh</source>
         <translation>更新</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/kernel_explorer.cpp" line="149"/>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="152"/>
         <source>Kernel</source>
         <translation>核心</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/kernel_explorer.cpp" line="179"/>
         <source>Memory</source>
-        <translation>記憶體</translation>
+        <translation type="vanished">記憶體</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/kernel_explorer.cpp" line="180"/>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="183"/>
+        <source>Shared Memory</source>
+        <translation>共享記憶體</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="184"/>
+        <source>Virtual Memory</source>
+        <translation>虛擬記憶體</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="185"/>
         <source>Mutexes</source>
         <translation>互斥鎖</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/kernel_explorer.cpp" line="181"/>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="186"/>
         <source>Condition Variables</source>
         <translation>情況變數</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/kernel_explorer.cpp" line="182"/>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="187"/>
         <source>Reader Writer Locks</source>
         <translation>讀寫器鎖</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/kernel_explorer.cpp" line="183"/>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="188"/>
         <source>Interrupt Tags</source>
         <translation>中斷標籤</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/kernel_explorer.cpp" line="184"/>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="189"/>
         <source>Interrupt Service Handles</source>
         <translation>中斷服務處理</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/kernel_explorer.cpp" line="185"/>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="190"/>
         <source>Event Queues</source>
         <translation>事件佇列</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/kernel_explorer.cpp" line="186"/>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="191"/>
         <source>Event Ports</source>
         <translation>事件埠</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/kernel_explorer.cpp" line="187"/>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="192"/>
         <source>Traces</source>
         <translation>追蹤</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/kernel_explorer.cpp" line="188"/>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="193"/>
         <source>SPU Images</source>
         <translation>SPU 影像</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/kernel_explorer.cpp" line="189"/>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="194"/>
         <source>PRX Modules</source>
         <translation>PRX 模組</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/kernel_explorer.cpp" line="190"/>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="195"/>
         <source>SPU Ports</source>
         <translation>SPU 埠</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/kernel_explorer.cpp" line="191"/>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="196"/>
         <source>Overlay Modules</source>
         <translation>覆蓋模組</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/kernel_explorer.cpp" line="192"/>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="197"/>
         <source>Light Weight Mutexes</source>
         <translation>輕量互斥鎖</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/kernel_explorer.cpp" line="193"/>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="198"/>
         <source>Timers</source>
         <translation>計時器</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/kernel_explorer.cpp" line="194"/>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="199"/>
         <source>Semaphores</source>
         <translation>信號量</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/kernel_explorer.cpp" line="195"/>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="200"/>
         <source>File Descriptors ?</source>
         <translation>檔案描述符?</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/kernel_explorer.cpp" line="196"/>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="201"/>
         <source>Light Weight Condition Variables</source>
         <translation>輕量情況變數</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/kernel_explorer.cpp" line="197"/>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="202"/>
         <source>Event Flags</source>
         <translation>事件旗標</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/kernel_explorer.cpp" line="199"/>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="204"/>
         <source>Memory Containers</source>
         <translation>記憶體容器</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/kernel_explorer.cpp" line="200"/>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="205"/>
         <source>PPU Threads</source>
         <translation>PPU 執行緒</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/kernel_explorer.cpp" line="201"/>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="206"/>
         <source>SPU Threads</source>
         <translation>SPU 執行緒</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/kernel_explorer.cpp" line="202"/>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="207"/>
         <source>SPU Thread Groups</source>
         <translation>SPU 執行緒群</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/kernel_explorer.cpp" line="203"/>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="208"/>
         <source>RSX Contexts</source>
         <translation>RSX 上下文</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/kernel_explorer.cpp" line="204"/>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="209"/>
+        <source>Sockets</source>
+        <translation>插槽</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="210"/>
         <source>File Descriptors</source>
         <translation>檔案描述符</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/kernel_explorer.cpp" line="494"/>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="517"/>
         <source>IO-EA Table</source>
         <translation>IO-EA 表</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/kernel_explorer.cpp" line="495"/>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="518"/>
         <source>Zcull Bindings</source>
         <translation>Zcull 連結</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/kernel_explorer.cpp" line="496"/>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="519"/>
         <source>Display Buffers</source>
         <translation>顯示緩衝區</translation>
     </message>
@@ -5228,56 +5242,61 @@ image</source>
     </message>
     <message>
         <location filename="rpcs3qt/patch_manager_dialog.ui" line="42"/>
+        <source>Enable Legacy Patches</source>
+        <translation>啟用舊版補綴</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/patch_manager_dialog.ui" line="49"/>
         <source>Collapse All</source>
         <translation>全部折疊</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.ui" line="49"/>
+        <location filename="rpcs3qt/patch_manager_dialog.ui" line="56"/>
         <source>Expand All</source>
         <translation>展開全部</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.ui" line="77"/>
+        <location filename="rpcs3qt/patch_manager_dialog.ui" line="84"/>
         <source>Patch Information</source>
         <translation>補綴資訊</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.ui" line="83"/>
+        <location filename="rpcs3qt/patch_manager_dialog.ui" line="90"/>
         <source>Hash</source>
         <translation>雜湊</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.ui" line="102"/>
+        <location filename="rpcs3qt/patch_manager_dialog.ui" line="109"/>
         <source>Title</source>
         <translation>標題</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.ui" line="121"/>
+        <location filename="rpcs3qt/patch_manager_dialog.ui" line="128"/>
         <source>Serials</source>
-        <translation>串列</translation>
+        <translation>序列</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.ui" line="140"/>
+        <location filename="rpcs3qt/patch_manager_dialog.ui" line="147"/>
         <source>Description</source>
         <translation>描述</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.ui" line="159"/>
+        <location filename="rpcs3qt/patch_manager_dialog.ui" line="166"/>
         <source>Patch Version</source>
         <translation>補綴版本</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.ui" line="178"/>
+        <location filename="rpcs3qt/patch_manager_dialog.ui" line="185"/>
         <source>Author</source>
         <translation>作者</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.ui" line="197"/>
+        <location filename="rpcs3qt/patch_manager_dialog.ui" line="204"/>
         <source>Notes</source>
         <translation>註解</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="123"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="129"/>
         <source>Unknown Version</source>
         <translation>未知版本</translation>
     </message>
