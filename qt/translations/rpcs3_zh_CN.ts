@@ -257,72 +257,102 @@
         <translation>DTS 5.1</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized.cpp" line="31"/>
+        <location filename="rpcs3qt/localized.cpp" line="32"/>
+        <source>%0 day</source>
+        <translation>%0 天</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized.cpp" line="34"/>
+        <source>%0 days</source>
+        <translation>%0 天</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized.cpp" line="38"/>
+        <source>%0 day and %1 hour</source>
+        <translation>%0 天又 %1 个小时</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized.cpp" line="42"/>
+        <source>%0 day and %1 hours</source>
+        <translation>%0 天又 %1 个小时</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized.cpp" line="46"/>
+        <source>%0 days and %1 hour</source>
+        <translation>%0 天又 %1 个小时</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized.cpp" line="48"/>
+        <source>%0 days and %1 hours</source>
+        <translation>%0 天又 %1 个小时</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized.cpp" line="60"/>
         <source>%0 second</source>
         <translation>%0 秒</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized.cpp" line="33"/>
+        <location filename="rpcs3qt/localized.cpp" line="62"/>
         <source>%0 seconds</source>
         <translation>%0 秒</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized.cpp" line="40"/>
+        <location filename="rpcs3qt/localized.cpp" line="69"/>
         <source>%0 minute</source>
         <translation>%0 分钟</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized.cpp" line="42"/>
+        <location filename="rpcs3qt/localized.cpp" line="71"/>
         <source>%0 minutes</source>
         <translation>%0 分钟</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized.cpp" line="46"/>
+        <location filename="rpcs3qt/localized.cpp" line="75"/>
         <source>%0 minute and %1 second</source>
         <translation>%0分 %1秒</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized.cpp" line="50"/>
+        <location filename="rpcs3qt/localized.cpp" line="79"/>
         <source>%0 minute and %1 seconds</source>
         <translation>%0分 %1秒</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized.cpp" line="54"/>
+        <location filename="rpcs3qt/localized.cpp" line="83"/>
         <source>%0 minutes and %1 second</source>
         <translation>%0分 %1秒</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized.cpp" line="56"/>
+        <location filename="rpcs3qt/localized.cpp" line="85"/>
         <source>%0 minutes and %1 seconds</source>
         <translation>%0分 %1秒</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized.cpp" line="63"/>
+        <location filename="rpcs3qt/localized.cpp" line="92"/>
         <source>%0 hour</source>
         <translation>%0 小时</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized.cpp" line="65"/>
+        <location filename="rpcs3qt/localized.cpp" line="94"/>
         <source>%0 hours</source>
         <translation>%0 小时</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized.cpp" line="69"/>
+        <location filename="rpcs3qt/localized.cpp" line="98"/>
         <source>%0 hour and %1 minute</source>
         <translation>%0个小时又%1分钟</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized.cpp" line="73"/>
+        <location filename="rpcs3qt/localized.cpp" line="102"/>
         <source>%0 hour and %1 minutes</source>
         <translation>%0个小时又%1分钟</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized.cpp" line="77"/>
+        <location filename="rpcs3qt/localized.cpp" line="106"/>
         <source>%0 hours and %1 minute</source>
         <translation>%0个小时又%1分钟</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized.cpp" line="79"/>
+        <location filename="rpcs3qt/localized.cpp" line="108"/>
         <source>%0 hours and %1 minutes</source>
         <translation>%0个小时又%1分钟</translation>
     </message>
@@ -1872,12 +1902,12 @@ Restart of the game is required to apply. You can enable/disable this in the set
 <context>
     <name>emu_settings</name>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="480"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="474"/>
         <source>Fix invalid settings?</source>
         <translation>修正无效的设定?</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="481"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="475"/>
         <source>Your config file contained one or more unrecognized values for settings.
 Their default value will be used until they are corrected.
 Consider that a correction might render them invalid for other versions of RPCS3.
@@ -1892,445 +1922,445 @@ This change will only be final when you save the config.</source>
 当您储存设定时，此更改将会是最终决定。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="511"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="505"/>
         <source>Safe</source>
         <comment>SPU block size</comment>
         <translation>Safe</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="512"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="506"/>
         <source>Mega</source>
         <comment>SPU block size</comment>
         <translation>Mega</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="513"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="507"/>
         <source>Giga</source>
         <comment>SPU block size</comment>
         <translation>Giga</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="519"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="513"/>
         <source>Disabled</source>
         <comment>Enable TSX</comment>
         <translation>停用</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="520"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="514"/>
         <source>Enabled</source>
         <comment>Enable TSX</comment>
         <translation>启用</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="521"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="515"/>
         <source>Forced</source>
         <comment>Enable TSX</comment>
         <translation>强制</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="527"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="521"/>
         <source>Disable Video Output</source>
         <comment>Video renderer</comment>
         <translation>停用视讯输出</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="528"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="522"/>
         <source>OpenGL</source>
         <comment>Video renderer</comment>
         <translation>OpenGL</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="529"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="523"/>
         <source>Vulkan</source>
         <comment>Video renderer</comment>
         <translation>Vulkan</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="535"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="529"/>
         <source>Legacy (single threaded)</source>
         <comment>Shader Mode</comment>
         <translation>旧版 (单执行绪)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="536"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="530"/>
         <source>Async (multi threaded)</source>
         <comment>Shader Mode</comment>
         <translation>非同步 (多执行绪)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="537"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="531"/>
         <source>Async with Shader Interpreter</source>
         <comment>Shader Mode</comment>
         <translation>非同步直译器着色</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="538"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="532"/>
         <source>Shader Interpreter only</source>
         <comment>Shader Mode</comment>
         <translation>仅直译器着色</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="544"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="538"/>
         <source>Off</source>
         <comment>Frame limit</comment>
         <translation>关闭</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="545"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="539"/>
         <source>59.94</source>
         <comment>Frame limit</comment>
         <translation>59.94</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="546"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="540"/>
         <source>50</source>
         <comment>Frame limit</comment>
         <translation>50</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="547"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="541"/>
         <source>60</source>
         <comment>Frame limit</comment>
         <translation>60</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="548"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="542"/>
         <source>30</source>
         <comment>Frame limit</comment>
         <translation>30</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="549"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="543"/>
         <source>Auto</source>
         <comment>Frame limit</comment>
         <translation>自动</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="555"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="549"/>
         <source>Disabled</source>
         <comment>MSAA</comment>
         <translation>停用</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="556"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="550"/>
         <source>Auto</source>
         <comment>MSAA</comment>
         <translation>自动</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="562"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="556"/>
         <source>Disable Audio Output</source>
         <comment>Audio renderer</comment>
         <translation>停用音讯输出</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="564"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="558"/>
         <source>XAudio2</source>
         <comment>Audio renderer</comment>
         <translation>XAudio2</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="567"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="561"/>
         <source>ALSA</source>
         <comment>Audio renderer</comment>
         <translation>ALSA</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="570"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="564"/>
         <source>PulseAudio</source>
         <comment>Audio renderer</comment>
         <translation>PulseAudio</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="572"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="566"/>
         <source>OpenAL</source>
         <comment>Audio renderer</comment>
         <translation>OpenAL</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="574"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="568"/>
         <source>FAudio</source>
         <comment>Audio renderer</comment>
         <translation>FAudio</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="581"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="575"/>
         <source>Disabled</source>
         <comment>Microphone handler</comment>
         <translation>停用</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="582"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="576"/>
         <source>Standard</source>
         <comment>Microphone handler</comment>
         <translation>标准</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="583"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="577"/>
         <source>SingStar</source>
         <comment>Microphone handler</comment>
         <translation>SingStar</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="584"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="578"/>
         <source>Real SingStar</source>
         <comment>Microphone handler</comment>
         <translation>Real SingStar</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="585"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="579"/>
         <source>Rocksmith</source>
         <comment>Microphone handler</comment>
         <translation>Rocksmith</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="591"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="585"/>
         <source>Null</source>
         <comment>Keyboard handler</comment>
         <translation>空</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/emu_settings.cpp" line="586"/>
+        <source>Basic</source>
+        <comment>Keyboard handler</comment>
+        <translation>基本</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="592"/>
-        <source>Basic</source>
-        <comment>Keyboard handler</comment>
-        <translation>基本</translation>
-    </message>
-    <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="598"/>
         <source>Null</source>
         <comment>Mouse handler</comment>
         <translation>空</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="599"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="593"/>
         <source>Basic</source>
         <comment>Mouse handler</comment>
         <translation>基本</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="605"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="599"/>
         <source>Unknown</source>
         <comment>Camera type</comment>
         <translation>未知</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="606"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="600"/>
         <source>EyeToy</source>
         <comment>Camera type</comment>
         <translation>EyeToy</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="607"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="601"/>
         <source>PS Eye</source>
         <comment>Camera type</comment>
         <translation>PS Eye</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="608"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="602"/>
         <source>UVC 1.1</source>
         <comment>Camera type</comment>
         <translation>UVC 1.1</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="614"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="608"/>
         <source>Null</source>
         <comment>Camera handler</comment>
         <translation>空</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/emu_settings.cpp" line="609"/>
+        <source>Fake</source>
+        <comment>Camera handler</comment>
+        <translation>虚设</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="615"/>
-        <source>Fake</source>
-        <comment>Camera handler</comment>
-        <translation>虚设</translation>
-    </message>
-    <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="621"/>
         <source>Null</source>
         <comment>Move handler</comment>
         <translation>空</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="622"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="616"/>
         <source>Fake</source>
         <comment>Move handler</comment>
         <translation>虚设</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="623"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="617"/>
         <source>Mouse</source>
         <comment>Move handler</comment>
         <translation>滑鼠</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="629"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="623"/>
         <source>Disconnected</source>
         <comment>Internet Status</comment>
         <translation>断线</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="630"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="624"/>
         <source>Connected</source>
         <comment>Internet Status</comment>
         <translation>连结</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="636"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="630"/>
         <source>Disconnected</source>
         <comment>PSN Status</comment>
         <translation>断线</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="637"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="631"/>
         <source>Simulated</source>
         <comment>PSN Status</comment>
         <translation>模拟</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="643"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="637"/>
         <source>As Host</source>
         <comment>Sleep timers accuracy</comment>
         <translation>As Host</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="644"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="638"/>
         <source>Usleep Only</source>
         <comment>Sleep timers accuracy</comment>
         <translation>Usleep Only</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="645"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="639"/>
         <source>All Timers</source>
         <comment>Sleep timers accuracy</comment>
         <translation>All Timers</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="651"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="645"/>
         <source>Minimal</source>
         <comment>Detail Level</comment>
         <translation>最小</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="652"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="646"/>
         <source>Low</source>
         <comment>Detail Level</comment>
         <translation>低</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="653"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="647"/>
         <source>Medium</source>
         <comment>Detail Level</comment>
         <translation>中</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="654"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="648"/>
         <source>High</source>
         <comment>Detail Level</comment>
         <translation>高</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="660"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="654"/>
         <source>Top Left</source>
         <comment>Performance overlay position</comment>
         <translation>左上</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="661"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="655"/>
         <source>Top Right</source>
         <comment>Performance overlay position</comment>
         <translation>右上</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="662"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="656"/>
         <source>Bottom Left</source>
         <comment>Performance overlay position</comment>
         <translation>左下</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="663"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="657"/>
         <source>Bottom Right</source>
         <comment>Performance overlay position</comment>
         <translation>右下</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="669"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="663"/>
         <source>Manually load selected libraries</source>
         <comment>Libraries</comment>
         <translation>读取自选的库</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="670"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="664"/>
         <source>Load automatic and manual selection</source>
         <comment>Libraries</comment>
         <translation>自动读取与自选</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="671"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="665"/>
         <source>Load liblv2.sprx only</source>
         <comment>Libraries</comment>
         <translation>仅读取 liblv2.sprx</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="672"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="666"/>
         <source>Load liblv2.sprx and manual selection</source>
         <comment>Libraries</comment>
         <translation>读取 liblv2.sprx 与自选</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="673"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="667"/>
         <source>Load liblv2.sprx and strict selection</source>
         <comment>Libraries</comment>
         <translation>读取 liblv2.sprx 与精确选择</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="679"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="673"/>
         <source>Interpreter (precise)</source>
         <comment>PPU decoder</comment>
         <translation>直译器 (准确)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="680"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="674"/>
         <source>Interpreter (fast)</source>
         <comment>PPU decoder</comment>
         <translation>直译器 (快速)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="681"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="675"/>
         <source>Recompiler (LLVM)</source>
         <comment>PPU decoder</comment>
         <translation>反编译 (LLVM)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="687"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="681"/>
         <source>Interpreter (precise)</source>
         <comment>SPU decoder</comment>
         <translation>直译器 (准确)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="688"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="682"/>
         <source>Interpreter (fast)</source>
         <comment>SPU decoder</comment>
         <translation>直译器 (快速)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="689"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="683"/>
         <source>Recompiler (ASMJIT)</source>
         <comment>SPU decoder</comment>
         <translation>反编译 (ASMJIT)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="690"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="684"/>
         <source>Recompiler (LLVM)</source>
         <comment>SPU decoder</comment>
         <translation>反编译 (LLVM)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="696"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="690"/>
         <source>Enter with circle</source>
         <comment>Enter button assignment</comment>
         <translation>用 ○ 输入</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="697"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="691"/>
         <source>Enter with cross</source>
         <comment>Enter button assignment</comment>
         <translation>用 ╳ 输入</translation>
@@ -3260,10 +3290,6 @@ Any unsaved progress will be lost!
         <location filename="rpcs3qt/kernel_explorer.cpp" line="152"/>
         <source>Kernel</source>
         <translation>核心</translation>
-    </message>
-    <message>
-        <source>Memory</source>
-        <translation type="vanished">记忆体</translation>
     </message>
     <message>
         <location filename="rpcs3qt/kernel_explorer.cpp" line="183"/>
@@ -7487,6 +7513,13 @@ Do you want to update to the latest official RPCS3 version?</source>
 是否要更新到最新的官方 RPCS3 版本?</translation>
     </message>
     <message>
+        <location filename="rpcs3qt/update_manager.cpp" line="601"/>
+        <source>Update successful!
+RPCS3 will now restart.</source>
+        <translation>更新成功!
+RPCS3 现在将重新启动。</translation>
+    </message>
+    <message>
         <location filename="rpcs3qt/update_manager.cpp" line="208"/>
         <source>Your version is already up to date!</source>
         <translation>您的版本已经是最新的!</translation>
@@ -7506,11 +7539,6 @@ Do you want to update to the latest official RPCS3 version?</source>
         <location filename="rpcs3qt/update_manager.cpp" line="419"/>
         <source>Updating RPCS3</source>
         <translation>更新 RPCS3</translation>
-    </message>
-    <message>
-        <location filename="rpcs3qt/update_manager.cpp" line="601"/>
-        <source>Update successful!</source>
-        <translation>更新成功!</translation>
     </message>
 </context>
 <context>
