@@ -5270,7 +5270,7 @@ image</source>
     <name>patch_manager_dialog</name>
     <message>
         <location filename="rpcs3qt/patch_manager_dialog.ui" line="17"/>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="683"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="700"/>
         <source>Patch Manager</source>
         <translation>補綴管理器</translation>
     </message>
@@ -5290,12 +5290,12 @@ image</source>
         <translation>啟用舊版補綴</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="639"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="656"/>
         <source>Collapse All</source>
         <translation>全部折疊</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="635"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="652"/>
         <source>Expand All</source>
         <translation>展開全部</translation>
     </message>
@@ -5345,84 +5345,84 @@ image</source>
         <translation>註解</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="543"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="560"/>
         <source>Show Patch File</source>
         <translation>顯示補綴檔</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="554"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="571"/>
         <source>Remove Patch</source>
         <translation>刪除補綴</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="558"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="575"/>
         <source>Remove Patch?</source>
         <translation>刪除補綴?</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="559"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="576"/>
         <source>Do you really want to remove the selected patch?
 This action is immediate and irreversible!</source>
         <translation>你真的要刪除所選的補綴?
 這個動作是即時的和不可逆的!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="570"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="587"/>
         <source>Success</source>
         <translation>成功</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="570"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="587"/>
         <source>The patch was successfully removed!</source>
         <translation>補綴已成功刪除!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="576"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="593"/>
         <source>Failure</source>
         <translation>失敗</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="576"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="593"/>
         <source>The patch could not be removed!</source>
         <translation>無法刪除此補綴!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="590"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="607"/>
         <source>Collapse</source>
         <translation>折疊</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="601"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="618"/>
         <source>Expand Children</source>
         <translation>展開子節點</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="611"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="628"/>
         <source>Collapse Children</source>
         <translation>折疊子節點</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="624"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="641"/>
         <source>Expand</source>
         <translation>展開</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="683"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="700"/>
         <source>What do you want to do with the patch file?</source>
         <translation>您想對補綴檔做什麼?</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="684"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="701"/>
         <source>Import</source>
         <translation>匯入</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="685"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="702"/>
         <source>Validate</source>
         <translation>驗證</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="721"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="738"/>
         <source>
 
 Log:
@@ -5433,24 +5433,24 @@ Log:
 %0</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="725"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="742"/>
         <source>Nothing to import</source>
         <translation>沒什麼可匯入的</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="725"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="742"/>
         <source>None of the found %0 patches were imported.%1</source>
         <translation>發現的 %0 補綴均未匯入 %1</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="730"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="747"/>
         <source>Imported %0/%1 patches to:
 %2%3</source>
         <translation>匯入 %0/%1 補綴到:
 %2%3</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="736"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="753"/>
         <source>The patch file could not be imported.
 
 Log:
@@ -5461,7 +5461,7 @@ Log:
 %0</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="747"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="764"/>
         <source>Errors were found in the patch file.
 
 Log:
@@ -5472,27 +5472,41 @@ Log:
 %0</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="730"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="747"/>
         <source>Import successful</source>
         <translation>匯入成功</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="736"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="154"/>
+        <source>Incompatible patches detected</source>
+        <translation>檢測到不相容的補綴</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="155"/>
+        <source>Some of your patches are not compatible with the current version of RPCS3&apos;s Patch Manager.
+
+Make sure that all the patches located in &quot;%0&quot; contain the proper formatting that is required for the Patch Manager Version %1.</source>
+        <translation>您的某些補綴與 RPCS3 補綴管理器的當前版本不相容。
+
+確保位於 &quot;%0&quot; 中的所有補綴均包含了補綴管理器版本 %1 所需的正確格式。</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="753"/>
         <source>Import failed</source>
         <translation>匯入失敗</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="741"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="758"/>
         <source>Validation successful</source>
         <translation>驗證成功</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="741"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="758"/>
         <source>The patch file passed the validation.</source>
         <translation>補綴檔已通過驗證。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="747"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="764"/>
         <source>Validation failed</source>
         <translation>驗證失敗</translation>
     </message>
