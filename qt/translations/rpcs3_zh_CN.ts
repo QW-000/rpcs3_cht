@@ -5440,7 +5440,7 @@ Log:
     <message>
         <location filename="rpcs3qt/patch_manager_dialog.cpp" line="725"/>
         <source>None of the found %0 patches were imported.%1</source>
-        <translation>发现的 %0 补缀已汇入 %1</translation>
+        <translation>发现的 %0 补缀均未汇入 %1</translation>
     </message>
     <message>
         <location filename="rpcs3qt/patch_manager_dialog.cpp" line="730"/>
