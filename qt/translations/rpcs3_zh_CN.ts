@@ -1438,17 +1438,17 @@ Games can use the cache folder to temporarily store data outside of system memor
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="202"/>
-        <source>While it is possible to use a keyboard as a pad in RPCS3, the use of an actual controller is strongly recommended.
-To bind mouse movement to a button or joystick, click on the desired button to activate it, then click and hold while dragging the mouse to a direction.</source>
-        <oldsource>While it is possible to use a keyboard as a pad in RPCS3, the use of an actual controller is strongly recommended. To bind mouse movement to a button or joystick, click on the desired button to activate it, then click and hold while dragging the mouse to a direction</oldsource>
-        <translation>虽然可以在 RPCS3 中使用键盘当作 PAD，但强烈建议使用实际控制器。 如需映射滑鼠移动到按钮或摇杆，点击触发所需的按钮再次按住滑鼠拖曳到某个方向。</translation>
+        <source>While it is possible to use a keyboard as a pad in RPCS3, the use of an actual controller is strongly recommended.&lt;br&gt;To bind mouse movement to a button or joystick, click on the desired button to activate it, then click and hold while dragging the mouse to a direction.</source>
+        <oldsource>While it is possible to use a keyboard as a pad in RPCS3, the use of an actual controller is strongly recommended.
+To bind mouse movement to a button or joystick, click on the desired button to activate it, then click and hold while dragging the mouse to a direction.</oldsource>
+        <translation>虽然可以在 RPCS3 中使用键盘当作 PAD，但强烈建议使用实际控制器。&lt;br&gt;如需映射滑鼠移动到按钮或摇杆，点击触发所需的按钮再次按住滑鼠拖曳到某个方向。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="203"/>
-        <source>In order to use the DualShock 3 handler, you need to install the official DualShock 3 driver first.
-See the &lt;a href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 Wiki&lt;/a&gt; for instructions.</source>
-        <translation>要使用“DualShock 3”处理程序，首先需要安装官方的 DualShock 3 驱动程式。
-请参阅 &lt;a href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 维基&lt;/a&gt; 的说明。</translation>
+        <source>In order to use the DualShock 3 handler, you need to install the official DualShock 3 driver first.&lt;br&gt;See the &lt;a href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 Wiki&lt;/a&gt; for instructions.</source>
+        <oldsource>In order to use the DualShock 3 handler, you need to install the official DualShock 3 driver first.
+See the &lt;a href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 Wiki&lt;/a&gt; for instructions.</oldsource>
+        <translation>要使用“DualShock 3”处理程序，首先需要安装官方的 DualShock 3 驱动程式。&lt;br&gt;请参阅 &lt;a href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 维基&lt;/a&gt; 的说明。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="204"/>
@@ -1486,15 +1486,60 @@ See the &lt;a href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="210"/>
-        <source>The evdev handler should work with any controller that has linux support.
-If your joystick is not being centered properly, read the &lt;a href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 Wiki&lt;/a&gt; for instructions.</source>
-        <translation>“evdev”处理程序应工作于任何 Linux 支援的控制器。
-如果摇杆未正确居中，请阅读 &lt;a href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 维基&lt;/a&gt; 的相关说明。</translation>
+        <source>The evdev handler should work with any controller that has linux support.&lt;br&gt;If your joystick is not being centered properly, read the &lt;a href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 Wiki&lt;/a&gt; for instructions.</source>
+        <oldsource>The evdev handler should work with any controller that has linux support.
+If your joystick is not being centered properly, read the &lt;a href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 Wiki&lt;/a&gt; for instructions.</oldsource>
+        <translation>“evdev”处理程序应工作于任何 Linux 支援的控制器。&lt;br&gt;如果摇杆未正确居中，请阅读 &lt;a href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 维基&lt;/a&gt; 的相关说明。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="211"/>
         <source>The MMJoystick handler should work with almost any controller recognized by Windows. However, it is recommended that you use the more specific handlers if you have a controller that supports them.</source>
         <translation>“MMJoystick”处理程序应该适用于所有 Windows 识别的控制器。 但是，如果您有支援的控制器，建议使用特定的处理程序。</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/tooltips.h" line="213"/>
+        <source>The actual DualShock 3&apos;s stick range is not circular but formed like a rounded square (or squircle) which represents the maximum range of the emulated sticks. You can use the squircle values to modify the stick input if your sticks can&apos;t reach the corners of that range. A value of 0 does not apply any so called squircling. A value of 8000 is usually recommended.</source>
+        <translation>实际“ DualShock 3”摇杆范围不是圆形的，而是形成一个圆角正方形 (或方圆形)，表示模拟摇杆的最大范围。 如果您的摇杆无法达到该范围的角落，则可以使用“方圆形值”来修改摇杆输入。 值为 0 不会应用于任何的方圆形。 通常建议值为 8000。</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/tooltips.h" line="214"/>
+        <source>The stick multipliers can be used to change the sensitivity of your stick movements.&lt;br&gt;The default setting is 1 and represents normal input.</source>
+        <translation>“摇杆倍增器”可用于更改摇杆移动的灵敏度。&lt;br&gt;预设设定为 1 代表正常输入。</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/tooltips.h" line="215"/>
+        <source>A stick&apos;s deadzone determines how far the stick has to be moved until it is fully recognized by the game. The resulting range will be projected onto the full input range in order to give you a smooth experience. Movement inside the deadzone is actually simulated as a real DualShock 3&apos;s deadzone of ~13%, so don&apos;t worry if there is still movement shown in the emulated stick preview.</source>
+        <translation>“摇杆盲区”判定了摇杆被移动的距离可被游戏完全识别。产生的范围将被投射到整个输入范围内，以便给你一个流畅的体验。 盲区内部的移动实际上被模拟为真实的 “DualShock 3 ”盲区，约为  13%，因此不必担心在模拟“摇杆预览”中是否仍显示移动。</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/tooltips.h" line="216"/>
+        <source>The PS3 activates two motors (large and small) to handle controller vibrations.&lt;br&gt;You can enable, disable or even switch these signals for the currently selected pad here.</source>
+        <translation>PS3 启动两个马达 (大与小) 以处理控制器的振动。&lt;br&gt;您可以在此处启用，禁用甚至切换这些讯号以用于当前选定的控制器。</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/tooltips.h" line="217"/>
+        <source>The emulated stick values (red dots) in the stick preview represent the actual stick positions as they will be visible to the game. The actual DualShock 3&apos;s stick range is not circular but formed like a rounded square (or squircle) which represents the maximum range of the emulated sticks. The blue regular dots represent the raw stick values (including stick multipliers) before they are converted for ingame usage.</source>
+        <translation>“摇杆预览”中模拟的摇杆值 (红点) 代表实际的摇杆位置，因为它们在游戏中可见。 实际的“DualShock 3”摇杆范围不是圆形的，而是形成一个圆角正方形 (或方圆形)，表示模拟摇杆的最大范围。 蓝色常规点表示原始摇杆值 (包括摇杆倍增器)，在转换为游戏中使用之前。</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/tooltips.h" line="218"/>
+        <source>A trigger&apos;s deadzone determines how far the trigger has to be moved until it is recognized by the game. The resulting range will be projected onto the full input range in order to give you a smooth experience.</source>
+        <translation>盲区判定触发移动的距离，直到游戏将其识别为止。 产生的范围将被投射到整个输入范围内，以便给你一个流畅的体验。</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/tooltips.h" line="219"/>
+        <source>With keyboards you are inevitably restricted to 8 stick directions (4 straight + 4 diagonal). Furthermore when a key is pressed the stick will jump to the maximum value of the chosen direction immediately. The stick interpolation can be used to work-around both of these issues by smoothening out these directional changes. The lower the value, the longer you have to press or release a key until the maximum amplitude is reached.</source>
+        <translation>使用键盘时，您不可避免地会受到 8 个方向的限制 (4 个直线 + 4 个对角线)。 此外，当按下一个键时，摇杆将立即跳至所选方向的最大值。 “摇杆插值”可以透过平滑这些方向变更来解决这两个问题。 数值越低，时间越长，必须按住按键或达到最大范围松开。</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/tooltips.h" line="220"/>
+        <source>The mouse deadzones represent the games&apos; own deadzones on the x and y axes. Games usually enforce their own deadzones to filter out small unwanted stick movements. In consequence mouse input feels unintuitive since it relies on immediate responsiveness. You can change these values temporarily during gameplay in order to find out the optimal values for your game (Alt+T and Alt+Y for x, Alt+U and Alt+I for y).</source>
+        <translation>滑鼠盲区代表游戏在 x 轴及 y 轴上的盲区。 游戏通常会强制执行自己的盲区，以过滤些微的摇杆移动。 其结果是，因为它依赖于直接的反应滑鼠的输入感观。 您可以在游戏过程中临时更改这些值，以找出游戏的最佳值 ( Alt  + T 及 Alt + Y 为 x，Alt  + U 及 Alt + I  为 y  )。</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/tooltips.h" line="221"/>
+        <source>The mouse acceleration can be used to amplify your mouse movements on the x and y axes. Increase these values if your mouse movements feel too slow while playing a game. You can change these values temporarily during gameplay in order to find out the optimal values (Alt+G and Alt+H for x, Alt+J and Alt+K for y). Keep in mind that modern mice usually provide different modes and settings that can be used to change mouse movement speeds as well.</source>
+        <translation>滑鼠加速可用于放大滑鼠在 x 和 y 轴上的移动。 如果在玩游戏时滑鼠移动过慢，请增加这些值。 您可以在游戏过程中临时变更这些值，以找出最佳值 (  Alt + G 及 Alt + H 为 x ， Alt + J 及 Alt + K 为 y  )。 请记住，现今的滑鼠通常提供不同的模式和设定，这些模式和设定也可用于变更滑鼠的移动速度。</translation>
     </message>
 </context>
 <context>
@@ -4811,7 +4856,7 @@ image</source>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="219"/>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="456"/>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="474"/>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1877"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1918"/>
         <source>Up</source>
         <translation>上</translation>
     </message>
@@ -4824,9 +4869,10 @@ image</source>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="268"/>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="505"/>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="523"/>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1926"/>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2105"/>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2253"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1967"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2146"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2221"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2372"/>
         <source>Left</source>
         <translation>左</translation>
     </message>
@@ -4839,9 +4885,10 @@ image</source>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="299"/>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="536"/>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="554"/>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1957"/>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2132"/>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2283"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1998"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2173"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2251"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2402"/>
         <source>Right</source>
         <translation>右</translation>
     </message>
@@ -4854,7 +4901,7 @@ image</source>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="360"/>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="597"/>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="615"/>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2018"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2059"/>
         <source>Down</source>
         <translation>下</translation>
     </message>
@@ -4895,417 +4942,432 @@ image</source>
         <translation>开关</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="796"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="837"/>
         <source>Mouse Acceleration</source>
         <translation>滑鼠加速</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="814"/>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="895"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="855"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="936"/>
         <source>x</source>
         <translation>x</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="844"/>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="921"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="885"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="962"/>
         <source>y</source>
         <translation>y</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="877"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="918"/>
         <source>Mouse Deadzone</source>
         <translation>滑鼠盲区</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1458"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1499"/>
         <source>Device Class</source>
         <translation>装置类别</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1000"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1041"/>
         <source>L1</source>
         <translation>L1</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1018"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="780"/>
+        <source>Stick Preview</source>
+        <translation>摇杆预览</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="798"/>
+        <source>Show Emulated Values</source>
+        <translation>显示模拟值</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1059"/>
         <source>Q</source>
         <translation>Q</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1031"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1072"/>
         <source>L2</source>
         <translation>L2</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1049"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1090"/>
         <source>R</source>
         <translation>R</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1084"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1125"/>
         <source>Select</source>
         <translation>选择</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1102"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1143"/>
         <source>Space</source>
         <translation>Space</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1115"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1156"/>
         <source>Start</source>
         <translation>开始</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1133"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1174"/>
         <source>Enter</source>
         <translation>Enter</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1192"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1233"/>
         <source>PS Button</source>
         <translation>PS 按键</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1210"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1251"/>
         <source>Backspace</source>
         <translation>Backspace</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1243"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1284"/>
         <source>R1</source>
         <translation>R1</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1261"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1302"/>
         <source>E</source>
         <translation>E</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1274"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1315"/>
         <source>R2</source>
         <translation>R2</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1292"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1333"/>
         <source>T</source>
         <translation>T</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1376"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1417"/>
         <source>L3</source>
         <translation>L3</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1394"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1435"/>
         <source>F</source>
         <translation>F</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1407"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1448"/>
         <source>R3</source>
         <translation>R3</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1425"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1466"/>
         <source>G</source>
         <translation>G</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1491"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1532"/>
         <source>Battery status and LED</source>
         <translation>电池状态与 LED</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1531"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1572"/>
         <source>LED Settings</source>
         <translation>LED 设定</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1559"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1600"/>
         <source>Description</source>
         <translation>描述</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1594"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1635"/>
         <source>Face Buttons</source>
         <translation>正面按键</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1640"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1681"/>
         <source>Triangle</source>
         <translation>△</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1658"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1699"/>
         <source>V</source>
         <translation>V</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1689"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1730"/>
         <source>Square</source>
         <translation>□</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1707"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1748"/>
         <source>Z</source>
         <translation>Z</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1720"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1761"/>
         <source>Circle</source>
         <translation>○</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1738"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1779"/>
         <source>C</source>
         <translation>C</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1781"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1822"/>
         <source>Cross</source>
         <translation>╳</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1799"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1840"/>
         <source>X</source>
         <translation>X</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1831"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1872"/>
         <source>Right Stick</source>
         <oldsource>Right Analog</oldsource>
         <translation>右摇杆</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1895"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1936"/>
         <source>PgUp</source>
         <translation>PgUp</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1944"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1985"/>
         <source>Home</source>
         <translation>Home</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1975"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2016"/>
         <source>End</source>
         <translation>End</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2036"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2077"/>
         <source>PgDown</source>
         <translation>PgDown</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2087"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2128"/>
         <source>Stick Multipliers</source>
         <translation>摇杆倍增器</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2162"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2203"/>
+        <source>Squircle Values</source>
+        <translation>方圆形值</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2281"/>
         <source>Analog Stick Deadzones</source>
         <oldsource>Analog Deadzones</oldsource>
         <translation>类比摇杆盲区</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2235"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2354"/>
         <source>Stick Interpolation</source>
         <translation>摇杆插值</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="173"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="174"/>
         <source>Filter Noise</source>
         <translation>过滤杂讯</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="72"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="73"/>
         <source>Gamepad Settings: [%0] %1</source>
         <translation>游戏控制器设定: [%0] %1</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="77"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="78"/>
         <source>Gamepad Settings</source>
         <translation>游戏控制器设定</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="83"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="84"/>
         <source>Player %0</source>
         <translation>玩家 %0</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="141"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="142"/>
         <source>Choose a unique name</source>
         <translation>命名唯一的名称</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="142"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="143"/>
         <source>Profile Name: </source>
         <translation>设定档名: </translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="151"/>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="156"/>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="161"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="152"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="157"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="162"/>
         <source>Error</source>
         <translation>错误</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="151"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="152"/>
         <source>Name cannot be empty</source>
         <translation>名称不能是空的</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="156"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="157"/>
         <source>Must choose a name without &apos;.&apos;</source>
         <translation>必须命名不带 &apos;.&apos; 的名称</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="161"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="162"/>
         <source>Please choose a non-existing name</source>
         <translation>请命名不存在的名称</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="198"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="199"/>
         <source>Standard (Pad)</source>
         <translation>标准 (Pad)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="199"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="200"/>
         <source>Guitar</source>
         <translation>吉他</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="200"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="201"/>
         <source>Drum</source>
         <translation>鼓</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="201"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="202"/>
         <source>DJ</source>
         <translation>DJ</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="202"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="203"/>
         <source>Dance Mat</source>
         <translation>跳舞垫</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="203"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="204"/>
         <source>Navigation</source>
         <translation>巡览控制器</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="296"/>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="975"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="309"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1075"/>
         <source>[ Waiting %1 ]</source>
         <translation>[ 等候 %1 ]</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1137"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1236"/>
         <source>Custom Controller</source>
         <translation>自订控制器</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1204"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1303"/>
         <source>No Profiles</source>
         <translation>没有设定档</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1208"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1307"/>
         <source>No Device Detected</source>
         <translation>未侦测到装置</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1307"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1406"/>
         <source>PS3 Controller</source>
         <comment>PlayStation 3 Controller</comment>
         <translation>PS3 控制器</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1312"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1411"/>
         <source>Dance Dance Revolution</source>
         <comment>Dance Dance Revolution Mat</comment>
         <translation>劲爆热舞</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1317"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1416"/>
         <source>DJ Hero Turntable</source>
         <comment>DJ Hero Turntable</comment>
         <translation>DJ 英雄转盘</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1322"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1421"/>
         <source>Rockband</source>
         <comment>Harmonix Rockband Drum Kit</comment>
         <translation>摇滚乐队</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1327"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1426"/>
         <source>Rockband</source>
         <comment>Harmonix Rockband Guitar</comment>
         <translation>摇滚乐队</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1332"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1431"/>
         <source>Guitar Hero</source>
         <comment>RedOctane Guitar Hero Drum Kit</comment>
         <translation>吉他英雄</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1337"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1436"/>
         <source>Guitar Hero</source>
         <comment>RedOctane Guitar Hero Guitar</comment>
         <translation>吉他英雄</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1342"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1441"/>
         <source>Rock Revolution</source>
         <comment>Rock Revolution Drum Controller</comment>
         <translation>摇滚革命</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1359"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1458"/>
         <source>Reserved</source>
         <translation>预留</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1462"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1563"/>
         <source>Null</source>
         <translation>空</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1463"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1564"/>
         <source>Keyboard</source>
         <translation>键盘</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1464"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1565"/>
         <source>DualShock 3</source>
         <translation>DualShock 3</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1465"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1566"/>
         <source>DualShock 4</source>
         <translation>DualShock 4</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1467"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1568"/>
         <source>XInput</source>
         <translation>XInput</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1468"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1569"/>
         <source>MMJoystick</source>
         <translation>MMJoystick</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1471"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1572"/>
         <source>Evdev</source>
         <translation>Evdev</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.h" line="87"/>
+        <location filename="rpcs3qt/pad_settings_dialog.h" line="88"/>
         <source> (disconnected)</source>
         <translation>(未连结)</translation>
     </message>
@@ -6323,10 +6385,6 @@ Selecting ignore starts the emulator without Vulkan support.</source>
         <location filename="rpcs3qt/settings_dialog.ui" line="864"/>
         <source>Convert to 16-bit</source>
         <translation>转换为 16 位元</translation>
-    </message>
-    <message>
-        <source>Downmix to Stereo</source>
-        <translation type="vanished">缩混至立体声</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="894"/>
