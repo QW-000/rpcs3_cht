@@ -260,75 +260,56 @@
         <source>DTS 5.1</source>
         <translation>DTS 5.1</translation>
     </message>
+    <message>
+        <location filename="rpcs3qt/localized.cpp" line="11"/>
+        <source>Never played</source>
+        <translation>未玩過</translation>
+    </message>
     <message numerus="yes">
-        <location filename="rpcs3qt/localized.cpp" line="30"/>
-        <source>%n day(s)</source>
+        <location filename="rpcs3qt/localized.cpp" line="26"/>
+        <source>%Ln day(s)</source>
         <translation>
             <numerusform>%n 天</numerusform>
         </translation>
     </message>
     <message numerus="yes">
-        <location filename="rpcs3qt/localized.cpp" line="34"/>
-        <source>%0 day and %n hour(s)</source>
+        <location filename="rpcs3qt/localized.cpp" line="27"/>
+        <source>%Ln hour(s)</source>
         <translation>
-            <numerusform>%0 天又 %n 個小時</numerusform>
+            <numerusform>%n 個小時</numerusform>
         </translation>
     </message>
     <message numerus="yes">
-        <location filename="rpcs3qt/localized.cpp" line="36"/>
-        <source>%0 days and %n hour(s)</source>
-        <translation>
-            <numerusform>%0 天又 %n 個小時</numerusform>
-        </translation>
-    </message>
-    <message numerus="yes">
-        <location filename="rpcs3qt/localized.cpp" line="46"/>
-        <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n 秒</numerusform>
-        </translation>
-    </message>
-    <message numerus="yes">
-        <location filename="rpcs3qt/localized.cpp" line="51"/>
-        <source>%n minute(s)</source>
+        <location filename="rpcs3qt/localized.cpp" line="28"/>
+        <source>%Ln minute(s)</source>
         <translation>
             <numerusform>%n 分鐘</numerusform>
         </translation>
     </message>
     <message numerus="yes">
-        <location filename="rpcs3qt/localized.cpp" line="56"/>
-        <source>%0 minute and %n second(s)</source>
+        <location filename="rpcs3qt/localized.cpp" line="29"/>
+        <source>%Ln second(s)</source>
         <translation>
-            <numerusform>%0 分 %n 秒</numerusform>
+            <numerusform>%n 秒</numerusform>
         </translation>
     </message>
-    <message numerus="yes">
-        <location filename="rpcs3qt/localized.cpp" line="59"/>
-        <source>%0 minutes and %n second(s)</source>
-        <translation>
-            <numerusform>%0 分 %n 秒</numerusform>
-        </translation>
+    <message>
+        <location filename="rpcs3qt/localized.cpp" line="36"/>
+        <source>%0 and %1</source>
+        <comment>Days and hours</comment>
+        <translation>%0又 %1</translation>
     </message>
-    <message numerus="yes">
-        <location filename="rpcs3qt/localized.cpp" line="64"/>
-        <source>%n hour(s)</source>
-        <translation>
-            <numerusform>%n 小時</numerusform>
-        </translation>
+    <message>
+        <location filename="rpcs3qt/localized.cpp" line="45"/>
+        <source>%0 and %1</source>
+        <comment>Hours and minutes</comment>
+        <translation>%0又 %1</translation>
     </message>
-    <message numerus="yes">
-        <location filename="rpcs3qt/localized.cpp" line="69"/>
-        <source>%0 hour and %n minute(s)</source>
-        <translation>
-            <numerusform>%0 個小時又 %n 分鐘</numerusform>
-        </translation>
-    </message>
-    <message numerus="yes">
-        <location filename="rpcs3qt/localized.cpp" line="72"/>
-        <source>%0 hours and %n minute(s)</source>
-        <translation>
-            <numerusform>%0 個小時又 %n 分鐘</numerusform>
-        </translation>
+    <message>
+        <location filename="rpcs3qt/localized.cpp" line="52"/>
+        <source>%0 and %1</source>
+        <comment>Minutes and seconds</comment>
+        <translation>%0又 %1</translation>
     </message>
 </context>
 <context>
