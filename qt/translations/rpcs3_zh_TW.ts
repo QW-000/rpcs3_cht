@@ -912,8 +912,12 @@ Check this if you want to play with mouse and keyboard (for example with UCR).</
     <message>
         <location filename="rpcs3qt/tooltips.h" line="110"/>
         <source>Disables keyboard hotkeys such as Ctrl-S, Ctrl-E, Ctrl-R, Ctrl-P while the game screen is active.
+This does not include Ctrl-L (hide and lock mouse) and Alt-Enter (toggle fullscreen).
 Check this if you want to play with mouse and keyboard.</source>
+        <oldsource>Disables keyboard hotkeys such as Ctrl-S, Ctrl-E, Ctrl-R, Ctrl-P while the game screen is active.
+Check this if you want to play with mouse and keyboard.</oldsource>
         <translation>在遊戲畫面處於活動狀態時，停用鍵盤快速鍵，例如; Ctrl-S, Ctrl-E, Ctrl-R, Ctrl-P。
+這不包含 Ctrl-L (隱藏及鎖定滑鼠) 和 Alt-Enter (切換全螢幕) 。
 要使用滑鼠與鍵盤玩時，檢查此復選框。</translation>
     </message>
     <message>
@@ -2284,175 +2288,181 @@ This change will only be final when you save the config.</source>
         <translation>模擬</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="693"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="688"/>
+        <source>RPCN</source>
+        <comment>PSN Status</comment>
+        <translation>RPCN</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/emu_settings.cpp" line="694"/>
         <source>As Host</source>
         <comment>Sleep timers accuracy</comment>
         <translation>As Host</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="694"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="695"/>
         <source>Usleep Only</source>
         <comment>Sleep timers accuracy</comment>
         <translation>Usleep Only</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="695"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="696"/>
         <source>All Timers</source>
         <comment>Sleep timers accuracy</comment>
         <translation>All Timers</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="701"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="702"/>
         <source>Minimal</source>
         <comment>Detail Level</comment>
         <translation>最小</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="702"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="703"/>
         <source>Low</source>
         <comment>Detail Level</comment>
         <translation>低</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="703"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="704"/>
         <source>Medium</source>
         <comment>Detail Level</comment>
         <translation>中</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="704"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="705"/>
         <source>High</source>
         <comment>Detail Level</comment>
         <translation>高</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="710"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="711"/>
         <source>Top Left</source>
         <comment>Performance overlay position</comment>
         <translation>左上</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="711"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="712"/>
         <source>Top Right</source>
         <comment>Performance overlay position</comment>
         <translation>右上</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="712"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="713"/>
         <source>Bottom Left</source>
         <comment>Performance overlay position</comment>
         <translation>左下</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="713"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="714"/>
         <source>Bottom Right</source>
         <comment>Performance overlay position</comment>
         <translation>右下</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="719"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="720"/>
         <source>Manually load selected libraries</source>
         <comment>Libraries</comment>
         <translation>讀取自選的庫</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="720"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="721"/>
         <source>Load automatic and manual selection</source>
         <comment>Libraries</comment>
         <translation>自動讀取與自選</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="721"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="722"/>
         <source>Load liblv2.sprx only</source>
         <comment>Libraries</comment>
         <translation>僅讀取 liblv2.sprx</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="722"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="723"/>
         <source>Load liblv2.sprx and manual selection</source>
         <comment>Libraries</comment>
         <translation>讀取 liblv2.sprx 與自選</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="723"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="724"/>
         <source>Load liblv2.sprx and strict selection</source>
         <comment>Libraries</comment>
         <translation>讀取 liblv2.sprx 與精確選擇</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="729"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="730"/>
         <source>Interpreter (precise)</source>
         <comment>PPU decoder</comment>
         <translation>直譯器 (準確)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="730"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="731"/>
         <source>Interpreter (fast)</source>
         <comment>PPU decoder</comment>
         <translation>直譯器 (快速)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="731"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="732"/>
         <source>Recompiler (LLVM)</source>
         <comment>PPU decoder</comment>
         <translation>反編譯 (LLVM)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="737"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="738"/>
         <source>Interpreter (precise)</source>
         <comment>SPU decoder</comment>
         <translation>直譯器 (準確)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="738"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="739"/>
         <source>Interpreter (fast)</source>
         <comment>SPU decoder</comment>
         <translation>直譯器 (快速)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="739"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="740"/>
         <source>Recompiler (ASMJIT)</source>
         <comment>SPU decoder</comment>
         <translation>反編譯 (ASMJIT)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="740"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="741"/>
         <source>Recompiler (LLVM)</source>
         <comment>SPU decoder</comment>
         <translation>反編譯 (LLVM)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="746"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="747"/>
         <source>Enter with circle</source>
         <comment>Enter button assignment</comment>
         <translation>用 ○ 輸入</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="747"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="748"/>
         <source>Enter with cross</source>
         <comment>Enter button assignment</comment>
         <translation>用 ╳ 輸入</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="753"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="754"/>
         <source>Surround 7.1</source>
         <comment>Audio downmix</comment>
         <translation>環繞 7.1</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="754"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="755"/>
         <source>Downmix to Stereo</source>
         <comment>Audio downmix</comment>
         <translation>縮混至立體聲</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="755"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="756"/>
         <source>Downmix to 5.1</source>
         <comment>Audio downmix</comment>
         <translation>縮混至 5.1</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="756"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="757"/>
         <source>Use application settings</source>
         <comment>Audio downmix</comment>
         <translation>使用應用程式設定</translation>
@@ -5779,84 +5789,94 @@ Selecting ignore starts the emulator without Vulkan support.</source>
         <translation>權杖:</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="41"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="42"/>
         <source>Create Account</source>
         <translation>建立帳號</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="42"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="43"/>
         <source>Save</source>
         <translation>儲存</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="79"/>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="147"/>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="185"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="80"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="148"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="192"/>
         <source>Wrong input</source>
         <translation>輸入錯誤</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="79"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="80"/>
         <source>You need to enter a password!</source>
         <translation>您需要輸入密碼!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="141"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="142"/>
         <source>Missing host</source>
         <translation>缺少主機</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="141"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="142"/>
         <source>You need to enter a host for rpcn!</source>
         <translation>您需要輸入 RPCN 的主機!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="147"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="148"/>
         <source>You need to enter a username and a password!</source>
         <translation>您需要輸入使用者名稱和密碼!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="153"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="154"/>
         <source>Invalid character</source>
         <translation>無效字元</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="153"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="154"/>
         <source>NPID must be between 3 and 16 characters and can only contain &apos;-&apos;, &apos;_&apos; or alphanumeric characters.</source>
         <translation>NPID 必須介於 3 到 16 個字元之間，並且只能包含 &quot;- &quot; 與 &quot;_ &quot; 或字母數字字元。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="185"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="160"/>
+        <source>Invalid token</source>
+        <translation>權杖無效</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="160"/>
+        <source>The token you have received should be 16 characters long.</source>
+        <translation>您收到的權杖應為 16 個字元長。</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="192"/>
         <source>You need to enter a valid email!</source>
         <translation>您需要輸入有效的電子信箱!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="214"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="221"/>
         <source>Error Connecting</source>
         <translation>連結錯誤</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="214"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="221"/>
         <source>Failed to connect to RPCN server</source>
         <translation>無法連結到 RPCN 伺服器</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="221"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="228"/>
         <source>Error Creating Account</source>
         <translation>建立帳號時出錯</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="221"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="228"/>
         <source>Failed to create the account</source>
         <translation>建立帳號失敗</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="226"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="233"/>
         <source>Account created!</source>
         <translation>帳號建立!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="226"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="233"/>
         <source>Your account has been created successfully!
 Check your email for your token!</source>
         <translation>您的帳號已成功建立!
