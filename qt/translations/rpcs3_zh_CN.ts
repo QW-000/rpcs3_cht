@@ -3537,6 +3537,803 @@ Any unsaved progress will be lost!
     </message>
 </context>
 <context>
+    <name>localized_emu</name>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="37"/>
+        <source>You have earned the bronze trophy
+%0</source>
+        <comment>Trophy text</comment>
+        <translation>您已获得青铜奖杯
+%0</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="38"/>
+        <source>You have earned the silver trophy
+%0</source>
+        <comment>Trophy text</comment>
+        <translation>您已获得白银奖杯
+%0</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="39"/>
+        <source>You have earned the gold trophy
+%0</source>
+        <comment>Trophy text</comment>
+        <translation>您已获得黄金奖杯
+%0</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="40"/>
+        <source>You have earned the platinum trophy
+%0</source>
+        <comment>Trophy text</comment>
+        <translation>您已获得白金奖杯
+%0</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="41"/>
+        <source>Compiling shaders</source>
+        <translation>着色编译</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="42"/>
+        <source>Yes</source>
+        <comment>Message Dialog</comment>
+        <translation>是</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="43"/>
+        <source>No</source>
+        <comment>Message Dialog</comment>
+        <translation>否</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="44"/>
+        <source>Cancel</source>
+        <comment>Message Dialog</comment>
+        <translation>取消</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="45"/>
+        <source>OK</source>
+        <comment>Message Dialog</comment>
+        <translation>确定</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="46"/>
+        <source>Save Dialog</source>
+        <comment>Save Dialog</comment>
+        <translation>记录讯息</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="47"/>
+        <source>Delete Save</source>
+        <comment>Save Dialog</comment>
+        <translation>删除纪录</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="48"/>
+        <source>Load Save</source>
+        <comment>Save Dialog</comment>
+        <translation>读取纪录</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="49"/>
+        <source>Save</source>
+        <comment>Save Dialog</comment>
+        <translation>纪录</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="50"/>
+        <source>Accept</source>
+        <comment>OSK Dialog</comment>
+        <translation>接受</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="51"/>
+        <source>Cancel</source>
+        <comment>OSK Dialog</comment>
+        <translation>取消</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="52"/>
+        <source>Space</source>
+        <comment>OSK Dialog</comment>
+        <translation>空格</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="53"/>
+        <source>Backspace</source>
+        <comment>OSK Dialog</comment>
+        <translation>退格</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="54"/>
+        <source>Shift</source>
+        <comment>OSK Dialog</comment>
+        <translation>移位</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="55"/>
+        <source>[Enter Text]</source>
+        <comment>OSK Dialog</comment>
+        <translation>[输入文字]</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="56"/>
+        <source>[Enter Password]</source>
+        <comment>OSK Dialog</comment>
+        <translation>[输入密码]</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="57"/>
+        <source>Select</source>
+        <comment>Save Dialog List</comment>
+        <translation>选择</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="58"/>
+        <source>Cancel</source>
+        <comment>Save Dialog List</comment>
+        <translation>取消</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="59"/>
+        <source>ERROR: Game data is corrupted. The application will continue.</source>
+        <comment>Game Error</comment>
+        <translation>错误: 游戏资料已损坏。 该应用软体将继续。</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="60"/>
+        <source>ERROR: HDD boot game is corrupted. The application will continue.</source>
+        <comment>Game Error</comment>
+        <translation>错误: 硬碟启动游戏已损坏。 该应用软体将继续。</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="61"/>
+        <source>ERROR: Game data is corrupted. The application will be terminated.</source>
+        <comment>Game Error</comment>
+        <translation>错误: 游戏资料已损坏。 该应用软体将被终止。</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="62"/>
+        <source>ERROR: HDD boot game is corrupted. The application will be terminated.</source>
+        <comment>Game Error</comment>
+        <translation>错误: 硬碟启动游戏已损坏。 该应用软体将被终止。</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="63"/>
+        <source>ERROR: Not enough available space. The application will continue.
+Space needed: %0 KB</source>
+        <comment>Game Error</comment>
+        <translation>错误: 可用空间不足。 该应用软体将继续。
+需要空间: %0 KB</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="64"/>
+        <source>ERROR: Not enough available space. The application will be terminated.
+Space needed: %0 KB</source>
+        <comment>Game Error</comment>
+        <translation>错误: 可用空间不足。 该应用软体将被终止。
+需要空间: %0 KB</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="65"/>
+        <source>Directory name: %0</source>
+        <comment>Game Error</comment>
+        <translation>目录名称: %0</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="66"/>
+        <source>There has been an error!
+
+Please remove the game data for this title.</source>
+        <comment>Game Error</comment>
+        <translation>发生错误!
+
+请删除该标题的游戏资料。</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="67"/>
+        <source>There has been an error!
+
+Please reinstall the HDD boot game.</source>
+        <comment>Game Error</comment>
+        <translation>发生错误!
+
+请重新安装硬碟游戏启动。</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="68"/>
+        <source>The resource is temporarily unavailable.
+(%0)</source>
+        <comment>Error code</comment>
+        <translation>资源暂时不可用。
+(%0)</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="69"/>
+        <source>Invalid argument or flag.
+(%0)</source>
+        <comment>Error code</comment>
+        <translation>无效的引数或标示
+(%0)</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="70"/>
+        <source>The feature is not yet implemented.
+(%0)</source>
+        <comment>Error code</comment>
+        <translation>功能尚未实现。
+(%0)</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="71"/>
+        <source>Memory allocation failed.
+(%0)</source>
+        <comment>Error code</comment>
+        <translation>记忆体分配失败。
+(%0)</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="72"/>
+        <source>The resource with the specified identifier does not exist.
+(%0)</source>
+        <comment>Error code</comment>
+        <translation>与资源指定的识别码不存在。
+(%0)</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="73"/>
+        <source>The file does not exist.
+(%0)</source>
+        <comment>Error code</comment>
+        <translation>档案不存在。
+(%0)</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="74"/>
+        <source>The file is in unrecognized format / The file is not a valid ELF file.
+(%0)</source>
+        <comment>Error code</comment>
+        <translation>档案是无法识别的格式/不是有效的 ELF 档案。
+(%0)</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="75"/>
+        <source>Resource deadlock is avoided.
+(%0)</source>
+        <comment>Error code</comment>
+        <translation>避免资源锁死。
+(%0)</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="76"/>
+        <source>Operation not permitted.
+(%0)</source>
+        <comment>Error code</comment>
+        <translation>不允许操作。
+(%0)</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="77"/>
+        <source>The device or resource is busy.
+(%0)</source>
+        <comment>Error code</comment>
+        <translation>装置或资源工作中。
+(%0)</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="78"/>
+        <source>The operation is timed out.
+(%0)</source>
+        <comment>Error code</comment>
+        <translation>操作逾时。
+(%0)</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="79"/>
+        <source>The operation is aborted.
+(%0)</source>
+        <comment>Error code</comment>
+        <translation>操作被中止。
+(%0)</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="80"/>
+        <source>Invalid memory access.
+(%0)</source>
+        <comment>Error code</comment>
+        <translation>无效的记忆体存取。
+(%0)</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="81"/>
+        <source>State of the target thread is invalid.
+(%0)</source>
+        <comment>Error code</comment>
+        <translation>目标执行绪的状态无效。
+(%0)</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="82"/>
+        <source>Alignment is invalid.
+(%0)</source>
+        <comment>Error code</comment>
+        <translation>调正无效。
+(%0)</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="83"/>
+        <source>Shortage of the kernel resources.
+(%0)</source>
+        <comment>Error code</comment>
+        <translation>核心资源不足。
+(%0)</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="84"/>
+        <source>The file is a directory.
+(%0)</source>
+        <comment>Error code</comment>
+        <translation>档案是一个目录。
+(%0)</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="85"/>
+        <source>Operation cancelled.
+(%0)</source>
+        <comment>Error code</comment>
+        <translation>操作已取消。
+(%0)</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="86"/>
+        <source>Entry already exists.
+(%0)</source>
+        <comment>Error code</comment>
+        <translation>项目已经存在。
+(%0)</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="87"/>
+        <source>Port is already connected.
+(%0)</source>
+        <comment>Error code</comment>
+        <translation>埠已连接。
+(%0)</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="88"/>
+        <source>Port is not connected.
+(%0)</source>
+        <comment>Error code</comment>
+        <translation>埠未连接。
+(%0)</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="89"/>
+        <source>Failure in authorizing SELF. Program authentication fail.
+(%0)</source>
+        <comment>Error code</comment>
+        <translation>无法授权 SELF。 程式验证失败。
+(%0)</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="90"/>
+        <source>The file is not MSELF.
+(%0)</source>
+        <comment>Error code</comment>
+        <translation>档案不是 MSELF。
+(%0)</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="91"/>
+        <source>System version error.
+(%0)</source>
+        <comment>Error code</comment>
+        <translation>系统版本错误。
+(%0)</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="92"/>
+        <source>Fatal system error occurred while authorizing SELF. SELF auth failure.
+(%0)</source>
+        <comment>Error code</comment>
+        <translation>授权 SELF 时发生严重系统错误。 SELF 验证失败。
+(%0)</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="93"/>
+        <source>Math domain violation.
+(%0)</source>
+        <comment>Error code</comment>
+        <translation>违反数学定域。
+(%0)</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="94"/>
+        <source>Math range violation.
+(%0)</source>
+        <comment>Error code</comment>
+        <translation>超出数学范围。
+(%0)</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="95"/>
+        <source>Illegal multi-byte sequence in input.
+(%0)</source>
+        <comment>Error code</comment>
+        <translation>输入中的非法多位元组顺序。
+(%0)</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="96"/>
+        <source>File position error.
+(%0)</source>
+        <comment>Error code</comment>
+        <translation>档案位置错误。
+(%0)</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="97"/>
+        <source>Syscall was interrupted.
+(%0)</source>
+        <comment>Error code</comment>
+        <translation>Syscall 被中断。
+(%0)</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="98"/>
+        <source>File too large.
+(%0)</source>
+        <comment>Error code</comment>
+        <translation>档案过大。
+(%0)</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="99"/>
+        <source>Too many links.
+(%0)</source>
+        <comment>Error code</comment>
+        <translation>连接太多。
+(%0)</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="100"/>
+        <source>File table overflow.
+(%0)</source>
+        <comment>Error code</comment>
+        <translation>档案表超限。
+(%0)</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="101"/>
+        <source>No space left on device.
+(%0)</source>
+        <comment>Error code</comment>
+        <translation>装置上没有剩余空间。
+(%0)</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="102"/>
+        <source>Not a TTY.
+(%0)</source>
+        <comment>Error code</comment>
+        <translation>不是 TTY。
+(%0)</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="103"/>
+        <source>Broken pipe.
+(%0)</source>
+        <comment>Error code</comment>
+        <translation>pipe 中断。
+(%0)</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="104"/>
+        <source>Read-only filesystem.
+(%0)</source>
+        <comment>Error code</comment>
+        <translation>唯读档案系统。
+(%0)</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="105"/>
+        <source>Illegal seek.
+(%0)</source>
+        <comment>Error code</comment>
+        <translation>非法寻找。
+(%0)</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="106"/>
+        <source>Arg list too long.
+(%0)</source>
+        <comment>Error code</comment>
+        <translation>Arg 清单过长。
+(%0)</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="107"/>
+        <source>Access violation.
+(%0)</source>
+        <comment>Error code</comment>
+        <translation>存取违规。
+(%0)</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="108"/>
+        <source>Invalid file descriptor.
+(%0)</source>
+        <comment>Error code</comment>
+        <translation>无效的档案描述符。
+(%0)</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="109"/>
+        <source>Filesystem mounting failed.
+(%0)</source>
+        <comment>Error code</comment>
+        <translation>档案系统安装失败。
+(%0)</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="110"/>
+        <source>Too many files open.
+(%0)</source>
+        <comment>Error code</comment>
+        <translation>开启的档案过多。
+(%0)</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="111"/>
+        <source>No device.
+(%0)</source>
+        <comment>Error code</comment>
+        <translation>没有装置。
+(%0)</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="112"/>
+        <source>Not a directory.
+(%0)</source>
+        <comment>Error code</comment>
+        <translation>不是目录。
+(%0)</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="113"/>
+        <source>No such device or IO.
+(%0)</source>
+        <comment>Error code</comment>
+        <translation>没有此类装置或 IO。
+(%0)</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="114"/>
+        <source>Cross-device link error.
+(%0)</source>
+        <comment>Error code</comment>
+        <translation>跨装置连接错误。
+(%0)</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="115"/>
+        <source>Bad Message.
+(%0)</source>
+        <comment>Error code</comment>
+        <translation>错误讯息。
+(%0)</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="116"/>
+        <source>In progress.
+(%0)</source>
+        <comment>Error code</comment>
+        <translation>正在进行。
+(%0)</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="117"/>
+        <source>Message size error.
+(%0)</source>
+        <comment>Error code</comment>
+        <translation>讯息大小错误。
+(%0)</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="118"/>
+        <source>Name too long.
+(%0)</source>
+        <comment>Error code</comment>
+        <translation>名称过长。
+(%0)</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="119"/>
+        <source>No lock.
+(%0)</source>
+        <comment>Error code</comment>
+        <translation>未锁定
+(%0)</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="120"/>
+        <source>Not empty.
+(%0)</source>
+        <comment>Error code</comment>
+        <translation>不是空的。
+(%0)</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="121"/>
+        <source>Not supported.
+(%0)</source>
+        <comment>Error code</comment>
+        <translation>不支援。
+(%0)</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="122"/>
+        <source>File-system specific error.
+(%0)</source>
+        <comment>Error code</comment>
+        <translation>档案系统特定的错误。
+(%0)</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="123"/>
+        <source>Overflow occured.
+(%0)</source>
+        <comment>Error code</comment>
+        <translation>出现溢出。
+(%0)</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="124"/>
+        <source>Filesystem not mounted.
+(%0)</source>
+        <comment>Error code</comment>
+        <translation>未安装档案系统。
+(%0)</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="125"/>
+        <source>Not SData.
+(%0)</source>
+        <comment>Error code</comment>
+        <translation>不是 SData。
+(%0)</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="126"/>
+        <source>Incorrect version in sys_load_param.
+(%0)</source>
+        <comment>Error code</comment>
+        <translation>sys_load_param 中的版本不正确。
+(%0)</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="127"/>
+        <location filename="rpcs3qt/localized_emu.h" line="128"/>
+        <source>Pointer is null.
+(%0)</source>
+        <comment>Error code</comment>
+        <translation>指标是空的。
+(%0)</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="129"/>
+        <source>An error has occurred.
+(%0)</source>
+        <comment>Error code</comment>
+        <translation>发生错误。
+(%0)</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="130"/>
+        <source>On Screen Keyboard</source>
+        <comment>OSK Dialog</comment>
+        <translation>荧幕键盘</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="131"/>
+        <source>Error - Save data corrupted</source>
+        <comment>Savedata Error</comment>
+        <translation>错误 - 储存资料已损坏</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="132"/>
+        <source>Error - Failed to save or load</source>
+        <comment>Savedata Error</comment>
+        <translation>错误 - 无法储存或读取</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="133"/>
+        <source>Error - Save data cannot be found</source>
+        <comment>Savedata Error</comment>
+        <translation>错误 - 未找到储存资料</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="134"/>
+        <source>Error - Insufficient free space
+
+Space needed: %0 KB</source>
+        <comment>Savedata Error</comment>
+        <translation>错误 -可用空间不足
+
+需要空间: %0 KB</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="135"/>
+        <source>Create new Save Data?</source>
+        <comment>Savedata Dialog</comment>
+        <translation>建立新的纪录资料?</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="136"/>
+        <source>Do you really want to delete this entry?
+
+%0</source>
+        <comment>Savedata entry info</comment>
+        <translation>您真的要删除此纪录吗?
+
+%0</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="137"/>
+        <source>Successfully removed entry!
+
+%0</source>
+        <comment>Savedata entry info</comment>
+        <translation>已成功删除纪录!
+
+%0</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="138"/>
+        <source>Delete this entry?
+
+%0</source>
+        <comment>Savedata entry info</comment>
+        <translation>删除此纪录?
+
+%0</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="139"/>
+        <source>Load this entry?
+
+%0</source>
+        <comment>Savedata entry info</comment>
+        <translation>读取此纪录?
+
+%0</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="140"/>
+        <source>Overwrite this entry?
+
+%0</source>
+        <comment>Savedata entry info</comment>
+        <translation>取代此纪录?
+
+%0</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="142"/>
+        <source>Invalid</source>
+        <translation>无效</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="143"/>
+        <source>Unknown</source>
+        <translation>未知</translation>
+    </message>
+</context>
+<context>
     <name>log_frame</name>
     <message>
         <location filename="rpcs3qt/log_frame.cpp" line="108"/>
