@@ -3578,104 +3578,134 @@ Any unsaved progress will be lost!
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="42"/>
         <source>Yes</source>
+        <comment>Message Dialog</comment>
         <translation>是</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="43"/>
         <source>No</source>
+        <comment>Message Dialog</comment>
         <translation>否</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="44"/>
-        <location filename="rpcs3qt/localized_emu.h" line="51"/>
-        <location filename="rpcs3qt/localized_emu.h" line="58"/>
         <source>Cancel</source>
+        <comment>Message Dialog</comment>
         <translation>取消</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="45"/>
         <source>OK</source>
+        <comment>Message Dialog</comment>
         <translation>确定</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="46"/>
         <source>Save Dialog</source>
+        <comment>Save Dialog</comment>
         <translation>记录讯息</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="47"/>
         <source>Delete Save</source>
+        <comment>Save Dialog</comment>
         <translation>删除纪录</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="48"/>
         <source>Load Save</source>
+        <comment>Save Dialog</comment>
         <translation>读取纪录</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="49"/>
         <source>Save</source>
-        <translation>储存</translation>
+        <comment>Save Dialog</comment>
+        <translation>纪录</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="50"/>
         <source>Accept</source>
+        <comment>OSK Dialog</comment>
         <translation>接受</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="51"/>
+        <source>Cancel</source>
+        <comment>OSK Dialog</comment>
+        <translation>取消</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="52"/>
         <source>Space</source>
+        <comment>OSK Dialog</comment>
         <translation>空格</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="53"/>
         <source>Backspace</source>
+        <comment>OSK Dialog</comment>
         <translation>退格</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="54"/>
         <source>Shift</source>
+        <comment>OSK Dialog</comment>
         <translation>移位</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="55"/>
         <source>[Enter Text]</source>
+        <comment>OSK Dialog</comment>
         <translation>[输入文字]</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="56"/>
         <source>[Enter Password]</source>
+        <comment>OSK Dialog</comment>
         <translation>[输入密码]</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="57"/>
         <source>Select</source>
+        <comment>Save Dialog List</comment>
         <translation>选择</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="58"/>
+        <source>Cancel</source>
+        <comment>Save Dialog List</comment>
+        <translation>取消</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="59"/>
         <source>ERROR: Game data is corrupted. The application will continue.</source>
+        <comment>Game Error</comment>
         <translation>错误: 游戏资料已损坏。 该应用软体将继续。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="60"/>
         <source>ERROR: HDD boot game is corrupted. The application will continue.</source>
+        <comment>Game Error</comment>
         <translation>错误: 硬碟启动游戏已损坏。 该应用软体将继续。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="61"/>
         <source>ERROR: Game data is corrupted. The application will be terminated.</source>
+        <comment>Game Error</comment>
         <translation>错误: 游戏资料已损坏。 该应用软体将被终止。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="62"/>
         <source>ERROR: HDD boot game is corrupted. The application will be terminated.</source>
+        <comment>Game Error</comment>
         <translation>错误: 硬碟启动游戏已损坏。 该应用软体将被终止。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="63"/>
         <source>ERROR: Not enough available space. The application will continue.
 Space needed: %0 KB</source>
+        <comment>Game Error</comment>
         <translation>错误: 可用空间不足。 该应用软体将继续。
 需要空间: %0 KB</translation>
     </message>
@@ -3683,12 +3713,14 @@ Space needed: %0 KB</source>
         <location filename="rpcs3qt/localized_emu.h" line="64"/>
         <source>ERROR: Not enough available space. The application will be terminated.
 Space needed: %0 KB</source>
+        <comment>Game Error</comment>
         <translation>错误: 可用空间不足。 该应用软体将被终止。
 需要空间: %0 KB</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="65"/>
         <source>Directory name: %0</source>
+        <comment>Game Error</comment>
         <translation>目录名称: %0</translation>
     </message>
     <message>
@@ -3696,6 +3728,7 @@ Space needed: %0 KB</source>
         <source>There has been an error!
 
 Please remove the game data for this title.</source>
+        <comment>Game Error</comment>
         <translation>发生错误!
 
 请删除该标题的游戏资料。</translation>
@@ -3705,6 +3738,7 @@ Please remove the game data for this title.</source>
         <source>There has been an error!
 
 Please reinstall the HDD boot game.</source>
+        <comment>Game Error</comment>
         <translation>发生错误!
 
 请重新安装硬碟游戏启动。</translation>
@@ -4201,21 +4235,25 @@ Please reinstall the HDD boot game.</source>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="130"/>
         <source>On Screen Keyboard</source>
+        <comment>OSK Dialog</comment>
         <translation>荧幕键盘</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="131"/>
         <source>Error - Save data corrupted</source>
+        <comment>Savedata Error</comment>
         <translation>错误 - 储存资料已损坏</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="132"/>
         <source>Error - Failed to save or load</source>
+        <comment>Savedata Error</comment>
         <translation>错误 - 无法储存或读取</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="133"/>
         <source>Error - Save data cannot be found</source>
+        <comment>Savedata Error</comment>
         <translation>错误 - 未找到储存资料</translation>
     </message>
     <message>
@@ -4223,6 +4261,7 @@ Please reinstall the HDD boot game.</source>
         <source>Error - Insufficient free space
 
 Space needed: %0 KB</source>
+        <comment>Savedata Error</comment>
         <translation>错误 -可用空间不足
 
 需要空间: %0 KB</translation>
@@ -4230,6 +4269,7 @@ Space needed: %0 KB</source>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="135"/>
         <source>Create new Save Data?</source>
+        <comment>Savedata Dialog</comment>
         <translation>建立新的纪录资料?</translation>
     </message>
     <message>
