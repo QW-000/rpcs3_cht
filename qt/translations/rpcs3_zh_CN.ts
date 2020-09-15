@@ -3543,7 +3543,7 @@ Any unsaved progress will be lost!
         <source>You have earned the bronze trophy
 %0</source>
         <comment>Trophy text</comment>
-        <translation>您已获得青铜奖杯
+        <translation>您已獲得青銅獎盃
 %0</translation>
     </message>
     <message>
@@ -3551,7 +3551,7 @@ Any unsaved progress will be lost!
         <source>You have earned the silver trophy
 %0</source>
         <comment>Trophy text</comment>
-        <translation>您已获得白银奖杯
+        <translation>您已獲得白銀獎盃
 %0</translation>
     </message>
     <message>
@@ -3559,7 +3559,7 @@ Any unsaved progress will be lost!
         <source>You have earned the gold trophy
 %0</source>
         <comment>Trophy text</comment>
-        <translation>您已获得黄金奖杯
+        <translation>您已獲得黃金獎盃
 %0</translation>
     </message>
     <message>
@@ -3567,13 +3567,13 @@ Any unsaved progress will be lost!
         <source>You have earned the platinum trophy
 %0</source>
         <comment>Trophy text</comment>
-        <translation>您已获得白金奖杯
+        <translation>您已獲得白金獎盃
 %0</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="41"/>
         <source>Compiling shaders</source>
-        <translation>着色编译</translation>
+        <translation>著色編譯</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="42"/>
@@ -3597,31 +3597,31 @@ Any unsaved progress will be lost!
         <location filename="rpcs3qt/localized_emu.h" line="45"/>
         <source>OK</source>
         <comment>Message Dialog</comment>
-        <translation>确定</translation>
+        <translation>確定</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="46"/>
         <source>Save Dialog</source>
         <comment>Save Dialog</comment>
-        <translation>记录讯息</translation>
+        <translation>記錄訊息</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="47"/>
         <source>Delete Save</source>
         <comment>Save Dialog</comment>
-        <translation>删除纪录</translation>
+        <translation>刪除紀錄</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="48"/>
         <source>Load Save</source>
         <comment>Save Dialog</comment>
-        <translation>读取纪录</translation>
+        <translation>讀取紀錄</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="49"/>
         <source>Save</source>
         <comment>Save Dialog</comment>
-        <translation>纪录</translation>
+        <translation>紀錄</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="50"/>
@@ -3657,19 +3657,19 @@ Any unsaved progress will be lost!
         <location filename="rpcs3qt/localized_emu.h" line="55"/>
         <source>[Enter Text]</source>
         <comment>OSK Dialog</comment>
-        <translation>[输入文字]</translation>
+        <translation>[輸入文字]</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="56"/>
         <source>[Enter Password]</source>
         <comment>OSK Dialog</comment>
-        <translation>[输入密码]</translation>
+        <translation>[輸入密碼]</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="57"/>
         <source>Select</source>
         <comment>Save Dialog List</comment>
-        <translation>选择</translation>
+        <translation>選擇</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="58"/>
@@ -3681,47 +3681,47 @@ Any unsaved progress will be lost!
         <location filename="rpcs3qt/localized_emu.h" line="59"/>
         <source>ERROR: Game data is corrupted. The application will continue.</source>
         <comment>Game Error</comment>
-        <translation>错误: 游戏资料已损坏。 该应用软体将继续。</translation>
+        <translation>錯誤: 遊戲資料已損壞。 該應用軟體將繼續。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="60"/>
         <source>ERROR: HDD boot game is corrupted. The application will continue.</source>
         <comment>Game Error</comment>
-        <translation>错误: 硬碟启动游戏已损坏。 该应用软体将继续。</translation>
+        <translation>錯誤: 硬碟啟動遊戲已損壞。 該應用軟體將繼續。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="61"/>
         <source>ERROR: Game data is corrupted. The application will be terminated.</source>
         <comment>Game Error</comment>
-        <translation>错误: 游戏资料已损坏。 该应用软体将被终止。</translation>
+        <translation>錯誤: 遊戲資料已損壞。 該應用軟體將被終止。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="62"/>
         <source>ERROR: HDD boot game is corrupted. The application will be terminated.</source>
         <comment>Game Error</comment>
-        <translation>错误: 硬碟启动游戏已损坏。 该应用软体将被终止。</translation>
+        <translation>錯誤: 硬碟啟動遊戲已損壞。 該應用軟體將被終止。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="63"/>
         <source>ERROR: Not enough available space. The application will continue.
 Space needed: %0 KB</source>
         <comment>Game Error</comment>
-        <translation>错误: 可用空间不足。 该应用软体将继续。
-需要空间: %0 KB</translation>
+        <translation>錯誤: 可用空間不足。 該應用軟體將繼續。
+需要空間: %0 KB</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="64"/>
         <source>ERROR: Not enough available space. The application will be terminated.
 Space needed: %0 KB</source>
         <comment>Game Error</comment>
-        <translation>错误: 可用空间不足。 该应用软体将被终止。
-需要空间: %0 KB</translation>
+        <translation>錯誤: 可用空間不足。 該應用軟體將被終止。
+需要空間: %0 KB</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="65"/>
         <source>Directory name: %0</source>
         <comment>Game Error</comment>
-        <translation>目录名称: %0</translation>
+        <translation>目錄名稱: %0</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="66"/>
@@ -3729,9 +3729,9 @@ Space needed: %0 KB</source>
 
 Please remove the game data for this title.</source>
         <comment>Game Error</comment>
-        <translation>发生错误!
+        <translation>發生錯誤!
 
-请删除该标题的游戏资料。</translation>
+請刪除該標題的遊戲資料。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="67"/>
@@ -3739,16 +3739,16 @@ Please remove the game data for this title.</source>
 
 Please reinstall the HDD boot game.</source>
         <comment>Game Error</comment>
-        <translation>发生错误!
+        <translation>發生錯誤!
 
-请重新安装硬碟游戏启动。</translation>
+請重新安裝硬碟遊戲啟動。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="68"/>
         <source>The resource is temporarily unavailable.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>资源暂时不可用。
+        <translation>資源暫時不可用。
 (%0)</translation>
     </message>
     <message>
@@ -3756,7 +3756,7 @@ Please reinstall the HDD boot game.</source>
         <source>Invalid argument or flag.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>无效的引数或标示
+        <translation>無效的引數或標示
 (%0)</translation>
     </message>
     <message>
@@ -3764,7 +3764,7 @@ Please reinstall the HDD boot game.</source>
         <source>The feature is not yet implemented.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>功能尚未实现。
+        <translation>功能尚未實現。
 (%0)</translation>
     </message>
     <message>
@@ -3772,7 +3772,7 @@ Please reinstall the HDD boot game.</source>
         <source>Memory allocation failed.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>记忆体分配失败。
+        <translation>記憶體分配失敗。
 (%0)</translation>
     </message>
     <message>
@@ -3780,7 +3780,7 @@ Please reinstall the HDD boot game.</source>
         <source>The resource with the specified identifier does not exist.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>与资源指定的识别码不存在。
+        <translation>與資源指定的識別碼不存在。
 (%0)</translation>
     </message>
     <message>
@@ -3788,7 +3788,7 @@ Please reinstall the HDD boot game.</source>
         <source>The file does not exist.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>档案不存在。
+        <translation>檔案不存在。
 (%0)</translation>
     </message>
     <message>
@@ -3796,7 +3796,7 @@ Please reinstall the HDD boot game.</source>
         <source>The file is in unrecognized format / The file is not a valid ELF file.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>档案是无法识别的格式/不是有效的 ELF 档案。
+        <translation>檔案是無法識別的格式/不是有效的 ELF 檔案。
 (%0)</translation>
     </message>
     <message>
@@ -3804,7 +3804,7 @@ Please reinstall the HDD boot game.</source>
         <source>Resource deadlock is avoided.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>避免资源锁死。
+        <translation>避免資源鎖死。
 (%0)</translation>
     </message>
     <message>
@@ -3812,7 +3812,7 @@ Please reinstall the HDD boot game.</source>
         <source>Operation not permitted.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>不允许操作。
+        <translation>不允許操作。
 (%0)</translation>
     </message>
     <message>
@@ -3820,7 +3820,7 @@ Please reinstall the HDD boot game.</source>
         <source>The device or resource is busy.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>装置或资源工作中。
+        <translation>裝置或資源工作中。
 (%0)</translation>
     </message>
     <message>
@@ -3828,7 +3828,7 @@ Please reinstall the HDD boot game.</source>
         <source>The operation is timed out.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>操作逾时。
+        <translation>操作逾時。
 (%0)</translation>
     </message>
     <message>
@@ -3844,7 +3844,7 @@ Please reinstall the HDD boot game.</source>
         <source>Invalid memory access.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>无效的记忆体存取。
+        <translation>無效的記憶體存取。
 (%0)</translation>
     </message>
     <message>
@@ -3852,7 +3852,7 @@ Please reinstall the HDD boot game.</source>
         <source>State of the target thread is invalid.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>目标执行绪的状态无效。
+        <translation>目標執行緒的狀態無效。
 (%0)</translation>
     </message>
     <message>
@@ -3860,7 +3860,7 @@ Please reinstall the HDD boot game.</source>
         <source>Alignment is invalid.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>调正无效。
+        <translation>調正無效。
 (%0)</translation>
     </message>
     <message>
@@ -3868,7 +3868,7 @@ Please reinstall the HDD boot game.</source>
         <source>Shortage of the kernel resources.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>核心资源不足。
+        <translation>核心資源不足。
 (%0)</translation>
     </message>
     <message>
@@ -3876,7 +3876,7 @@ Please reinstall the HDD boot game.</source>
         <source>The file is a directory.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>档案是一个目录。
+        <translation>檔案是一個目錄。
 (%0)</translation>
     </message>
     <message>
@@ -3892,7 +3892,7 @@ Please reinstall the HDD boot game.</source>
         <source>Entry already exists.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>项目已经存在。
+        <translation>項目已經存在。
 (%0)</translation>
     </message>
     <message>
@@ -3900,7 +3900,7 @@ Please reinstall the HDD boot game.</source>
         <source>Port is already connected.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>埠已连接。
+        <translation>埠已連接。
 (%0)</translation>
     </message>
     <message>
@@ -3908,7 +3908,7 @@ Please reinstall the HDD boot game.</source>
         <source>Port is not connected.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>埠未连接。
+        <translation>埠未連接。
 (%0)</translation>
     </message>
     <message>
@@ -3916,7 +3916,7 @@ Please reinstall the HDD boot game.</source>
         <source>Failure in authorizing SELF. Program authentication fail.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>无法授权 SELF。 程式验证失败。
+        <translation>無法授權 SELF。 程式驗證失敗。
 (%0)</translation>
     </message>
     <message>
@@ -3924,7 +3924,7 @@ Please reinstall the HDD boot game.</source>
         <source>The file is not MSELF.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>档案不是 MSELF。
+        <translation>檔案不是 MSELF。
 (%0)</translation>
     </message>
     <message>
@@ -3932,7 +3932,7 @@ Please reinstall the HDD boot game.</source>
         <source>System version error.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>系统版本错误。
+        <translation>系統版本錯誤。
 (%0)</translation>
     </message>
     <message>
@@ -3940,7 +3940,7 @@ Please reinstall the HDD boot game.</source>
         <source>Fatal system error occurred while authorizing SELF. SELF auth failure.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>授权 SELF 时发生严重系统错误。 SELF 验证失败。
+        <translation>授權 SELF 時發生嚴重系統錯誤。 SELF 驗證失敗。
 (%0)</translation>
     </message>
     <message>
@@ -3948,7 +3948,7 @@ Please reinstall the HDD boot game.</source>
         <source>Math domain violation.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>违反数学定域。
+        <translation>違反數學定域。
 (%0)</translation>
     </message>
     <message>
@@ -3956,7 +3956,7 @@ Please reinstall the HDD boot game.</source>
         <source>Math range violation.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>超出数学范围。
+        <translation>超出數學範圍。
 (%0)</translation>
     </message>
     <message>
@@ -3964,7 +3964,7 @@ Please reinstall the HDD boot game.</source>
         <source>Illegal multi-byte sequence in input.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>输入中的非法多位元组顺序。
+        <translation>輸入中的非法多位元組順序。
 (%0)</translation>
     </message>
     <message>
@@ -3972,7 +3972,7 @@ Please reinstall the HDD boot game.</source>
         <source>File position error.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>档案位置错误。
+        <translation>檔案位置錯誤。
 (%0)</translation>
     </message>
     <message>
@@ -3980,7 +3980,7 @@ Please reinstall the HDD boot game.</source>
         <source>Syscall was interrupted.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>Syscall 被中断。
+        <translation>Syscall 被中斷。
 (%0)</translation>
     </message>
     <message>
@@ -3988,7 +3988,7 @@ Please reinstall the HDD boot game.</source>
         <source>File too large.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>档案过大。
+        <translation>檔案過大。
 (%0)</translation>
     </message>
     <message>
@@ -3996,7 +3996,7 @@ Please reinstall the HDD boot game.</source>
         <source>Too many links.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>连接太多。
+        <translation>連接太多。
 (%0)</translation>
     </message>
     <message>
@@ -4004,7 +4004,7 @@ Please reinstall the HDD boot game.</source>
         <source>File table overflow.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>档案表超限。
+        <translation>檔案表超限。
 (%0)</translation>
     </message>
     <message>
@@ -4012,7 +4012,7 @@ Please reinstall the HDD boot game.</source>
         <source>No space left on device.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>装置上没有剩余空间。
+        <translation>裝置上沒有剩餘空間。
 (%0)</translation>
     </message>
     <message>
@@ -4028,7 +4028,7 @@ Please reinstall the HDD boot game.</source>
         <source>Broken pipe.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>pipe 中断。
+        <translation>pipe 中斷。
 (%0)</translation>
     </message>
     <message>
@@ -4036,7 +4036,7 @@ Please reinstall the HDD boot game.</source>
         <source>Read-only filesystem.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>唯读档案系统。
+        <translation>唯讀檔案系統。
 (%0)</translation>
     </message>
     <message>
@@ -4044,7 +4044,7 @@ Please reinstall the HDD boot game.</source>
         <source>Illegal seek.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>非法寻找。
+        <translation>非法尋找。
 (%0)</translation>
     </message>
     <message>
@@ -4052,7 +4052,7 @@ Please reinstall the HDD boot game.</source>
         <source>Arg list too long.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>Arg 清单过长。
+        <translation>Arg 清單過長。
 (%0)</translation>
     </message>
     <message>
@@ -4060,7 +4060,7 @@ Please reinstall the HDD boot game.</source>
         <source>Access violation.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>存取违规。
+        <translation>存取違規。
 (%0)</translation>
     </message>
     <message>
@@ -4068,7 +4068,7 @@ Please reinstall the HDD boot game.</source>
         <source>Invalid file descriptor.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>无效的档案描述符。
+        <translation>無效的檔案描述符。
 (%0)</translation>
     </message>
     <message>
@@ -4076,7 +4076,7 @@ Please reinstall the HDD boot game.</source>
         <source>Filesystem mounting failed.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>档案系统安装失败。
+        <translation>檔案系統安裝失敗。
 (%0)</translation>
     </message>
     <message>
@@ -4084,7 +4084,7 @@ Please reinstall the HDD boot game.</source>
         <source>Too many files open.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>开启的档案过多。
+        <translation>開啟的檔案過多。
 (%0)</translation>
     </message>
     <message>
@@ -4092,7 +4092,7 @@ Please reinstall the HDD boot game.</source>
         <source>No device.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>没有装置。
+        <translation>沒有裝置。
 (%0)</translation>
     </message>
     <message>
@@ -4100,7 +4100,7 @@ Please reinstall the HDD boot game.</source>
         <source>Not a directory.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>不是目录。
+        <translation>不是目錄。
 (%0)</translation>
     </message>
     <message>
@@ -4108,7 +4108,7 @@ Please reinstall the HDD boot game.</source>
         <source>No such device or IO.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>没有此类装置或 IO。
+        <translation>沒有此類裝置或 IO。
 (%0)</translation>
     </message>
     <message>
@@ -4116,7 +4116,7 @@ Please reinstall the HDD boot game.</source>
         <source>Cross-device link error.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>跨装置连接错误。
+        <translation>跨裝置連接錯誤。
 (%0)</translation>
     </message>
     <message>
@@ -4124,7 +4124,7 @@ Please reinstall the HDD boot game.</source>
         <source>Bad Message.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>错误讯息。
+        <translation>錯誤訊息。
 (%0)</translation>
     </message>
     <message>
@@ -4132,7 +4132,7 @@ Please reinstall the HDD boot game.</source>
         <source>In progress.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>正在进行。
+        <translation>正在進行。
 (%0)</translation>
     </message>
     <message>
@@ -4140,7 +4140,7 @@ Please reinstall the HDD boot game.</source>
         <source>Message size error.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>讯息大小错误。
+        <translation>訊息大小錯誤。
 (%0)</translation>
     </message>
     <message>
@@ -4148,7 +4148,7 @@ Please reinstall the HDD boot game.</source>
         <source>Name too long.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>名称过长。
+        <translation>名稱過長。
 (%0)</translation>
     </message>
     <message>
@@ -4156,7 +4156,7 @@ Please reinstall the HDD boot game.</source>
         <source>No lock.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>未锁定
+        <translation>未鎖定
 (%0)</translation>
     </message>
     <message>
@@ -4180,7 +4180,7 @@ Please reinstall the HDD boot game.</source>
         <source>File-system specific error.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>档案系统特定的错误。
+        <translation>檔案系統特定的錯誤。
 (%0)</translation>
     </message>
     <message>
@@ -4188,7 +4188,7 @@ Please reinstall the HDD boot game.</source>
         <source>Overflow occured.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>出现溢出。
+        <translation>出現溢出。
 (%0)</translation>
     </message>
     <message>
@@ -4196,7 +4196,7 @@ Please reinstall the HDD boot game.</source>
         <source>Filesystem not mounted.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>未安装档案系统。
+        <translation>未安裝檔案系統。
 (%0)</translation>
     </message>
     <message>
@@ -4212,7 +4212,7 @@ Please reinstall the HDD boot game.</source>
         <source>Incorrect version in sys_load_param.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>sys_load_param 中的版本不正确。
+        <translation>sys_load_param 中的版本不正確。
 (%0)</translation>
     </message>
     <message>
@@ -4221,7 +4221,7 @@ Please reinstall the HDD boot game.</source>
         <source>Pointer is null.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>指标是空的。
+        <translation>指標是空的。
 (%0)</translation>
     </message>
     <message>
@@ -4229,32 +4229,32 @@ Please reinstall the HDD boot game.</source>
         <source>An error has occurred.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>发生错误。
+        <translation>發生錯誤。
 (%0)</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="130"/>
         <source>On Screen Keyboard</source>
         <comment>OSK Dialog</comment>
-        <translation>荧幕键盘</translation>
+        <translation>螢幕鍵盤</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="131"/>
         <source>Error - Save data corrupted</source>
         <comment>Savedata Error</comment>
-        <translation>错误 - 储存资料已损坏</translation>
+        <translation>錯誤 - 儲存資料已損壞</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="132"/>
         <source>Error - Failed to save or load</source>
         <comment>Savedata Error</comment>
-        <translation>错误 - 无法储存或读取</translation>
+        <translation>錯誤 - 無法儲存或讀取</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="133"/>
         <source>Error - Save data cannot be found</source>
         <comment>Savedata Error</comment>
-        <translation>错误 - 未找到储存资料</translation>
+        <translation>錯誤 - 未找到儲存資料</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="134"/>
@@ -4262,15 +4262,15 @@ Please reinstall the HDD boot game.</source>
 
 Space needed: %0 KB</source>
         <comment>Savedata Error</comment>
-        <translation>错误 -可用空间不足
+        <translation>錯誤 -可用空間不足
 
-需要空间: %0 KB</translation>
+需要空間: %0 KB</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="135"/>
         <source>Create new Save Data?</source>
         <comment>Savedata Dialog</comment>
-        <translation>建立新的纪录资料?</translation>
+        <translation>建立新的紀錄資料?</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="136"/>
@@ -4278,7 +4278,7 @@ Space needed: %0 KB</source>
 
 %0</source>
         <comment>Savedata entry info</comment>
-        <translation>您真的要删除此纪录吗?
+        <translation>您真的要刪除此紀錄嗎?
 
 %0</translation>
     </message>
@@ -4288,7 +4288,7 @@ Space needed: %0 KB</source>
 
 %0</source>
         <comment>Savedata entry info</comment>
-        <translation>已成功删除纪录!
+        <translation>已成功刪除紀錄!
 
 %0</translation>
     </message>
@@ -4298,7 +4298,7 @@ Space needed: %0 KB</source>
 
 %0</source>
         <comment>Savedata entry info</comment>
-        <translation>删除此纪录?
+        <translation>刪除此紀錄?
 
 %0</translation>
     </message>
@@ -4308,7 +4308,7 @@ Space needed: %0 KB</source>
 
 %0</source>
         <comment>Savedata entry info</comment>
-        <translation>读取此纪录?
+        <translation>讀取此紀錄?
 
 %0</translation>
     </message>
@@ -4318,14 +4318,14 @@ Space needed: %0 KB</source>
 
 %0</source>
         <comment>Savedata entry info</comment>
-        <translation>取代此纪录?
+        <translation>取代此紀錄?
 
 %0</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="142"/>
         <source>Invalid</source>
-        <translation>无效</translation>
+        <translation>無效</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="143"/>
