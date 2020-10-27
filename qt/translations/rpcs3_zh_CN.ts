@@ -275,53 +275,48 @@
         <source>DTS 5.1</source>
         <translation>DTS 5.1</translation>
     </message>
-    <message>
-        <location filename="rpcs3qt/localized.cpp" line="11"/>
-        <source>Never played</source>
-        <translation>未玩过</translation>
-    </message>
     <message numerus="yes">
-        <location filename="rpcs3qt/localized.cpp" line="26"/>
+        <location filename="rpcs3qt/localized.cpp" line="21"/>
         <source>%Ln day(s)</source>
         <translation>
             <numerusform>%n 天</numerusform>
         </translation>
     </message>
     <message numerus="yes">
-        <location filename="rpcs3qt/localized.cpp" line="27"/>
+        <location filename="rpcs3qt/localized.cpp" line="22"/>
         <source>%Ln hour(s)</source>
         <translation>
             <numerusform>%n 个小时</numerusform>
         </translation>
     </message>
     <message numerus="yes">
-        <location filename="rpcs3qt/localized.cpp" line="28"/>
+        <location filename="rpcs3qt/localized.cpp" line="23"/>
         <source>%Ln minute(s)</source>
         <translation>
             <numerusform>%n 分钟</numerusform>
         </translation>
     </message>
     <message numerus="yes">
-        <location filename="rpcs3qt/localized.cpp" line="29"/>
+        <location filename="rpcs3qt/localized.cpp" line="24"/>
         <source>%Ln second(s)</source>
         <translation>
             <numerusform>%n 秒</numerusform>
         </translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized.cpp" line="36"/>
+        <location filename="rpcs3qt/localized.cpp" line="31"/>
         <source>%0 and %1</source>
         <comment>Days and hours</comment>
         <translation>%0又 %1</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized.cpp" line="45"/>
+        <location filename="rpcs3qt/localized.cpp" line="40"/>
         <source>%0 and %1</source>
         <comment>Hours and minutes</comment>
         <translation>%0又 %1</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized.cpp" line="52"/>
+        <location filename="rpcs3qt/localized.cpp" line="47"/>
         <source>%0 and %1</source>
         <comment>Minutes and seconds</comment>
         <translation>%0又 %1</translation>
@@ -3251,6 +3246,11 @@ Notes:
         <translation>不支援</translation>
     </message>
     <message>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="2016"/>
+        <source>Never played</source>
+        <translation>未玩过</translation>
+    </message>
+    <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="2092"/>
         <source>%0 [%1]</source>
         <translation>%0 [%1]</translation>
@@ -4433,7 +4433,6 @@ Space needed: %0 KB</source>
     </message>
     <message>
         <location filename="rpcs3qt/log_frame.cpp" line="150"/>
-        <location filename="rpcs3qt/log_frame.cpp" line="297"/>
         <source>TTY</source>
         <translation>TTY</translation>
     </message>
@@ -4498,6 +4497,11 @@ Space needed: %0 KB</source>
         <location filename="rpcs3qt/log_frame.cpp" line="289"/>
         <source>Stack Mode (Log)</source>
         <translation>堆叠模式 (Log)</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/log_frame.cpp" line="297"/>
+        <source>Enable TTY</source>
+        <translation>启用 TTY</translation>
     </message>
 </context>
 <context>
@@ -8936,9 +8940,9 @@ Preview:
         <location filename="rpcs3qt/update_manager.cpp" line="60"/>
         <location filename="rpcs3qt/update_manager.cpp" line="75"/>
         <location filename="rpcs3qt/update_manager.cpp" line="156"/>
-        <location filename="rpcs3qt/update_manager.cpp" line="220"/>
         <location filename="rpcs3qt/update_manager.cpp" line="232"/>
-        <location filename="rpcs3qt/update_manager.cpp" line="523"/>
+        <location filename="rpcs3qt/update_manager.cpp" line="244"/>
+        <location filename="rpcs3qt/update_manager.cpp" line="535"/>
         <source>Auto-updater</source>
         <translation>自动更新</translation>
     </message>
@@ -8950,15 +8954,30 @@ Preview:
     <message>
         <location filename="rpcs3qt/update_manager.cpp" line="60"/>
         <location filename="rpcs3qt/update_manager.cpp" line="75"/>
-        <location filename="rpcs3qt/update_manager.cpp" line="220"/>
         <location filename="rpcs3qt/update_manager.cpp" line="232"/>
+        <location filename="rpcs3qt/update_manager.cpp" line="244"/>
         <source>An error occurred during the auto-updating process.
 Check the log for more information.</source>
         <translation>在自动更新过程中出现错误。
 检查日志以取得更多讯息。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/update_manager.cpp" line="178"/>
+        <location filename="rpcs3qt/update_manager.cpp" line="181"/>
+        <source>A better version of RPCS3 is available!
+
+Current version: %0 (%1)
+Better version: %2 (%3)
+
+Do you want to update?</source>
+        <translation>一个较好的 RPCS3 版本可用!
+
+当前版本: %0 (%1)
+较好的版本: %2 (%3)
+
+您要更新吗?</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/update_manager.cpp" line="189"/>
         <source>A new version of RPCS3 is available!
 
 Current version: %0 (%1)
@@ -8975,7 +8994,7 @@ Do you want to update?</source>
 你想更新吗?</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/update_manager.cpp" line="187"/>
+        <location filename="rpcs3qt/update_manager.cpp" line="199"/>
         <source>You&apos;re currently using a custom or PR build.
 
 Latest version: %0 (%1)
@@ -8990,7 +9009,7 @@ Do you want to update to the latest official RPCS3 version?</source>
 是否要更新到最新的官方 RPCS3 版本?</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/update_manager.cpp" line="523"/>
+        <location filename="rpcs3qt/update_manager.cpp" line="535"/>
         <source>Update successful!
 RPCS3 will now restart.</source>
         <translation>更新成功!
@@ -9002,17 +9021,17 @@ RPCS3 现在将重新启动。</translation>
         <translation>您的版本已经是最新的!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/update_manager.cpp" line="210"/>
+        <location filename="rpcs3qt/update_manager.cpp" line="222"/>
         <source>Update Available</source>
         <translation>有可用更新</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/update_manager.cpp" line="238"/>
+        <location filename="rpcs3qt/update_manager.cpp" line="250"/>
         <source>Downloading Update</source>
         <translation>下载更新</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/update_manager.cpp" line="243"/>
+        <location filename="rpcs3qt/update_manager.cpp" line="255"/>
         <source>Updating RPCS3</source>
         <translation>更新 RPCS3</translation>
     </message>
