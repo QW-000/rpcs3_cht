@@ -5174,7 +5174,7 @@ Space needed: %0 KB</source>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="1061"/>
         <source>Skylanders Portal</source>
-        <translation>Skylanders Portal</translation>
+        <translation>宝贝龙世界</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="1066"/>
@@ -8727,71 +8727,141 @@ Preview:
     </message>
 </context>
 <context>
-    <name>skylander_dialog</name>
+    <name>skylander_creator_dialog</name>
     <message>
-        <location filename="rpcs3qt/skylander_dialog.cpp" line="502"/>
-        <source>Skylanders Manager</source>
-        <translation>Skylanders 管理</translation>
+        <location filename="rpcs3qt/skylander_dialog.cpp" line="535"/>
+        <source>Skylander Creator</source>
+        <translation>宝贝龙创造器</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/skylander_dialog.cpp" line="510"/>
-        <source>New</source>
-        <translation>新增</translation>
-    </message>
-    <message>
-        <location filename="rpcs3qt/skylander_dialog.cpp" line="511"/>
-        <source>Load</source>
-        <translation>载入</translation>
-    </message>
-    <message>
-        <location filename="rpcs3qt/skylander_dialog.cpp" line="521"/>
-        <source>Skylander Info</source>
-        <translation>Skylander 资讯</translation>
-    </message>
-    <message>
-        <location filename="rpcs3qt/skylander_dialog.cpp" line="530"/>
+        <location filename="rpcs3qt/skylander_dialog.cpp" line="549"/>
         <source>--Unknown--</source>
         <translation>--未知--</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/skylander_dialog.cpp" line="532"/>
-        <source>Skylander ID:</source>
-        <translation>Skylander ID:</translation>
+        <location filename="rpcs3qt/skylander_dialog.cpp" line="567"/>
+        <source>ID:</source>
+        <translation>ID:</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/skylander_dialog.cpp" line="534"/>
-        <source>Skylander XP:</source>
-        <translation>Skylander XP:</translation>
+        <location filename="rpcs3qt/skylander_dialog.cpp" line="568"/>
+        <source>Variant:</source>
+        <translation>变体:</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/skylander_dialog.cpp" line="536"/>
-        <source>Skylander Money:</source>
-        <translation>Skylander 钱币:</translation>
+        <location filename="rpcs3qt/skylander_dialog.cpp" line="581"/>
+        <source>Create</source>
+        <translation>创造</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/skylander_dialog.cpp" line="549"/>
-        <source>Update</source>
-        <translation>更新</translation>
+        <location filename="rpcs3qt/skylander_dialog.cpp" line="582"/>
+        <source>Cancel</source>
+        <translation>取消</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/skylander_dialog.cpp" line="768"/>
+        <location filename="rpcs3qt/skylander_dialog.cpp" line="609"/>
+        <location filename="rpcs3qt/skylander_dialog.cpp" line="615"/>
+        <source>Error converting value</source>
+        <translation>转换值时出错</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/skylander_dialog.cpp" line="609"/>
+        <source>ID entered is invalid!</source>
+        <translation>输入的 ID 无效!</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/skylander_dialog.cpp" line="615"/>
+        <source>Variant entered is invalid!</source>
+        <translation>输入的变体无效!</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/skylander_dialog.cpp" line="630"/>
         <source>Create Skylander File</source>
-        <translation>建立 Skylander 档案</translation>
+        <translation>创造宝贝龙档案</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/skylander_dialog.cpp" line="768"/>
+        <location filename="rpcs3qt/skylander_dialog.cpp" line="630"/>
         <source>Skylander Object (*.sky);;</source>
-        <translation>Skylander 物件 (*.sky);;</translation>
+        <translation>宝贝龙物体 (*.sky);;</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/skylander_dialog.cpp" line="807"/>
+        <location filename="rpcs3qt/skylander_dialog.cpp" line="639"/>
+        <source>Failed to create skylander file!</source>
+        <translation>无法创造宝贝龙档案!</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/skylander_dialog.cpp" line="639"/>
+        <source>Failed to create skylander file:
+%1</source>
+        <translation>无法创造宝贝龙档案:
+%1</translation>
+    </message>
+</context>
+<context>
+    <name>skylander_dialog</name>
+    <message>
+        <location filename="rpcs3qt/skylander_dialog.cpp" line="682"/>
+        <source>Skylanders Manager</source>
+        <translation>宝贝龙管理</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/skylander_dialog.cpp" line="714"/>
+        <source>Load</source>
+        <translation>载入</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/skylander_dialog.cpp" line="697"/>
+        <source>Active Portal Skylanders:</source>
+        <translation>现用宝贝龙世界:</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/skylander_dialog.cpp" line="708"/>
+        <source>Skylander %1</source>
+        <translation>宝贝龙 %1</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/skylander_dialog.cpp" line="712"/>
+        <source>Clear</source>
+        <translation>清理</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/skylander_dialog.cpp" line="713"/>
+        <source>Create</source>
+        <translation>创造</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/skylander_dialog.cpp" line="772"/>
         <source>Select Skylander File</source>
-        <translation>选取 Skylander 档案</translation>
+        <translation>选取宝贝龙档案</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/skylander_dialog.cpp" line="807"/>
+        <location filename="rpcs3qt/skylander_dialog.cpp" line="772"/>
         <source>Skylander (*.sky);;</source>
-        <translation>Skylander (*.sky);;</translation>
+        <translation>宝贝龙 (*.sky);;</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/skylander_dialog.cpp" line="788"/>
+        <source>Failed to open the skylander file!</source>
+        <translation>无法开启宝贝龙档案!</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/skylander_dialog.cpp" line="788"/>
+        <source>Failed to open the skylander file(%1)!
+File may already be in use on the portal.</source>
+        <translation>无法开启(%1)宝贝龙档案!
+档案可能已在世界平台上使用。</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/skylander_dialog.cpp" line="795"/>
+        <source>Failed to read the skylander file!</source>
+        <translation>无法读取宝贝龙档案!</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/skylander_dialog.cpp" line="795"/>
+        <source>Failed to read the skylander file(%1)!
+File was too small.</source>
+        <translation>无法读取(%1)宝贝龙档案!
+档案过小。</translation>
     </message>
 </context>
 <context>
