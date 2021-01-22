@@ -1891,59 +1891,87 @@ Restart of the game is required to apply. You can enable/disable this in the set
 <context>
     <name>debugger_frame</name>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="35"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="36"/>
         <source>Debugger</source>
         <translation>偵錯器</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="66"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="67"/>
         <source>Choose a thread</source>
         <translation>選取一個執行緒</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="71"/>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="523"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="72"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="605"/>
         <source>Go To Address</source>
         <translation>至 位址</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="72"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="73"/>
         <source>Go To PC</source>
         <translation>至 PC</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="73"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="74"/>
         <source>Step</source>
         <translation>步</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="74"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="75"/>
         <source>Step Over</source>
         <translation>躍步</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="546"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="241"/>
+        <source>Debugger Guide &amp; Shortcuts</source>
+        <translation>偵錯器指南和捷徑方式</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="243"/>
+        <source>Keys Ctrl+G: Go to typed address.
+Keys Alt+S: Capture SPU images of selected SPU.
+Key E: Instruction Editor: click on the instruction you want to modify, then press E.
+Key F: Dedicated floating point mode switch for SPU threads.
+Key R: Registers Editor for selected thread.
+Key N: Show next instruction the thread will execute after marked instruction, does nothing if target is not predictable.
+Key M: Show the Memory Viewer with initial address pointing to the marked instruction.
+Key F10: Perform single-stepping on instructions.
+Key F11: Perform step-over on instructions. (skip function calls)
+Key F1: Show this help dialog.</source>
+        <translation>Ctrl+G 鍵: 移至鍵入的位址。
+Alt+S 鍵: 截取所選 SPU 圖像。
+ E 鍵: 指令編輯: 點擊要修改的指令，然後按 E。
+ F 鍵: SPU 執行緒專用的浮點模式開關。
+ R 鍵: 選定執行緒的暫存器編輯。
+ N 鍵: 顯示下一條指令，此執行緒將在標記的指令之後執行，如果目標不可預測，則不執行任何操作。
+ M 鍵: 顯示記憶檢視器，其初始位址指向標記的指令。
+F10 鍵: 對指令執行單步執行。
+F11 鍵: 對指令執行躍步。 (跳過函數調用)
+F1 鍵: 顯示說明對話框。</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="628"/>
         <source>OK</source>
         <oldsource>Ok</oldsource>
         <translation>確定</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="547"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="629"/>
         <source>Cancel</source>
         <translation>取消</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_frame.h" line="27"/>
+        <location filename="rpcs3qt/debugger_frame.h" line="32"/>
         <source>No Thread</source>
         <translation>沒有執行緒</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_frame.h" line="28"/>
+        <location filename="rpcs3qt/debugger_frame.h" line="33"/>
         <source>Run</source>
         <translation>執行</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_frame.h" line="29"/>
+        <location filename="rpcs3qt/debugger_frame.h" line="34"/>
         <source>Pause</source>
         <translation>暫停</translation>
     </message>
@@ -1959,12 +1987,12 @@ Restart of the game is required to apply. You can enable/disable this in the set
 <context>
     <name>downloader</name>
     <message>
-        <location filename="rpcs3qt/downloader.cpp" line="83"/>
+        <location filename="rpcs3qt/downloader.cpp" line="104"/>
         <source>Please wait...</source>
         <translation>請稍後...</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/downloader.cpp" line="83"/>
+        <location filename="rpcs3qt/downloader.cpp" line="104"/>
         <source>Abort</source>
         <translation>中止</translation>
     </message>
