@@ -1581,32 +1581,64 @@ If your joystick is not being centered properly, read the &lt;a href=&quot;https
     </message>
     <message>
         <location filename="rpcs3qt/about_dialog.ui" line="264"/>
-        <source>&lt;p&gt;&lt;b&gt;Supporters:&lt;/b&gt;&lt;br&gt;&lt;br&gt;Howard Garrison&lt;br&gt;EXPotemkin&lt;br&gt;Marko V.&lt;br&gt;danhp&lt;br&gt;Jake (5315825)&lt;br&gt;Ian Reid&lt;br&gt;Tad Sherlock&lt;br&gt;Tyler Friesen&lt;br&gt;Folzar&lt;br&gt;Payton Williams&lt;br&gt;RedPill Australia&lt;br&gt;yanghong&lt;br&gt;Mohammed El-Serougi&lt;br&gt;Дима ~Ximer13~ Кулин&lt;br&gt;James Reed&lt;br&gt;BaroqueSonata&lt;br&gt;Bonzay0&lt;br&gt;Henrijs Kons&lt;br&gt;eoiz&lt;br&gt;Lena Stöffler&lt;br&gt;Michael Holder&lt;br&gt;Max Bosse&lt;br&gt;Tyler Whisinnand&lt;br&gt;Gato Harvey&lt;br&gt;cain4355&lt;br&gt;Thomas Peltier&lt;br&gt;Loli Co.&lt;br&gt;MapleLoonie&lt;br&gt;Travis McEwen&lt;br&gt;Scott Singratsomboune&lt;br&gt;T.E&lt;br&gt;Lukas Rieger&lt;br&gt;Dane Madsen&lt;br&gt;JMS&lt;br&gt;Jonatan R&lt;br&gt;Luke Johnson&lt;br&gt;Thomas Zaorski&lt;br&gt;MyOwnFan&lt;br&gt;Alexandros Mandravillis&lt;br&gt;Socker Bopper&lt;br&gt;Faris Leonhart&lt;br&gt;Fabien Net&lt;br&gt;Raves&lt;br&gt;Barrowsx&lt;br&gt;kilsuton&lt;br&gt;Max Mason&lt;br&gt;Ethan Condon&lt;br&gt;jfidone&lt;br&gt;iaDRM&lt;br&gt;Kazer2.0&lt;br&gt;Bryce Quintin&lt;br&gt;Yuri Kunde Schlesner&lt;br&gt;Abdulla Altayer&lt;br&gt;Nicolas Jallamion&lt;br&gt;Vorvek&lt;br&gt;Ian Faddis&lt;br&gt;Leon&lt;br&gt;Mohammad Taleb&lt;br&gt;Jokez&lt;br&gt;crashX&lt;br&gt;Raveskirza&lt;br&gt;Grant Deacon&lt;br&gt;michael&lt;br&gt;David Zech&lt;br&gt;Ben Manoochehri&lt;br&gt;Adnan Kovacevic&lt;br&gt;Mighty J&lt;br&gt;Sam Shan Jiang&lt;br&gt;TheAnig&lt;br&gt;Rodney Coleman&lt;br&gt;FiniteAce&lt;br&gt;Kian Soon Alex Chiam&lt;br&gt;yukkuri&lt;br&gt;Justin Chadwick&lt;br&gt;toxic Itzi&lt;br&gt;Templerror&lt;br&gt;Myles Wesley Carlson&lt;br&gt;Max Bosse&lt;br&gt;Ethan Clark&lt;br&gt;LupineDream&lt;br&gt;CheatCodesOfLife&lt;br&gt;Jan Zykmund&lt;br&gt;Francesco Cinquemani&lt;br&gt;Andylg&lt;br&gt;Julia H de Camargos&lt;br&gt;Suvodip Mitra&lt;br&gt;Goh&lt;br&gt;Dmitry&lt;br&gt;Steel Brain&lt;br&gt;VarieZ&lt;br&gt;William Swango&lt;br&gt;Matthew Messersmith&lt;br&gt;Duane Locsin&lt;br&gt;Shuddertrix&lt;br&gt;Loweys Litsman&lt;br&gt;Shuddertrix&lt;br&gt;Mason Ferrie&lt;br&gt;Richard Kaplan&lt;br&gt;Hugues Valois&lt;br&gt;richard(lath..ch@)&lt;br&gt;Johnathan (Virtuous John)&lt;br&gt;eoiz&lt;br&gt;Dany Huguenin&lt;br&gt;doobieashtray&lt;br&gt;dean(mag..94@)&lt;br&gt;Pommier Jean-Philippe&lt;br&gt;Douglas Alan Albino&lt;br&gt;Ryan Mull&lt;br&gt;Thor-Erling Engen&lt;br&gt;Nick Carpenter&lt;br&gt;curryking3&lt;br&gt;Jared Tracton&lt;br&gt;alex(koo..oh@)&lt;br&gt;Jason O&apos;Brien&lt;br&gt;Skeletal Charizard&lt;br&gt;Ace00&lt;br&gt;Brandon Corujo&lt;br&gt;HyperBitHero&lt;br&gt;佳文 李&lt;br&gt;sorryboi&lt;/p&gt;</source>
-        <oldsource>&lt;p&gt;&lt;b&gt;Supporters:&lt;/b&gt;&lt;br&gt;&lt;br&gt;Howard Garrison&lt;br&gt;EXPotemkin&lt;br&gt;Marko V.&lt;br&gt;danhp&lt;br&gt;Jake (5315825)&lt;br&gt;Ian Reid&lt;br&gt;Tad Sherlock&lt;br&gt;Tyler Friesen&lt;br&gt;Folzar&lt;br&gt;Payton Williams&lt;br&gt;RedPill Australia&lt;br&gt;yanghong&lt;br&gt;Mohammed El-Serougi&lt;br&gt;Дима ~Ximer13~ Кулин&lt;br&gt;James Reed&lt;br&gt;BaroqueSonata&lt;br&gt;Bonzay0&lt;br&gt;Henrijs Kons&lt;br&gt;eoiz&lt;br&gt;Lena Stöffler&lt;br&gt;Michael Holder&lt;br&gt;Max Bosse&lt;br&gt;Tyler Whisinnand&lt;br&gt;Gato Harvey&lt;br&gt;cain4355&lt;br&gt;Thomas Peltier&lt;br&gt;Loli Co.&lt;br&gt;MapleLoonie&lt;br&gt;Travis McEwen&lt;br&gt;Scott Singratsomboune&lt;br&gt;T.E&lt;br&gt;Lukas Rieger&lt;br&gt;Dane Madsen&lt;br&gt;JMS&lt;br&gt;Jonatan R&lt;br&gt;Luke Johnson&lt;br&gt;Thomas Zaorski&lt;br&gt;MyOwnFan&lt;br&gt;Alexandros Mandravillis&lt;br&gt;Socker Bopper&lt;br&gt;Faris Leonhart&lt;br&gt;Fabien Net&lt;br&gt;Raves&lt;br&gt;Barrowsx&lt;br&gt;kilsuton&lt;br&gt;Max Mason&lt;br&gt;Ethan Condon&lt;br&gt;jfidone&lt;br&gt;iaDRM&lt;br&gt;Kazer2.0&lt;br&gt;Bryce Quintin&lt;br&gt;Yuri Kunde Schlesner&lt;br&gt;Abdulla Altayer&lt;br&gt;Nicolas Jallamion&lt;br&gt;Vorvek&lt;br&gt;Ian Faddis&lt;br&gt;Leon&lt;br&gt;Mohammad Taleb&lt;br&gt;Jokez&lt;br&gt;crashX&lt;br&gt;Raveskirza&lt;br&gt;Grant Deacon&lt;br&gt;michael&lt;br&gt;David Zech&lt;br&gt;Ben Manoochehri&lt;br&gt;Adnan Kovacevic&lt;br&gt;Mighty J&lt;br&gt;Sam Shan Jiang&lt;br&gt;TheAnig&lt;br&gt;Rodney Coleman&lt;br&gt;FiniteAce&lt;br&gt;Kian Soon Alex Chiam&lt;br&gt;yukkuri&lt;br&gt;Justin Chadwick&lt;br&gt;toxic Itzi&lt;br&gt;Templerror&lt;br&gt;Myles Wesley Carlson&lt;br&gt;Max Bosse&lt;br&gt;Ethan Clark&lt;br&gt;LupineDream&lt;br&gt;CheatCodesOfLife&lt;br&gt;Jan Zykmund&lt;br&gt;Francesco Cinquemani&lt;br&gt;Andylg&lt;br&gt;Julia H de Camargos&lt;br&gt;Suvodip Mitra&lt;br&gt;Goh&lt;br&gt;Dmitry&lt;br&gt;Steel Brain&lt;br&gt;VarieZ&lt;br&gt;William Swango&lt;br&gt;Matthew Messersmith&lt;br&gt;Duane Locsin&lt;br&gt;Shuddertrix&lt;br&gt;Loweys Litsman&lt;/p&gt;</oldsource>
-        <translation>&lt;p&gt;&lt;b&gt;贊助者:&lt;/b&gt;&lt;br&gt;&lt;br&gt;Howard Garrison&lt;br&gt;EXPotemkin&lt;br&gt;Marko V.&lt;br&gt;danhp&lt;br&gt;Jake (5315825)&lt;br&gt;Ian Reid&lt;br&gt;Tad Sherlock&lt;br&gt;Tyler Friesen&lt;br&gt;Folzar&lt;br&gt;Payton Williams&lt;br&gt;RedPill Australia&lt;br&gt;yanghong&lt;br&gt;Mohammed El-Serougi&lt;br&gt;Дима ~Ximer13~ Кулин&lt;br&gt;James Reed&lt;br&gt;BaroqueSonata&lt;br&gt;Bonzay0&lt;br&gt;Henrijs Kons&lt;br&gt;eoiz&lt;br&gt;Lena Stöffler&lt;br&gt;Michael Holder&lt;br&gt;Max Bosse&lt;br&gt;Tyler Whisinnand&lt;br&gt;Gato Harvey&lt;br&gt;cain4355&lt;br&gt;Thomas Peltier&lt;br&gt;Loli Co.&lt;br&gt;MapleLoonie&lt;br&gt;Travis McEwen&lt;br&gt;Scott Singratsomboune&lt;br&gt;T.E&lt;br&gt;Lukas Rieger&lt;br&gt;Dane Madsen&lt;br&gt;JMS&lt;br&gt;Jonatan R&lt;br&gt;Luke Johnson&lt;br&gt;Thomas Zaorski&lt;br&gt;MyOwnFan&lt;br&gt;Alexandros Mandravillis&lt;br&gt;Socker Bopper&lt;br&gt;Faris Leonhart&lt;br&gt;Fabien Net&lt;br&gt;Raves&lt;br&gt;Barrowsx&lt;br&gt;kilsuton&lt;br&gt;Max Mason&lt;br&gt;Ethan Condon&lt;br&gt;jfidone&lt;br&gt;iaDRM&lt;br&gt;Kazer2.0&lt;br&gt;Bryce Quintin&lt;br&gt;Yuri Kunde Schlesner&lt;br&gt;Abdulla Altayer&lt;br&gt;Nicolas Jallamion&lt;br&gt;Vorvek&lt;br&gt;Ian Faddis&lt;br&gt;Leon&lt;br&gt;Mohammad Taleb&lt;br&gt;Jokez&lt;br&gt;crashX&lt;br&gt;Raveskirza&lt;br&gt;Grant Deacon&lt;br&gt;michael&lt;br&gt;David Zech&lt;br&gt;Ben Manoochehri&lt;br&gt;Adnan Kovacevic&lt;br&gt;Mighty J&lt;br&gt;Sam Shan Jiang&lt;br&gt;TheAnig&lt;br&gt;Rodney Coleman&lt;br&gt;FiniteAce&lt;br&gt;Kian Soon Alex Chiam&lt;br&gt;yukkuri&lt;br&gt;Justin Chadwick&lt;br&gt;toxic Itzi&lt;br&gt;Templerror&lt;br&gt;Myles Wesley Carlson&lt;br&gt;Max Bosse&lt;br&gt;Ethan Clark&lt;br&gt;LupineDream&lt;br&gt;CheatCodesOfLife&lt;br&gt;Jan Zykmund&lt;br&gt;Francesco Cinquemani&lt;br&gt;Andylg&lt;br&gt;Julia H de Camargos&lt;br&gt;Suvodip Mitra&lt;br&gt;Goh&lt;br&gt;Dmitry&lt;br&gt;Steel Brain&lt;br&gt;VarieZ&lt;br&gt;William Swango&lt;br&gt;Matthew Messersmith&lt;br&gt;Duane Locsin&lt;br&gt;Shuddertrix&lt;br&gt;Loweys Litsman&lt;br&gt;Shuddertrix&lt;br&gt;Mason Ferrie&lt;br&gt;Richard Kaplan&lt;br&gt;Hugues Valois&lt;br&gt;richard(lath..ch@)&lt;br&gt;Johnathan (Virtuous John)&lt;br&gt;eoiz&lt;br&gt;Dany Huguenin&lt;br&gt;doobieashtray&lt;br&gt;dean(mag..94@)&lt;br&gt;Pommier Jean-Philippe&lt;br&gt;Douglas Alan Albino&lt;br&gt;Ryan Mull&lt;br&gt;Thor-Erling Engen&lt;br&gt;Nick Carpenter&lt;br&gt;curryking3&lt;br&gt;Jared Tracton&lt;br&gt;alex(koo..oh@)&lt;br&gt;Jason O&apos;Brien&lt;br&gt;Skeletal Charizard&lt;br&gt;Ace00&lt;br&gt;Brandon Corujo&lt;br&gt;HyperBitHero&lt;br&gt;佳文 李&lt;br&gt;sorryboi&lt;/p&gt;</translation>
+        <source>&lt;p&gt;&lt;b&gt;Supporters:&lt;/b&gt;&lt;br&gt;&lt;br&gt;Howard Garrison&lt;br&gt;EXPotemkin&lt;br&gt;Marko V.&lt;br&gt;danhp&lt;br&gt;Jake (5315825)&lt;br&gt;Ian Reid&lt;br&gt;Tad Sherlock&lt;br&gt;Tyler Friesen&lt;br&gt;Folzar&lt;br&gt;Payton Williams&lt;br&gt;RedPill Australia&lt;br&gt;yanghong&lt;br&gt;Mohammed El-Serougi&lt;br&gt;Дима ~Ximer13~ Кулин&lt;br&gt;James Reed&lt;br&gt;BaroqueSonata&lt;br&gt;Bonzay0&lt;br&gt;Henrijs Kons&lt;br&gt;eoiz&lt;br&gt;Lena Stöffler&lt;br&gt;Michael Holder&lt;br&gt;Max Bosse&lt;br&gt;Tyler Whisinnand&lt;br&gt;Gato Harvey&lt;br&gt;cain4355&lt;br&gt;Thomas Peltier&lt;br&gt;Loli Co.&lt;br&gt;MapleLoonie&lt;br&gt;Travis McEwen&lt;br&gt;Scott Singratsomboune&lt;br&gt;T.E&lt;br&gt;Lukas Rieger&lt;br&gt;Dane Madsen&lt;br&gt;JMS&lt;br&gt;Jonatan R&lt;br&gt;Luke Johnson&lt;br&gt;Thomas Zaorski&lt;br&gt;MyOwnFan&lt;br&gt;Alexandros Mandravillis&lt;br&gt;Socker Bopper&lt;br&gt;Faris Leonhart&lt;br&gt;Fabien Net&lt;br&gt;Raves&lt;br&gt;Barrowsx&lt;br&gt;kilsuton&lt;br&gt;Max Mason&lt;br&gt;Ethan Condon&lt;br&gt;jfidone&lt;br&gt;iaDRM&lt;br&gt;Kazer2.0&lt;br&gt;Bryce Quintin&lt;br&gt;Yuri Kunde Schlesner&lt;br&gt;Abdulla Altayer&lt;br&gt;Nicolas Jallamion&lt;br&gt;Vorvek&lt;br&gt;Ian Faddis&lt;br&gt;Leon&lt;br&gt;Mohammad Taleb&lt;br&gt;Jokez&lt;br&gt;crashX&lt;br&gt;Raveskirza&lt;br&gt;Grant Deacon&lt;br&gt;michael&lt;br&gt;David Zech&lt;br&gt;Ben Manoochehri&lt;br&gt;Adnan Kovacevic&lt;br&gt;Mighty J&lt;br&gt;Sam Shan Jiang&lt;br&gt;TheAnig&lt;br&gt;Rodney Coleman&lt;br&gt;FiniteAce&lt;br&gt;Kian Soon Alex Chiam&lt;br&gt;yukkuri&lt;br&gt;Justin Chadwick&lt;br&gt;toxic Itzi&lt;br&gt;Templerror&lt;br&gt;Myles Wesley Carlson&lt;br&gt;Max Bosse&lt;br&gt;Ethan Clark&lt;br&gt;LupineDream&lt;br&gt;CheatCodesOfLife&lt;br&gt;Jan Zykmund&lt;br&gt;Francesco Cinquemani&lt;br&gt;Andylg&lt;br&gt;Julia H de Camargos&lt;br&gt;Suvodip Mitra&lt;br&gt;Goh&lt;br&gt;Dmitry&lt;br&gt;Steel Brain&lt;br&gt;VarieZ&lt;br&gt;William Swango&lt;br&gt;Matthew Messersmith&lt;br&gt;Duane Locsin&lt;br&gt;Shuddertrix&lt;br&gt;Loweys Litsman&lt;br&gt;Shuddertrix&lt;br&gt;Mason Ferrie&lt;br&gt;Richard Kaplan&lt;br&gt;Hugues Valois&lt;br&gt;richard(lath..ch@)&lt;br&gt;Johnathan (Virtuous John)&lt;br&gt;eoiz&lt;br&gt;Dany Huguenin&lt;br&gt;doobieashtray&lt;br&gt;dean(mag..94@)&lt;br&gt;Pommier Jean-Philippe&lt;br&gt;Douglas Alan Albino&lt;br&gt;Ryan Mull&lt;br&gt;Thor-Erling Engen&lt;br&gt;Nick Carpenter&lt;br&gt;curryking3&lt;br&gt;Jared Tracton&lt;br&gt;alex(koo..oh@)&lt;br&gt;Jason O&apos;Brien&lt;br&gt;Skeletal Charizard&lt;br&gt;Ace00&lt;br&gt;Brandon Corujo&lt;br&gt;HyperBitHero&lt;br&gt;佳文 李&lt;br&gt;sorryboi
+          &lt;br&gt;Johnson Bui
+          &lt;br&gt;itachi1986
+          &lt;br&gt;Mortano
+          &lt;br&gt;Xythera
+          &lt;br&gt;Albert Quinteros
+          &lt;br&gt;Uzair Sheikh
+          &lt;br&gt;Ethan Hoppins
+          &lt;br&gt;optic
+          &lt;br&gt;Quill Slyver
+          &lt;br&gt;Averie
+          &lt;br&gt;StevenCarson
+          &lt;br&gt;YuriNator557
+          &lt;br&gt;Deanmaxx
+          &lt;br&gt;linkQatar G
+          &lt;br&gt;Jack Collie
+          &lt;/p&gt;</source>
+        <oldsource>&lt;p&gt;&lt;b&gt;Supporters:&lt;/b&gt;&lt;br&gt;&lt;br&gt;Howard Garrison&lt;br&gt;EXPotemkin&lt;br&gt;Marko V.&lt;br&gt;danhp&lt;br&gt;Jake (5315825)&lt;br&gt;Ian Reid&lt;br&gt;Tad Sherlock&lt;br&gt;Tyler Friesen&lt;br&gt;Folzar&lt;br&gt;Payton Williams&lt;br&gt;RedPill Australia&lt;br&gt;yanghong&lt;br&gt;Mohammed El-Serougi&lt;br&gt;Дима ~Ximer13~ Кулин&lt;br&gt;James Reed&lt;br&gt;BaroqueSonata&lt;br&gt;Bonzay0&lt;br&gt;Henrijs Kons&lt;br&gt;eoiz&lt;br&gt;Lena Stöffler&lt;br&gt;Michael Holder&lt;br&gt;Max Bosse&lt;br&gt;Tyler Whisinnand&lt;br&gt;Gato Harvey&lt;br&gt;cain4355&lt;br&gt;Thomas Peltier&lt;br&gt;Loli Co.&lt;br&gt;MapleLoonie&lt;br&gt;Travis McEwen&lt;br&gt;Scott Singratsomboune&lt;br&gt;T.E&lt;br&gt;Lukas Rieger&lt;br&gt;Dane Madsen&lt;br&gt;JMS&lt;br&gt;Jonatan R&lt;br&gt;Luke Johnson&lt;br&gt;Thomas Zaorski&lt;br&gt;MyOwnFan&lt;br&gt;Alexandros Mandravillis&lt;br&gt;Socker Bopper&lt;br&gt;Faris Leonhart&lt;br&gt;Fabien Net&lt;br&gt;Raves&lt;br&gt;Barrowsx&lt;br&gt;kilsuton&lt;br&gt;Max Mason&lt;br&gt;Ethan Condon&lt;br&gt;jfidone&lt;br&gt;iaDRM&lt;br&gt;Kazer2.0&lt;br&gt;Bryce Quintin&lt;br&gt;Yuri Kunde Schlesner&lt;br&gt;Abdulla Altayer&lt;br&gt;Nicolas Jallamion&lt;br&gt;Vorvek&lt;br&gt;Ian Faddis&lt;br&gt;Leon&lt;br&gt;Mohammad Taleb&lt;br&gt;Jokez&lt;br&gt;crashX&lt;br&gt;Raveskirza&lt;br&gt;Grant Deacon&lt;br&gt;michael&lt;br&gt;David Zech&lt;br&gt;Ben Manoochehri&lt;br&gt;Adnan Kovacevic&lt;br&gt;Mighty J&lt;br&gt;Sam Shan Jiang&lt;br&gt;TheAnig&lt;br&gt;Rodney Coleman&lt;br&gt;FiniteAce&lt;br&gt;Kian Soon Alex Chiam&lt;br&gt;yukkuri&lt;br&gt;Justin Chadwick&lt;br&gt;toxic Itzi&lt;br&gt;Templerror&lt;br&gt;Myles Wesley Carlson&lt;br&gt;Max Bosse&lt;br&gt;Ethan Clark&lt;br&gt;LupineDream&lt;br&gt;CheatCodesOfLife&lt;br&gt;Jan Zykmund&lt;br&gt;Francesco Cinquemani&lt;br&gt;Andylg&lt;br&gt;Julia H de Camargos&lt;br&gt;Suvodip Mitra&lt;br&gt;Goh&lt;br&gt;Dmitry&lt;br&gt;Steel Brain&lt;br&gt;VarieZ&lt;br&gt;William Swango&lt;br&gt;Matthew Messersmith&lt;br&gt;Duane Locsin&lt;br&gt;Shuddertrix&lt;br&gt;Loweys Litsman&lt;br&gt;Shuddertrix&lt;br&gt;Mason Ferrie&lt;br&gt;Richard Kaplan&lt;br&gt;Hugues Valois&lt;br&gt;richard(lath..ch@)&lt;br&gt;Johnathan (Virtuous John)&lt;br&gt;eoiz&lt;br&gt;Dany Huguenin&lt;br&gt;doobieashtray&lt;br&gt;dean(mag..94@)&lt;br&gt;Pommier Jean-Philippe&lt;br&gt;Douglas Alan Albino&lt;br&gt;Ryan Mull&lt;br&gt;Thor-Erling Engen&lt;br&gt;Nick Carpenter&lt;br&gt;curryking3&lt;br&gt;Jared Tracton&lt;br&gt;alex(koo..oh@)&lt;br&gt;Jason O&apos;Brien&lt;br&gt;Skeletal Charizard&lt;br&gt;Ace00&lt;br&gt;Brandon Corujo&lt;br&gt;HyperBitHero&lt;br&gt;佳文 李&lt;br&gt;sorryboi&lt;/p&gt;</oldsource>
+        <translation>&lt;p&gt;&lt;b&gt;贊助者:&lt;/b&gt;&lt;br&gt;&lt;br&gt;Howard Garrison&lt;br&gt;EXPotemkin&lt;br&gt;Marko V.&lt;br&gt;danhp&lt;br&gt;Jake (5315825)&lt;br&gt;Ian Reid&lt;br&gt;Tad Sherlock&lt;br&gt;Tyler Friesen&lt;br&gt;Folzar&lt;br&gt;Payton Williams&lt;br&gt;RedPill Australia&lt;br&gt;yanghong&lt;br&gt;Mohammed El-Serougi&lt;br&gt;Дима ~Ximer13~ Кулин&lt;br&gt;James Reed&lt;br&gt;BaroqueSonata&lt;br&gt;Bonzay0&lt;br&gt;Henrijs Kons&lt;br&gt;eoiz&lt;br&gt;Lena Stöffler&lt;br&gt;Michael Holder&lt;br&gt;Max Bosse&lt;br&gt;Tyler Whisinnand&lt;br&gt;Gato Harvey&lt;br&gt;cain4355&lt;br&gt;Thomas Peltier&lt;br&gt;Loli Co.&lt;br&gt;MapleLoonie&lt;br&gt;Travis McEwen&lt;br&gt;Scott Singratsomboune&lt;br&gt;T.E&lt;br&gt;Lukas Rieger&lt;br&gt;Dane Madsen&lt;br&gt;JMS&lt;br&gt;Jonatan R&lt;br&gt;Luke Johnson&lt;br&gt;Thomas Zaorski&lt;br&gt;MyOwnFan&lt;br&gt;Alexandros Mandravillis&lt;br&gt;Socker Bopper&lt;br&gt;Faris Leonhart&lt;br&gt;Fabien Net&lt;br&gt;Raves&lt;br&gt;Barrowsx&lt;br&gt;kilsuton&lt;br&gt;Max Mason&lt;br&gt;Ethan Condon&lt;br&gt;jfidone&lt;br&gt;iaDRM&lt;br&gt;Kazer2.0&lt;br&gt;Bryce Quintin&lt;br&gt;Yuri Kunde Schlesner&lt;br&gt;Abdulla Altayer&lt;br&gt;Nicolas Jallamion&lt;br&gt;Vorvek&lt;br&gt;Ian Faddis&lt;br&gt;Leon&lt;br&gt;Mohammad Taleb&lt;br&gt;Jokez&lt;br&gt;crashX&lt;br&gt;Raveskirza&lt;br&gt;Grant Deacon&lt;br&gt;michael&lt;br&gt;David Zech&lt;br&gt;Ben Manoochehri&lt;br&gt;Adnan Kovacevic&lt;br&gt;Mighty J&lt;br&gt;Sam Shan Jiang&lt;br&gt;TheAnig&lt;br&gt;Rodney Coleman&lt;br&gt;FiniteAce&lt;br&gt;Kian Soon Alex Chiam&lt;br&gt;yukkuri&lt;br&gt;Justin Chadwick&lt;br&gt;toxic Itzi&lt;br&gt;Templerror&lt;br&gt;Myles Wesley Carlson&lt;br&gt;Max Bosse&lt;br&gt;Ethan Clark&lt;br&gt;LupineDream&lt;br&gt;CheatCodesOfLife&lt;br&gt;Jan Zykmund&lt;br&gt;Francesco Cinquemani&lt;br&gt;Andylg&lt;br&gt;Julia H de Camargos&lt;br&gt;Suvodip Mitra&lt;br&gt;Goh&lt;br&gt;Dmitry&lt;br&gt;Steel Brain&lt;br&gt;VarieZ&lt;br&gt;William Swango&lt;br&gt;Matthew Messersmith&lt;br&gt;Duane Locsin&lt;br&gt;Shuddertrix&lt;br&gt;Loweys Litsman&lt;br&gt;Shuddertrix&lt;br&gt;Mason Ferrie&lt;br&gt;Richard Kaplan&lt;br&gt;Hugues Valois&lt;br&gt;richard(lath..ch@)&lt;br&gt;Johnathan (Virtuous John)&lt;br&gt;eoiz&lt;br&gt;Dany Huguenin&lt;br&gt;doobieashtray&lt;br&gt;dean(mag..94@)&lt;br&gt;Pommier Jean-Philippe&lt;br&gt;Douglas Alan Albino&lt;br&gt;Ryan Mull&lt;br&gt;Thor-Erling Engen&lt;br&gt;Nick Carpenter&lt;br&gt;curryking3&lt;br&gt;Jared Tracton&lt;br&gt;alex(koo..oh@)&lt;br&gt;Jason O&apos;Brien&lt;br&gt;Skeletal Charizard&lt;br&gt;Ace00&lt;br&gt;Brandon Corujo&lt;br&gt;HyperBitHero&lt;br&gt;佳文 李&lt;br&gt;sorryboi
+          &lt;br&gt;Johnson Bui
+          &lt;br&gt;itachi1986
+          &lt;br&gt;Mortano
+          &lt;br&gt;Xythera
+          &lt;br&gt;Albert Quinteros
+          &lt;br&gt;Uzair Sheikh
+          &lt;br&gt;Ethan Hoppins
+          &lt;br&gt;optic
+          &lt;br&gt;Quill Slyver
+          &lt;br&gt;Averie
+          &lt;br&gt;StevenCarson
+          &lt;br&gt;YuriNator557
+          &lt;br&gt;Deanmaxx
+          &lt;br&gt;linkQatar G
+          &lt;br&gt;Jack Collie
+          &lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/about_dialog.ui" line="311"/>
+        <location filename="rpcs3qt/about_dialog.ui" line="327"/>
         <source>GitHub</source>
         <translation>GitHub</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/about_dialog.ui" line="318"/>
+        <location filename="rpcs3qt/about_dialog.ui" line="334"/>
         <source>Website</source>
         <translation>網站</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/about_dialog.ui" line="325"/>
+        <location filename="rpcs3qt/about_dialog.ui" line="341"/>
         <source>Forum</source>
         <translation>論壇</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/about_dialog.ui" line="332"/>
+        <location filename="rpcs3qt/about_dialog.ui" line="348"/>
         <source>Patreon</source>
         <translation>贊助</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/about_dialog.ui" line="352"/>
+        <location filename="rpcs3qt/about_dialog.ui" line="368"/>
         <source>Close</source>
         <translation>關閉</translation>
     </message>
@@ -1891,43 +1923,43 @@ Restart of the game is required to apply. You can enable/disable this in the set
 <context>
     <name>debugger_frame</name>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="36"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="37"/>
         <source>Debugger</source>
         <translation>偵錯器</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="67"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="68"/>
         <source>Choose a thread</source>
         <translation>選取一個執行緒</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="72"/>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="605"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="73"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="631"/>
         <source>Go To Address</source>
         <translation>至 位址</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="73"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="74"/>
         <source>Go To PC</source>
         <translation>至 PC</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="74"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="75"/>
         <source>Step</source>
         <translation>步</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="75"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="76"/>
         <source>Step Over</source>
         <translation>躍步</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="241"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="242"/>
         <source>Debugger Guide &amp; Shortcuts</source>
         <translation>偵錯器指南和捷徑方式</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="243"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="244"/>
         <source>Keys Ctrl+G: Go to typed address.
 Keys Alt+S: Capture SPU images of selected SPU.
 Key E: Instruction Editor: click on the instruction you want to modify, then press E.
@@ -1935,9 +1967,11 @@ Key F: Dedicated floating point mode switch for SPU threads.
 Key R: Registers Editor for selected thread.
 Key N: Show next instruction the thread will execute after marked instruction, does nothing if target is not predictable.
 Key M: Show the Memory Viewer with initial address pointing to the marked instruction.
+Key I: Show RSX method detail.
 Key F10: Perform single-stepping on instructions.
 Key F11: Perform step-over on instructions. (skip function calls)
-Key F1: Show this help dialog.</source>
+Key F1: Show this help dialog.
+Double-click: Set breakpoints.</source>
         <translation>Ctrl+G 鍵: 移至鍵入的位址。
 Alt+S 鍵: 截取所選 SPU 圖像。
  E 鍵: 指令編輯: 點擊要修改的指令，然後按 E。
@@ -1945,43 +1979,35 @@ Alt+S 鍵: 截取所選 SPU 圖像。
  R 鍵: 選定執行緒的暫存器編輯。
  N 鍵: 顯示下一條指令，此執行緒將在標記的指令之後執行，如果目標不可預測，則不執行任何操作。
  M 鍵: 顯示記憶檢視器，其初始位址指向標記的指令。
+ I 鍵: 顯示 RSX 方法內容。
 F10 鍵: 對指令執行單步執行。
 F11 鍵: 對指令執行躍步。 (跳過函數調用)
-F1 鍵: 顯示說明對話框。</translation>
+F1 鍵: 顯示說明對話框。
+雙擊: 設定斷點。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="628"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="654"/>
         <source>OK</source>
         <oldsource>Ok</oldsource>
         <translation>確定</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="629"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="655"/>
         <source>Cancel</source>
         <translation>取消</translation>
-    </message>
-    <message>
-        <location filename="rpcs3qt/debugger_frame.h" line="32"/>
-        <source>No Thread</source>
-        <translation>沒有執行緒</translation>
-    </message>
-    <message>
-        <location filename="rpcs3qt/debugger_frame.h" line="33"/>
-        <source>Run</source>
-        <translation>執行</translation>
-    </message>
-    <message>
-        <location filename="rpcs3qt/debugger_frame.h" line="34"/>
-        <source>Pause</source>
-        <translation>暫停</translation>
     </message>
 </context>
 <context>
     <name>debugger_list</name>
     <message>
-        <location filename="rpcs3qt/debugger_list.cpp" line="23"/>
+        <location filename="rpcs3qt/debugger_list.cpp" line="27"/>
         <source>ASM</source>
         <translation>ASM</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/debugger_list.cpp" line="229"/>
+        <source>RSX Command Detail</source>
+        <translation>RSX 指令內容</translation>
     </message>
 </context>
 <context>
@@ -3322,12 +3348,12 @@ Notes:
 <context>
     <name>gs_frame</name>
     <message>
-        <location filename="rpcs3qt/gs_frame.cpp" line="593"/>
+        <location filename="rpcs3qt/gs_frame.cpp" line="606"/>
         <source>Exit Game?</source>
         <translation>結束遊戲?</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/gs_frame.cpp" line="594"/>
+        <location filename="rpcs3qt/gs_frame.cpp" line="607"/>
         <source>Do you really want to exit the game?
 
 Any unsaved progress will be lost!
@@ -3414,54 +3440,54 @@ Commercial games do not work without firmware! Do you wish to continue!?</source
         <translation>編輯指令</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/instruction_editor_dialog.cpp" line="36"/>
+        <location filename="rpcs3qt/instruction_editor_dialog.cpp" line="35"/>
         <source>OK</source>
         <oldsource>Ok</oldsource>
         <translation>確定</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/instruction_editor_dialog.cpp" line="37"/>
+        <location filename="rpcs3qt/instruction_editor_dialog.cpp" line="36"/>
         <source>Cancel</source>
         <translation>取消</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/instruction_editor_dialog.cpp" line="51"/>
+        <location filename="rpcs3qt/instruction_editor_dialog.cpp" line="50"/>
         <source>Address:     </source>
         <translation>位址:     </translation>
     </message>
     <message>
-        <location filename="rpcs3qt/instruction_editor_dialog.cpp" line="52"/>
+        <location filename="rpcs3qt/instruction_editor_dialog.cpp" line="51"/>
         <source>Instruction: </source>
         <translation>指令: </translation>
     </message>
     <message>
-        <location filename="rpcs3qt/instruction_editor_dialog.cpp" line="53"/>
+        <location filename="rpcs3qt/instruction_editor_dialog.cpp" line="52"/>
         <source>Preview:     </source>
         <translation>預覽:     </translation>
     </message>
     <message>
-        <location filename="rpcs3qt/instruction_editor_dialog.cpp" line="81"/>
-        <location filename="rpcs3qt/instruction_editor_dialog.cpp" line="88"/>
+        <location filename="rpcs3qt/instruction_editor_dialog.cpp" line="80"/>
+        <location filename="rpcs3qt/instruction_editor_dialog.cpp" line="87"/>
         <source>Error</source>
         <translation>錯誤</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/instruction_editor_dialog.cpp" line="81"/>
+        <location filename="rpcs3qt/instruction_editor_dialog.cpp" line="80"/>
         <source>Failed to parse PPU instruction.</source>
         <translation>無法解析 PPU 指令。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/instruction_editor_dialog.cpp" line="88"/>
+        <location filename="rpcs3qt/instruction_editor_dialog.cpp" line="87"/>
         <source>Failed to patch PPU instruction.</source>
         <translation>無法修補 PPU 指令。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/instruction_editor_dialog.cpp" line="114"/>
+        <location filename="rpcs3qt/instruction_editor_dialog.cpp" line="113"/>
         <source>Preview disabled.</source>
         <translation>預覽停用。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/instruction_editor_dialog.cpp" line="118"/>
+        <location filename="rpcs3qt/instruction_editor_dialog.cpp" line="117"/>
         <source>Could not parse instruction.</source>
         <translation>無法解析指令。</translation>
     </message>
@@ -5022,9 +5048,9 @@ Space needed: %0 KB</source>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="777"/>
         <location filename="rpcs3qt/main_window.cpp" line="167"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1287"/>
-        <location filename="rpcs3qt/main_window.cpp" line="2101"/>
-        <location filename="rpcs3qt/main_window.cpp" line="2124"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1286"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2100"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2123"/>
         <source>Restart</source>
         <translation>重啟</translation>
     </message>
@@ -5278,19 +5304,19 @@ Space needed: %0 KB</source>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="139"/>
         <location filename="rpcs3qt/main_window.cpp" line="1261"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1313"/>
-        <location filename="rpcs3qt/main_window.cpp" line="2105"/>
-        <location filename="rpcs3qt/main_window.cpp" line="2115"/>
-        <location filename="rpcs3qt/main_window.cpp" line="2128"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1312"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2104"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2114"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2127"/>
         <source>Play %0</source>
         <translation>遊戲 %0</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="139"/>
         <location filename="rpcs3qt/main_window.cpp" line="1248"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1280"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1323"/>
-        <location filename="rpcs3qt/main_window.cpp" line="2108"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1277"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1322"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2107"/>
         <source>Play</source>
         <translation>遊戲</translation>
     </message>
@@ -5656,9 +5682,9 @@ And is logged with some sceNpDrm* functions when the game/application which owns
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1193"/>
         <location filename="rpcs3qt/main_window.cpp" line="1218"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1262"/>
-        <location filename="rpcs3qt/main_window.cpp" line="2098"/>
-        <location filename="rpcs3qt/main_window.cpp" line="2121"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1282"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2097"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2120"/>
         <source>Restart %0</source>
         <translation>重啟 %0</translation>
     </message>
@@ -5683,93 +5709,93 @@ And is logged with some sceNpDrm* functions when the game/application which owns
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1239"/>
         <location filename="rpcs3qt/main_window.cpp" line="1261"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1313"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1312"/>
         <source>Resume %0</source>
         <translation>繼續 %0</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1245"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1268"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1320"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1265"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1319"/>
         <source>&amp;Resume	Ctrl+E</source>
         <translation>繼續(&amp;E)	Ctrl+E</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1268"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1320"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1265"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1319"/>
         <source>&amp;Play	Ctrl+E</source>
         <translation>遊戲(&amp;P)	Ctrl+E</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1407"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1452"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1518"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1406"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1451"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1517"/>
         <source>Ctrl+%1</source>
         <translation>Ctrl+%1</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1640"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1639"/>
         <source>Select a folder containing one or more games</source>
         <translation>選擇包含單個或數個遊戲資料夾</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1709"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1708"/>
         <source>Send &amp;%0 system menu cmd</source>
         <translation>傳送 &amp;%0 系統選單 CMD</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1709"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1708"/>
         <source>close</source>
         <translation>關閉</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1709"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1708"/>
         <source>open</source>
         <translation>開啟</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1932"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1937"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1931"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1936"/>
         <source>Auto-updater</source>
         <translation>自動更新</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1932"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1931"/>
         <source>The auto-updater currently isn&apos;t available for your os.</source>
         <translation>自動更新程式當前不適用於您的作業系統。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1937"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1936"/>
         <source>Please stop the emulation before trying to update.</source>
         <translation>在嘗試更新之前，請停止仿真。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="2284"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2283"/>
         <source>Cache Cleared</source>
         <translation>快取已清除</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="2284"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2283"/>
         <source>Disk cache was cleared successfully</source>
         <translation>磁碟快取已成功清除</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="2288"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2287"/>
         <source>Error</source>
         <translation>錯誤</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="2288"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2287"/>
         <source>Could not remove disk cache</source>
         <translation>無法刪除磁碟快取</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="2299"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2298"/>
         <source>Confirm Removal</source>
         <translation>確認刪除</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="2299"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2298"/>
         <source>Remove firmware cache?</source>
         <translation>刪除韌體快取?</translation>
     </message>
@@ -6844,29 +6870,29 @@ Reorder and/or exclude them if needed, then click &quot;Install&quot; to proceed
 <context>
     <name>register_editor_dialog</name>
     <message>
-        <location filename="rpcs3qt/register_editor_dialog.cpp" line="163"/>
+        <location filename="rpcs3qt/register_editor_dialog.cpp" line="162"/>
         <source>Error parsing register value!</source>
         <translation>剖析暫存器值時出錯!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/register_editor_dialog.cpp" line="190"/>
-        <location filename="rpcs3qt/register_editor_dialog.cpp" line="212"/>
+        <location filename="rpcs3qt/register_editor_dialog.cpp" line="189"/>
+        <location filename="rpcs3qt/register_editor_dialog.cpp" line="211"/>
         <source>Lose reservation on OK</source>
         <translation>確定取消預留區</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/register_editor_dialog.cpp" line="190"/>
-        <location filename="rpcs3qt/register_editor_dialog.cpp" line="212"/>
+        <location filename="rpcs3qt/register_editor_dialog.cpp" line="189"/>
+        <location filename="rpcs3qt/register_editor_dialog.cpp" line="211"/>
         <source>Reservation is inactive</source>
         <translation>預留區無效</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/register_editor_dialog.cpp" line="414"/>
+        <location filename="rpcs3qt/register_editor_dialog.cpp" line="411"/>
         <source>Error</source>
         <translation>錯誤</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/register_editor_dialog.cpp" line="414"/>
+        <location filename="rpcs3qt/register_editor_dialog.cpp" line="411"/>
         <source>This value could not be converted.
 No changes were made.</source>
         <translation>此值無法轉換。
@@ -8998,6 +9024,24 @@ File may already be in use on the portal.</source>
 File was too small.</source>
         <translation>無法讀取(%1)寶貝龍檔案!
 檔案過小。</translation>
+    </message>
+</context>
+<context>
+    <name>system_state</name>
+    <message>
+        <location filename="rpcs3qt/debugger_frame.h" line="34"/>
+        <source>No Thread</source>
+        <translation>沒有執行緒</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/debugger_frame.h" line="35"/>
+        <source>Run</source>
+        <translation>執行</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/debugger_frame.h" line="36"/>
+        <source>Pause</source>
+        <translation>暫停</translation>
     </message>
 </context>
 <context>
