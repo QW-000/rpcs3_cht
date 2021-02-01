@@ -1923,43 +1923,43 @@ Restart of the game is required to apply. You can enable/disable this in the set
 <context>
     <name>debugger_frame</name>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="37"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="39"/>
         <source>Debugger</source>
         <translation>侦错器</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="68"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="70"/>
         <source>Choose a thread</source>
         <translation>选取一个执行绪</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="73"/>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="631"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="75"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="650"/>
         <source>Go To Address</source>
         <translation>至 位址</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="74"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="76"/>
         <source>Go To PC</source>
         <translation>至 PC</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="75"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="77"/>
         <source>Step</source>
         <translation>步</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="76"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="78"/>
         <source>Step Over</source>
         <translation>跃步</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="242"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="257"/>
         <source>Debugger Guide &amp; Shortcuts</source>
         <translation>侦错器指南和捷径方式</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="244"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="259"/>
         <source>Keys Ctrl+G: Go to typed address.
 Keys Alt+S: Capture SPU images of selected SPU.
 Key E: Instruction Editor: click on the instruction you want to modify, then press E.
@@ -1971,6 +1971,10 @@ Key I: Show RSX method detail.
 Key F10: Perform single-stepping on instructions.
 Key F11: Perform step-over on instructions. (skip function calls)
 Key F1: Show this help dialog.
+Key Up: Scroll one instruction upwards. (address is decremented)
+Key Down: Scroll one instruction downwards. (address is incremented)
+Key Page-Up: Scroll upwards with steps count equal to the viewed instruction count.
+Key Page-Down: Scroll downwards with steps count equal to the viewed instruction count.
 Double-click: Set breakpoints.</source>
         <translation>Ctrl+G 键: 移至键入的位址。
 Alt+S 键: 截取所选 SPU 图像。
@@ -1983,16 +1987,20 @@ Alt+S 键: 截取所选 SPU 图像。
 F10 键: 对指令执行单步执行。
 F11 键: 对指令执行跃步。 (跳过函数调用)
 F1 键: 显示说明对话框。
+向上键: 向上卷动一条指令。(位址递减)
+向下键: 向下卷动一条指令。(位址递增)
+Page-Up 键: 向上卷动，步数等于检视的指令数。
+Page-Down 键: 向下卷动，步数等于检视的指令数。
 双击: 设定断点。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="654"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="673"/>
         <source>OK</source>
         <oldsource>Ok</oldsource>
         <translation>确定</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="655"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="674"/>
         <source>Cancel</source>
         <translation>取消</translation>
     </message>
