@@ -1822,75 +1822,75 @@ Restart of the game is required to apply. You can enable/disable this in the set
     <name>cheat_manager_dialog</name>
     <message>
         <source>Cheat Manager</source>
-        <translation type="vanished">作弊管理</translation>
+        <translation>作弊管理</translation>
     </message>
     <message>
         <source>Game</source>
-        <translation type="vanished">游戏</translation>
+        <translation>游戏</translation>
     </message>
     <message>
         <source>Description</source>
-        <translation type="vanished">描述</translation>
+        <translation>描述</translation>
     </message>
     <message>
         <source>Type</source>
-        <translation type="vanished">类型</translation>
+        <translation>类型</translation>
     </message>
     <message>
         <source>Offset</source>
-        <translation type="vanished">偏移</translation>
+        <translation>偏移</translation>
     </message>
     <message>
         <source>Script</source>
-        <translation type="vanished">脚本</translation>
+        <translation>脚本</translation>
     </message>
     <message>
         <source>Current Value:</source>
-        <translation type="vanished">当前值:</translation>
+        <translation>当前值:</translation>
     </message>
     <message>
         <source>Apply</source>
-        <translation type="vanished">套用</translation>
+        <translation>套用</translation>
     </message>
     <message>
         <source>Cheat Search</source>
-        <translation type="vanished">作弊搜寻</translation>
+        <translation>作弊搜寻</translation>
     </message>
     <message>
         <source>New Search</source>
-        <translation type="vanished">新搜寻</translation>
+        <translation>新搜寻</translation>
     </message>
     <message>
         <source>Filter Results</source>
-        <translation type="vanished">筛选结果</translation>
+        <translation>筛选结果</translation>
     </message>
     <message>
         <source>Failed to resolve redirection script</source>
-        <translation type="vanished">无法剖析重定向脚本</translation>
+        <translation>无法剖析重定向脚本</translation>
     </message>
     <message>
         <source>%1</source>
-        <translation type="vanished">%1</translation>
+        <translation>%1</translation>
     </message>
     <message>
         <source>Failed to get the value from memory</source>
-        <translation type="vanished">无法从记忆中获取值</translation>
+        <translation>无法从记忆中获取值</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation type="vanished">删除</translation>
+        <translation>删除</translation>
     </message>
     <message>
         <source>Import Cheats</source>
-        <translation type="vanished">输入作弊</translation>
+        <translation>输入作弊</translation>
     </message>
     <message>
         <source>Export Cheats</source>
-        <translation type="vanished">输出作弊</translation>
+        <translation>输出作弊</translation>
     </message>
     <message>
         <source>Reverse-Lookup Cheat</source>
-        <translation type="vanished">反向寻找作弊</translation>
+        <translation>反向寻找作弊</translation>
     </message>
     <message>
         <location filename="rpcs3qt/cheat_manager.cpp" line="990"/>
@@ -1899,27 +1899,27 @@ Restart of the game is required to apply. You can enable/disable this in the set
     </message>
     <message>
         <source>Couldn&apos;t convert the value you typed to the integer type of that cheat</source>
-        <translation type="vanished">无法将您输入的值转换为作弊的整数类型</translation>
+        <translation>无法将您输入的值转换为作弊的整数类型</translation>
     </message>
     <message>
         <source>Error applying value</source>
-        <translation type="vanished">错误的应用值</translation>
+        <translation>错误的应用值</translation>
     </message>
     <message>
         <source>Couldn&apos;t patch memory</source>
-        <translation type="vanished">无法补缀记忆</translation>
+        <translation>无法补缀记忆</translation>
     </message>
     <message>
         <source>Add to cheat list</source>
-        <translation type="vanished">增加到作弊清单</translation>
+        <translation>增加到作弊清单</translation>
     </message>
     <message>
         <source>Cheat already exist</source>
-        <translation type="vanished">作弊已经存在</translation>
+        <translation>作弊已经存在</translation>
     </message>
     <message>
         <source>Do you want to overwrite the existing cheat?</source>
-        <translation type="vanished">要取代现有的作弊吗?</translation>
+        <translation>要取代现有的作弊吗?</translation>
     </message>
     <message>
         <location filename="rpcs3qt/cheat_manager.cpp" line="990"/>
