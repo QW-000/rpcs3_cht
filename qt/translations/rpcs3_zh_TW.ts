@@ -2094,6 +2094,18 @@ Restart of the game is required to apply. You can enable/disable this in the set
         <translation>躍步</translation>
     </message>
     <message>
+        <source>No Thread</source>
+        <translation>沒有執行緒</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>執行</translation>
+    </message>
+    <message>
+        <source>Pause</source>
+        <translation>暫停</translation>
+    </message>
+    <message>
         <location filename="rpcs3qt/debugger_frame.cpp" line="259"/>
         <source>Debugger Guide &amp; Shortcuts</source>
         <translation>偵錯器指南和捷徑方式</translation>
@@ -3271,7 +3283,7 @@ Falling back to local database.
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1025"/>
         <source>&amp;Custom Images</source>
-        <translation>自訂圖片(&amp;T)</translation>
+        <translation>自訂圖片(&amp;M)</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1028"/>
@@ -6248,6 +6260,10 @@ And is logged with some sceNpDrm* functions when the game/application which owns
     <message>
         <source>&amp;Search</source>
         <translation>搜尋(&amp;S)</translation>
+    </message>
+    <message>
+        <source>Case Insensitive</source>
+        <translation>不區分大小寫</translation>
     </message>
 </context>
 <context>
@@ -10359,7 +10375,7 @@ Press ESC to cancel</source>
     <message>
         <location filename="dialogs/qmessagebox.cpp" line="1808"/>
         <source>&lt;h3&gt;About Qt&lt;/h3&gt;&lt;p&gt;This program uses Qt version %1.&lt;/p&gt;</source>
-        <translation>&lt;h3&gt;關於 Qt&lt;/h3&gt;&lt;p&gt;這個程式使用 Qt 版本 %1。&lt;/p&gt;</translation>
+        <translation>&lt;h3&gt;關於 Qt&lt;/h3&gt;&lt;p&gt;這個程式使用 Qt %1 版本。&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="dialogs/qmessagebox.cpp" line="1813"/>
