@@ -325,12 +325,12 @@
 <context>
     <name>QObject</name>
     <message>
-        <location filename="main.cpp" line="830"/>
+        <location filename="main.cpp" line="817"/>
         <source>Invalid command-line arguments!</source>
         <translation>無效的指令行引數!</translation>
     </message>
     <message>
-        <location filename="main.cpp" line="830"/>
+        <location filename="main.cpp" line="817"/>
         <source>Cannot perform multiple installations at the same time!</source>
         <translation>無法同時執行多個安裝!</translation>
     </message>
@@ -1082,8 +1082,12 @@ Currently, the on-screen keyboard only supports the English key layout.</source>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="129"/>
-        <source>Sets the time interval in which the performance overlay is being updated (measured in milliseconds).</source>
-        <translation>設定效能覆蓋更新的時間間隔 (以毫秒為單位)。</translation>
+        <source>Sets the time interval in which the performance overlay is being updated (measured in milliseconds).
+Setting this to 16 milliseconds will refresh the performance overlay at roughly 60Hz.
+The performance overlay refresh rate does not affect the frame graph statistics and can only be as fast as the current game allows.</source>
+        <translation>設定效能覆蓋更新的時間間隔 (以毫秒為單位)。
+將其設定為 16 毫秒將更新效能覆蓋大約在  60Hz 。
+效能覆蓋更新率不會影響框率圖統計，並且只能與當前遊戲所允許的速度一樣快。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="130"/>
@@ -1722,6 +1726,11 @@ If your joystick is not being centered properly, read the &lt;a href=&quot;https
           &lt;br&gt;Comexzone
           &lt;br&gt;mapleglass
           &lt;br&gt;Liquidbings
+          &lt;br&gt;Dormant_Hero@0230
+          &lt;br&gt;Theodore Raney
+          &lt;br&gt;Morito
+          &lt;br&gt;Chaining Ten
+          &lt;br&gt;Xeropel
           &lt;/p&gt;</source>
         <oldsource>&lt;p&gt;&lt;b&gt;Supporters:&lt;/b&gt;&lt;br&gt;&lt;br&gt;Howard Garrison&lt;br&gt;EXPotemkin&lt;br&gt;Marko V.&lt;br&gt;danhp&lt;br&gt;Jake (5315825)&lt;br&gt;Ian Reid&lt;br&gt;Tad Sherlock&lt;br&gt;Tyler Friesen&lt;br&gt;Folzar&lt;br&gt;Payton Williams&lt;br&gt;RedPill Australia&lt;br&gt;yanghong&lt;br&gt;Mohammed El-Serougi&lt;br&gt;Дима ~Ximer13~ Кулин&lt;br&gt;James Reed&lt;br&gt;BaroqueSonata&lt;br&gt;Bonzay0&lt;br&gt;Henrijs Kons&lt;br&gt;eoiz&lt;br&gt;Lena Stöffler&lt;br&gt;Michael Holder&lt;br&gt;Max Bosse&lt;br&gt;Tyler Whisinnand&lt;br&gt;Gato Harvey&lt;br&gt;cain4355&lt;br&gt;Thomas Peltier&lt;br&gt;Loli Co.&lt;br&gt;MapleLoonie&lt;br&gt;Travis McEwen&lt;br&gt;Scott Singratsomboune&lt;br&gt;T.E&lt;br&gt;Lukas Rieger&lt;br&gt;Dane Madsen&lt;br&gt;JMS&lt;br&gt;Jonatan R&lt;br&gt;Luke Johnson&lt;br&gt;Thomas Zaorski&lt;br&gt;MyOwnFan&lt;br&gt;Alexandros Mandravillis&lt;br&gt;Socker Bopper&lt;br&gt;Faris Leonhart&lt;br&gt;Fabien Net&lt;br&gt;Raves&lt;br&gt;Barrowsx&lt;br&gt;kilsuton&lt;br&gt;Max Mason&lt;br&gt;Ethan Condon&lt;br&gt;jfidone&lt;br&gt;iaDRM&lt;br&gt;Kazer2.0&lt;br&gt;Bryce Quintin&lt;br&gt;Yuri Kunde Schlesner&lt;br&gt;Abdulla Altayer&lt;br&gt;Nicolas Jallamion&lt;br&gt;Vorvek&lt;br&gt;Ian Faddis&lt;br&gt;Leon&lt;br&gt;Mohammad Taleb&lt;br&gt;Jokez&lt;br&gt;crashX&lt;br&gt;Raveskirza&lt;br&gt;Grant Deacon&lt;br&gt;michael&lt;br&gt;David Zech&lt;br&gt;Ben Manoochehri&lt;br&gt;Adnan Kovacevic&lt;br&gt;Mighty J&lt;br&gt;Sam Shan Jiang&lt;br&gt;TheAnig&lt;br&gt;Rodney Coleman&lt;br&gt;FiniteAce&lt;br&gt;Kian Soon Alex Chiam&lt;br&gt;yukkuri&lt;br&gt;Justin Chadwick&lt;br&gt;toxic Itzi&lt;br&gt;Templerror&lt;br&gt;Myles Wesley Carlson&lt;br&gt;Max Bosse&lt;br&gt;Ethan Clark&lt;br&gt;LupineDream&lt;br&gt;CheatCodesOfLife&lt;br&gt;Jan Zykmund&lt;br&gt;Francesco Cinquemani&lt;br&gt;Andylg&lt;br&gt;Julia H de Camargos&lt;br&gt;Suvodip Mitra&lt;br&gt;Goh&lt;br&gt;Dmitry&lt;br&gt;Steel Brain&lt;br&gt;VarieZ&lt;br&gt;William Swango&lt;br&gt;Matthew Messersmith&lt;br&gt;Duane Locsin&lt;br&gt;Shuddertrix&lt;br&gt;Loweys Litsman&lt;br&gt;Shuddertrix&lt;br&gt;Mason Ferrie&lt;br&gt;Richard Kaplan&lt;br&gt;Hugues Valois&lt;br&gt;richard(lath..ch@)&lt;br&gt;Johnathan (Virtuous John)&lt;br&gt;eoiz&lt;br&gt;Dany Huguenin&lt;br&gt;doobieashtray&lt;br&gt;dean(mag..94@)&lt;br&gt;Pommier Jean-Philippe&lt;br&gt;Douglas Alan Albino&lt;br&gt;Ryan Mull&lt;br&gt;Thor-Erling Engen&lt;br&gt;Nick Carpenter&lt;br&gt;curryking3&lt;br&gt;Jared Tracton&lt;br&gt;alex(koo..oh@)&lt;br&gt;Jason O&apos;Brien&lt;br&gt;Skeletal Charizard&lt;br&gt;Ace00&lt;br&gt;Brandon Corujo&lt;br&gt;HyperBitHero&lt;br&gt;佳文 李&lt;br&gt;sorryboi
           &lt;br&gt;Johnson Bui
@@ -1742,6 +1751,8 @@ If your joystick is not being centered properly, read the &lt;a href=&quot;https
           &lt;br&gt;TAL BERKOVITZ
           &lt;br&gt;cjtk
           &lt;br&gt;Comexzone
+          &lt;br&gt;mapleglass
+          &lt;br&gt;Liquidbings
           &lt;/p&gt;</oldsource>
         <translation>&lt;p&gt;&lt;b&gt;贊助者:&lt;/b&gt;&lt;br&gt;&lt;br&gt;Howard Garrison&lt;br&gt;EXPotemkin&lt;br&gt;Marko V.&lt;br&gt;danhp&lt;br&gt;Jake (5315825)&lt;br&gt;Ian Reid&lt;br&gt;Tad Sherlock&lt;br&gt;Tyler Friesen&lt;br&gt;Folzar&lt;br&gt;Payton Williams&lt;br&gt;RedPill Australia&lt;br&gt;yanghong&lt;br&gt;Mohammed El-Serougi&lt;br&gt;Дима ~Ximer13~ Кулин&lt;br&gt;James Reed&lt;br&gt;BaroqueSonata&lt;br&gt;Bonzay0&lt;br&gt;Henrijs Kons&lt;br&gt;eoiz&lt;br&gt;Lena Stöffler&lt;br&gt;Michael Holder&lt;br&gt;Max Bosse&lt;br&gt;Tyler Whisinnand&lt;br&gt;Gato Harvey&lt;br&gt;cain4355&lt;br&gt;Thomas Peltier&lt;br&gt;Loli Co.&lt;br&gt;MapleLoonie&lt;br&gt;Travis McEwen&lt;br&gt;Scott Singratsomboune&lt;br&gt;T.E&lt;br&gt;Lukas Rieger&lt;br&gt;Dane Madsen&lt;br&gt;JMS&lt;br&gt;Jonatan R&lt;br&gt;Luke Johnson&lt;br&gt;Thomas Zaorski&lt;br&gt;MyOwnFan&lt;br&gt;Alexandros Mandravillis&lt;br&gt;Socker Bopper&lt;br&gt;Faris Leonhart&lt;br&gt;Fabien Net&lt;br&gt;Raves&lt;br&gt;Barrowsx&lt;br&gt;kilsuton&lt;br&gt;Max Mason&lt;br&gt;Ethan Condon&lt;br&gt;jfidone&lt;br&gt;iaDRM&lt;br&gt;Kazer2.0&lt;br&gt;Bryce Quintin&lt;br&gt;Yuri Kunde Schlesner&lt;br&gt;Abdulla Altayer&lt;br&gt;Nicolas Jallamion&lt;br&gt;Vorvek&lt;br&gt;Ian Faddis&lt;br&gt;Leon&lt;br&gt;Mohammad Taleb&lt;br&gt;Jokez&lt;br&gt;crashX&lt;br&gt;Raveskirza&lt;br&gt;Grant Deacon&lt;br&gt;michael&lt;br&gt;David Zech&lt;br&gt;Ben Manoochehri&lt;br&gt;Adnan Kovacevic&lt;br&gt;Mighty J&lt;br&gt;Sam Shan Jiang&lt;br&gt;TheAnig&lt;br&gt;Rodney Coleman&lt;br&gt;FiniteAce&lt;br&gt;Kian Soon Alex Chiam&lt;br&gt;yukkuri&lt;br&gt;Justin Chadwick&lt;br&gt;toxic Itzi&lt;br&gt;Templerror&lt;br&gt;Myles Wesley Carlson&lt;br&gt;Max Bosse&lt;br&gt;Ethan Clark&lt;br&gt;LupineDream&lt;br&gt;CheatCodesOfLife&lt;br&gt;Jan Zykmund&lt;br&gt;Francesco Cinquemani&lt;br&gt;Andylg&lt;br&gt;Julia H de Camargos&lt;br&gt;Suvodip Mitra&lt;br&gt;Goh&lt;br&gt;Dmitry&lt;br&gt;Steel Brain&lt;br&gt;VarieZ&lt;br&gt;William Swango&lt;br&gt;Matthew Messersmith&lt;br&gt;Duane Locsin&lt;br&gt;Shuddertrix&lt;br&gt;Loweys Litsman&lt;br&gt;Shuddertrix&lt;br&gt;Mason Ferrie&lt;br&gt;Richard Kaplan&lt;br&gt;Hugues Valois&lt;br&gt;richard(lath..ch@)&lt;br&gt;Johnathan (Virtuous John)&lt;br&gt;eoiz&lt;br&gt;Dany Huguenin&lt;br&gt;doobieashtray&lt;br&gt;dean(mag..94@)&lt;br&gt;Pommier Jean-Philippe&lt;br&gt;Douglas Alan Albino&lt;br&gt;Ryan Mull&lt;br&gt;Thor-Erling Engen&lt;br&gt;Nick Carpenter&lt;br&gt;curryking3&lt;br&gt;Jared Tracton&lt;br&gt;alex(koo..oh@)&lt;br&gt;Jason O&apos;Brien&lt;br&gt;Skeletal Charizard&lt;br&gt;Ace00&lt;br&gt;Brandon Corujo&lt;br&gt;HyperBitHero&lt;br&gt;佳文 李&lt;br&gt;sorryboi
           &lt;br&gt;Johnson Bui
@@ -1764,30 +1775,35 @@ If your joystick is not being centered properly, read the &lt;a href=&quot;https
           &lt;br&gt;Comexzone
           &lt;br&gt;mapleglass
           &lt;br&gt;Liquidbings
+          &lt;br&gt;Dormant_Hero@0230
+          &lt;br&gt;Theodore Raney
+          &lt;br&gt;Morito
+          &lt;br&gt;Chaining Ten
+          &lt;br&gt;Xeropel
           &lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/about_dialog.ui" line="332"/>
+        <location filename="rpcs3qt/about_dialog.ui" line="337"/>
         <source>GitHub</source>
         <translation>GitHub</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/about_dialog.ui" line="339"/>
+        <location filename="rpcs3qt/about_dialog.ui" line="344"/>
         <source>Website</source>
         <translation>網站</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/about_dialog.ui" line="346"/>
+        <location filename="rpcs3qt/about_dialog.ui" line="351"/>
         <source>Forum</source>
         <translation>論壇</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/about_dialog.ui" line="353"/>
+        <location filename="rpcs3qt/about_dialog.ui" line="358"/>
         <source>Patreon</source>
         <translation>贊助</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/about_dialog.ui" line="373"/>
+        <location filename="rpcs3qt/about_dialog.ui" line="378"/>
         <source>Close</source>
         <translation>關閉</translation>
     </message>
@@ -2096,7 +2112,7 @@ Restart of the game is required to apply. You can enable/disable this in the set
     </message>
     <message>
         <location filename="rpcs3qt/debugger_frame.cpp" line="80"/>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="843"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="845"/>
         <source>Go To Address</source>
         <translation>至 位址</translation>
     </message>
@@ -2144,7 +2160,7 @@ Restart of the game is required to apply. You can enable/disable this in the set
     </message>
     <message>
         <location filename="rpcs3qt/debugger_frame.cpp" line="264"/>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="866"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="868"/>
         <source>OK</source>
         <oldsource>Ok</oldsource>
         <translation>確定</translation>
@@ -2206,7 +2222,7 @@ Page-Down 鍵: 向下捲動，步數等於檢視的指令數。
 雙擊: 設定斷點。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="867"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="869"/>
         <source>Cancel</source>
         <translation>取消</translation>
     </message>
@@ -3836,177 +3852,177 @@ Any unsaved progress will be lost!
 <context>
     <name>kernel_explorer</name>
     <message>
-        <location filename="rpcs3qt/kernel_explorer.cpp" line="154"/>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="173"/>
         <source>Kernel Explorer</source>
         <translation>核心瀏覽器</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/kernel_explorer.cpp" line="161"/>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="180"/>
         <source>Refresh</source>
         <translation>更新</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/kernel_explorer.cpp" line="167"/>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="186"/>
         <source>Kernel</source>
         <translation>核心</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/kernel_explorer.cpp" line="197"/>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="216"/>
         <source>Process Info</source>
         <translation>處理資訊</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/kernel_explorer.cpp" line="199"/>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="218"/>
         <source>Shared Memory</source>
         <translation>共享記憶體</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/kernel_explorer.cpp" line="200"/>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="219"/>
         <source>Virtual Memory</source>
         <translation>虛擬記憶體</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/kernel_explorer.cpp" line="201"/>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="220"/>
         <source>Mutexes</source>
         <translation>互斥鎖</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/kernel_explorer.cpp" line="202"/>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="221"/>
         <source>Condition Variables</source>
         <translation>情況變數</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/kernel_explorer.cpp" line="203"/>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="222"/>
         <source>Reader Writer Locks</source>
         <translation>讀寫器鎖</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/kernel_explorer.cpp" line="204"/>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="223"/>
         <source>Interrupt Tags</source>
         <translation>中斷標籤</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/kernel_explorer.cpp" line="205"/>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="224"/>
         <source>Interrupt Service Handles</source>
         <translation>中斷服務處理</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/kernel_explorer.cpp" line="206"/>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="225"/>
         <source>Event Queues</source>
         <translation>事件佇列</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/kernel_explorer.cpp" line="207"/>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="226"/>
         <source>Event Ports</source>
         <translation>事件埠</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/kernel_explorer.cpp" line="208"/>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="227"/>
         <source>Traces</source>
         <translation>追蹤</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/kernel_explorer.cpp" line="209"/>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="228"/>
         <source>SPU Images</source>
         <translation>SPU 影像</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/kernel_explorer.cpp" line="210"/>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="229"/>
         <source>PRX Modules</source>
         <translation>PRX 模組</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/kernel_explorer.cpp" line="211"/>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="230"/>
         <source>SPU Ports</source>
         <translation>SPU 埠</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/kernel_explorer.cpp" line="212"/>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="231"/>
         <source>Overlay Modules</source>
         <translation>覆蓋模組</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/kernel_explorer.cpp" line="213"/>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="232"/>
         <source>Light Weight Mutexes</source>
         <translation>輕量互斥鎖</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/kernel_explorer.cpp" line="214"/>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="233"/>
         <source>Timers</source>
         <translation>計時器</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/kernel_explorer.cpp" line="215"/>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="234"/>
         <source>Semaphores</source>
         <translation>信號量</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/kernel_explorer.cpp" line="216"/>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="235"/>
         <source>File Descriptors ?</source>
         <translation>檔案描述符?</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/kernel_explorer.cpp" line="217"/>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="236"/>
         <source>Light Weight Condition Variables</source>
         <translation>輕量情況變數</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/kernel_explorer.cpp" line="218"/>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="237"/>
         <source>Event Flags</source>
         <translation>事件旗標</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/kernel_explorer.cpp" line="220"/>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="239"/>
         <source>Memory Containers</source>
         <translation>記憶體容器</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/kernel_explorer.cpp" line="221"/>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="240"/>
         <source>PPU Threads</source>
         <translation>PPU 執行緒</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/kernel_explorer.cpp" line="222"/>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="241"/>
         <source>SPU Threads</source>
         <translation>SPU 執行緒</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/kernel_explorer.cpp" line="223"/>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="242"/>
         <source>SPU Thread Groups</source>
         <translation>SPU 執行緒群</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/kernel_explorer.cpp" line="224"/>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="243"/>
         <source>RSX Contexts</source>
         <translation>RSX 上下文</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/kernel_explorer.cpp" line="225"/>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="244"/>
         <source>Sockets</source>
         <translation>插槽</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/kernel_explorer.cpp" line="226"/>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="245"/>
         <source>File Descriptors</source>
         <translation>檔案描述符</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/kernel_explorer.cpp" line="572"/>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="656"/>
         <source>SPURS %1</source>
         <translation>SPURS %1</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/kernel_explorer.cpp" line="648"/>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="731"/>
         <source>IO-EA Table</source>
         <translation>IO-EA 表</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/kernel_explorer.cpp" line="649"/>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="732"/>
         <source>Zcull Bindings</source>
         <translation>Zcull 連結</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/kernel_explorer.cpp" line="650"/>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="733"/>
         <source>Display Buffers</source>
         <translation>顯示緩衝區</translation>
     </message>
