@@ -1914,12 +1914,52 @@ Restart of the game is required to apply. You can enable/disable this in the set
 <context>
     <name>breakpoint_list</name>
     <message>
-        <location filename="rpcs3qt/breakpoint_list.cpp" line="20"/>
+        <location filename="rpcs3qt/breakpoint_list.cpp" line="23"/>
         <source>&amp;Delete</source>
         <translation>刪除(&amp;D)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/breakpoint_list.cpp" line="121"/>
+        <location filename="rpcs3qt/breakpoint_list.cpp" line="104"/>
+        <source>Unimplemented Breakpoints For Thread Type!</source>
+        <translation>執行緒類型未實現斷點!</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/breakpoint_list.cpp" line="104"/>
+        <source>Cannot set breakpoints on non-PPU thread currently, sorry.</source>
+        <translation>目前無法在非 PPU 執行緒上設定斷點，抱歉。</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/breakpoint_list.cpp" line="110"/>
+        <source>Invalid Memory For Breakpoints!</source>
+        <translation>無效的記憶斷點!</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/breakpoint_list.cpp" line="110"/>
+        <source>Cannot set breakpoints on non-executable memory!</source>
+        <translation>無法在不可執行的記憶上設定斷點!</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/breakpoint_list.cpp" line="116"/>
+        <source>Interpreters-Only Feature!</source>
+        <translation>僅限直譯器功能!</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/breakpoint_list.cpp" line="116"/>
+        <source>Cannot set breakpoints on non-interpreter decoders.</source>
+        <translation>無法在非直譯器譯碼器上設定斷點。</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/breakpoint_list.cpp" line="128"/>
+        <source>Unknown error while setting breakpoint!</source>
+        <translation>設定斷點時出現未知錯誤!</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/breakpoint_list.cpp" line="128"/>
+        <source>Failed to set breakpoints.</source>
+        <translation>設定斷點失敗。</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/breakpoint_list.cpp" line="151"/>
         <source>&amp;Rename</source>
         <translation>重新命名(&amp;R)</translation>
     </message>
@@ -2124,33 +2164,33 @@ Restart of the game is required to apply. You can enable/disable this in the set
 <context>
     <name>debugger_frame</name>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="43"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="53"/>
         <source>Debugger</source>
         <translation>偵錯器</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="75"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="85"/>
         <source>Choose a thread</source>
         <translation>選取一個執行緒</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="80"/>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="952"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="90"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="971"/>
         <source>Go To Address</source>
         <translation>至 位址</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="81"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="91"/>
         <source>Go To PC</source>
         <translation>至 PC</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="82"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="92"/>
         <source>Step</source>
         <translation>步</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="83"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="93"/>
         <source>Step Over</source>
         <translation>躍步</translation>
     </message>
@@ -2167,41 +2207,41 @@ Restart of the game is required to apply. You can enable/disable this in the set
         <translation>暫停</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="294"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="304"/>
         <source>Debugger Guide &amp; Shortcuts</source>
         <translation>偵錯器指南和捷徑方式</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="426"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="436"/>
         <source>Max MFC cmds logged</source>
         <translation>最大 MFC CMDS 日誌</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="264"/>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="975"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="274"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="994"/>
         <source>OK</source>
         <oldsource>Ok</oldsource>
         <translation>確定</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="253"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="263"/>
         <source>Breakpoint Settings</source>
         <translation>斷點設定</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="256"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="266"/>
         <source>Pause All Threads On Hit</source>
         <translation>暫停全部執行緒在命中</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="259"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="269"/>
         <source>When set: a breakpoint hit will pause the emulation instead of the current thread.
 Applies on all breakpoints in all threads regardless if set before or after changing this setting.</source>
         <translation>當設定: 斷點命中將暫停仿真，而不是當前執行緒。
 無論在更改此設定之前還是之後，都將應用於所有執行緒中的所有斷點。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="296"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="306"/>
         <source>Keys Ctrl+G: Go to typed address.
 Keys Ctrl+B: Open breakpoints settings.
 Keys Alt+S: Capture SPU images of selected SPU.
@@ -2260,18 +2300,18 @@ Page-Down 鍵: 向下捲動，步數等於檢視的指令數。
 雙擊: 設定斷點。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="426"/>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="482"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="436"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="492"/>
         <source>Decimal only, max allowed is %0.</source>
         <translation>僅小數點，最大允許為 %0。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="482"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="492"/>
         <source>Max PPU calls logged</source>
         <translation>記錄最大 PPU 調用</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="976"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="995"/>
         <source>Cancel</source>
         <translation>取消</translation>
     </message>
