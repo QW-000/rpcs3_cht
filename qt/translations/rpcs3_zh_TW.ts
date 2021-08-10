@@ -1339,17 +1339,22 @@ Only works with Vulkan renderer.</source>
         <location filename="rpcs3qt/tooltips.h" line="170"/>
         <source>Enable FidelityFX Super Resolution upscaling filter to improve the look of upscaled images.
 If the game is rendering at an internal resolution lower than your window resolution, FidelityFX will handle the upscale.
-Can cause visual artefacts.
+Can cause visual artifacts.
 Does not work with stereo 3D output for now</source>
+        <oldsource>Enable FidelityFX Super Resolution upscaling filter to improve the look of upscaled images.
+If the game is rendering at an internal resolution lower than your window resolution, FidelityFX will handle the upscale.
+Can cause visual artefacts.
+Does not work with stereo 3D output for now</oldsource>
         <translation>啟用 FidelityFX 超解析度倍增濾層以改善影像。
 如果遊戲低於視窗解析度的內部解析度渲染，FidelityFX 將倍增處理。
-可能導致視覺假象。
+可能導致視覺假影。
 目前不適用於立體 3D 輸出</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="171"/>
-        <source>Control the sharpening strength applied by FidelityFX Super Resolution. Higher values will give sharper output but may introduce artefacts.</source>
-        <translation>控制 FidelityFX 超解析度應用的銳化強度。 較高的值將提供更清晰的輸出，但可能會引入假象。</translation>
+        <source>Control the sharpening strength applied by FidelityFX Super Resolution. Higher values will give sharper output but may introduce artifacts.</source>
+        <oldsource>Control the sharpening strength applied by FidelityFX Super Resolution. Higher values will give sharper output but may introduce artefacts.</oldsource>
+        <translation>控制 FidelityFX 超解析度應用的銳化強度。 較高的值將提供更清晰的輸出，但可能會引入假影。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="175"/>
@@ -7042,7 +7047,7 @@ image</source>
         <translation>搖桿插值</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="175"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="174"/>
         <source>Filter Noise</source>
         <translation>過濾雜訊</translation>
     </message>
@@ -7062,184 +7067,184 @@ image</source>
         <translation>玩家 %0</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="143"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="142"/>
         <source>Choose a unique name</source>
         <translation>命名唯一的名稱</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="144"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="143"/>
         <source>Profile Name: </source>
         <translation>設定檔名: </translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="153"/>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="158"/>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="163"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="152"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="157"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="162"/>
         <source>Error</source>
         <translation>錯誤</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="153"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="152"/>
         <source>Name cannot be empty</source>
         <translation>名稱不能是空的</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="158"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="157"/>
         <source>Must choose a name without &apos;.&apos;</source>
         <translation>必須命名不帶 &apos;.&apos; 的名稱</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="163"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="162"/>
         <source>Please choose a non-existing name</source>
         <translation>請命名不存在的名稱</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="200"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="199"/>
         <source>Standard (Pad)</source>
         <translation>標準 (Pad)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="201"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="200"/>
         <source>Guitar</source>
         <translation>吉他</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="202"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="201"/>
         <source>Drum</source>
         <translation>鼓</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="203"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="202"/>
         <source>DJ</source>
         <translation>DJ</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="204"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="203"/>
         <source>Dance Mat</source>
         <translation>跳舞墊</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="205"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="204"/>
         <source>Navigation</source>
         <translation>巡覽控制器</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="315"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="314"/>
         <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1124"/>
         <source>[ Waiting %1 ]</source>
         <translation>[ 等候 %1 ]</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1287"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1286"/>
         <source>Custom Controller</source>
         <translation>自訂控制器</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1351"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1350"/>
         <source>No Profiles</source>
         <translation>沒有設定檔</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1355"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1354"/>
         <source>No Device Detected</source>
         <translation>未偵測到裝置</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1461"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1460"/>
         <source>PS3 Controller</source>
         <comment>PlayStation 3 Controller</comment>
         <translation>PS3 控制器</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1466"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1465"/>
         <source>Dance Dance Revolution</source>
         <comment>Dance Dance Revolution Mat</comment>
         <translation>勁爆熱舞</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1471"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1470"/>
         <source>DJ Hero Turntable</source>
         <comment>DJ Hero Turntable</comment>
         <translation>DJ 英雄轉盤</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1476"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1475"/>
         <source>Rock Band</source>
         <comment>Harmonix Rock Band Drum Kit</comment>
         <translation>搖滾樂隊</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1481"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1480"/>
         <source>Rock Band Pro</source>
         <comment>Harmonix Rock Band Pro-Drum Kit</comment>
         <translation>搖滾樂隊專業版</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1486"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1485"/>
         <source>Rock Band</source>
         <comment>Harmonix Rock Band Guitar</comment>
         <translation>搖滾樂隊</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1491"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1490"/>
         <source>Guitar Hero</source>
         <comment>RedOctane Guitar Hero Drum Kit</comment>
         <translation>吉他英雄</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1496"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1495"/>
         <source>Guitar Hero</source>
         <comment>RedOctane Guitar Hero Guitar</comment>
         <translation>吉他英雄</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1501"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1500"/>
         <source>Rock Revolution</source>
         <comment>Rock Revolution Drum Controller</comment>
         <translation>搖滾革命</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1518"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1517"/>
         <source>Reserved</source>
         <translation>預留</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1628"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1627"/>
         <source>Null</source>
         <translation>空</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1629"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1628"/>
         <source>Keyboard</source>
         <translation>鍵盤</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1630"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1629"/>
         <source>DualShock 3</source>
         <translation>DualShock 3</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1631"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1630"/>
         <source>DualShock 4</source>
         <translation>DualShock 4</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1632"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1631"/>
         <source>DualSense</source>
         <translation>DualSense</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1634"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1633"/>
         <source>XInput</source>
         <translation>XInput</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1635"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1634"/>
         <source>MMJoystick</source>
         <translation>MMJoystick</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1638"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1637"/>
         <source>Evdev</source>
         <translation>Evdev</translation>
     </message>
