@@ -7355,6 +7355,16 @@ image</source>
         <translation>有效補綴</translation>
     </message>
     <message>
+        <location filename="rpcs3qt/patch_creator_dialog.cpp" line="48"/>
+        <source>File</source>
+        <translation>檔案</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/patch_creator_dialog.cpp" line="49"/>
+        <source>&amp;Export Patch</source>
+        <translation>輸出補綴(&amp;E)</translation>
+    </message>
+    <message>
         <location filename="rpcs3qt/patch_creator_dialog.cpp" line="130"/>
         <source>&amp;Add Instruction</source>
         <translation>新增指令(&amp;I)</translation>
