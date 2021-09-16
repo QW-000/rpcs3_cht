@@ -7126,34 +7126,34 @@ image</source>
         <translation>玩家 %0</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1456"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1464"/>
         <source>Choose a unique name</source>
         <translation>命名唯一的名称</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1457"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1465"/>
         <source>Profile Name: </source>
         <translation>设定档名: </translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1466"/>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1471"/>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1476"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1474"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1479"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1484"/>
         <source>Error</source>
         <translation>错误</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1466"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1474"/>
         <source>Name cannot be empty</source>
         <translation>名称不能是空的</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1471"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1479"/>
         <source>Must choose a name without &apos;.&apos;</source>
         <translation>必须命名不带 &apos;.&apos; 的名称</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1476"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1484"/>
         <source>Please choose a non-existing name</source>
         <translation>请命名不存在的名称</translation>
     </message>
@@ -7189,12 +7189,12 @@ image</source>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.cpp" line="287"/>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1109"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1097"/>
         <source>[ Waiting %1 ]</source>
         <translation>[ 等候 %1 ]</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1251"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1259"/>
         <source>Custom Controller</source>
         <translation>自订控制器</translation>
     </message>
@@ -7203,116 +7203,116 @@ image</source>
         <translation>没有设定档</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1299"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1307"/>
         <source>No Device Detected</source>
         <translation>未侦测到装置</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1406"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1414"/>
         <source>PS3 Controller</source>
         <comment>PlayStation 3 Controller</comment>
         <translation>PS3 控制器</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1411"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1419"/>
         <source>Dance Dance Revolution</source>
         <comment>Dance Dance Revolution Mat</comment>
         <translation>劲爆热舞</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1416"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1424"/>
         <source>DJ Hero Turntable</source>
         <comment>DJ Hero Turntable</comment>
         <translation>DJ 英雄转盘</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1421"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1429"/>
         <source>Rock Band</source>
         <comment>Harmonix Rock Band Drum Kit</comment>
         <translation>摇滚乐队</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1426"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1434"/>
         <source>Rock Band Pro</source>
         <comment>Harmonix Rock Band Pro-Drum Kit</comment>
         <translation>摇滚乐队专业版</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1431"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1439"/>
         <source>Rock Band</source>
         <comment>Harmonix Rock Band Guitar</comment>
         <translation>摇滚乐队</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1436"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1444"/>
         <source>Guitar Hero</source>
         <comment>RedOctane Guitar Hero Drum Kit</comment>
         <translation>吉他英雄</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1441"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1449"/>
         <source>Guitar Hero</source>
         <comment>RedOctane Guitar Hero Guitar</comment>
         <translation>吉他英雄</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1446"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1454"/>
         <source>Rock Revolution</source>
         <comment>Rock Revolution Drum Controller</comment>
         <translation>摇滚革命</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1498"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1506"/>
         <source>Reserved</source>
         <translation>预留</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1622"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1619"/>
         <source>Warning!</source>
         <translation>警告!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1623"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1620"/>
         <source>The %0 button &lt;b&gt;%1&lt;/b&gt; of &lt;b&gt;Player %2&lt;/b&gt; was assigned at least twice.&lt;br&gt;Please consider adjusting the configuration.&lt;br&gt;&lt;br&gt;Continue anyway?&lt;br&gt;</source>
         <translation>&lt;b&gt;玩家 %2&lt;/b&gt; 的 %0 按钮&lt;b&gt;%1&lt;/b&gt; 至少被指派了两次。&lt;br&gt;请考虑调整组态。&lt;br&gt;&lt;br&gt;仍要继续吗?&lt;br</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1657"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1654"/>
         <source>Null</source>
         <translation>空</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1658"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1655"/>
         <source>Keyboard</source>
         <translation>键盘</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1659"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1656"/>
         <source>DualShock 3</source>
         <translation>DualShock 3</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1660"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1657"/>
         <source>DualShock 4</source>
         <translation>DualShock 4</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1661"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1658"/>
         <source>DualSense</source>
         <translation>DualSense</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1663"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1660"/>
         <source>XInput</source>
         <translation>XInput</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1664"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1661"/>
         <source>MMJoystick</source>
         <translation>MMJoystick</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1667"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1664"/>
         <source>Evdev</source>
         <translation>Evdev</translation>
     </message>
@@ -10295,33 +10295,33 @@ File was too small.</source>
 <context>
     <name>update_manager</name>
     <message>
-        <location filename="rpcs3qt/update_manager.cpp" line="58"/>
-        <location filename="rpcs3qt/update_manager.cpp" line="73"/>
-        <location filename="rpcs3qt/update_manager.cpp" line="154"/>
-        <location filename="rpcs3qt/update_manager.cpp" line="239"/>
-        <location filename="rpcs3qt/update_manager.cpp" line="247"/>
-        <location filename="rpcs3qt/update_manager.cpp" line="259"/>
-        <location filename="rpcs3qt/update_manager.cpp" line="550"/>
+        <location filename="rpcs3qt/update_manager.cpp" line="61"/>
+        <location filename="rpcs3qt/update_manager.cpp" line="76"/>
+        <location filename="rpcs3qt/update_manager.cpp" line="157"/>
+        <location filename="rpcs3qt/update_manager.cpp" line="325"/>
+        <location filename="rpcs3qt/update_manager.cpp" line="333"/>
+        <location filename="rpcs3qt/update_manager.cpp" line="345"/>
+        <location filename="rpcs3qt/update_manager.cpp" line="636"/>
         <source>Auto-updater</source>
         <translation>自动更新</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/update_manager.cpp" line="81"/>
+        <location filename="rpcs3qt/update_manager.cpp" line="84"/>
         <source>Checking For Updates</source>
         <translation>检查更新</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/update_manager.cpp" line="58"/>
-        <location filename="rpcs3qt/update_manager.cpp" line="73"/>
-        <location filename="rpcs3qt/update_manager.cpp" line="247"/>
-        <location filename="rpcs3qt/update_manager.cpp" line="259"/>
+        <location filename="rpcs3qt/update_manager.cpp" line="61"/>
+        <location filename="rpcs3qt/update_manager.cpp" line="76"/>
+        <location filename="rpcs3qt/update_manager.cpp" line="333"/>
+        <location filename="rpcs3qt/update_manager.cpp" line="345"/>
         <source>An error occurred during the auto-updating process.
 Check the log for more information.</source>
         <translation>在自动更新过程中出现错误。
 检查日志以取得更多讯息。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/update_manager.cpp" line="179"/>
+        <location filename="rpcs3qt/update_manager.cpp" line="182"/>
         <source>A better version of RPCS3 is available!
 
 Current version: %0 (%1)
@@ -10336,7 +10336,7 @@ Do you want to update?</source>
 您要更新吗?</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/update_manager.cpp" line="187"/>
+        <location filename="rpcs3qt/update_manager.cpp" line="190"/>
         <source>A new version of RPCS3 is available!
 
 Current version: %0 (%1)
@@ -10353,7 +10353,7 @@ Do you want to update?</source>
 你想更新吗?</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/update_manager.cpp" line="197"/>
+        <location filename="rpcs3qt/update_manager.cpp" line="200"/>
         <source>You&apos;re currently using a custom or PR build.
 
 Latest version: %0 (%1)
@@ -10368,34 +10368,59 @@ Do you want to update to the latest official RPCS3 version?</source>
 是否要更新到最新的官方 RPCS3 版本?</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/update_manager.cpp" line="239"/>
+        <location filename="rpcs3qt/update_manager.cpp" line="242"/>
+        <location filename="rpcs3qt/update_manager.cpp" line="252"/>
+        <source>N/A</source>
+        <translation>N/A</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/update_manager.cpp" line="296"/>
+        <source>． %0: %1</source>
+        <translation>． %0: %1</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/update_manager.cpp" line="303"/>
+        <source>To see the changelog, please click &quot;Show Details&quot;.</source>
+        <translation>要观看更新日志，请点选 &quot;显示详细资料&quot;。</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/update_manager.cpp" line="304"/>
+        <source>Changelog:
+
+%0</source>
+        <translation>更新日志:
+
+%0</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/update_manager.cpp" line="325"/>
         <source>Please stop the emulation before trying to update.</source>
         <translation>在尝试更新之前，请停止仿真。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/update_manager.cpp" line="550"/>
+        <location filename="rpcs3qt/update_manager.cpp" line="636"/>
         <source>Update successful!
 RPCS3 will now restart.</source>
         <translation>更新成功!
 RPCS3 现在将重新启动。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/update_manager.cpp" line="154"/>
+        <location filename="rpcs3qt/update_manager.cpp" line="157"/>
         <source>Your version is already up to date!</source>
         <translation>您的版本已经是最新的!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/update_manager.cpp" line="230"/>
+        <location filename="rpcs3qt/update_manager.cpp" line="299"/>
         <source>Update Available</source>
         <translation>有可用更新</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/update_manager.cpp" line="265"/>
+        <location filename="rpcs3qt/update_manager.cpp" line="351"/>
         <source>Downloading Update</source>
         <translation>下载更新</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/update_manager.cpp" line="270"/>
+        <location filename="rpcs3qt/update_manager.cpp" line="356"/>
         <source>Updating RPCS3</source>
         <translation>更新 RPCS3</translation>
     </message>
