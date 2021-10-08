@@ -5288,9 +5288,9 @@ Space needed: %0 KB</source>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="409"/>
-        <source>Install Packages/Raps</source>
-        <oldsource>Install .pkg</oldsource>
-        <translation>安裝 軟體包/RAP</translation>
+        <source>Install Packages/Raps/Edats</source>
+        <oldsource>Install Packages/Raps</oldsource>
+        <translation>安裝 軟體/RAP/EDAT</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="412"/>
@@ -5310,8 +5310,8 @@ Space needed: %0 KB</source>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="432"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1543"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1567"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1550"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1574"/>
         <source>Pause</source>
         <translation>暫停</translation>
     </message>
@@ -5650,9 +5650,9 @@ Space needed: %0 KB</source>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="805"/>
         <location filename="rpcs3qt/main_window.cpp" line="175"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1624"/>
-        <location filename="rpcs3qt/main_window.cpp" line="2468"/>
-        <location filename="rpcs3qt/main_window.cpp" line="2491"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1631"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2475"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2498"/>
         <source>Restart</source>
         <translation>重啟</translation>
     </message>
@@ -5930,20 +5930,20 @@ Space needed: %0 KB</source>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="146"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1598"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1655"/>
-        <location filename="rpcs3qt/main_window.cpp" line="2472"/>
-        <location filename="rpcs3qt/main_window.cpp" line="2482"/>
-        <location filename="rpcs3qt/main_window.cpp" line="2495"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1605"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1662"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2479"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2489"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2502"/>
         <source>Play %0</source>
         <translation>遊戲 %0</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="146"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1585"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1615"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1666"/>
-        <location filename="rpcs3qt/main_window.cpp" line="2475"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1592"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1622"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1673"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2482"/>
         <source>Play</source>
         <translation>遊戲</translation>
     </message>
@@ -6081,187 +6081,187 @@ Path:
         <source>Do you want to install this package?
 
 %0</source>
-        <translation>你要安裝這個軟體包嗎?
+        <translation>你要安裝這個套裝軟體嗎?
 
 %0</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="701"/>
+        <location filename="rpcs3qt/main_window.cpp" line="708"/>
         <source>RPCS3 Package Installer</source>
         <translation>RPCS3 軟體安裝程式</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="701"/>
+        <location filename="rpcs3qt/main_window.cpp" line="708"/>
         <source>Installing package, please wait...</source>
         <translation>安裝軟體，請稍候...</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="701"/>
-        <location filename="rpcs3qt/main_window.cpp" line="923"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1132"/>
+        <location filename="rpcs3qt/main_window.cpp" line="708"/>
+        <location filename="rpcs3qt/main_window.cpp" line="930"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1139"/>
         <source>Cancel</source>
         <translation>取消</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="801"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1219"/>
+        <location filename="rpcs3qt/main_window.cpp" line="808"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1226"/>
         <source>Success!</source>
         <translation>成功!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="801"/>
+        <location filename="rpcs3qt/main_window.cpp" line="808"/>
         <source>Successfully installed software from package(s)!</source>
-        <translation>成功從軟體包安裝軟體!</translation>
+        <translation>成功從套裝軟體安裝軟體!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="811"/>
+        <location filename="rpcs3qt/main_window.cpp" line="818"/>
         <source>Warning!</source>
         <translation>警告!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="811"/>
+        <location filename="rpcs3qt/main_window.cpp" line="818"/>
         <source>The following package cannot be installed on top of the current data:
 %1!</source>
-        <translation>無法在當前資料之上安裝以下軟體包:
+        <translation>無法在當前資料之上安裝以下套裝軟體:
 %1!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="816"/>
+        <location filename="rpcs3qt/main_window.cpp" line="823"/>
         <source>Failure!</source>
         <translation>失敗!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="835"/>
+        <location filename="rpcs3qt/main_window.cpp" line="842"/>
         <source>Select MSELF To extract</source>
         <translation>選取 MSELF 提取</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="842"/>
-        <location filename="rpcs3qt/main_window.cpp" line="888"/>
-        <location filename="rpcs3qt/main_window.cpp" line="914"/>
+        <location filename="rpcs3qt/main_window.cpp" line="849"/>
+        <location filename="rpcs3qt/main_window.cpp" line="895"/>
+        <location filename="rpcs3qt/main_window.cpp" line="921"/>
         <source>Extraction Directory</source>
         <translation>提取目錄</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="856"/>
+        <location filename="rpcs3qt/main_window.cpp" line="863"/>
         <source>Select PS3UPDAT.PUP To Install</source>
         <translation>選取 PS3UPDAT.PUP 安裝</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="860"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1111"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1121"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1132"/>
+        <location filename="rpcs3qt/main_window.cpp" line="867"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1118"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1128"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1139"/>
         <source>RPCS3 Firmware Installer</source>
         <translation>RPCS3 韌體安裝程式</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="860"/>
+        <location filename="rpcs3qt/main_window.cpp" line="867"/>
         <source>Install firmware: %1?</source>
         <translation>安裝韌體: %1?</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="881"/>
+        <location filename="rpcs3qt/main_window.cpp" line="888"/>
         <source>Select PS3UPDAT.PUP To extract</source>
         <translation>選取 PS3UPDAT.PUP 提取</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="907"/>
+        <location filename="rpcs3qt/main_window.cpp" line="914"/>
         <source>Select TAR To extract</source>
         <translation>選取 TAR 提取</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="923"/>
+        <location filename="rpcs3qt/main_window.cpp" line="930"/>
         <source>TAR Extraction</source>
         <translation>TAR 提取</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="923"/>
+        <location filename="rpcs3qt/main_window.cpp" line="930"/>
         <source>Extracting encrypted TARs
 Please wait...</source>
         <translation>提取加密的 TAR
 請稍候...</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="940"/>
+        <location filename="rpcs3qt/main_window.cpp" line="947"/>
         <source>The following TAR file(s) could not be extracted:</source>
         <translation>無法提取以下 TAR 檔案:</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="954"/>
+        <location filename="rpcs3qt/main_window.cpp" line="961"/>
         <source>Tar extraction failed</source>
         <translation>Tar 提取失敗</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="964"/>
+        <location filename="rpcs3qt/main_window.cpp" line="971"/>
         <source>Firmware Installation Failed</source>
         <translation>韌體安裝失敗</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="971"/>
+        <location filename="rpcs3qt/main_window.cpp" line="978"/>
         <source>Firmware installation failed: The provided path is empty.</source>
         <translation>韌體安裝失敗: 所提供的路徑是空的。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="991"/>
+        <location filename="rpcs3qt/main_window.cpp" line="998"/>
         <source>Firmware installation failed: The selected firmware file couldn&apos;t be opened.</source>
         <translation>韌體安裝失敗: 無法開啟所選的韌體檔案。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1002"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1009"/>
         <source>Firmware installation failed: The provided file is empty.</source>
         <translation>韌體安裝失敗: 所提供的檔案是空的。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1008"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1015"/>
         <source>Firmware installation failed: The provided file is not a PUP file.</source>
         <translation>韌體安裝失敗: 提供的檔案不是 PUP 檔案。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1014"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1021"/>
         <source>Firmware installation failed: The provided file is incomplete. Try redownloading it.</source>
         <translation>韌體安裝失敗: 提供的檔案不完整。 嘗試重新下載。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1029"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1036"/>
         <source>Firmware installation failed: The provided file is corrupted.</source>
         <translation>韌體安裝失敗: 提供的檔案已損壞。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1035"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1046"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1085"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1106"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1042"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1053"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1092"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1113"/>
         <source>Firmware installation failed: The provided file&apos;s contents are corrupted.</source>
         <translation>韌體安裝失敗: 提供的檔案內容已損壞。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1059"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1066"/>
         <source>Firmware extraction failed: VFS mounting failed.</source>
         <translation>韌體提取失敗: VFS 安裝失敗。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1157"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1164"/>
         <source>Firmware installation failed: Firmware could not be decompressed</source>
         <translation>韌體安裝失敗: 無法解壓縮韌體</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1238"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1245"/>
         <source>All Binaries (*.bin *.BIN *.self *.SELF *.sprx *.SPRX *.sdat *.SDAT *.edat *.EDAT);;BIN files (*.bin *.BIN);;SELF files (*.self *.SELF);;SPRX files (*.sprx *.SPRX);;SDAT/EDAT files (*.sdat *.SDAT *.edat *.EDAT);;All files (*.*)</source>
         <translation>全部二進位 (*.bin *.BIN *.self *.SELF *.sprx *.SPRX *.sdat *.SDAT *.edat *.EDAT);;BIN 檔案 (*.bin *.BIN);;SELF 檔案 (*.self *.SELF);;SPRX 檔案 (*.sprx *.SPRX);;SDAT/EDAT 檔案 (*.sdat *.SDAT *.edat *.EDAT);;全部檔案 (*.*)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="2938"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2948"/>
         <source>PARAM.SFO Information</source>
         <translation>PARAM.SFO 資訊</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1066"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1073"/>
         <source>Firmware installation failed: Firmware contents could not be extracted.</source>
         <translation>韌體安裝失敗: 無法提取韌體內容。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1111"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1118"/>
         <source>Old firmware detected.
 The newest firmware version is %1 and you are trying to install version %2
 Continue installation?</source>
@@ -6272,7 +6272,7 @@ Continue installation?</source>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="559"/>
         <source>Select packages and/or rap files to install</source>
-        <translation>選擇要安裝的軟體包或 RAP 檔案</translation>
+        <translation>選擇要安裝的套裝軟體或 RAP 檔案</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="589"/>
@@ -6327,47 +6327,47 @@ Changelog:
 %0</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="735"/>
+        <location filename="rpcs3qt/main_window.cpp" line="742"/>
         <source>v.%0</source>
         <comment>Package version for install progress dialog</comment>
         <translation>v.%0</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="740"/>
+        <location filename="rpcs3qt/main_window.cpp" line="747"/>
         <source>Installing package (%0/%1), please wait...
 
 %2</source>
-        <translation>正在安裝軟體包 (%0/%1)，請稍候...
+        <translation>正在安裝套裝軟體 (%0/%1)，請稍候...
 
 %2</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="816"/>
+        <location filename="rpcs3qt/main_window.cpp" line="823"/>
         <source>Failed to install software from package:
 %1!
 This is very likely caused by external interference from a faulty anti-virus software.
 Please add RPCS3 to your anti-virus&apos; whitelist or use better anti-virus software.</source>
-        <translation>無法從軟體包安裝軟體:
+        <translation>無法從套裝軟體安裝:
 %1!
 這很可能是由故障的防毒軟體引起的外部干擾。
 請新增 RPCS3 到您的防毒白名單中或用更好的防毒軟體。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1121"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1128"/>
         <source>Firmware of version %1 has already been installed.
 Overwrite current installation with version %2?</source>
         <translation>已經安裝了 %1 版本的韌體。
 是否使用 %2 版本覆寫當前安裝?</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1132"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1139"/>
         <source>Installing firmware version %1
 Please wait...</source>
         <translation>安裝韌體 %1 版本
 請稍候...</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1166"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1173"/>
         <source>The firmware contents could not be extracted.
 This is very likely caused by external interference from a faulty anti-virus software.
 Please add RPCS3 to your anti-virus&apos; whitelist or use better anti-virus software.</source>
@@ -6376,70 +6376,70 @@ Please add RPCS3 to your anti-virus&apos; whitelist or use better anti-virus sof
 請新增 RPCS3 到您的防毒白名單中或用更好的防毒軟體。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1219"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1226"/>
         <source>Successfully installed PS3 firmware and LLE Modules!</source>
         <translation>已成功安裝 PS3 韌體與 LLE 模組!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1238"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1245"/>
         <source>Select binary files</source>
         <translation>選擇二進位檔案</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1349"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1356"/>
         <source>Hint: KLIC (KLicense key) is a 16-byte long string. (32 hexadecimal characters)
 And is logged with some sceNpDrm* functions when the game/application which owns &quot;%0&quot; is running.</source>
         <translation>提示: KLIC (KLicense key) 是一個 16 位元組長的字串。 (32 十六進位字元)
 所有 &quot;%0&quot; 的遊戲以及應用程序正在執行時，並使用某些 sceNpDrm* 功能進行記錄。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1357"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1364"/>
         <source>Enter KLIC of %0</source>
         <translation>輸入 %0 的 KLIC</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1358"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1365"/>
         <source>Decryption failed with provided KLIC.
 %0</source>
         <translation>提供的 KLIC 解密失敗。
 %0</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1358"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1365"/>
         <source>Hexadecimal only.</source>
         <translation>僅十六進位。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1527"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1553"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1620"/>
-        <location filename="rpcs3qt/main_window.cpp" line="2465"/>
-        <location filename="rpcs3qt/main_window.cpp" line="2488"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1534"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1560"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1627"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2472"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2495"/>
         <source>Restart %0</source>
         <translation>重啟 %0</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1528"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1554"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1535"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1561"/>
         <source>Pause %0</source>
         <translation>暫停 %0</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1529"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1555"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1536"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1562"/>
         <source>Stop %0</source>
         <translation>停止 %0</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1575"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1598"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1655"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1582"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1605"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1662"/>
         <source>Resume %0</source>
         <translation>繼續 %0</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1539"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1563"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1546"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1570"/>
         <source>&amp;Pause</source>
         <translation>暫停(&amp;P)</translation>
     </message>
@@ -6450,107 +6450,108 @@ And is logged with some sceNpDrm* functions when the game/application which owns
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="560"/>
-        <source>All relevant (*.pkg *.PKG *.rap *.RAP);;Package files (*.pkg *.PKG);;Rap files (*.rap *.RAP);;All files (*.*)</source>
-        <translation>全部相關 (*.pkg *.PKG *.rap *.RAP);;套裝軟體檔案 (*.pkg *.PKG);;RAP 檔案 (*.rap *.RAP);;全部檔案 (*.*)</translation>
+        <source>All relevant (*.pkg *.PKG *.rap *.RAP *.edat *.EDAT);;Package files (*.pkg *.PKG);;Rap files (*.rap *.RAP);;Edat files (*.edat *.EDAT);;All files (*.*)</source>
+        <oldsource>All relevant (*.pkg *.PKG *.rap *.RAP);;Package files (*.pkg *.PKG);;Rap files (*.rap *.RAP);;All files (*.*)</oldsource>
+        <translation>全部相關 (*.pkg *.PKG *.rap *.RAPP *.edat *.EDAT);;套裝軟體檔案 (*.pkg *.PKG);;RAP 檔案 (*.rap *.RAP);;EDAT 檔案 (*.edat *.EDAT);;全部檔案 (*.*)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="835"/>
+        <location filename="rpcs3qt/main_window.cpp" line="842"/>
         <source>All mself files (*.mself *.MSELF);;All files (*.*)</source>
         <translation>全部 MSELF 檔案 (*.mself *.MSELF);;全部檔案 (*.*)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="856"/>
-        <location filename="rpcs3qt/main_window.cpp" line="881"/>
+        <location filename="rpcs3qt/main_window.cpp" line="863"/>
+        <location filename="rpcs3qt/main_window.cpp" line="888"/>
         <source>PS3 update file (PS3UPDAT.PUP);;All pup files (*.pup *.PUP);;All files (*.*)</source>
         <translation>PS3 更新檔案 (PS3UPDAT.PUP);;全部 PUP 檔案 (*.pup *.PUP);;全部檔案 (*.*)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="907"/>
+        <location filename="rpcs3qt/main_window.cpp" line="914"/>
         <source>All tar files (*.tar *.TAR *.tar.aa.* *.TAR.AA.*);;All files (*.*)</source>
         <translation>全部 TAR 檔案 (*.tar *.TAR *.tar.aa.* *.TAR.AA.*);;全部檔案 (*.*)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1581"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1602"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1662"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1588"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1609"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1669"/>
         <source>&amp;Resume</source>
         <translation>繼續(&amp;E)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1602"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1662"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1609"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1669"/>
         <source>&amp;Play</source>
         <translation>遊戲(&amp;P)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1636"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1643"/>
         <source>Send open system menu cmd</source>
         <translation>傳送開啟系統選單 CMD</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1750"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1795"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1861"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1757"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1802"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1868"/>
         <source>Ctrl+%1</source>
         <translation>Ctrl+%1</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1989"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1996"/>
         <source>Select a folder containing one or more games</source>
         <translation>選擇包含單個或數個遊戲資料夾</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="2060"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2067"/>
         <source>Send &amp;%0 system menu cmd</source>
         <translation>傳送 &amp;%0 系統選單 CMD</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="2060"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2067"/>
         <source>close</source>
         <translation>關閉</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="2060"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2067"/>
         <source>open</source>
         <translation>開啟</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="2301"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2308"/>
         <source>Auto-updater</source>
         <translation>自動更新</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="2301"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2308"/>
         <source>The auto-updater currently isn&apos;t available for your os.</source>
         <translation>自動更新程式當前不適用於您的作業系統。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="2650"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2657"/>
         <source>Cache Cleared</source>
         <translation>快取已清除</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="2650"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2657"/>
         <source>Disk cache was cleared successfully</source>
         <translation>磁碟快取已成功清除</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="2654"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2661"/>
         <source>Error</source>
         <translation>錯誤</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="2654"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2661"/>
         <source>Could not remove disk cache</source>
         <translation>無法刪除磁碟快取</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="2665"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2672"/>
         <source>Confirm Removal</source>
         <translation>確認刪除</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="2665"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2672"/>
         <source>Remove firmware cache?</source>
         <translation>刪除韌體快取?</translation>
     </message>
@@ -7831,7 +7832,7 @@ Make sure that all the patches located in &quot;%0&quot; contain the proper form
         <location filename="rpcs3qt/pkg_install_dialog.cpp" line="156"/>
         <source>You are about to install multiple packages.
 Reorder and/or exclude them if needed, then click &quot;Install&quot; to proceed.</source>
-        <translation>您將要安裝多個軟體包。
+        <translation>您將要安裝多個套裝軟體。
 重新排序或根據所需排除，然後點擊 &quot;安裝&quot; 繼續。</translation>
     </message>
     <message>
