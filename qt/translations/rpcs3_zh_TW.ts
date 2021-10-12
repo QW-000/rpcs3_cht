@@ -8204,7 +8204,7 @@ Check your email for your token!</source>
     <message>
         <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="374"/>
         <source>Friend Requests</source>
-        <translation>邀情好友</translation>
+        <translation>邀請好友</translation>
     </message>
     <message>
         <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="384"/>
@@ -8263,7 +8263,7 @@ Check your email for your token!</source>
     <message>
         <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="486"/>
         <source>&amp;Accept Request</source>
-        <translation>接受邀情(&amp;A)</translation>
+        <translation>接受邀請(&amp;A)</translation>
     </message>
     <message>
         <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="492"/>
