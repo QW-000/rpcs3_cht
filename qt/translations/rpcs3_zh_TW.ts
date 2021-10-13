@@ -8017,73 +8017,73 @@ Selecting ignore starts the emulator without Vulkan support.</source>
         <translation>重新發送權杖</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="114"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="113"/>
         <source>Change Password</source>
         <translation>變更密碼</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="116"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="115"/>
         <source>Save</source>
         <translation>儲存</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="169"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="168"/>
         <source>RPCN Password Saved</source>
         <translation>RPCN 密碼已儲存</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="169"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="168"/>
         <source>Your password was saved successfully!</source>
         <translation>您的密碼已成功儲存!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="195"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="194"/>
         <source>Missing host</source>
         <translation>缺少主機</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="195"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="194"/>
         <source>You need to enter a host for rpcn!</source>
         <translation>您需要輸入 RPCN 的主機!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="201"/>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="245"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="200"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="244"/>
         <source>Wrong input</source>
         <translation>輸入錯誤</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="201"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="200"/>
         <source>You need to enter a username and a password!</source>
         <translation>您需要輸入使用者名稱和密碼!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="207"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="206"/>
         <source>Invalid character</source>
         <translation>無效字元</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="207"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="206"/>
         <source>NPID must be between 3 and 16 characters and can only contain &apos;-&apos;, &apos;_&apos; or alphanumeric characters.</source>
         <translation>NPID 必須介於 3 到 16 個字元之間，並且只能包含 &quot;- &quot; 與 &quot;_ &quot; 或字母數字字元。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="213"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="212"/>
         <source>Invalid token</source>
         <translation>權杖無效</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="213"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="212"/>
         <source>The token you have received should be 16 characters long.</source>
         <translation>您收到的權杖應為 16 個字元長。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="238"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="237"/>
         <source>Email address</source>
         <translation>電子信箱位址</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="238"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="237"/>
         <source>An email address is required, please note:
 *A valid email is needed to validate your account.
 *Your email won&apos;t be used for anything beyond sending you the token.
@@ -8098,107 +8098,162 @@ Selecting ignore starts the emulator without Vulkan support.</source>
 </translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="245"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="244"/>
         <source>You need to enter a valid email!</source>
         <translation>您需要輸入有效的電子信箱!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="263"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="261"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="296"/>
         <source>Failed to connect to RPCN server:
 %0</source>
         <translation>無法連結到 RPCN 伺服器:
 %0</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="264"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="262"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="297"/>
         <source>Error Connecting</source>
         <translation>連結錯誤</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="273"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="271"/>
         <source>An account with that username already exists!</source>
         <translation>使用此用戶名的帳號已存在!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="274"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="272"/>
         <source>This email provider is banned!</source>
         <translation>此電子信箱提供商已被禁止!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="275"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="273"/>
         <source>An account with that email already exists!</source>
         <translation>使用此電子信箱的帳號已存在!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="276"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="274"/>
         <source>Unknown creation error</source>
         <translation>未知的建立錯誤</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="277"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="275"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="312"/>
         <source>Unknown error</source>
         <translation>未知錯誤</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="279"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="277"/>
         <source>Error Creating Account</source>
         <translation>建立帳號時出錯</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="279"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="277"/>
         <source>Failed to create the account:
 %0</source>
         <translation>無法建立帳號:
 %0</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="283"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="281"/>
         <source>Account created!</source>
         <translation>帳號建立!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="283"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="281"/>
         <source>Your account has been created successfully!
 Check your email for your token!</source>
         <translation>您的帳號已成功建立!
 檢查您的電子信箱以獲取權杖!</translation>
     </message>
+    <message>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="306"/>
+        <source>The server has no email verification and doesn&apos;t need a token!</source>
+        <translation>伺服器無須電子信箱驗證，也不需要權杖!</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="307"/>
+        <source>You can&apos;t ask for your token while authentified!</source>
+        <translation>您不能在身份驗證時索取您的權杖!</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="308"/>
+        <source>A database related error happened on the server!</source>
+        <translation>伺服器上發生了與資料庫相關的錯誤!</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="309"/>
+        <source>You can only ask for a token mail once every 24 hours!</source>
+        <translation>每 24 個小時只能索取一次權杖郵件!</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="310"/>
+        <source>The mail couldn&apos;t be sent successfully!</source>
+        <translation>無法順利發送郵件!</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="311"/>
+        <source>The login/password pair is invalid!</source>
+        <translation>用戶名/密碼無效!</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="314"/>
+        <source>Error Sending Token</source>
+        <translation>發送權杖時出錯</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="314"/>
+        <source>Failed to send the token:
+%0</source>
+        <translation>無法發送權杖:
+%0</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="318"/>
+        <source>Token Sent!</source>
+        <translation>權杖已發送!</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="318"/>
+        <source>Your token was successfully resent to the email associated with your account!</source>
+        <translation>您的權杖已順利重新發送到與您的帳號關聯的電子信箱!</translation>
+    </message>
 </context>
 <context>
     <name>rpcn_ask_password_dialog</name>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="293"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="327"/>
         <source>Enter your password:</source>
         <translation>輸入您的密碼:</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="296"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="330"/>
         <source>Enter your password a second time:</source>
         <translation>再次輸入您的密碼:</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="300"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="334"/>
         <source>Ok</source>
         <translation>確定</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="301"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="335"/>
         <source>Cancel</source>
         <translation>取消</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="320"/>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="326"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="354"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="360"/>
         <source>Wrong input</source>
         <translation>輸入錯誤</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="320"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="354"/>
         <source>The two passwords you entered don&apos;t match!</source>
         <translation>您輸入的兩個密碼不符合!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="326"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="360"/>
         <source>You need to enter a password!</source>
         <translation>您需要輸入密碼!</translation>
     </message>
@@ -8206,141 +8261,141 @@ Check your email for your token!</source>
 <context>
     <name>rpcn_friends_dialog</name>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="356"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="390"/>
         <source>RPCN: Friends</source>
         <translation>RPCN: 好友</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="364"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="398"/>
         <source>Friends</source>
         <translation>好友</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="369"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="403"/>
         <source>Add Friend</source>
         <translation>新增好友</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="374"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="408"/>
         <source>Friend Requests</source>
         <translation>邀請好友</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="384"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="418"/>
         <source>Blocked Users</source>
-        <translation>被阻止的用戶</translation>
+        <translation>已封鎖的用戶</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="400"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="434"/>
         <source>Failed to connect to RPCN:
 %0</source>
         <translation>無法連結到 RPCN:
 %0</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="401"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="435"/>
         <source>Error connecting to RPCN!</source>
         <translation>連結到 RPCN 時出錯!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="406"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="440"/>
         <source>Failed to authentify to RPCN:
 %0</source>
         <translation>無法向 RPCN 進行身份驗證:
 %0</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="407"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="441"/>
         <source>Error authentifying to RPCN!</source>
         <translation>向 RPCN 進行身份驗證時出錯!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="450"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="484"/>
         <source>&amp;Remove Friend</source>
         <translation>刪除好友(&amp;R)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="456"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="490"/>
         <source>Error removing a friend!</source>
         <translation>刪除好友時出錯!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="456"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="490"/>
         <source>An error occured trying to remove a friend!</source>
         <translation>嘗試刪除好友時發生錯誤!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="460"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="494"/>
         <source>Friend removed!</source>
         <translation>好友已刪除!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="460"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="494"/>
         <source>You&apos;ve successfully removed a friend!</source>
         <translation>您已成功刪除好友!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="486"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="520"/>
         <source>&amp;Accept Request</source>
         <translation>接受邀請(&amp;A)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="492"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="526"/>
         <source>Error adding a friend!</source>
         <translation>加好友時出錯!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="492"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="526"/>
         <source>An error occured trying to add a friend!</source>
         <translation>嘗試新增好友時發生錯誤!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="496"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="530"/>
         <source>Friend added!</source>
         <translation>好友已加入!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="496"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="530"/>
         <source>You&apos;ve successfully added a friend!</source>
         <translation>您已成功加入好友!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="510"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="544"/>
         <source>Add a friend</source>
         <translation>新增一個好友</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="510"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="544"/>
         <source>Friend&apos;s username:</source>
         <translation>好友的用戶名:</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="523"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="557"/>
         <source>Error validating username</source>
         <translation>驗證用戶名時出錯</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="523"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="557"/>
         <source>The username you entered is invalid</source>
         <translation>您輸入的用戶名無效</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="528"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="562"/>
         <source>Error adding friend</source>
         <translation>新增好友時出錯</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="528"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="562"/>
         <source>An error occured adding friend</source>
         <translation>新增好友時出錯</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="533"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="567"/>
         <source>Friend added</source>
         <translation>新增了好友</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="533"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="567"/>
         <source>Friend was successfully added!</source>
         <translation>新增好友成功!</translation>
     </message>
