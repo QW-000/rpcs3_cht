@@ -2096,6 +2096,58 @@ Restart of the game is required to apply. You can enable/disable this in the set
     </message>
 </context>
 <context>
+    <name>camera_settings_dialog</name>
+    <message>
+        <location filename="rpcs3qt/camera_settings_dialog.ui" line="14"/>
+        <source>Camera Settings</source>
+        <translation>相机设定</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/camera_settings_dialog.ui" line="22"/>
+        <source>Camera</source>
+        <translation>相机</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/camera_settings_dialog.ui" line="28"/>
+        <source>No cameras found</source>
+        <translation>未找到相机</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/camera_settings_dialog.ui" line="38"/>
+        <source>Settings</source>
+        <translation>设定</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/camera_settings_dialog.ui" line="44"/>
+        <source>No settings found</source>
+        <translation>未找到设定</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/camera_settings_dialog.ui" line="56"/>
+        <source>Preview</source>
+        <translation>预览</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/camera_settings_dialog.cpp" line="132"/>
+        <location filename="rpcs3qt/camera_settings_dialog.cpp" line="248"/>
+        <source>Camera not available</source>
+        <translation>相机不可用</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/camera_settings_dialog.cpp" line="132"/>
+        <location filename="rpcs3qt/camera_settings_dialog.cpp" line="248"/>
+        <source>The selected camera is not available.
+It might be blocked by another application.</source>
+        <translation>所选相机不可用。
+可能被另一个应用程式阻止。</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/camera_settings_dialog.cpp" line="164"/>
+        <source>%0x%1, %2-%3 FPS, Format=%4, PixelAspectRatio=%5x%6</source>
+        <translation>%0x%1, %2-%3 FPS, 型式=%4, PixelAspectRatio=%5x%6</translation>
+    </message>
+</context>
+<context>
     <name>cg_disasm_window</name>
     <message>
         <location filename="rpcs3qt/cg_disasm_window.cpp" line="22"/>
@@ -8041,6 +8093,39 @@ Reorder and/or exclude them if needed, then click &quot;Install&quot; to proceed
     </message>
 </context>
 <context>
+    <name>recvmessage_dialog_frame</name>
+    <message>
+        <location filename="rpcs3qt/recvmessage_dialog_frame.cpp" line="38"/>
+        <source>Choose message:</source>
+        <translation>选取讯息:</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/recvmessage_dialog_frame.cpp" line="49"/>
+        <source>Accept</source>
+        <translation>接受</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/recvmessage_dialog_frame.cpp" line="50"/>
+        <source>Deny</source>
+        <translation>拒绝</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/recvmessage_dialog_frame.cpp" line="51"/>
+        <source>Cancel</source>
+        <translation>取消</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/recvmessage_dialog_frame.cpp" line="68"/>
+        <source>Error receiving a message!</source>
+        <translation>接收讯息时出错!</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/recvmessage_dialog_frame.cpp" line="68"/>
+        <source>You must select a message!</source>
+        <translation>您必须选择一条讯息!</translation>
+    </message>
+</context>
+<context>
     <name>register_editor_dialog</name>
     <message>
         <location filename="rpcs3qt/register_editor_dialog.cpp" line="161"/>
@@ -8903,6 +8988,34 @@ Check your email for your token!</source>
         <location filename="rpcs3qt/screenshot_preview.cpp" line="48"/>
         <source>E&amp;xit</source>
         <translation>关闭(&amp;X)</translation>
+    </message>
+</context>
+<context>
+    <name>sendmessage_dialog_frame</name>
+    <message>
+        <location filename="rpcs3qt/sendmessage_dialog_frame.cpp" line="36"/>
+        <source>Choose friend to message:</source>
+        <translation>选取要留言的好友:</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/sendmessage_dialog_frame.cpp" line="47"/>
+        <source>Ok</source>
+        <translation>确定</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/sendmessage_dialog_frame.cpp" line="48"/>
+        <source>Cancel</source>
+        <translation>取消</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/sendmessage_dialog_frame.cpp" line="66"/>
+        <source>Error sending a message!</source>
+        <translation>发送讯息时出错!</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/sendmessage_dialog_frame.cpp" line="66"/>
+        <source>You must select a friend!</source>
+        <translation>您必须选择一个好友!</translation>
     </message>
 </context>
 <context>
