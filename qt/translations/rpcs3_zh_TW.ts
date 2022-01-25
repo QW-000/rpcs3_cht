@@ -472,17 +472,17 @@ Causes some software to behave differently than on retail hardware.</source>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="33"/>
-        <source>Changes ZCULL report synchronization behaviour. Use with caution.
-· Precise is the most accurate to PS3 behaviour.
-· Approximate is just a faster way to generate occlusion data which may not always match what the PS3 would generate.
-· Relaxed changes the synchronization method completely and can improve performance in some games or completely break others.</source>
+        <source>Changes ZCULL report synchronization behaviour. Experiment to find the best option for your game. Approximate mode is recommended for most games.
+· Precise is the most accurate to PS3 behaviour. Required for accurate visuals in some titles such as Demon&apos;s Souls and The Darkness.
+· Approximate is a much faster way to generate occlusion data which may not always match what the PS3 would generate. Works well with most PS3 games.
+· Relaxed changes the synchronization method completely and can greatly improve performance in some games or completely break others.</source>
         <oldsource>Changes ZCULL report synchronization behaviour. Use with caution.
 · Precise is the most accurate to PS3 behaviour.
 · Approximate is just a faster way to generate occlusion data which may not always match what the PS3 would generate.
-· Relaxed changes synchronization method completely and can improve performance in some games or completely break others.</oldsource>
-        <translation>更改 ZCULL 報告同步行為。請謹慎使用。
-· 準確是對 PS3 行為最正確。
-· 近似只是一種更快的產生遮擋資料的方法，並可能不會與 PS3 產生的資料相符合。
+· Relaxed changes the synchronization method completely and can improve performance in some games or completely break others.</oldsource>
+        <translation>更改 ZCULL 報告同步行為。嘗試為您的遊戲找到最佳選擇，在大多數遊戲建議使用近似模式。
+· 準確是對 PS3 行為最正確。在 Demon&apos;s Souls 和 The Darkness 之類的遊戲中獲得準確的視覺效果是必需的。
+· 近似只是一種更快的產生遮擋資料的方法，並可能不會與 PS3 產生的資料相符合。適用於大多數 PS3 遊戲。
 · 放緩徹底改變同步方式，在某些遊戲中可以提高效能或是完全破壞遊戲。</translation>
     </message>
     <message>
@@ -8472,38 +8472,38 @@ Check your email for your token!</source>
 <context>
     <name>rpcn_ask_password_dialog</name>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="327"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="330"/>
         <source>Enter your password:</source>
         <translation>輸入您的密碼:</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="330"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="333"/>
         <source>Enter your password a second time:</source>
         <translation>再次輸入您的密碼:</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="334"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="343"/>
         <source>Ok</source>
         <translation>確定</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="335"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="344"/>
         <source>Cancel</source>
         <translation>取消</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="354"/>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="360"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="359"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="365"/>
         <source>Wrong input</source>
         <translation>輸入錯誤</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="354"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="359"/>
         <source>The two passwords you entered don&apos;t match!</source>
         <translation>您輸入的兩個密碼不符合!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="360"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="365"/>
         <source>You need to enter a password!</source>
         <translation>您需要輸入密碼!</translation>
     </message>
@@ -8511,141 +8511,141 @@ Check your email for your token!</source>
 <context>
     <name>rpcn_friends_dialog</name>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="390"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="395"/>
         <source>RPCN: Friends</source>
         <translation>RPCN: 好友</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="398"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="403"/>
         <source>Friends</source>
         <translation>好友</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="403"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="408"/>
         <source>Add Friend</source>
         <translation>新增好友</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="408"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="413"/>
         <source>Friend Requests</source>
         <translation>邀請好友</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="418"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="423"/>
         <source>Blocked Users</source>
         <translation>已封鎖的用戶</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="434"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="439"/>
         <source>Failed to connect to RPCN:
 %0</source>
         <translation>無法連結到 RPCN:
 %0</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="435"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="440"/>
         <source>Error connecting to RPCN!</source>
         <translation>連結到 RPCN 時出錯!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="440"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="445"/>
         <source>Failed to authentify to RPCN:
 %0</source>
         <translation>無法向 RPCN 進行身份驗證:
 %0</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="441"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="446"/>
         <source>Error authentifying to RPCN!</source>
         <translation>向 RPCN 進行身份驗證時出錯!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="484"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="489"/>
         <source>&amp;Remove Friend</source>
         <translation>刪除好友(&amp;R)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="490"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="495"/>
         <source>Error removing a friend!</source>
         <translation>刪除好友時出錯!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="490"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="495"/>
         <source>An error occured trying to remove a friend!</source>
         <translation>嘗試刪除好友時發生錯誤!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="494"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="499"/>
         <source>Friend removed!</source>
         <translation>好友已刪除!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="494"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="499"/>
         <source>You&apos;ve successfully removed a friend!</source>
         <translation>您已成功刪除好友!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="520"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="525"/>
         <source>&amp;Accept Request</source>
         <translation>接受邀請(&amp;A)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="526"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="531"/>
         <source>Error adding a friend!</source>
         <translation>加好友時出錯!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="526"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="531"/>
         <source>An error occured trying to add a friend!</source>
         <translation>嘗試新增好友時發生錯誤!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="530"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="535"/>
         <source>Friend added!</source>
         <translation>好友已加入!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="530"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="535"/>
         <source>You&apos;ve successfully added a friend!</source>
         <translation>您已成功加入好友!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="544"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="549"/>
         <source>Add a friend</source>
         <translation>新增一個好友</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="544"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="549"/>
         <source>Friend&apos;s username:</source>
         <translation>好友的用戶名:</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="557"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="562"/>
         <source>Error validating username</source>
         <translation>驗證用戶名時出錯</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="557"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="562"/>
         <source>The username you entered is invalid</source>
         <translation>您輸入的用戶名無效</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="562"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="567"/>
         <source>Error adding friend</source>
         <translation>新增好友時出錯</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="562"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="567"/>
         <source>An error occured adding friend</source>
         <translation>新增好友時出錯</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="567"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="572"/>
         <source>Friend added</source>
         <translation>新增了好友</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="567"/>
+        <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="572"/>
         <source>Friend was successfully added!</source>
         <translation>新增好友成功!</translation>
     </message>
@@ -10332,8 +10332,9 @@ Each option heavily depends on the game and on your CPU, it&apos;s recommended t
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.cpp" line="515"/>
-        <source>Precise (Default)</source>
-        <translation>準確 (預設)</translation>
+        <source>Precise (Slowest)</source>
+        <oldsource>Precise (Default)</oldsource>
+        <translation>準確 (最慢)</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.cpp" line="275"/>
