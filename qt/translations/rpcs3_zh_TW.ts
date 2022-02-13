@@ -335,6 +335,18 @@
         <translation>無法同時執行多個安裝!</translation>
     </message>
     <message>
+        <location filename="main.cpp" line="1014"/>
+        <source>Missing command-line arguments!</source>
+        <translation>缺少命令行引數!</translation>
+    </message>
+    <message>
+        <location filename="main.cpp" line="1014"/>
+        <source>Cannot run no-gui mode without boot target.
+Terminating...</source>
+        <translation>沒有啟動目標就無法執行無 GUI 模式。
+終止...</translation>
+    </message>
+    <message>
         <location filename="rpcs3qt/rpcn_settings_dialog.cpp" line="25"/>
         <source>No Error</source>
         <translation>沒有錯誤</translation>
