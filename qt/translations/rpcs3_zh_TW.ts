@@ -559,11 +559,14 @@ Right-click the game in game list and choose &quot;Configure&quot; instead.</old
     <message>
         <location filename="rpcs3qt/tooltips.h" line="40"/>
         <source>Determines how to schedule GPU async compute jobs when using asynchronous streaming.
+Use &apos;Safe&apos; mode for more spec compliant behavior at the cost of some CPU overhead. This setting works with all devices.
+Use &apos;Fast&apos; to use a faster but hacky version. This option is internally disabled for NVIDIA GPUs due to causing GPU hangs.</source>
+        <oldsource>Determines how to schedule GPU async compute jobs when using asynchronous streaming.
 Use &apos;Host&apos; mode for more spec compliant behavior at the cost of CPU overhead.
-Use &apos;Device&apos; to let your driver handle this. Beware that &apos;device&apos; mode technically violates official spec but is the superior option.</source>
+Use &apos;Device&apos; to let your driver handle this. Beware that &apos;device&apos; mode technically violates official spec but is the superior option.</oldsource>
         <translation>確定使用非同步流時，如何安排 GPU 非同步計算作業。
-使用 &quot;Host&quot; 模式以獲得更多符合規範的行為，但會佔用 CPU 資源。
-使用 &quot;Device&quot; 讓您的驅動程式處理此問題。 請注意! &quot;裝置&quot; 模式在技術上違反了官方規範，但這是優先選項。</translation>
+使用「安全」模式可實現更符合規範的行為，但會佔用 CPU 資源。此設定適用於所有裝置。
+使用「快速」可以更快，但帶有駭客性質的版本。由於導致 GPU 停擺，此選項在 NVIDIA GPU 內部被禁用。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="44"/>
@@ -1370,11 +1373,14 @@ May degrade performance.</source>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="164"/>
         <source>Offloads some RSX operations to a secondary thread.
+Improves performance for high-core processors.
+May cause slowdown in weaker CPUs due to the extra worker thread load.</source>
+        <oldsource>Offloads some RSX operations to a secondary thread.
 May improve performance for some high-core processors.
-May cause slowdown in some situations due to the extra worker thread load.</source>
+May cause slowdown in some situations due to the extra worker thread load.</oldsource>
         <translation>將一些 RSX 執行緒作業卸載到次要。
-可提高某些高核處理器的效能。
-由於外加的工作執行緒負載，在某些情況下可能會導致速度減慢。</translation>
+可提升高核處理器的效能。
+由於外加的工作執行緒負載，可能會導致較弱的 CPU 變慢。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="166"/>
@@ -1417,12 +1423,15 @@ Only has an impact when shader mode is set to one of the asynchronous modes.</so
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="172"/>
-        <source>Stream textures to GPU in parallel with 3D rendering.
+        <source>Stream textures to GPU in parallel with 3D rendering using asynchronous compute.
 Can improve performance on more powerful GPUs that have spare headroom.
-Only works with Vulkan renderer.</source>
-        <translation>與 3D 渲染並行地將紋理流傳輸到 GPU。
+Only works with Vulkan renderer and greatly benefits from having MTRSX enabled if you have a capable CPU.</source>
+        <oldsource>Stream textures to GPU in parallel with 3D rendering.
+Can improve performance on more powerful GPUs that have spare headroom.
+Only works with Vulkan renderer.</oldsource>
+        <translation>使用非同步計算將紋理流與 3D 渲染並行傳輸到 GPU。
 可以在具有備用寬限更強大的 GPU 上提高效能。
-僅適用於 Vulkan 渲染器。</translation>
+僅適用於 Vulkan 渲染器，如果您有一個功能強大的 CPU，則啟用 MTRSX 將會大大受益。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="174"/>
@@ -3169,6 +3178,16 @@ This change will only be final when you save the config.</source>
         <source>Other</source>
         <comment>License Area</comment>
         <translation>其它</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/emu_settings.cpp" line="1159"/>
+        <source>Safe</source>
+        <translation>安全</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/emu_settings.cpp" line="1160"/>
+        <source>Fast</source>
+        <translation>快速</translation>
     </message>
 </context>
 <context>
