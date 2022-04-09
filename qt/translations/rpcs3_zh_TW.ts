@@ -325,22 +325,22 @@
 <context>
     <name>QObject</name>
     <message>
-        <location filename="main.cpp" line="942"/>
+        <location filename="main.cpp" line="975"/>
         <source>Invalid command-line arguments!</source>
         <translation>無效的指令行引數!</translation>
     </message>
     <message>
-        <location filename="main.cpp" line="942"/>
+        <location filename="main.cpp" line="975"/>
         <source>Cannot perform multiple installations at the same time!</source>
         <translation>無法同時執行多個安裝!</translation>
     </message>
     <message>
-        <location filename="main.cpp" line="1031"/>
+        <location filename="main.cpp" line="1064"/>
         <source>Missing command-line arguments!</source>
         <translation>缺少命令行引數!</translation>
     </message>
     <message>
-        <location filename="main.cpp" line="1031"/>
+        <location filename="main.cpp" line="1064"/>
         <source>Cannot run no-gui mode without boot target.
 Terminating...</source>
         <translation>沒有啟動目標就無法執行無 GUI 模式。
@@ -2171,21 +2171,21 @@ Restart of the game is required to apply. You can enable/disable this in the set
         <translation>預覽</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/camera_settings_dialog.cpp" line="132"/>
-        <location filename="rpcs3qt/camera_settings_dialog.cpp" line="248"/>
+        <location filename="rpcs3qt/camera_settings_dialog.cpp" line="131"/>
+        <location filename="rpcs3qt/camera_settings_dialog.cpp" line="247"/>
         <source>Camera not available</source>
         <translation>相機不可用</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/camera_settings_dialog.cpp" line="132"/>
-        <location filename="rpcs3qt/camera_settings_dialog.cpp" line="248"/>
+        <location filename="rpcs3qt/camera_settings_dialog.cpp" line="131"/>
+        <location filename="rpcs3qt/camera_settings_dialog.cpp" line="247"/>
         <source>The selected camera is not available.
 It might be blocked by another application.</source>
         <translation>所選相機不可用。
 可能被另一個應用程式阻止。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/camera_settings_dialog.cpp" line="164"/>
+        <location filename="rpcs3qt/camera_settings_dialog.cpp" line="163"/>
         <source>%0x%1, %2-%3 FPS, Format=%4, PixelAspectRatio=%5x%6</source>
         <translation>%0x%1, %2-%3 FPS, 型式=%4, PixelAspectRatio=%5x%6</translation>
     </message>
@@ -4212,12 +4212,12 @@ Notes:
 <context>
     <name>gs_frame</name>
     <message>
-        <location filename="rpcs3qt/gs_frame.cpp" line="824"/>
+        <location filename="rpcs3qt/gs_frame.cpp" line="833"/>
         <source>Exit Game?</source>
         <translation>結束遊戲?</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/gs_frame.cpp" line="825"/>
+        <location filename="rpcs3qt/gs_frame.cpp" line="834"/>
         <source>Do you really want to exit the game?&lt;br&gt;&lt;br&gt;Any unsaved progress will be lost!&lt;br&gt;</source>
         <translation>你真的想要離開遊戲嗎?&lt;br&gt;&lt;br&gt;任何未儲存的進度都將失去!&lt;br&gt;</translation>
     </message>
@@ -4672,42 +4672,54 @@ Any unsaved progress will be lost!
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="57"/>
+        <source>Select media</source>
+        <comment>Media dialog</comment>
+        <translation>選擇媒體</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="58"/>
+        <source>No media found.</source>
+        <comment>Media dialog</comment>
+        <translation>未找到媒體。</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="59"/>
         <source>Enter</source>
         <comment>Enter Dialog List</comment>
         <translation>進入</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="58"/>
+        <location filename="rpcs3qt/localized_emu.h" line="60"/>
         <source>Back</source>
         <comment>Cancel Dialog List</comment>
         <translation>返回</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="59"/>
+        <location filename="rpcs3qt/localized_emu.h" line="61"/>
         <source>ERROR: Game data is corrupted. The application will continue.</source>
         <comment>Game Error</comment>
         <translation>錯誤: 遊戲資料已損壞。 該應用軟體將繼續。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="60"/>
+        <location filename="rpcs3qt/localized_emu.h" line="62"/>
         <source>ERROR: HDD boot game is corrupted. The application will continue.</source>
         <comment>Game Error</comment>
         <translation>錯誤: 硬碟啟動遊戲已損壞。 該應用軟體將繼續。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="61"/>
+        <location filename="rpcs3qt/localized_emu.h" line="63"/>
         <source>ERROR: Game data is corrupted. The application will be terminated.</source>
         <comment>Game Error</comment>
         <translation>錯誤: 遊戲資料已損壞。 該應用軟體將被終止。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="62"/>
+        <location filename="rpcs3qt/localized_emu.h" line="64"/>
         <source>ERROR: HDD boot game is corrupted. The application will be terminated.</source>
         <comment>Game Error</comment>
         <translation>錯誤: 硬碟啟動遊戲已損壞。 該應用軟體將被終止。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="63"/>
+        <location filename="rpcs3qt/localized_emu.h" line="65"/>
         <source>ERROR: Not enough available space. The application will continue.
 Space needed: %0 KB</source>
         <comment>Game Error</comment>
@@ -4715,7 +4727,7 @@ Space needed: %0 KB</source>
 需要空間: %0 KB</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="64"/>
+        <location filename="rpcs3qt/localized_emu.h" line="66"/>
         <source>ERROR: Not enough available space. The application will be terminated.
 Space needed: %0 KB</source>
         <comment>Game Error</comment>
@@ -4723,13 +4735,13 @@ Space needed: %0 KB</source>
 需要空間: %0 KB</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="65"/>
+        <location filename="rpcs3qt/localized_emu.h" line="67"/>
         <source>Directory name: %0</source>
         <comment>Game Error</comment>
         <translation>目錄名稱: %0</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="66"/>
+        <location filename="rpcs3qt/localized_emu.h" line="68"/>
         <source>There has been an error!
 
 Please remove the game data for this title.</source>
@@ -4739,7 +4751,7 @@ Please remove the game data for this title.</source>
 請刪除該標題的遊戲資料。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="67"/>
+        <location filename="rpcs3qt/localized_emu.h" line="69"/>
         <source>There has been an error!
 
 Please reinstall the HDD boot game.</source>
@@ -4749,7 +4761,7 @@ Please reinstall the HDD boot game.</source>
 請重新安裝硬碟遊戲啟動。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="68"/>
+        <location filename="rpcs3qt/localized_emu.h" line="70"/>
         <source>Not enough space to create HDD boot game.
 Space Needed: %0 KB</source>
         <comment>HDD Game Check Error</comment>
@@ -4757,25 +4769,25 @@ Space Needed: %0 KB</source>
 需要空間: %0 KB</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="69"/>
+        <location filename="rpcs3qt/localized_emu.h" line="71"/>
         <source>HDD boot game %0 is corrupt!</source>
         <comment>HDD Game Check Error</comment>
         <translation>硬碟啟動遊戲 %0 已損壞!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="70"/>
+        <location filename="rpcs3qt/localized_emu.h" line="72"/>
         <source>HDD boot game %0 could not be found!</source>
         <comment>HDD Game Check Error</comment>
         <translation>硬碟啟動遊戲 %0 找不到!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="71"/>
+        <location filename="rpcs3qt/localized_emu.h" line="73"/>
         <source>Error: %0</source>
         <comment>HDD Game Check Error</comment>
         <translation>錯誤: %0</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="72"/>
+        <location filename="rpcs3qt/localized_emu.h" line="74"/>
         <source>Not enough space to create game data.
 Space Needed: %0 KB</source>
         <comment>Gamedata Check Error</comment>
@@ -4783,25 +4795,25 @@ Space Needed: %0 KB</source>
 需要空間: %0 KB</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="73"/>
+        <location filename="rpcs3qt/localized_emu.h" line="75"/>
         <source>The game data in %0 is corrupt!</source>
         <comment>Gamedata Check Error</comment>
         <translation>%0 中的遊戲資料已損壞!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="74"/>
+        <location filename="rpcs3qt/localized_emu.h" line="76"/>
         <source>The game data in %0 could not be found!</source>
         <comment>Gamedata Check Error</comment>
         <translation>找不到 %0 中的遊戲資料!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="75"/>
+        <location filename="rpcs3qt/localized_emu.h" line="77"/>
         <source>Error: %0</source>
         <comment>Gamedata Check Error</comment>
         <translation>錯誤: %0</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="76"/>
+        <location filename="rpcs3qt/localized_emu.h" line="78"/>
         <source>The resource is temporarily unavailable.
 (%0)</source>
         <comment>Error code</comment>
@@ -4809,7 +4821,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="77"/>
+        <location filename="rpcs3qt/localized_emu.h" line="79"/>
         <source>Invalid argument or flag.
 (%0)</source>
         <comment>Error code</comment>
@@ -4817,7 +4829,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="78"/>
+        <location filename="rpcs3qt/localized_emu.h" line="80"/>
         <source>The feature is not yet implemented.
 (%0)</source>
         <comment>Error code</comment>
@@ -4825,7 +4837,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="79"/>
+        <location filename="rpcs3qt/localized_emu.h" line="81"/>
         <source>Memory allocation failed.
 (%0)</source>
         <comment>Error code</comment>
@@ -4833,7 +4845,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="80"/>
+        <location filename="rpcs3qt/localized_emu.h" line="82"/>
         <source>The resource with the specified identifier does not exist.
 (%0)</source>
         <comment>Error code</comment>
@@ -4841,7 +4853,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="81"/>
+        <location filename="rpcs3qt/localized_emu.h" line="83"/>
         <source>The file does not exist.
 (%0)</source>
         <comment>Error code</comment>
@@ -4849,7 +4861,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="82"/>
+        <location filename="rpcs3qt/localized_emu.h" line="84"/>
         <source>The file is in unrecognized format / The file is not a valid ELF file.
 (%0)</source>
         <comment>Error code</comment>
@@ -4857,7 +4869,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="83"/>
+        <location filename="rpcs3qt/localized_emu.h" line="85"/>
         <source>Resource deadlock is avoided.
 (%0)</source>
         <comment>Error code</comment>
@@ -4865,7 +4877,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="84"/>
+        <location filename="rpcs3qt/localized_emu.h" line="86"/>
         <source>Operation not permitted.
 (%0)</source>
         <comment>Error code</comment>
@@ -4873,7 +4885,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="85"/>
+        <location filename="rpcs3qt/localized_emu.h" line="87"/>
         <source>The device or resource is busy.
 (%0)</source>
         <comment>Error code</comment>
@@ -4881,7 +4893,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="86"/>
+        <location filename="rpcs3qt/localized_emu.h" line="88"/>
         <source>The operation is timed out.
 (%0)</source>
         <comment>Error code</comment>
@@ -4889,7 +4901,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="87"/>
+        <location filename="rpcs3qt/localized_emu.h" line="89"/>
         <source>The operation is aborted.
 (%0)</source>
         <comment>Error code</comment>
@@ -4897,7 +4909,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="88"/>
+        <location filename="rpcs3qt/localized_emu.h" line="90"/>
         <source>Invalid memory access.
 (%0)</source>
         <comment>Error code</comment>
@@ -4905,7 +4917,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="89"/>
+        <location filename="rpcs3qt/localized_emu.h" line="91"/>
         <source>State of the target thread is invalid.
 (%0)</source>
         <comment>Error code</comment>
@@ -4913,7 +4925,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="90"/>
+        <location filename="rpcs3qt/localized_emu.h" line="92"/>
         <source>Alignment is invalid.
 (%0)</source>
         <comment>Error code</comment>
@@ -4921,7 +4933,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="91"/>
+        <location filename="rpcs3qt/localized_emu.h" line="93"/>
         <source>Shortage of the kernel resources.
 (%0)</source>
         <comment>Error code</comment>
@@ -4929,7 +4941,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="92"/>
+        <location filename="rpcs3qt/localized_emu.h" line="94"/>
         <source>The file is a directory.
 (%0)</source>
         <comment>Error code</comment>
@@ -4937,7 +4949,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="93"/>
+        <location filename="rpcs3qt/localized_emu.h" line="95"/>
         <source>Operation cancelled.
 (%0)</source>
         <comment>Error code</comment>
@@ -4945,7 +4957,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="94"/>
+        <location filename="rpcs3qt/localized_emu.h" line="96"/>
         <source>Entry already exists.
 (%0)</source>
         <comment>Error code</comment>
@@ -4953,7 +4965,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="95"/>
+        <location filename="rpcs3qt/localized_emu.h" line="97"/>
         <source>Port is already connected.
 (%0)</source>
         <comment>Error code</comment>
@@ -4961,7 +4973,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="96"/>
+        <location filename="rpcs3qt/localized_emu.h" line="98"/>
         <source>Port is not connected.
 (%0)</source>
         <comment>Error code</comment>
@@ -4969,7 +4981,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="97"/>
+        <location filename="rpcs3qt/localized_emu.h" line="99"/>
         <source>Failure in authorizing SELF. Program authentication fail.
 (%0)</source>
         <comment>Error code</comment>
@@ -4977,7 +4989,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="98"/>
+        <location filename="rpcs3qt/localized_emu.h" line="100"/>
         <source>The file is not MSELF.
 (%0)</source>
         <comment>Error code</comment>
@@ -4985,7 +4997,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="99"/>
+        <location filename="rpcs3qt/localized_emu.h" line="101"/>
         <source>System version error.
 (%0)</source>
         <comment>Error code</comment>
@@ -4993,7 +5005,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="100"/>
+        <location filename="rpcs3qt/localized_emu.h" line="102"/>
         <source>Fatal system error occurred while authorizing SELF. SELF auth failure.
 (%0)</source>
         <comment>Error code</comment>
@@ -5001,7 +5013,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="101"/>
+        <location filename="rpcs3qt/localized_emu.h" line="103"/>
         <source>Math domain violation.
 (%0)</source>
         <comment>Error code</comment>
@@ -5009,7 +5021,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="102"/>
+        <location filename="rpcs3qt/localized_emu.h" line="104"/>
         <source>Math range violation.
 (%0)</source>
         <comment>Error code</comment>
@@ -5017,7 +5029,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="103"/>
+        <location filename="rpcs3qt/localized_emu.h" line="105"/>
         <source>Illegal multi-byte sequence in input.
 (%0)</source>
         <comment>Error code</comment>
@@ -5025,7 +5037,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="104"/>
+        <location filename="rpcs3qt/localized_emu.h" line="106"/>
         <source>File position error.
 (%0)</source>
         <comment>Error code</comment>
@@ -5033,7 +5045,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="105"/>
+        <location filename="rpcs3qt/localized_emu.h" line="107"/>
         <source>Syscall was interrupted.
 (%0)</source>
         <comment>Error code</comment>
@@ -5041,7 +5053,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="106"/>
+        <location filename="rpcs3qt/localized_emu.h" line="108"/>
         <source>File too large.
 (%0)</source>
         <comment>Error code</comment>
@@ -5049,7 +5061,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="107"/>
+        <location filename="rpcs3qt/localized_emu.h" line="109"/>
         <source>Too many links.
 (%0)</source>
         <comment>Error code</comment>
@@ -5057,7 +5069,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="108"/>
+        <location filename="rpcs3qt/localized_emu.h" line="110"/>
         <source>File table overflow.
 (%0)</source>
         <comment>Error code</comment>
@@ -5065,7 +5077,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="109"/>
+        <location filename="rpcs3qt/localized_emu.h" line="111"/>
         <source>No space left on device.
 (%0)</source>
         <comment>Error code</comment>
@@ -5073,7 +5085,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="110"/>
+        <location filename="rpcs3qt/localized_emu.h" line="112"/>
         <source>Not a TTY.
 (%0)</source>
         <comment>Error code</comment>
@@ -5081,7 +5093,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="111"/>
+        <location filename="rpcs3qt/localized_emu.h" line="113"/>
         <source>Broken pipe.
 (%0)</source>
         <comment>Error code</comment>
@@ -5089,7 +5101,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="112"/>
+        <location filename="rpcs3qt/localized_emu.h" line="114"/>
         <source>Read-only filesystem.
 (%0)</source>
         <comment>Error code</comment>
@@ -5097,7 +5109,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="113"/>
+        <location filename="rpcs3qt/localized_emu.h" line="115"/>
         <source>Illegal seek.
 (%0)</source>
         <comment>Error code</comment>
@@ -5105,7 +5117,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="114"/>
+        <location filename="rpcs3qt/localized_emu.h" line="116"/>
         <source>Arg list too long.
 (%0)</source>
         <comment>Error code</comment>
@@ -5113,7 +5125,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="115"/>
+        <location filename="rpcs3qt/localized_emu.h" line="117"/>
         <source>Access violation.
 (%0)</source>
         <comment>Error code</comment>
@@ -5121,7 +5133,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="116"/>
+        <location filename="rpcs3qt/localized_emu.h" line="118"/>
         <source>Invalid file descriptor.
 (%0)</source>
         <comment>Error code</comment>
@@ -5129,7 +5141,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="117"/>
+        <location filename="rpcs3qt/localized_emu.h" line="119"/>
         <source>Filesystem mounting failed.
 (%0)</source>
         <comment>Error code</comment>
@@ -5137,7 +5149,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="118"/>
+        <location filename="rpcs3qt/localized_emu.h" line="120"/>
         <source>Too many files open.
 (%0)</source>
         <comment>Error code</comment>
@@ -5145,7 +5157,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="119"/>
+        <location filename="rpcs3qt/localized_emu.h" line="121"/>
         <source>No device.
 (%0)</source>
         <comment>Error code</comment>
@@ -5153,7 +5165,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="120"/>
+        <location filename="rpcs3qt/localized_emu.h" line="122"/>
         <source>Not a directory.
 (%0)</source>
         <comment>Error code</comment>
@@ -5161,7 +5173,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="121"/>
+        <location filename="rpcs3qt/localized_emu.h" line="123"/>
         <source>No such device or IO.
 (%0)</source>
         <comment>Error code</comment>
@@ -5169,7 +5181,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="122"/>
+        <location filename="rpcs3qt/localized_emu.h" line="124"/>
         <source>Cross-device link error.
 (%0)</source>
         <comment>Error code</comment>
@@ -5177,7 +5189,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="123"/>
+        <location filename="rpcs3qt/localized_emu.h" line="125"/>
         <source>Bad Message.
 (%0)</source>
         <comment>Error code</comment>
@@ -5185,7 +5197,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="124"/>
+        <location filename="rpcs3qt/localized_emu.h" line="126"/>
         <source>In progress.
 (%0)</source>
         <comment>Error code</comment>
@@ -5193,7 +5205,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="125"/>
+        <location filename="rpcs3qt/localized_emu.h" line="127"/>
         <source>Message size error.
 (%0)</source>
         <comment>Error code</comment>
@@ -5201,7 +5213,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="126"/>
+        <location filename="rpcs3qt/localized_emu.h" line="128"/>
         <source>Name too long.
 (%0)</source>
         <comment>Error code</comment>
@@ -5209,7 +5221,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="127"/>
+        <location filename="rpcs3qt/localized_emu.h" line="129"/>
         <source>No lock.
 (%0)</source>
         <comment>Error code</comment>
@@ -5217,7 +5229,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="128"/>
+        <location filename="rpcs3qt/localized_emu.h" line="130"/>
         <source>Not empty.
 (%0)</source>
         <comment>Error code</comment>
@@ -5225,7 +5237,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="129"/>
+        <location filename="rpcs3qt/localized_emu.h" line="131"/>
         <source>Not supported.
 (%0)</source>
         <comment>Error code</comment>
@@ -5233,7 +5245,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="130"/>
+        <location filename="rpcs3qt/localized_emu.h" line="132"/>
         <source>File-system specific error.
 (%0)</source>
         <comment>Error code</comment>
@@ -5241,7 +5253,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="131"/>
+        <location filename="rpcs3qt/localized_emu.h" line="133"/>
         <source>Overflow occured.
 (%0)</source>
         <comment>Error code</comment>
@@ -5249,7 +5261,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="132"/>
+        <location filename="rpcs3qt/localized_emu.h" line="134"/>
         <source>Filesystem not mounted.
 (%0)</source>
         <comment>Error code</comment>
@@ -5257,7 +5269,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="133"/>
+        <location filename="rpcs3qt/localized_emu.h" line="135"/>
         <source>Not SData.
 (%0)</source>
         <comment>Error code</comment>
@@ -5265,7 +5277,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="134"/>
+        <location filename="rpcs3qt/localized_emu.h" line="136"/>
         <source>Incorrect version in sys_load_param.
 (%0)</source>
         <comment>Error code</comment>
@@ -5273,8 +5285,8 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="135"/>
-        <location filename="rpcs3qt/localized_emu.h" line="136"/>
+        <location filename="rpcs3qt/localized_emu.h" line="137"/>
+        <location filename="rpcs3qt/localized_emu.h" line="138"/>
         <source>Pointer is null.
 (%0)</source>
         <comment>Error code</comment>
@@ -5282,7 +5294,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="137"/>
+        <location filename="rpcs3qt/localized_emu.h" line="139"/>
         <source>An error has occurred.
 (%0)</source>
         <comment>Error code</comment>
@@ -5290,31 +5302,31 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="138"/>
+        <location filename="rpcs3qt/localized_emu.h" line="140"/>
         <source>On Screen Keyboard</source>
         <comment>OSK Dialog</comment>
         <translation>螢幕鍵盤</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="139"/>
+        <location filename="rpcs3qt/localized_emu.h" line="141"/>
         <source>Error - Save data corrupted</source>
         <comment>Savedata Error</comment>
         <translation>錯誤 - 儲存資料已損壞</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="140"/>
+        <location filename="rpcs3qt/localized_emu.h" line="142"/>
         <source>Error - Failed to save or load</source>
         <comment>Savedata Error</comment>
         <translation>錯誤 - 無法儲存或讀取</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="141"/>
+        <location filename="rpcs3qt/localized_emu.h" line="143"/>
         <source>Error - Save data cannot be found</source>
         <comment>Savedata Error</comment>
         <translation>錯誤 - 未找到儲存資料</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="142"/>
+        <location filename="rpcs3qt/localized_emu.h" line="144"/>
         <source>Error - Insufficient free space
 
 Space needed: %0 KB</source>
@@ -5324,31 +5336,31 @@ Space needed: %0 KB</source>
 需要空間: %0 KB</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="143"/>
+        <location filename="rpcs3qt/localized_emu.h" line="145"/>
         <source>There is no saved data.</source>
         <comment>Savedata entry info</comment>
         <translation>沒有儲存資料。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="144"/>
+        <location filename="rpcs3qt/localized_emu.h" line="146"/>
         <source>New Saved Data</source>
         <comment>Savedata Dialog</comment>
         <translation>新的儲存資料</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="145"/>
+        <location filename="rpcs3qt/localized_emu.h" line="147"/>
         <source>Select to create a new entry</source>
         <comment>Savedata Dialog</comment>
         <translation>選擇以建立一個新紀錄</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="146"/>
+        <location filename="rpcs3qt/localized_emu.h" line="148"/>
         <source>Do you want to save this data?</source>
         <comment>Savedata Dialog</comment>
         <translation>您要儲存此資料嗎?</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="147"/>
+        <location filename="rpcs3qt/localized_emu.h" line="149"/>
         <source>Do you really want to delete this data?
 
 %0</source>
@@ -5358,7 +5370,7 @@ Space needed: %0 KB</source>
 %0</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="148"/>
+        <location filename="rpcs3qt/localized_emu.h" line="150"/>
         <source>Successfully removed data!
 
 %0</source>
@@ -5368,7 +5380,7 @@ Space needed: %0 KB</source>
 %0</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="149"/>
+        <location filename="rpcs3qt/localized_emu.h" line="151"/>
         <source>Delete this data?
 
 %0</source>
@@ -5378,7 +5390,7 @@ Space needed: %0 KB</source>
 %0</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="150"/>
+        <location filename="rpcs3qt/localized_emu.h" line="152"/>
         <source>Load this data?
 
 %0</source>
@@ -5388,7 +5400,7 @@ Space needed: %0 KB</source>
 %0</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="151"/>
+        <location filename="rpcs3qt/localized_emu.h" line="153"/>
         <source>Do you want to overwrite the saved data?
 
 %0</source>
@@ -5398,12 +5410,12 @@ Space needed: %0 KB</source>
 %0</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="153"/>
+        <location filename="rpcs3qt/localized_emu.h" line="155"/>
         <source>Invalid</source>
         <translation>無效</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="154"/>
+        <location filename="rpcs3qt/localized_emu.h" line="156"/>
         <source>Unknown</source>
         <translation>未知</translation>
     </message>
@@ -5506,37 +5518,52 @@ Space needed: %0 KB</source>
 <context>
     <name>log_viewer</name>
     <message>
-        <location filename="rpcs3qt/log_viewer.cpp" line="29"/>
+        <location filename="rpcs3qt/log_viewer.cpp" line="30"/>
         <source>Log Viewer</source>
         <translation>日誌檢視器</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/log_viewer.cpp" line="60"/>
+        <location filename="rpcs3qt/log_viewer.cpp" line="61"/>
         <source>&amp;Clear</source>
         <translation>清理(&amp;C)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/log_viewer.cpp" line="61"/>
+        <location filename="rpcs3qt/log_viewer.cpp" line="62"/>
         <source>&amp;Open log file</source>
         <translation>開啟日誌檔案(&amp;O)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/log_viewer.cpp" line="74"/>
+        <location filename="rpcs3qt/log_viewer.cpp" line="63"/>
+        <source>&amp;Filter log</source>
+        <translation>過濾日誌(&amp;F)</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/log_viewer.cpp" line="78"/>
         <source>Select log file</source>
         <translation>選取日誌檔案</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/log_viewer.cpp" line="74"/>
+        <location filename="rpcs3qt/log_viewer.cpp" line="78"/>
         <source>Log files (*.log);;</source>
         <translation>日誌檔案 (*.log);;</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/log_viewer.cpp" line="105"/>
+        <location filename="rpcs3qt/log_viewer.cpp" line="87"/>
+        <source>Filter log</source>
+        <translation>過濾日誌</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/log_viewer.cpp" line="87"/>
+        <source>Enter text</source>
+        <translation>輸入文字</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/log_viewer.cpp" line="117"/>
         <source>Loading file...</source>
         <translation>正在載入檔案...</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/log_viewer.cpp" line="120"/>
+        <location filename="rpcs3qt/log_viewer.cpp" line="132"/>
         <source>Failed to open &apos;%0&apos;</source>
         <translation>無法開啟 &apos;%0&apos;</translation>
     </message>
@@ -5662,8 +5689,8 @@ Space needed: %0 KB</source>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="433"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1591"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1615"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1595"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1619"/>
         <source>Pause</source>
         <translation>暫停</translation>
     </message>
@@ -5677,7 +5704,7 @@ Space needed: %0 KB</source>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="448"/>
         <location filename="rpcs3qt/main_window.ui" line="926"/>
-        <location filename="rpcs3qt/main_window.cpp" line="182"/>
+        <location filename="rpcs3qt/main_window.cpp" line="186"/>
         <source>Stop</source>
         <translation>停止</translation>
     </message>
@@ -6002,10 +6029,10 @@ Space needed: %0 KB</source>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="806"/>
-        <location filename="rpcs3qt/main_window.cpp" line="187"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1672"/>
-        <location filename="rpcs3qt/main_window.cpp" line="2540"/>
-        <location filename="rpcs3qt/main_window.cpp" line="2563"/>
+        <location filename="rpcs3qt/main_window.cpp" line="191"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1676"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2544"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2567"/>
         <source>Restart</source>
         <translation>重啟</translation>
     </message>
@@ -6261,12 +6288,12 @@ Space needed: %0 KB</source>
         <translation>相機</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="129"/>
+        <location filename="rpcs3qt/main_window.cpp" line="133"/>
         <source>Experimental Build Warning</source>
         <translation>實驗性建置警告</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="134"/>
+        <location filename="rpcs3qt/main_window.cpp" line="138"/>
         <source>
 				&lt;p style=&quot;white-space: nowrap;&quot;&gt;
 					Please understand that this build is not an official RPCS3 release.&lt;br&gt;
@@ -6287,139 +6314,139 @@ Space needed: %0 KB</source>
 			</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="158"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1646"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1704"/>
-        <location filename="rpcs3qt/main_window.cpp" line="2544"/>
-        <location filename="rpcs3qt/main_window.cpp" line="2554"/>
-        <location filename="rpcs3qt/main_window.cpp" line="2567"/>
+        <location filename="rpcs3qt/main_window.cpp" line="162"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1650"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1708"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2548"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2558"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2571"/>
         <source>Play %0</source>
         <translation>遊戲 %0</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="158"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1633"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1663"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1715"/>
-        <location filename="rpcs3qt/main_window.cpp" line="2547"/>
+        <location filename="rpcs3qt/main_window.cpp" line="162"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1637"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1667"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1719"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2551"/>
         <source>Play</source>
         <translation>遊戲</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="162"/>
+        <location filename="rpcs3qt/main_window.cpp" line="166"/>
         <source>&amp;Play last played game</source>
         <oldsource>&amp;Play last played game	Ctrl+R</oldsource>
         <translation>開始上次玩過的遊戲(&amp;P)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="215"/>
+        <location filename="rpcs3qt/main_window.cpp" line="219"/>
         <source>Update Available!</source>
         <translation>更新可用!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="217"/>
+        <location filename="rpcs3qt/main_window.cpp" line="221"/>
         <source>Download Update</source>
         <translation>下載更新</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="285"/>
+        <location filename="rpcs3qt/main_window.cpp" line="289"/>
         <source>Missing Firmware Detected!</source>
         <translation>檢測到缺少韌體!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="286"/>
+        <location filename="rpcs3qt/main_window.cpp" line="290"/>
         <source>Commercial games require the firmware (PS3UPDAT.PUP file) to be installed.
 &lt;br&gt;For information about how to obtain the required firmware read the &lt;a href=&quot;https://rpcs3.net/quickstart&quot;&gt;quickstart guide&lt;/a&gt;.</source>
         <translation>商業遊戲需要安裝韌體 (PS3UPDAT.PUP 檔案)。
 &lt;br&gt;關於如何獲取韌體所需的資訊，請閱讀 &lt;a href=&quot;https://rpcs3.net/quickstart&quot;&gt;快速入門指南&lt;/a&gt;。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="293"/>
+        <location filename="rpcs3qt/main_window.cpp" line="297"/>
         <source>Locate PS3UPDAT.PUP</source>
         <translation>定位 PS3UPDAT.PUP</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="365"/>
+        <location filename="rpcs3qt/main_window.cpp" line="369"/>
         <source>No bootable content was found.</source>
         <translation>未發現可啟動的內容。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="368"/>
+        <location filename="rpcs3qt/main_window.cpp" line="372"/>
         <source>Disc could not be mounted properly. Make sure the disc is not in the dev_hdd0/game folder.</source>
         <translation>光碟無法正確安裝。請確定光碟不在 dev_hdd0/game 資料夾中。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="371"/>
+        <location filename="rpcs3qt/main_window.cpp" line="375"/>
         <source>The selected file or folder is invalid or corrupted.</source>
         <translation>選定的檔案或資料夾是無效的或已損毀。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="374"/>
+        <location filename="rpcs3qt/main_window.cpp" line="378"/>
         <source>Additional content could not be installed.</source>
         <translation>附加內容無法安裝。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="377"/>
+        <location filename="rpcs3qt/main_window.cpp" line="381"/>
         <source>Digital content could not be decrypted. This is usually caused by a missing or invalid license (RAP) file.</source>
         <translation>數位內容無法解密。這通常是由丟失或無效的 RAP 授權檔案引起的。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="380"/>
+        <location filename="rpcs3qt/main_window.cpp" line="384"/>
         <source>The emulator could not create files required for booting.</source>
         <translation>仿真器無法建立啟動所需的檔案。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="383"/>
+        <location filename="rpcs3qt/main_window.cpp" line="387"/>
         <source>This disc type is not supported yet.</source>
         <translation>目前尚不支援此光碟類型。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="389"/>
+        <location filename="rpcs3qt/main_window.cpp" line="393"/>
         <source>Unknown error.</source>
         <translation>未知錯誤。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="392"/>
+        <location filename="rpcs3qt/main_window.cpp" line="396"/>
         <source>&lt;br /&gt;&lt;br /&gt;For information on setting up the emulator and dumping your PS3 games, read the &lt;a href=&quot;https://rpcs3.net/quickstart&quot;&gt;quickstart guide&lt;/a&gt;.</source>
         <translation>&lt;br /&gt;&lt;br /&gt;關於設定仿真器與傾印 PS3 遊戲的資訊，請閱讀 &lt;a href=&quot;https://rpcs3.net/quickstart&quot;&gt;快速入門指南&lt;/a&gt;。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="395"/>
+        <location filename="rpcs3qt/main_window.cpp" line="399"/>
         <source>Boot Failed</source>
         <translation>啟動失敗</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="399"/>
+        <location filename="rpcs3qt/main_window.cpp" line="403"/>
         <source>Booting failed: %1 %2</source>
         <translation>啟動失敗: %1 %2</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="442"/>
+        <location filename="rpcs3qt/main_window.cpp" line="446"/>
         <source>Select (S)ELF To Boot</source>
         <translation>選擇 (S)ELF 啟動</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="442"/>
+        <location filename="rpcs3qt/main_window.cpp" line="446"/>
         <source>(S)ELF files (*BOOT.BIN *.elf *.self);;ELF files (BOOT.BIN *.elf);;SELF files (EBOOT.BIN *.self);;BOOT files (*BOOT.BIN);;BIN files (*.bin);;All files (*.*)</source>
         <translation>(S)ELF 檔案 (*BOOT.BIN *.elf *.self);;ELF 檔案 (BOOT.BIN *.elf);;SELF 檔案 (EBOOT.BIN *.self);;BOOT 檔案 (*BOOT.BIN);;BIN 檔案 (*.bin);;全部檔案 (*.*)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="481"/>
+        <location filename="rpcs3qt/main_window.cpp" line="485"/>
         <source>Select Game Folder</source>
         <translation>選擇遊戲資料夾</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="516"/>
+        <location filename="rpcs3qt/main_window.cpp" line="520"/>
         <source>Select RSX Capture</source>
         <translation>選擇 RSX 截取</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="614"/>
+        <location filename="rpcs3qt/main_window.cpp" line="618"/>
         <source>Invalid package!</source>
         <translation>無效的套裝軟體!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="614"/>
+        <location filename="rpcs3qt/main_window.cpp" line="618"/>
         <source>The selected package is invalid!
 
 Path:
@@ -6430,12 +6457,12 @@ Path:
 %0</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="652"/>
+        <location filename="rpcs3qt/main_window.cpp" line="656"/>
         <source>PKG Decrypter / Installer</source>
         <translation>PKG 解密/安裝程式</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="652"/>
+        <location filename="rpcs3qt/main_window.cpp" line="656"/>
         <source>Do you want to install this package?
 
 %0</source>
@@ -6444,182 +6471,182 @@ Path:
 %0</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="754"/>
+        <location filename="rpcs3qt/main_window.cpp" line="758"/>
         <source>RPCS3 Package Installer</source>
         <translation>RPCS3 軟體安裝程式</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="754"/>
+        <location filename="rpcs3qt/main_window.cpp" line="758"/>
         <source>Installing package, please wait...</source>
         <translation>安裝軟體，請稍候...</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="754"/>
-        <location filename="rpcs3qt/main_window.cpp" line="972"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1180"/>
+        <location filename="rpcs3qt/main_window.cpp" line="758"/>
+        <location filename="rpcs3qt/main_window.cpp" line="976"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1184"/>
         <source>Cancel</source>
         <translation>取消</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="851"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1267"/>
+        <location filename="rpcs3qt/main_window.cpp" line="855"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1271"/>
         <source>Success!</source>
         <translation>成功!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="851"/>
+        <location filename="rpcs3qt/main_window.cpp" line="855"/>
         <source>Successfully installed software from package(s)!</source>
         <translation>成功從套裝軟體安裝軟體!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="861"/>
+        <location filename="rpcs3qt/main_window.cpp" line="865"/>
         <source>Warning!</source>
         <translation>警告!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="861"/>
+        <location filename="rpcs3qt/main_window.cpp" line="865"/>
         <source>The following package cannot be installed on top of the current data:
 %1!</source>
         <translation>無法在當前資料之上安裝以下套裝軟體:
 %1!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="866"/>
+        <location filename="rpcs3qt/main_window.cpp" line="870"/>
         <source>Failure!</source>
         <translation>失敗!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="885"/>
+        <location filename="rpcs3qt/main_window.cpp" line="889"/>
         <source>Select MSELF To extract</source>
         <translation>選取 MSELF 提取</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="892"/>
-        <location filename="rpcs3qt/main_window.cpp" line="938"/>
-        <location filename="rpcs3qt/main_window.cpp" line="963"/>
+        <location filename="rpcs3qt/main_window.cpp" line="896"/>
+        <location filename="rpcs3qt/main_window.cpp" line="942"/>
+        <location filename="rpcs3qt/main_window.cpp" line="967"/>
         <source>Extraction Directory</source>
         <translation>提取目錄</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="906"/>
+        <location filename="rpcs3qt/main_window.cpp" line="910"/>
         <source>Select PS3UPDAT.PUP To Install</source>
         <translation>選取 PS3UPDAT.PUP 安裝</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="910"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1159"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1169"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1180"/>
+        <location filename="rpcs3qt/main_window.cpp" line="914"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1163"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1173"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1184"/>
         <source>RPCS3 Firmware Installer</source>
         <translation>RPCS3 韌體安裝程式</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="910"/>
+        <location filename="rpcs3qt/main_window.cpp" line="914"/>
         <source>Install firmware: %1?</source>
         <translation>安裝韌體: %1?</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="931"/>
+        <location filename="rpcs3qt/main_window.cpp" line="935"/>
         <source>Select PS3UPDAT.PUP To extract</source>
         <translation>選取 PS3UPDAT.PUP 提取</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="956"/>
+        <location filename="rpcs3qt/main_window.cpp" line="960"/>
         <source>Select TAR To extract</source>
         <translation>選取 TAR 提取</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="972"/>
+        <location filename="rpcs3qt/main_window.cpp" line="976"/>
         <source>TAR Extraction</source>
         <translation>TAR 提取</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="972"/>
+        <location filename="rpcs3qt/main_window.cpp" line="976"/>
         <source>Extracting encrypted TARs
 Please wait...</source>
         <translation>提取加密的 TAR
 請稍候...</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="989"/>
+        <location filename="rpcs3qt/main_window.cpp" line="993"/>
         <source>The following TAR file(s) could not be extracted:</source>
         <translation>無法提取以下 TAR 檔案:</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1003"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1007"/>
         <source>Tar extraction failed</source>
         <translation>Tar 提取失敗</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1013"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1017"/>
         <source>Firmware Installation Failed</source>
         <translation>韌體安裝失敗</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1020"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1024"/>
         <source>Firmware installation failed: The provided path is empty.</source>
         <translation>韌體安裝失敗: 所提供的路徑是空的。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1039"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1043"/>
         <source>Firmware installation failed: The selected firmware file couldn&apos;t be opened.</source>
         <translation>韌體安裝失敗: 無法開啟所選的韌體檔案。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1050"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1054"/>
         <source>Firmware installation failed: The provided file is empty.</source>
         <translation>韌體安裝失敗: 所提供的檔案是空的。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1056"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1060"/>
         <source>Firmware installation failed: The provided file is not a PUP file.</source>
         <translation>韌體安裝失敗: 提供的檔案不是 PUP 檔案。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1062"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1066"/>
         <source>Firmware installation failed: The provided file is incomplete. Try redownloading it.</source>
         <translation>韌體安裝失敗: 提供的檔案不完整。 嘗試重新下載。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1077"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1081"/>
         <source>Firmware installation failed: The provided file is corrupted.</source>
         <translation>韌體安裝失敗: 提供的檔案已損壞。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1083"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1094"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1133"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1154"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1087"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1098"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1137"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1158"/>
         <source>Firmware installation failed: The provided file&apos;s contents are corrupted.</source>
         <translation>韌體安裝失敗: 提供的檔案內容已損壞。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1107"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1111"/>
         <source>Firmware extraction failed: VFS mounting failed.</source>
         <translation>韌體提取失敗: VFS 安裝失敗。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1205"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1209"/>
         <source>Firmware installation failed: Firmware could not be decompressed</source>
         <translation>韌體安裝失敗: 無法解壓縮韌體</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1286"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1290"/>
         <source>All Binaries (*.bin *.BIN *.self *.SELF *.sprx *.SPRX *.sdat *.SDAT *.edat *.EDAT);;BIN files (*.bin *.BIN);;SELF files (*.self *.SELF);;SPRX files (*.sprx *.SPRX);;SDAT/EDAT files (*.sdat *.SDAT *.edat *.EDAT);;All files (*.*)</source>
         <translation>全部二進位 (*.bin *.BIN *.self *.SELF *.sprx *.SPRX *.sdat *.SDAT *.edat *.EDAT);;BIN 檔案 (*.bin *.BIN);;SELF 檔案 (*.self *.SELF);;SPRX 檔案 (*.sprx *.SPRX);;SDAT/EDAT 檔案 (*.sdat *.SDAT *.edat *.EDAT);;全部檔案 (*.*)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="3013"/>
+        <location filename="rpcs3qt/main_window.cpp" line="3017"/>
         <source>PARAM.SFO Information</source>
         <translation>PARAM.SFO 資訊</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1114"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1118"/>
         <source>Firmware installation failed: Firmware contents could not be extracted.</source>
         <translation>韌體安裝失敗: 無法提取韌體內容。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1159"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1163"/>
         <source>Old firmware detected.
 The newest firmware version is %1 and you are trying to install version %2
 Continue installation?</source>
@@ -6628,12 +6655,12 @@ Continue installation?</source>
 您想繼續安裝嗎?</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="592"/>
+        <location filename="rpcs3qt/main_window.cpp" line="596"/>
         <source>Select packages and/or rap files to install</source>
         <translation>選擇要安裝的套裝軟體或 RAP 檔案</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="622"/>
+        <location filename="rpcs3qt/main_window.cpp" line="626"/>
         <source>
 DLC</source>
         <comment>Block for package type (DLC)</comment>
@@ -6641,7 +6668,7 @@ DLC</source>
 DLC</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="626"/>
+        <location filename="rpcs3qt/main_window.cpp" line="630"/>
         <source>
 Update</source>
         <comment>Block for package type (Update)</comment>
@@ -6649,7 +6676,7 @@ Update</source>
 更新</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="631"/>
+        <location filename="rpcs3qt/main_window.cpp" line="635"/>
         <source>
 %0</source>
         <comment>Block for package type</comment>
@@ -6657,7 +6684,7 @@ Update</source>
 %0</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="636"/>
+        <location filename="rpcs3qt/main_window.cpp" line="640"/>
         <source>
 %0</source>
         <comment>Block for Title ID</comment>
@@ -6665,7 +6692,7 @@ Update</source>
 %0</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="641"/>
+        <location filename="rpcs3qt/main_window.cpp" line="645"/>
         <source>
 Version %0</source>
         <comment>Block for Version</comment>
@@ -6673,7 +6700,7 @@ Version %0</source>
 版本 %0</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="646"/>
+        <location filename="rpcs3qt/main_window.cpp" line="650"/>
         <source>
 
 Changelog:
@@ -6685,13 +6712,13 @@ Changelog:
 %0</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="788"/>
+        <location filename="rpcs3qt/main_window.cpp" line="792"/>
         <source>v.%0</source>
         <comment>Package version for install progress dialog</comment>
         <translation>v.%0</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="793"/>
+        <location filename="rpcs3qt/main_window.cpp" line="797"/>
         <source>Installing package (%0/%1), please wait...
 
 %2</source>
@@ -6700,7 +6727,7 @@ Changelog:
 %2</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="866"/>
+        <location filename="rpcs3qt/main_window.cpp" line="870"/>
         <source>Failed to install software from package:
 %1!
 This is very likely caused by external interference from a faulty anti-virus software.
@@ -6711,21 +6738,21 @@ Please add RPCS3 to your anti-virus&apos; whitelist or use better anti-virus sof
 請新增 RPCS3 到您的防毒白名單中或用更好的防毒軟體。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1169"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1173"/>
         <source>Firmware of version %1 has already been installed.
 Overwrite current installation with version %2?</source>
         <translation>已經安裝了 %1 版本的韌體。
 是否使用 %2 版本覆寫當前安裝?</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1180"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1184"/>
         <source>Installing firmware version %1
 Please wait...</source>
         <translation>安裝韌體 %1 版本
 請稍候...</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1214"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1218"/>
         <source>The firmware contents could not be extracted.
 This is very likely caused by external interference from a faulty anti-virus software.
 Please add RPCS3 to your anti-virus&apos; whitelist or use better anti-virus software.</source>
@@ -6734,182 +6761,182 @@ Please add RPCS3 to your anti-virus&apos; whitelist or use better anti-virus sof
 請新增 RPCS3 到您的防毒白名單中或用更好的防毒軟體。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1267"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1271"/>
         <source>Successfully installed PS3 firmware and LLE Modules!</source>
         <translation>已成功安裝 PS3 韌體與 LLE 模組!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1286"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1290"/>
         <source>Select binary files</source>
         <translation>選擇二進位檔案</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1397"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1401"/>
         <source>Hint: KLIC (KLicense key) is a 16-byte long string. (32 hexadecimal characters)
 And is logged with some sceNpDrm* functions when the game/application which owns &quot;%0&quot; is running.</source>
         <translation>提示: KLIC (KLicense key) 是一個 16 位元組長的字串。 (32 十六進位字元)
 所有 &quot;%0&quot; 的遊戲以及應用程序正在執行時，並使用某些 sceNpDrm* 功能進行記錄。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1405"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1409"/>
         <source>Enter KLIC of %0</source>
         <translation>輸入 %0 的 KLIC</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1406"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1410"/>
         <source>Decryption failed with provided KLIC.
 %0</source>
         <translation>提供的 KLIC 解密失敗。
 %0</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1406"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1410"/>
         <source>Hexadecimal only.</source>
         <translation>僅十六進位。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1575"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1601"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1668"/>
-        <location filename="rpcs3qt/main_window.cpp" line="2537"/>
-        <location filename="rpcs3qt/main_window.cpp" line="2560"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1579"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1605"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1672"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2541"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2564"/>
         <source>Restart %0</source>
         <translation>重啟 %0</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1576"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1602"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1580"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1606"/>
         <source>Pause %0</source>
         <translation>暫停 %0</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1577"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1603"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1581"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1607"/>
         <source>Stop %0</source>
         <translation>停止 %0</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1623"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1646"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1704"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1627"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1650"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1708"/>
         <source>Resume %0</source>
         <translation>繼續 %0</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1587"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1611"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1591"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1615"/>
         <source>&amp;Pause</source>
         <translation>暫停(&amp;P)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="516"/>
+        <location filename="rpcs3qt/main_window.cpp" line="520"/>
         <source>RRC files (*.rrc *.RRC);;All files (*.*)</source>
         <translation>RRC 檔案 (*.rrc *.RRC);;全部檔案 (*.*)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="593"/>
+        <location filename="rpcs3qt/main_window.cpp" line="597"/>
         <source>All relevant (*.pkg *.PKG *.rap *.RAP *.edat *.EDAT);;Package files (*.pkg *.PKG);;Rap files (*.rap *.RAP);;Edat files (*.edat *.EDAT);;All files (*.*)</source>
         <oldsource>All relevant (*.pkg *.PKG *.rap *.RAP);;Package files (*.pkg *.PKG);;Rap files (*.rap *.RAP);;All files (*.*)</oldsource>
         <translation>全部相關 (*.pkg *.PKG *.rap *.RAP *.edat *.EDAT);;套裝軟體檔案 (*.pkg *.PKG);;RAP 檔案 (*.rap *.RAP);;EDAT 檔案 (*.edat *.EDAT);;全部檔案 (*.*)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="885"/>
+        <location filename="rpcs3qt/main_window.cpp" line="889"/>
         <source>All mself files (*.mself *.MSELF);;All files (*.*)</source>
         <translation>全部 MSELF 檔案 (*.mself *.MSELF);;全部檔案 (*.*)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="906"/>
-        <location filename="rpcs3qt/main_window.cpp" line="931"/>
+        <location filename="rpcs3qt/main_window.cpp" line="910"/>
+        <location filename="rpcs3qt/main_window.cpp" line="935"/>
         <source>PS3 update file (PS3UPDAT.PUP);;All pup files (*.pup *.PUP);;All files (*.*)</source>
         <translation>PS3 更新檔案 (PS3UPDAT.PUP);;全部 PUP 檔案 (*.pup *.PUP);;全部檔案 (*.*)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="956"/>
+        <location filename="rpcs3qt/main_window.cpp" line="960"/>
         <source>All tar files (*.tar *.TAR *.tar.aa.* *.TAR.AA.*);;All files (*.*)</source>
         <translation>全部 TAR 檔案 (*.tar *.TAR *.tar.aa.* *.TAR.AA.*);;全部檔案 (*.*)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1629"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1650"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1711"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1633"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1654"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1715"/>
         <source>&amp;Resume</source>
         <translation>繼續(&amp;E)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1650"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1711"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1654"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1715"/>
         <source>&amp;Play</source>
         <translation>遊戲(&amp;P)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1685"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1689"/>
         <source>Send open system menu cmd</source>
         <translation>傳送開啟系統選單 CMD</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1800"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1845"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1911"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1804"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1849"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1915"/>
         <source>Ctrl+%1</source>
         <translation>Ctrl+%1</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="2039"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2043"/>
         <source>Select a folder containing one or more games</source>
         <translation>選擇包含單個或數個遊戲資料夾</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="2121"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2125"/>
         <source>Send &amp;%0 system menu cmd</source>
         <translation>傳送 &amp;%0 系統選單 CMD</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="2121"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2125"/>
         <source>close</source>
         <translation>關閉</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="2121"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2125"/>
         <source>open</source>
         <translation>開啟</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="2369"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2373"/>
         <source>Auto-updater</source>
         <translation>自動更新</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="2369"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2373"/>
         <source>The auto-updater currently isn&apos;t available for your os.</source>
         <translation>自動更新程式當前不適用於您的作業系統。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="2722"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2726"/>
         <source>Cache Cleared</source>
         <translation>快取已清除</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="2722"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2726"/>
         <source>Disk cache was cleared successfully</source>
         <translation>磁碟快取已成功清除</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="2726"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2730"/>
         <source>Error</source>
         <translation>錯誤</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="2726"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2730"/>
         <source>Could not remove disk cache</source>
         <translation>無法刪除磁碟快取</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="2737"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2741"/>
         <source>Confirm Removal</source>
         <translation>確認刪除</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="2737"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2741"/>
         <source>Remove firmware cache?</source>
         <translation>刪除韌體快取?</translation>
     </message>
@@ -10971,198 +10998,198 @@ File was too small.</source>
 <context>
     <name>trophy_manager_dialog</name>
     <message>
-        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="48"/>
+        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="47"/>
         <source>Trophy Manager</source>
         <translation>獎盃管理</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="74"/>
-        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="868"/>
+        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="73"/>
+        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="871"/>
         <source>Progress: %1% (%2/%3)</source>
         <translation>進度: %1% (%2/%3)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="90"/>
-        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="111"/>
+        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="89"/>
+        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="110"/>
         <source>Icon</source>
         <translation>圖示</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="90"/>
+        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="89"/>
         <source>Game</source>
         <translation>遊戲</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="90"/>
+        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="89"/>
         <source>Progress</source>
         <translation>進度</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="111"/>
+        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="110"/>
         <source>Name</source>
         <translation>名稱</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="111"/>
+        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="110"/>
         <source>Description</source>
         <translation>描述</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="111"/>
+        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="110"/>
         <source>Type</source>
         <translation>類型</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="111"/>
+        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="110"/>
         <source>Status</source>
         <translation>狀態</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="111"/>
+        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="110"/>
         <source>ID</source>
         <translation>ID</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="111"/>
+        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="110"/>
         <source>Platinum Relevant</source>
         <translation>白金相關</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="128"/>
+        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="127"/>
         <source>Show Not Earned Trophies</source>
         <oldsource>Show Locked Trophies</oldsource>
         <translation>顯示未取得的獎盃</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="132"/>
+        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="131"/>
         <source>Show Earned Trophies</source>
         <oldsource>Show Unlocked Trophies</oldsource>
         <translation>顯示取得的獎盃</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="136"/>
+        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="135"/>
         <source>Show Hidden Trophies</source>
         <translation>顯示隱藏的獎盃</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="140"/>
+        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="139"/>
         <source>Show Bronze Trophies</source>
         <translation>顯示青銅獎盃</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="144"/>
+        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="143"/>
         <source>Show Silver Trophies</source>
         <translation>顯示白銀獎盃</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="148"/>
+        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="147"/>
         <source>Show Gold Trophies</source>
         <translation>顯示黃金獎盃</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="152"/>
+        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="151"/>
         <source>Show Platinum Trophies</source>
         <translation>顯示白金獎盃</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="157"/>
-        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="219"/>
+        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="156"/>
+        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="218"/>
         <source>Trophy Icon Size: %0x%1</source>
         <translation>獎盃圖示大小: %0x%1</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="160"/>
-        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="248"/>
+        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="159"/>
+        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="247"/>
         <source>Game Icon Size: %0x%1</source>
         <translation>遊戲圖示大小: %0x%1</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="171"/>
+        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="170"/>
         <source>Choose Game</source>
         <translation>選取遊戲</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="176"/>
+        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="175"/>
         <source>Trophy Info</source>
         <translation>獎盃資訊</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="181"/>
+        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="180"/>
         <source>Trophy View Options</source>
         <translation>獎盃視圖選項</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="192"/>
+        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="191"/>
         <source>Icon Options</source>
         <translation>圖示選項</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="721"/>
+        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="724"/>
         <source>Open Trophy Directory</source>
         <oldsource>Open Trophy Dir</oldsource>
         <translation>開啟獎盃目錄</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="774"/>
+        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="777"/>
         <source>Loading trophy data, please wait...</source>
         <translation>正在讀取獎盃資料，請稍候...</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="774"/>
+        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="777"/>
         <source>Cancel</source>
         <translation>取消</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="775"/>
+        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="778"/>
         <source>Loading trophies</source>
         <translation>讀取獎盃</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="831"/>
+        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="834"/>
         <source>%0% (%1/%2)</source>
         <translation>%0% (%1/%2)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="906"/>
+        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="901"/>
         <source>No</source>
         <translation>否</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="906"/>
+        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="901"/>
         <source>Yes</source>
         <translation>是</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="913"/>
+        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="908"/>
         <source>Bronze</source>
         <comment>Trophy type</comment>
         <translation>青銅</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="914"/>
+        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="909"/>
         <source>Silver</source>
         <comment>Trophy type</comment>
         <translation>白銀</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="915"/>
+        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="910"/>
         <source>Gold</source>
         <comment>Trophy type</comment>
         <translation>黃金</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="916"/>
+        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="911"/>
         <source>Platinum</source>
         <comment>Trophy type</comment>
         <translation>白金</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="939"/>
+        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="934"/>
         <source>Earned</source>
         <translation>取得</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="939"/>
+        <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="934"/>
         <source>Not Earned</source>
         <translation>未取得</translation>
     </message>
