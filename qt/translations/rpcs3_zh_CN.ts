@@ -5509,54 +5509,109 @@ Space needed: %0 KB</source>
 <context>
     <name>log_viewer</name>
     <message>
-        <location filename="rpcs3qt/log_viewer.cpp" line="30"/>
+        <location filename="rpcs3qt/log_viewer.cpp" line="35"/>
         <source>Log Viewer</source>
         <translation>日志检视器</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/log_viewer.cpp" line="61"/>
+        <location filename="rpcs3qt/log_viewer.cpp" line="66"/>
         <source>&amp;Clear</source>
         <translation>清理(&amp;C)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/log_viewer.cpp" line="62"/>
+        <location filename="rpcs3qt/log_viewer.cpp" line="67"/>
         <source>&amp;Open log file</source>
         <translation>开启日志档案(&amp;O)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/log_viewer.cpp" line="63"/>
+        <location filename="rpcs3qt/log_viewer.cpp" line="68"/>
         <source>&amp;Filter log</source>
         <translation>过滤日志(&amp;F)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/log_viewer.cpp" line="78"/>
+        <location filename="rpcs3qt/log_viewer.cpp" line="70"/>
+        <source>&amp;Show Threads</source>
+        <translation>显示执行绪​​(&amp;S)</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/log_viewer.cpp" line="74"/>
+        <source>&amp;Last actions only</source>
+        <translation>仅上次操作(&amp;L)</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/log_viewer.cpp" line="79"/>
+        <source>Fatal</source>
+        <translation>严重</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/log_viewer.cpp" line="80"/>
+        <source>Error</source>
+        <translation>错误</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/log_viewer.cpp" line="81"/>
+        <source>Todo</source>
+        <translation>待办事项</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/log_viewer.cpp" line="82"/>
+        <source>Success</source>
+        <translation>成功</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/log_viewer.cpp" line="83"/>
+        <source>Warning</source>
+        <translation>警告</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/log_viewer.cpp" line="84"/>
+        <source>Notice</source>
+        <translation>通知</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/log_viewer.cpp" line="85"/>
+        <source>Trace</source>
+        <translation>追踪</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/log_viewer.cpp" line="129"/>
         <source>Select log file</source>
         <translation>选取日志档案</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/log_viewer.cpp" line="78"/>
+        <location filename="rpcs3qt/log_viewer.cpp" line="129"/>
         <source>Log files (*.log);;</source>
         <translation>日志档案 (*.log);;</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/log_viewer.cpp" line="87"/>
+        <location filename="rpcs3qt/log_viewer.cpp" line="138"/>
         <source>Filter log</source>
         <translation>过滤日志</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/log_viewer.cpp" line="87"/>
+        <location filename="rpcs3qt/log_viewer.cpp" line="138"/>
         <source>Enter text</source>
         <translation>输入文字</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/log_viewer.cpp" line="117"/>
+        <location filename="rpcs3qt/log_viewer.cpp" line="179"/>
         <source>Loading file...</source>
         <translation>正在载入档案...</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/log_viewer.cpp" line="132"/>
+        <location filename="rpcs3qt/log_viewer.cpp" line="194"/>
         <source>Failed to open &apos;%0&apos;</source>
         <translation>无法开启 &apos;%0&apos;</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/log_viewer.cpp" line="309"/>
+        <source>Ooops!</source>
+        <translation>哎!</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/log_viewer.cpp" line="309"/>
+        <source>Cannot find any game boot!</source>
+        <translation>找不到任何游戏启动!</translation>
     </message>
 </context>
 <context>
