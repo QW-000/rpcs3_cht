@@ -2118,27 +2118,23 @@ Restart of the game is required to apply. You can enable/disable this in the set
 <context>
     <name>breakpoint_list</name>
     <message>
-        <location filename="rpcs3qt/breakpoint_list.cpp" line="23"/>
+        <location filename="rpcs3qt/breakpoint_list.cpp" line="24"/>
         <source>&amp;Delete</source>
         <translation>刪除(&amp;D)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/breakpoint_list.cpp" line="104"/>
+        <location filename="rpcs3qt/breakpoint_list.cpp" line="162"/>
         <source>Unimplemented Breakpoints For Thread Type!</source>
         <translation>執行緒類型未實現斷點!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/breakpoint_list.cpp" line="104"/>
-        <source>Cannot set breakpoints on non-PPU thread currently, sorry.</source>
-        <translation>目前無法在非 PPU 執行緒上設定斷點，抱歉。</translation>
-    </message>
-    <message>
-        <location filename="rpcs3qt/breakpoint_list.cpp" line="110"/>
+        <location filename="rpcs3qt/breakpoint_list.cpp" line="126"/>
+        <location filename="rpcs3qt/breakpoint_list.cpp" line="168"/>
         <source>Invalid Memory For Breakpoints!</source>
         <translation>無效的記憶斷點!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/breakpoint_list.cpp" line="110"/>
+        <location filename="rpcs3qt/breakpoint_list.cpp" line="168"/>
         <source>Cannot set breakpoints on non-executable memory!</source>
         <translation>無法在不可執行的記憶上設定斷點!</translation>
     </message>
@@ -2153,17 +2149,27 @@ Restart of the game is required to apply. You can enable/disable this in the set
         <translation>無法在非直譯器譯碼器上設定斷點。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/breakpoint_list.cpp" line="128"/>
+        <location filename="rpcs3qt/breakpoint_list.cpp" line="126"/>
+        <source>Cannot set breakpoints on non-SPU executable memory!</source>
+        <translation>無法在非 SPU 可執行記憶上設定斷點!</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/breakpoint_list.cpp" line="162"/>
+        <source>Cannot set breakpoints on a thread not an PPU/SPU currently, sorry.</source>
+        <translation>無法在當前不是 PPU/SPU 的執行緒上設定斷點，抱歉。</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/breakpoint_list.cpp" line="180"/>
         <source>Unknown error while setting breakpoint!</source>
         <translation>設定斷點時出現未知錯誤!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/breakpoint_list.cpp" line="128"/>
+        <location filename="rpcs3qt/breakpoint_list.cpp" line="180"/>
         <source>Failed to set breakpoints.</source>
         <translation>設定斷點失敗。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/breakpoint_list.cpp" line="151"/>
+        <location filename="rpcs3qt/breakpoint_list.cpp" line="203"/>
         <source>&amp;Rename</source>
         <translation>重新命名(&amp;R)</translation>
     </message>
@@ -2431,7 +2437,7 @@ It might be blocked by another application.</source>
     </message>
     <message>
         <location filename="rpcs3qt/debugger_frame.cpp" line="102"/>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="1000"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="1005"/>
         <source>Go To Address</source>
         <translation>至 位址</translation>
     </message>
@@ -2517,7 +2523,7 @@ Page-Down 鍵: 向下捲動，步數等於檢視的指令數。
     </message>
     <message>
         <location filename="rpcs3qt/debugger_frame.cpp" line="287"/>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="1023"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="1028"/>
         <source>OK</source>
         <oldsource>Ok</oldsource>
         <translation>確定</translation>
@@ -2551,7 +2557,7 @@ Applies on all breakpoints in all threads regardless if set before or after chan
         <translation>記錄最大 PPU 調用</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="1024"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="1029"/>
         <source>Cancel</source>
         <translation>取消</translation>
     </message>
@@ -2564,7 +2570,7 @@ Applies on all breakpoints in all threads regardless if set before or after chan
         <translation>ASM</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_list.cpp" line="288"/>
+        <location filename="rpcs3qt/debugger_list.cpp" line="300"/>
         <source>RSX Command Detail</source>
         <translation>RSX 指令內容</translation>
     </message>
@@ -5938,8 +5944,8 @@ Space needed: %0 KB</source>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="451"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1516"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1540"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1533"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1557"/>
         <source>Pause</source>
         <translation>暫停</translation>
     </message>
@@ -6274,9 +6280,9 @@ Space needed: %0 KB</source>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="816"/>
         <location filename="rpcs3qt/main_window.cpp" line="192"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1597"/>
-        <location filename="rpcs3qt/main_window.cpp" line="2463"/>
-        <location filename="rpcs3qt/main_window.cpp" line="2486"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1614"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2480"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2503"/>
         <source>Restart</source>
         <translation>重啟</translation>
     </message>
@@ -6569,20 +6575,20 @@ Space needed: %0 KB</source>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="163"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1571"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1629"/>
-        <location filename="rpcs3qt/main_window.cpp" line="2467"/>
-        <location filename="rpcs3qt/main_window.cpp" line="2477"/>
-        <location filename="rpcs3qt/main_window.cpp" line="2490"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1588"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1646"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2484"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2494"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2507"/>
         <source>Play %0</source>
         <translation>遊戲 %0</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="163"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1558"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1588"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1640"/>
-        <location filename="rpcs3qt/main_window.cpp" line="2470"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1575"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1605"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1657"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2487"/>
         <source>Play</source>
         <translation>遊戲</translation>
     </message>
@@ -6896,12 +6902,12 @@ Please wait...</source>
         <translation>全部二進位 (*.bin *.BIN *.self *.SELF *.sprx *.SPRX *.sdat *.SDAT *.edat *.EDAT);;BIN 檔案 (*.bin *.BIN);;SELF 檔案 (*.self *.SELF);;SPRX 檔案 (*.sprx *.SPRX);;SDAT/EDAT 檔案 (*.sdat *.SDAT *.edat *.EDAT);;全部檔案 (*.*)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="2292"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2309"/>
         <source>The auto-updater isn&apos;t available for your OS currently.</source>
         <translation>自動更新程序目前不適用於您的作業系統。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="2935"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2952"/>
         <source>PARAM.SFO Information</source>
         <translation>PARAM.SFO 資訊</translation>
     </message>
@@ -7060,36 +7066,36 @@ And is logged with some sceNpDrm* functions when the game/application which owns
         <translation>僅十六進位。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1500"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1526"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1593"/>
-        <location filename="rpcs3qt/main_window.cpp" line="2460"/>
-        <location filename="rpcs3qt/main_window.cpp" line="2483"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1517"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1543"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1610"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2477"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2500"/>
         <source>Restart %0</source>
         <translation>重啟 %0</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1501"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1527"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1518"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1544"/>
         <source>Pause %0</source>
         <translation>暫停 %0</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1502"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1528"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1519"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1545"/>
         <source>Stop %0</source>
         <translation>停止 %0</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1548"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1571"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1629"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1565"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1588"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1646"/>
         <source>Resume %0</source>
         <translation>繼續 %0</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1512"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1536"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1529"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1553"/>
         <source>&amp;Pause</source>
         <translation>暫停(&amp;P)</translation>
     </message>
@@ -7121,82 +7127,82 @@ And is logged with some sceNpDrm* functions when the game/application which owns
         <translation>全部 TAR 檔案 (*.tar *.TAR *.tar.aa.* *.TAR.AA.*);;全部檔案 (*.*)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1554"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1575"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1636"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1571"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1592"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1653"/>
         <source>&amp;Resume</source>
         <translation>繼續(&amp;E)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1575"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1636"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1592"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1653"/>
         <source>&amp;Play</source>
         <translation>遊戲(&amp;P)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1610"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1627"/>
         <source>Send open system menu cmd</source>
         <translation>傳送開啟系統選單 CMD</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1724"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1769"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1835"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1741"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1786"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1852"/>
         <source>Ctrl+%1</source>
         <translation>Ctrl+%1</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1964"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1981"/>
         <source>Select a folder containing one or more games</source>
         <translation>選擇包含單個或數個遊戲資料夾</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="2046"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2063"/>
         <source>Send &amp;%0 system menu cmd</source>
         <translation>傳送 &amp;%0 系統選單 CMD</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="2046"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2063"/>
         <source>close</source>
         <translation>關閉</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="2046"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2063"/>
         <source>open</source>
         <translation>開啟</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="2292"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2309"/>
         <source>Auto-updater</source>
         <translation>自動更新</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="2645"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2662"/>
         <source>Cache Cleared</source>
         <translation>快取已清除</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="2645"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2662"/>
         <source>Disk cache was cleared successfully</source>
         <translation>磁碟快取已成功清除</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="2649"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2666"/>
         <source>Error</source>
         <translation>錯誤</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="2649"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2666"/>
         <source>Could not remove disk cache</source>
         <translation>無法刪除磁碟快取</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="2660"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2677"/>
         <source>Confirm Removal</source>
         <translation>確認刪除</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="2660"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2677"/>
         <source>Remove firmware cache?</source>
         <translation>刪除韌體快取?</translation>
     </message>
