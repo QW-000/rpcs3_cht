@@ -1266,18 +1266,18 @@ This is not needed when using OpenGL.</source>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="161"/>
-        <source>Off is the best option as it performs faster.
-Using the frame limiter will add extra overhead and slow down the game.
-However, some games will crash if the frame rate is too high.
-PS3 native should only be used if Auto is not working correctly as it can introduce frame-pacing issues.</source>
+        <source>Off is the fastest option.
+Using the frame limiter will add extra overhead and slow down the game. However, some games will crash if the frame rate is too high.
+PS3 native should only be used if Auto is not working correctly as it can introduce frame-pacing issues.
+Infinite adds a positive feedback loop which adds another vblank signal per frame allowing more games to be fps limitless.</source>
         <oldsource>Off is the best option as it performs faster.
 Using the frame limiter will add extra overhead and slow down the game.
 However, some games will crash if the frame rate is too high.
-If that happens, set value to anything other than Off.</oldsource>
-        <translation>「關閉」是最好的選擇，因為可執行得更快。
-使用「框限制」 將附加減緩遊戲速度。
-但是，如果框速過高某些遊戲將會崩潰。
-僅當「自動」無作用時才需使用「 PS3 本體」，因為可能會引入框同步問題。</translation>
+PS3 native should only be used if Auto is not working correctly as it can introduce frame-pacing issues.</oldsource>
+        <translation>「關閉」為最快的選項。
+使用「框限制」 將附加減緩遊戲速度。但是，框速過高某些遊戲將會崩潰。
+僅當「自動」無作用時才需使用「 PS3 本體」，因為可能會引入框同步問題。
+「無限」增加了一個正回饋迴路，每框增加另一個 vblank 信號，從而使更多遊戲的 FPS 無限。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="162"/>
@@ -2746,39 +2746,39 @@ This change will only be final when you save the config.</source>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="953"/>
-        <source>59.94</source>
-        <comment>Frame limit</comment>
-        <translation>59.94</translation>
-    </message>
-    <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="954"/>
         <source>50</source>
         <comment>Frame limit</comment>
         <translation>50</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="955"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="954"/>
         <source>60</source>
         <comment>Frame limit</comment>
         <translation>60</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="956"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="955"/>
         <source>30</source>
         <comment>Frame limit</comment>
         <translation>30</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="957"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="956"/>
         <source>Auto</source>
         <comment>Frame limit</comment>
         <translation>自動</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/emu_settings.cpp" line="958"/>
+        <location filename="rpcs3qt/emu_settings.cpp" line="957"/>
         <source>PS3 Native</source>
         <comment>Frame limit</comment>
         <translation>PS3 本體</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/emu_settings.cpp" line="958"/>
+        <source>Infinite</source>
+        <comment>Frame limit</comment>
+        <translation>無限</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="964"/>
