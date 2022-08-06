@@ -4830,48 +4830,54 @@ Any unsaved progress will be lost!
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="58"/>
+        <source>Select photo to import</source>
+        <comment>Media dialog</comment>
+        <translation>選取要匯入的照片</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="59"/>
         <source>No media found.</source>
         <comment>Media dialog</comment>
         <translation>未找到媒體。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="59"/>
+        <location filename="rpcs3qt/localized_emu.h" line="60"/>
         <source>Enter</source>
         <comment>Enter Dialog List</comment>
         <translation>進入</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="60"/>
+        <location filename="rpcs3qt/localized_emu.h" line="61"/>
         <source>Back</source>
         <comment>Cancel Dialog List</comment>
         <translation>返回</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="61"/>
+        <location filename="rpcs3qt/localized_emu.h" line="62"/>
         <source>ERROR: Game data is corrupted. The application will continue.</source>
         <comment>Game Error</comment>
         <translation>錯誤: 遊戲資料已損壞。 該應用軟體將繼續。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="62"/>
+        <location filename="rpcs3qt/localized_emu.h" line="63"/>
         <source>ERROR: HDD boot game is corrupted. The application will continue.</source>
         <comment>Game Error</comment>
         <translation>錯誤: 硬碟啟動遊戲已損壞。 該應用軟體將繼續。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="63"/>
+        <location filename="rpcs3qt/localized_emu.h" line="64"/>
         <source>ERROR: Game data is corrupted. The application will be terminated.</source>
         <comment>Game Error</comment>
         <translation>錯誤: 遊戲資料已損壞。 該應用軟體將被終止。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="64"/>
+        <location filename="rpcs3qt/localized_emu.h" line="65"/>
         <source>ERROR: HDD boot game is corrupted. The application will be terminated.</source>
         <comment>Game Error</comment>
         <translation>錯誤: 硬碟啟動遊戲已損壞。 該應用軟體將被終止。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="65"/>
+        <location filename="rpcs3qt/localized_emu.h" line="66"/>
         <source>ERROR: Not enough available space. The application will continue.
 Space needed: %0 KB</source>
         <comment>Game Error</comment>
@@ -4879,7 +4885,7 @@ Space needed: %0 KB</source>
 需要空間: %0 KB</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="66"/>
+        <location filename="rpcs3qt/localized_emu.h" line="67"/>
         <source>ERROR: Not enough available space. The application will be terminated.
 Space needed: %0 KB</source>
         <comment>Game Error</comment>
@@ -4887,13 +4893,13 @@ Space needed: %0 KB</source>
 需要空間: %0 KB</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="67"/>
+        <location filename="rpcs3qt/localized_emu.h" line="68"/>
         <source>Directory name: %0</source>
         <comment>Game Error</comment>
         <translation>目錄名稱: %0</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="68"/>
+        <location filename="rpcs3qt/localized_emu.h" line="69"/>
         <source>There has been an error!
 
 Please remove the game data for this title.</source>
@@ -4903,7 +4909,7 @@ Please remove the game data for this title.</source>
 請刪除該標題的遊戲資料。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="69"/>
+        <location filename="rpcs3qt/localized_emu.h" line="70"/>
         <source>There has been an error!
 
 Please reinstall the HDD boot game.</source>
@@ -4913,7 +4919,7 @@ Please reinstall the HDD boot game.</source>
 請重新安裝硬碟遊戲啟動。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="70"/>
+        <location filename="rpcs3qt/localized_emu.h" line="71"/>
         <source>Not enough space to create HDD boot game.
 Space Needed: %0 KB</source>
         <comment>HDD Game Check Error</comment>
@@ -4921,25 +4927,25 @@ Space Needed: %0 KB</source>
 需要空間: %0 KB</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="71"/>
+        <location filename="rpcs3qt/localized_emu.h" line="72"/>
         <source>HDD boot game %0 is corrupt!</source>
         <comment>HDD Game Check Error</comment>
         <translation>硬碟啟動遊戲 %0 已損壞!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="72"/>
+        <location filename="rpcs3qt/localized_emu.h" line="73"/>
         <source>HDD boot game %0 could not be found!</source>
         <comment>HDD Game Check Error</comment>
         <translation>硬碟啟動遊戲 %0 找不到!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="73"/>
+        <location filename="rpcs3qt/localized_emu.h" line="74"/>
         <source>Error: %0</source>
         <comment>HDD Game Check Error</comment>
         <translation>錯誤: %0</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="74"/>
+        <location filename="rpcs3qt/localized_emu.h" line="75"/>
         <source>Not enough space to create game data.
 Space Needed: %0 KB</source>
         <comment>Gamedata Check Error</comment>
@@ -4947,25 +4953,25 @@ Space Needed: %0 KB</source>
 需要空間: %0 KB</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="75"/>
+        <location filename="rpcs3qt/localized_emu.h" line="76"/>
         <source>The game data in %0 is corrupt!</source>
         <comment>Gamedata Check Error</comment>
         <translation>%0 中的遊戲資料已損壞!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="76"/>
+        <location filename="rpcs3qt/localized_emu.h" line="77"/>
         <source>The game data in %0 could not be found!</source>
         <comment>Gamedata Check Error</comment>
         <translation>找不到 %0 中的遊戲資料!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="77"/>
+        <location filename="rpcs3qt/localized_emu.h" line="78"/>
         <source>Error: %0</source>
         <comment>Gamedata Check Error</comment>
         <translation>錯誤: %0</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="78"/>
+        <location filename="rpcs3qt/localized_emu.h" line="79"/>
         <source>The resource is temporarily unavailable.
 (%0)</source>
         <comment>Error code</comment>
@@ -4973,7 +4979,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="79"/>
+        <location filename="rpcs3qt/localized_emu.h" line="80"/>
         <source>Invalid argument or flag.
 (%0)</source>
         <comment>Error code</comment>
@@ -4981,7 +4987,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="80"/>
+        <location filename="rpcs3qt/localized_emu.h" line="81"/>
         <source>The feature is not yet implemented.
 (%0)</source>
         <comment>Error code</comment>
@@ -4989,7 +4995,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="81"/>
+        <location filename="rpcs3qt/localized_emu.h" line="82"/>
         <source>Memory allocation failed.
 (%0)</source>
         <comment>Error code</comment>
@@ -4997,7 +5003,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="82"/>
+        <location filename="rpcs3qt/localized_emu.h" line="83"/>
         <source>The resource with the specified identifier does not exist.
 (%0)</source>
         <comment>Error code</comment>
@@ -5005,7 +5011,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="83"/>
+        <location filename="rpcs3qt/localized_emu.h" line="84"/>
         <source>The file does not exist.
 (%0)</source>
         <comment>Error code</comment>
@@ -5013,7 +5019,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="84"/>
+        <location filename="rpcs3qt/localized_emu.h" line="85"/>
         <source>The file is in unrecognized format / The file is not a valid ELF file.
 (%0)</source>
         <comment>Error code</comment>
@@ -5021,7 +5027,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="85"/>
+        <location filename="rpcs3qt/localized_emu.h" line="86"/>
         <source>Resource deadlock is avoided.
 (%0)</source>
         <comment>Error code</comment>
@@ -5029,7 +5035,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="86"/>
+        <location filename="rpcs3qt/localized_emu.h" line="87"/>
         <source>Operation not permitted.
 (%0)</source>
         <comment>Error code</comment>
@@ -5037,7 +5043,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="87"/>
+        <location filename="rpcs3qt/localized_emu.h" line="88"/>
         <source>The device or resource is busy.
 (%0)</source>
         <comment>Error code</comment>
@@ -5045,7 +5051,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="88"/>
+        <location filename="rpcs3qt/localized_emu.h" line="89"/>
         <source>The operation is timed out.
 (%0)</source>
         <comment>Error code</comment>
@@ -5053,7 +5059,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="89"/>
+        <location filename="rpcs3qt/localized_emu.h" line="90"/>
         <source>The operation is aborted.
 (%0)</source>
         <comment>Error code</comment>
@@ -5061,7 +5067,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="90"/>
+        <location filename="rpcs3qt/localized_emu.h" line="91"/>
         <source>Invalid memory access.
 (%0)</source>
         <comment>Error code</comment>
@@ -5069,7 +5075,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="91"/>
+        <location filename="rpcs3qt/localized_emu.h" line="92"/>
         <source>State of the target thread is invalid.
 (%0)</source>
         <comment>Error code</comment>
@@ -5077,7 +5083,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="92"/>
+        <location filename="rpcs3qt/localized_emu.h" line="93"/>
         <source>Alignment is invalid.
 (%0)</source>
         <comment>Error code</comment>
@@ -5085,7 +5091,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="93"/>
+        <location filename="rpcs3qt/localized_emu.h" line="94"/>
         <source>Shortage of the kernel resources.
 (%0)</source>
         <comment>Error code</comment>
@@ -5093,7 +5099,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="94"/>
+        <location filename="rpcs3qt/localized_emu.h" line="95"/>
         <source>The file is a directory.
 (%0)</source>
         <comment>Error code</comment>
@@ -5101,7 +5107,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="95"/>
+        <location filename="rpcs3qt/localized_emu.h" line="96"/>
         <source>Operation cancelled.
 (%0)</source>
         <comment>Error code</comment>
@@ -5109,7 +5115,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="96"/>
+        <location filename="rpcs3qt/localized_emu.h" line="97"/>
         <source>Entry already exists.
 (%0)</source>
         <comment>Error code</comment>
@@ -5117,7 +5123,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="97"/>
+        <location filename="rpcs3qt/localized_emu.h" line="98"/>
         <source>Port is already connected.
 (%0)</source>
         <comment>Error code</comment>
@@ -5125,7 +5131,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="98"/>
+        <location filename="rpcs3qt/localized_emu.h" line="99"/>
         <source>Port is not connected.
 (%0)</source>
         <comment>Error code</comment>
@@ -5133,7 +5139,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="99"/>
+        <location filename="rpcs3qt/localized_emu.h" line="100"/>
         <source>Failure in authorizing SELF. Program authentication fail.
 (%0)</source>
         <comment>Error code</comment>
@@ -5141,7 +5147,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="100"/>
+        <location filename="rpcs3qt/localized_emu.h" line="101"/>
         <source>The file is not MSELF.
 (%0)</source>
         <comment>Error code</comment>
@@ -5149,7 +5155,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="101"/>
+        <location filename="rpcs3qt/localized_emu.h" line="102"/>
         <source>System version error.
 (%0)</source>
         <comment>Error code</comment>
@@ -5157,7 +5163,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="102"/>
+        <location filename="rpcs3qt/localized_emu.h" line="103"/>
         <source>Fatal system error occurred while authorizing SELF. SELF auth failure.
 (%0)</source>
         <comment>Error code</comment>
@@ -5165,7 +5171,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="103"/>
+        <location filename="rpcs3qt/localized_emu.h" line="104"/>
         <source>Math domain violation.
 (%0)</source>
         <comment>Error code</comment>
@@ -5173,7 +5179,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="104"/>
+        <location filename="rpcs3qt/localized_emu.h" line="105"/>
         <source>Math range violation.
 (%0)</source>
         <comment>Error code</comment>
@@ -5181,7 +5187,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="105"/>
+        <location filename="rpcs3qt/localized_emu.h" line="106"/>
         <source>Illegal multi-byte sequence in input.
 (%0)</source>
         <comment>Error code</comment>
@@ -5189,7 +5195,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="106"/>
+        <location filename="rpcs3qt/localized_emu.h" line="107"/>
         <source>File position error.
 (%0)</source>
         <comment>Error code</comment>
@@ -5197,7 +5203,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="107"/>
+        <location filename="rpcs3qt/localized_emu.h" line="108"/>
         <source>Syscall was interrupted.
 (%0)</source>
         <comment>Error code</comment>
@@ -5205,7 +5211,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="108"/>
+        <location filename="rpcs3qt/localized_emu.h" line="109"/>
         <source>File too large.
 (%0)</source>
         <comment>Error code</comment>
@@ -5213,7 +5219,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="109"/>
+        <location filename="rpcs3qt/localized_emu.h" line="110"/>
         <source>Too many links.
 (%0)</source>
         <comment>Error code</comment>
@@ -5221,7 +5227,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="110"/>
+        <location filename="rpcs3qt/localized_emu.h" line="111"/>
         <source>File table overflow.
 (%0)</source>
         <comment>Error code</comment>
@@ -5229,7 +5235,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="111"/>
+        <location filename="rpcs3qt/localized_emu.h" line="112"/>
         <source>No space left on device.
 (%0)</source>
         <comment>Error code</comment>
@@ -5237,7 +5243,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="112"/>
+        <location filename="rpcs3qt/localized_emu.h" line="113"/>
         <source>Not a TTY.
 (%0)</source>
         <comment>Error code</comment>
@@ -5245,7 +5251,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="113"/>
+        <location filename="rpcs3qt/localized_emu.h" line="114"/>
         <source>Broken pipe.
 (%0)</source>
         <comment>Error code</comment>
@@ -5253,7 +5259,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="114"/>
+        <location filename="rpcs3qt/localized_emu.h" line="115"/>
         <source>Read-only filesystem.
 (%0)</source>
         <comment>Error code</comment>
@@ -5261,7 +5267,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="115"/>
+        <location filename="rpcs3qt/localized_emu.h" line="116"/>
         <source>Illegal seek.
 (%0)</source>
         <comment>Error code</comment>
@@ -5269,7 +5275,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="116"/>
+        <location filename="rpcs3qt/localized_emu.h" line="117"/>
         <source>Arg list too long.
 (%0)</source>
         <comment>Error code</comment>
@@ -5277,7 +5283,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="117"/>
+        <location filename="rpcs3qt/localized_emu.h" line="118"/>
         <source>Access violation.
 (%0)</source>
         <comment>Error code</comment>
@@ -5285,7 +5291,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="118"/>
+        <location filename="rpcs3qt/localized_emu.h" line="119"/>
         <source>Invalid file descriptor.
 (%0)</source>
         <comment>Error code</comment>
@@ -5293,7 +5299,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="119"/>
+        <location filename="rpcs3qt/localized_emu.h" line="120"/>
         <source>Filesystem mounting failed.
 (%0)</source>
         <comment>Error code</comment>
@@ -5301,7 +5307,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="120"/>
+        <location filename="rpcs3qt/localized_emu.h" line="121"/>
         <source>Too many files open.
 (%0)</source>
         <comment>Error code</comment>
@@ -5309,7 +5315,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="121"/>
+        <location filename="rpcs3qt/localized_emu.h" line="122"/>
         <source>No device.
 (%0)</source>
         <comment>Error code</comment>
@@ -5317,7 +5323,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="122"/>
+        <location filename="rpcs3qt/localized_emu.h" line="123"/>
         <source>Not a directory.
 (%0)</source>
         <comment>Error code</comment>
@@ -5325,7 +5331,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="123"/>
+        <location filename="rpcs3qt/localized_emu.h" line="124"/>
         <source>No such device or IO.
 (%0)</source>
         <comment>Error code</comment>
@@ -5333,7 +5339,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="124"/>
+        <location filename="rpcs3qt/localized_emu.h" line="125"/>
         <source>Cross-device link error.
 (%0)</source>
         <comment>Error code</comment>
@@ -5341,7 +5347,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="125"/>
+        <location filename="rpcs3qt/localized_emu.h" line="126"/>
         <source>Bad Message.
 (%0)</source>
         <comment>Error code</comment>
@@ -5349,7 +5355,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="126"/>
+        <location filename="rpcs3qt/localized_emu.h" line="127"/>
         <source>In progress.
 (%0)</source>
         <comment>Error code</comment>
@@ -5357,7 +5363,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="127"/>
+        <location filename="rpcs3qt/localized_emu.h" line="128"/>
         <source>Message size error.
 (%0)</source>
         <comment>Error code</comment>
@@ -5365,7 +5371,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="128"/>
+        <location filename="rpcs3qt/localized_emu.h" line="129"/>
         <source>Name too long.
 (%0)</source>
         <comment>Error code</comment>
@@ -5373,7 +5379,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="129"/>
+        <location filename="rpcs3qt/localized_emu.h" line="130"/>
         <source>No lock.
 (%0)</source>
         <comment>Error code</comment>
@@ -5381,7 +5387,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="130"/>
+        <location filename="rpcs3qt/localized_emu.h" line="131"/>
         <source>Not empty.
 (%0)</source>
         <comment>Error code</comment>
@@ -5389,7 +5395,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="131"/>
+        <location filename="rpcs3qt/localized_emu.h" line="132"/>
         <source>Not supported.
 (%0)</source>
         <comment>Error code</comment>
@@ -5397,7 +5403,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="132"/>
+        <location filename="rpcs3qt/localized_emu.h" line="133"/>
         <source>File-system specific error.
 (%0)</source>
         <comment>Error code</comment>
@@ -5405,7 +5411,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="133"/>
+        <location filename="rpcs3qt/localized_emu.h" line="134"/>
         <source>Overflow occured.
 (%0)</source>
         <comment>Error code</comment>
@@ -5413,7 +5419,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="134"/>
+        <location filename="rpcs3qt/localized_emu.h" line="135"/>
         <source>Filesystem not mounted.
 (%0)</source>
         <comment>Error code</comment>
@@ -5421,7 +5427,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="135"/>
+        <location filename="rpcs3qt/localized_emu.h" line="136"/>
         <source>Not SData.
 (%0)</source>
         <comment>Error code</comment>
@@ -5429,7 +5435,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="136"/>
+        <location filename="rpcs3qt/localized_emu.h" line="137"/>
         <source>Incorrect version in sys_load_param.
 (%0)</source>
         <comment>Error code</comment>
@@ -5437,8 +5443,8 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="137"/>
         <location filename="rpcs3qt/localized_emu.h" line="138"/>
+        <location filename="rpcs3qt/localized_emu.h" line="139"/>
         <source>Pointer is null.
 (%0)</source>
         <comment>Error code</comment>
@@ -5446,7 +5452,7 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="139"/>
+        <location filename="rpcs3qt/localized_emu.h" line="140"/>
         <source>An error has occurred.
 (%0)</source>
         <comment>Error code</comment>
@@ -5454,31 +5460,31 @@ Space Needed: %0 KB</source>
 (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="140"/>
+        <location filename="rpcs3qt/localized_emu.h" line="141"/>
         <source>On Screen Keyboard</source>
         <comment>OSK Dialog</comment>
         <translation>螢幕鍵盤</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="141"/>
+        <location filename="rpcs3qt/localized_emu.h" line="142"/>
         <source>Error - Save data corrupted</source>
         <comment>Savedata Error</comment>
         <translation>錯誤 - 儲存資料已損壞</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="142"/>
+        <location filename="rpcs3qt/localized_emu.h" line="143"/>
         <source>Error - Failed to save or load</source>
         <comment>Savedata Error</comment>
         <translation>錯誤 - 無法儲存或讀取</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="143"/>
+        <location filename="rpcs3qt/localized_emu.h" line="144"/>
         <source>Error - Save data cannot be found</source>
         <comment>Savedata Error</comment>
         <translation>錯誤 - 未找到儲存資料</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="144"/>
+        <location filename="rpcs3qt/localized_emu.h" line="145"/>
         <source>Error - Insufficient free space
 
 Space needed: %0 KB</source>
@@ -5488,31 +5494,31 @@ Space needed: %0 KB</source>
 需要空間: %0 KB</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="145"/>
+        <location filename="rpcs3qt/localized_emu.h" line="146"/>
         <source>There is no saved data.</source>
         <comment>Savedata entry info</comment>
         <translation>沒有儲存資料。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="146"/>
+        <location filename="rpcs3qt/localized_emu.h" line="147"/>
         <source>New Saved Data</source>
         <comment>Savedata Dialog</comment>
         <translation>新的儲存資料</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="147"/>
+        <location filename="rpcs3qt/localized_emu.h" line="148"/>
         <source>Select to create a new entry</source>
         <comment>Savedata Dialog</comment>
         <translation>選擇以建立一個新紀錄</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="148"/>
+        <location filename="rpcs3qt/localized_emu.h" line="149"/>
         <source>Do you want to save this data?</source>
         <comment>Savedata Dialog</comment>
         <translation>您要儲存此資料嗎?</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="149"/>
+        <location filename="rpcs3qt/localized_emu.h" line="150"/>
         <source>Do you really want to delete this data?
 
 %0</source>
@@ -5522,7 +5528,7 @@ Space needed: %0 KB</source>
 %0</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="150"/>
+        <location filename="rpcs3qt/localized_emu.h" line="151"/>
         <source>Successfully removed data!
 
 %0</source>
@@ -5532,7 +5538,7 @@ Space needed: %0 KB</source>
 %0</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="151"/>
+        <location filename="rpcs3qt/localized_emu.h" line="152"/>
         <source>Delete this data?
 
 %0</source>
@@ -5542,7 +5548,7 @@ Space needed: %0 KB</source>
 %0</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="152"/>
+        <location filename="rpcs3qt/localized_emu.h" line="153"/>
         <source>Load this data?
 
 %0</source>
@@ -5552,7 +5558,7 @@ Space needed: %0 KB</source>
 %0</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="153"/>
+        <location filename="rpcs3qt/localized_emu.h" line="154"/>
         <source>Do you want to overwrite the saved data?
 
 %0</source>
@@ -5562,7 +5568,7 @@ Space needed: %0 KB</source>
 %0</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="154"/>
+        <location filename="rpcs3qt/localized_emu.h" line="155"/>
         <source>Start [%0] on the PS Vita system.
 If you have not installed [%0], go to [Remote Play] on the PS Vita system and start [Cross-Controller] from the LiveArea™ screen.</source>
         <comment>Cross-Controller message</comment>
@@ -5570,83 +5576,83 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
 如果您尚未安裝 [%0]，請前往 PS Vita 系統上的 [Remote Play] 並從 LiveArea™ 畫面啟動 [Cross-Controller]。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="155"/>
+        <location filename="rpcs3qt/localized_emu.h" line="156"/>
         <source>If your system software version on the PS Vita system is earlier than 1.80, you must update the system software to the latest version.</source>
         <comment>Cross-Controller firmware message</comment>
         <translation>如果您在 PS Vita 系統上的系統軟體版本低於 1.80，則必須將系統軟體更新到最新版本。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="156"/>
+        <location filename="rpcs3qt/localized_emu.h" line="157"/>
         <source>RPCN: No Error</source>
         <translation>RPCN: 沒有錯誤</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="157"/>
+        <location filename="rpcs3qt/localized_emu.h" line="158"/>
         <source>RPCN: Invalid Input (Wrong Host/Port)</source>
         <translation>RPCN: 無效輸入 (錯誤的主機/連接埠)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="158"/>
+        <location filename="rpcs3qt/localized_emu.h" line="159"/>
         <source>RPCN Connection Error: WolfSSL Error</source>
         <translation>RPCN 連接錯誤: WolfSSL 錯誤</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="159"/>
+        <location filename="rpcs3qt/localized_emu.h" line="160"/>
         <source>RPCN Connection Error: Resolve Error</source>
         <translation>RPCN 連接錯誤: 解析錯誤</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="160"/>
+        <location filename="rpcs3qt/localized_emu.h" line="161"/>
         <source>RPCN Connection Error</source>
         <translation>RPCN 連接錯誤</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="161"/>
+        <location filename="rpcs3qt/localized_emu.h" line="162"/>
         <source>RPCN Login Error: Identification Error</source>
         <translation>RPCN 登入錯誤: 識別錯誤</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="162"/>
+        <location filename="rpcs3qt/localized_emu.h" line="163"/>
         <source>RPCN Login Error: User Already Logged In</source>
         <translation>RPCN 登入錯誤: 用戶已經登入</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="163"/>
+        <location filename="rpcs3qt/localized_emu.h" line="164"/>
         <source>RPCN Login Error: Invalid Username</source>
         <translation>RPCN 登入錯誤: 用戶名無效</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="164"/>
+        <location filename="rpcs3qt/localized_emu.h" line="165"/>
         <source>RPCN Login Error: Invalid Password</source>
         <translation>RPCN 登入錯誤: 密碼無效</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="165"/>
+        <location filename="rpcs3qt/localized_emu.h" line="166"/>
         <source>RPCN Login Error: Invalid Token</source>
         <translation>RPCN 登入錯誤: 權杖無效</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="166"/>
+        <location filename="rpcs3qt/localized_emu.h" line="167"/>
         <source>RPCN Misc Error: Protocol Version Error (outdated RPCS3?)</source>
         <translation>RPCN 雜項錯誤: 協定版本錯誤 (過時的 RPCS3?)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="167"/>
+        <location filename="rpcs3qt/localized_emu.h" line="168"/>
         <source>RPCN: Unknown Error</source>
         <translation>RPCN: 未知錯誤</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="168"/>
+        <location filename="rpcs3qt/localized_emu.h" line="169"/>
         <source>Successfully logged on RPCN!</source>
         <translation>成功登入 RPCN!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="169"/>
+        <location filename="rpcs3qt/localized_emu.h" line="170"/>
         <source>Invalid</source>
         <translation>無效</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="170"/>
+        <location filename="rpcs3qt/localized_emu.h" line="171"/>
         <source>Unknown</source>
         <translation>未知</translation>
     </message>
@@ -5770,96 +5776,107 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     </message>
     <message>
         <location filename="rpcs3qt/log_viewer.cpp" line="68"/>
+        <source>&amp;Save filtered log</source>
+        <translation>储存过滤的日志(&amp;A)</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/log_viewer.cpp" line="69"/>
         <source>&amp;Filter log</source>
         <translation>过滤日志(&amp;F)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/log_viewer.cpp" line="70"/>
+        <location filename="rpcs3qt/log_viewer.cpp" line="71"/>
         <source>&amp;Show Timestamps</source>
         <translation>显示时间戳(&amp;T)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/log_viewer.cpp" line="74"/>
+        <location filename="rpcs3qt/log_viewer.cpp" line="75"/>
         <source>&amp;Show Threads</source>
         <translation>显示执行绪(&amp;S)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/log_viewer.cpp" line="78"/>
+        <location filename="rpcs3qt/log_viewer.cpp" line="79"/>
         <source>&amp;Last actions only</source>
         <translation>仅上次操作(&amp;L)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/log_viewer.cpp" line="83"/>
+        <location filename="rpcs3qt/log_viewer.cpp" line="84"/>
         <source>Fatal</source>
         <translation>严重</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/log_viewer.cpp" line="84"/>
+        <location filename="rpcs3qt/log_viewer.cpp" line="85"/>
         <source>Error</source>
         <translation>错误</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/log_viewer.cpp" line="85"/>
+        <location filename="rpcs3qt/log_viewer.cpp" line="86"/>
         <source>Todo</source>
         <translation>待办事项</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/log_viewer.cpp" line="86"/>
+        <location filename="rpcs3qt/log_viewer.cpp" line="87"/>
         <source>Success</source>
         <translation>成功</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/log_viewer.cpp" line="87"/>
+        <location filename="rpcs3qt/log_viewer.cpp" line="88"/>
         <source>Warning</source>
         <translation>警告</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/log_viewer.cpp" line="88"/>
+        <location filename="rpcs3qt/log_viewer.cpp" line="89"/>
         <source>Notice</source>
         <translation>通知</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/log_viewer.cpp" line="89"/>
+        <location filename="rpcs3qt/log_viewer.cpp" line="90"/>
         <source>Trace</source>
         <translation>追踪</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/log_viewer.cpp" line="135"/>
+        <location filename="rpcs3qt/log_viewer.cpp" line="138"/>
         <source>Select log file</source>
         <translation>选取日志档案</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/log_viewer.cpp" line="135"/>
-        <source>Log files (*.log);;</source>
-        <translation>日志档案 (*.log);;</translation>
+        <location filename="rpcs3qt/log_viewer.cpp" line="138"/>
+        <location filename="rpcs3qt/log_viewer.cpp" line="147"/>
+        <source>Log files (*.log);;All files (*.*)</source>
+        <translation>日志档案 (*.log);;全部档案 (*.*)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/log_viewer.cpp" line="144"/>
+        <location filename="rpcs3qt/log_viewer.cpp" line="147"/>
+        <source>Save to file</source>
+        <translation>储存到档案</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/log_viewer.cpp" line="165"/>
         <source>Filter log</source>
         <translation>过滤日志</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/log_viewer.cpp" line="144"/>
+        <location filename="rpcs3qt/log_viewer.cpp" line="165"/>
         <source>Enter text</source>
         <translation>输入文字</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/log_viewer.cpp" line="191"/>
+        <location filename="rpcs3qt/log_viewer.cpp" line="212"/>
         <source>Loading file...</source>
         <translation>正在载入档案...</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/log_viewer.cpp" line="206"/>
+        <location filename="rpcs3qt/log_viewer.cpp" line="227"/>
         <source>Failed to open &apos;%0&apos;</source>
         <translation>无法开启 &apos;%0&apos;</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/log_viewer.cpp" line="333"/>
+        <location filename="rpcs3qt/log_viewer.cpp" line="356"/>
         <source>Ooops!</source>
         <translation>哎!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/log_viewer.cpp" line="333"/>
+        <location filename="rpcs3qt/log_viewer.cpp" line="356"/>
         <source>Cannot find any game boot!</source>
         <translation>找不到任何游戏启动!</translation>
     </message>
