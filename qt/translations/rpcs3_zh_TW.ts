@@ -1857,33 +1857,38 @@ If your joystick is not being centered properly, read the &lt;a href=&quot;https
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="262"/>
+        <source>Use this to configure the gamepad motion controls.</source>
+        <translation>可用來設置遊戲手把動態控制器。</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/tooltips.h" line="263"/>
         <source>The emulated stick values (red dots) in the stick preview represent the actual stick positions as they will be visible to the game. The actual DualShock 3&apos;s stick range is not circular but formed like a rounded square (or squircle) which represents the maximum range of the emulated sticks. The blue regular dots represent the raw stick values (including stick multipliers) before they are converted for ingame usage.</source>
         <translation>「搖桿預覽」中模擬的搖桿值 (紅點) 代表實際的搖桿位置，因為它們在遊戲中可見。 實際的「DualShock 3」搖桿範圍不是圓形的，而是形成一個圓角正方形 (或方圓形)，表示模擬搖桿的最大範圍。 藍色常規點表示原始搖桿值 (包括搖桿倍增器)，在轉換為遊戲中使用之前。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/tooltips.h" line="263"/>
+        <location filename="rpcs3qt/tooltips.h" line="264"/>
         <source>A trigger&apos;s deadzone determines how far the trigger has to be moved until it is recognized by the game. The resulting range will be projected onto the full input range in order to give you a smooth experience.</source>
         <translation>盲區判定觸發移動的距離，直到遊戲將其識別為止。 產生的範圍將被投射到整個輸入範圍內，以便給你一個流暢的體驗。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/tooltips.h" line="264"/>
+        <location filename="rpcs3qt/tooltips.h" line="265"/>
         <source>With keyboards, you are inevitably restricted to 8 stick directions (4 straight + 4 diagonal). Furthermore, the stick will jump to the maximum value of the chosen direction immediately when a key is pressed. The stick interpolation can be used to work-around both of these issues by smoothening out these directional changes. The lower the value, the longer you have to press or release a key until the maximum amplitude is reached.</source>
         <oldsource>With keyboards you are inevitably restricted to 8 stick directions (4 straight + 4 diagonal). Furthermore when a key is pressed the stick will jump to the maximum value of the chosen direction immediately. The stick interpolation can be used to work-around both of these issues by smoothening out these directional changes. The lower the value, the longer you have to press or release a key until the maximum amplitude is reached.</oldsource>
         <translation>使用鍵盤時，您不可避免地會受到 8 個方向的限制 (4 個直線 + 4 個對角線)。 此外，當按下一個鍵時，搖桿將立即跳至所選方向的最大值。 「搖桿插值」可以透過平滑這些方向變更來解決這兩個問題。 數值越低，時間越長，必須按住按鍵或達到最大範圍鬆開。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/tooltips.h" line="265"/>
+        <location filename="rpcs3qt/tooltips.h" line="266"/>
         <source>The mouse deadzones represent the games&apos; own deadzones on the x and y axes. Games usually enforce their own deadzones to filter out small unwanted stick movements. In consequence, mouse input feels unintuitive since it relies on immediate responsiveness. You can change these values temporarily during gameplay in order to find out the optimal values for your game (Alt+T and Alt+Y for x, Alt+U and Alt+I for y).</source>
         <oldsource>The mouse deadzones represent the games&apos; own deadzones on the x and y axes. Games usually enforce their own deadzones to filter out small unwanted stick movements. In consequence mouse input feels unintuitive since it relies on immediate responsiveness. You can change these values temporarily during gameplay in order to find out the optimal values for your game (Alt+T and Alt+Y for x, Alt+U and Alt+I for y).</oldsource>
         <translation>滑鼠盲區代表遊戲在 x 軸及 y 軸上的盲區。 遊戲通常會強制執行自己的盲區，以過濾些微的搖桿移動。 其結果是，因為它依賴於直接的反應滑鼠的輸入感觀。 您可以在遊戲過程中臨時更改這些值，以找出遊戲的最佳值 ( Alt  + T 及 Alt + Y 為 x，Alt  + U 及 Alt + I  為 y  )。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/tooltips.h" line="266"/>
+        <location filename="rpcs3qt/tooltips.h" line="267"/>
         <source>The mouse acceleration can be used to amplify your mouse movements on the x and y axes. Increase these values if your mouse movements feel too slow while playing a game. You can change these values temporarily during gameplay in order to find out the optimal values (Alt+G and Alt+H for x, Alt+J and Alt+K for y). Keep in mind that modern mice usually provide different modes and settings that can be used to change mouse movement speeds as well.</source>
         <translation>滑鼠加速可用於放大滑鼠在 x 和 y 軸上的移動。 如果在玩遊戲時滑鼠移動過慢，請增加這些值。 您可以在遊戲過程中臨時變更這些值，以找出最佳值 (  Alt + G 及 Alt + H 為 x ， Alt + J 及 Alt + K 為 y  )。 請記住，現今的滑鼠通常提供不同的模式和設定，這些模式和設定也可用於變更滑鼠的移動速度。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/tooltips.h" line="267"/>
+        <location filename="rpcs3qt/tooltips.h" line="268"/>
         <source>The mouse movement mode determines how the mouse movement is translated to pad input.&lt;br&gt;Use the relative mode for traditional mouse movement.&lt;br&gt;Use the absolute mode to use the mouse&apos;s distance to the center of the screen as input value.</source>
         <translation>滑鼠移動模式決定了滑鼠移動如何轉換為 PAD 輸入。&lt;br&gt;對傳統滑鼠移動使用「相對」模式。&lt;br&gt;使用「絕對」模式將滑鼠指標到螢幕中心的距離用作輸入值。</translation>
     </message>
@@ -2150,53 +2155,53 @@ Restart of the game is required to apply. You can enable/disable this in the set
         <translation>刪除(&amp;D)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/breakpoint_list.cpp" line="162"/>
+        <location filename="rpcs3qt/breakpoint_list.cpp" line="158"/>
         <source>Unimplemented Breakpoints For Thread Type!</source>
         <translation>執行緒類型未實現斷點!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/breakpoint_list.cpp" line="126"/>
-        <location filename="rpcs3qt/breakpoint_list.cpp" line="168"/>
+        <location filename="rpcs3qt/breakpoint_list.cpp" line="122"/>
+        <location filename="rpcs3qt/breakpoint_list.cpp" line="164"/>
         <source>Invalid Memory For Breakpoints!</source>
         <translation>無效的記憶斷點!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/breakpoint_list.cpp" line="168"/>
+        <location filename="rpcs3qt/breakpoint_list.cpp" line="164"/>
         <source>Cannot set breakpoints on non-executable memory!</source>
         <translation>無法在不可執行的記憶上設定斷點!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/breakpoint_list.cpp" line="116"/>
+        <location filename="rpcs3qt/breakpoint_list.cpp" line="112"/>
         <source>Interpreters-Only Feature!</source>
         <translation>僅限直譯器功能!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/breakpoint_list.cpp" line="116"/>
+        <location filename="rpcs3qt/breakpoint_list.cpp" line="112"/>
         <source>Cannot set breakpoints on non-interpreter decoders.</source>
         <translation>無法在非直譯器譯碼器上設定斷點。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/breakpoint_list.cpp" line="126"/>
+        <location filename="rpcs3qt/breakpoint_list.cpp" line="122"/>
         <source>Cannot set breakpoints on non-SPU executable memory!</source>
         <translation>無法在非 SPU 可執行記憶上設定斷點!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/breakpoint_list.cpp" line="162"/>
+        <location filename="rpcs3qt/breakpoint_list.cpp" line="158"/>
         <source>Cannot set breakpoints on a thread not an PPU/SPU currently, sorry.</source>
         <translation>無法在當前不是 PPU/SPU 的執行緒上設定斷點，抱歉。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/breakpoint_list.cpp" line="180"/>
+        <location filename="rpcs3qt/breakpoint_list.cpp" line="176"/>
         <source>Unknown error while setting breakpoint!</source>
         <translation>設定斷點時出現未知錯誤!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/breakpoint_list.cpp" line="180"/>
+        <location filename="rpcs3qt/breakpoint_list.cpp" line="176"/>
         <source>Failed to set breakpoints.</source>
         <translation>設定斷點失敗。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/breakpoint_list.cpp" line="203"/>
+        <location filename="rpcs3qt/breakpoint_list.cpp" line="199"/>
         <source>&amp;Rename</source>
         <translation>重新命名(&amp;R)</translation>
     </message>
@@ -2464,7 +2469,7 @@ It might be blocked by another application.</source>
     </message>
     <message>
         <location filename="rpcs3qt/debugger_frame.cpp" line="102"/>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="1030"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="1033"/>
         <source>Go To Address</source>
         <translation>至 位址</translation>
     </message>
@@ -2544,13 +2549,13 @@ Page-Down 鍵: 向下捲動，步數等於檢視的指令數。
 雙擊: 設定斷點。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="467"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="468"/>
         <source>Max MFC cmds logged</source>
         <translation>最大 MFC CMDS 日誌</translation>
     </message>
     <message>
         <location filename="rpcs3qt/debugger_frame.cpp" line="290"/>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="1053"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="1056"/>
         <source>OK</source>
         <oldsource>Ok</oldsource>
         <translation>確定</translation>
@@ -2573,18 +2578,18 @@ Applies on all breakpoints in all threads regardless if set before or after chan
 無論在更改此設定之前還是之後，都將應用於所有執行緒中的所有斷點。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="467"/>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="523"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="468"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="524"/>
         <source>Decimal only, max allowed is %0.</source>
         <translation>僅小數點，最大允許為 %0。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="523"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="524"/>
         <source>Max PPU calls logged</source>
         <translation>記錄最大 PPU 調用</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="1054"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="1057"/>
         <source>Cancel</source>
         <translation>取消</translation>
     </message>
@@ -2597,7 +2602,7 @@ Applies on all breakpoints in all threads regardless if set before or after chan
         <translation>ASM</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_list.cpp" line="300"/>
+        <location filename="rpcs3qt/debugger_list.cpp" line="325"/>
         <source>RSX Command Detail</source>
         <translation>RSX 指令內容</translation>
     </message>
@@ -4665,22 +4670,22 @@ Any unsaved progress will be lost!
         <translation>插槽</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/kernel_explorer.cpp" line="688"/>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="709"/>
         <source>SPURS %1</source>
         <translation>SPURS %1</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/kernel_explorer.cpp" line="763"/>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="784"/>
         <source>IO-EA Table</source>
         <translation>IO-EA 表</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/kernel_explorer.cpp" line="764"/>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="785"/>
         <source>Zcull Bindings</source>
         <translation>Zcull 連結</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/kernel_explorer.cpp" line="765"/>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="786"/>
         <source>Display Buffers</source>
         <translation>顯示緩衝區</translation>
     </message>
@@ -7547,6 +7552,83 @@ image</source>
     </message>
 </context>
 <context>
+    <name>pad_motion_settings_dialog</name>
+    <message>
+        <location filename="rpcs3qt/pad_motion_settings_dialog.ui" line="14"/>
+        <source>Motion Controls</source>
+        <translation>動態控制器</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/pad_motion_settings_dialog.ui" line="20"/>
+        <source>Device</source>
+        <translation>裝置</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/pad_motion_settings_dialog.ui" line="32"/>
+        <source>X</source>
+        <translation>X</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/pad_motion_settings_dialog.ui" line="45"/>
+        <location filename="rpcs3qt/pad_motion_settings_dialog.ui" line="88"/>
+        <location filename="rpcs3qt/pad_motion_settings_dialog.ui" line="131"/>
+        <location filename="rpcs3qt/pad_motion_settings_dialog.ui" line="174"/>
+        <source>0</source>
+        <translation>0</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/pad_motion_settings_dialog.ui" line="58"/>
+        <location filename="rpcs3qt/pad_motion_settings_dialog.ui" line="101"/>
+        <location filename="rpcs3qt/pad_motion_settings_dialog.ui" line="144"/>
+        <location filename="rpcs3qt/pad_motion_settings_dialog.ui" line="187"/>
+        <source>Mirrored</source>
+        <translation>Mirrored</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/pad_motion_settings_dialog.ui" line="65"/>
+        <location filename="rpcs3qt/pad_motion_settings_dialog.ui" line="108"/>
+        <location filename="rpcs3qt/pad_motion_settings_dialog.ui" line="151"/>
+        <location filename="rpcs3qt/pad_motion_settings_dialog.ui" line="194"/>
+        <source>Shift: </source>
+        <translation>移動: </translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/pad_motion_settings_dialog.ui" line="75"/>
+        <source>Y</source>
+        <translation>Y</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/pad_motion_settings_dialog.ui" line="118"/>
+        <source>Z</source>
+        <translation>Z</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/pad_motion_settings_dialog.ui" line="161"/>
+        <source>G</source>
+        <translation>G</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/pad_motion_settings_dialog.ui" line="247"/>
+        <source>OK</source>
+        <translation>確定</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/pad_motion_settings_dialog.ui" line="254"/>
+        <source>Cancel</source>
+        <translation>取消</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/pad_motion_settings_dialog.h" line="66"/>
+        <source> (disconnected)</source>
+        <translation> (未連結)</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/pad_motion_settings_dialog.cpp" line="47"/>
+        <source>Disabled</source>
+        <translation>停用</translation>
+    </message>
+</context>
+<context>
     <name>pad_settings_dialog</name>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="17"/>
@@ -7574,585 +7656,595 @@ image</source>
         <translation>裝置</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="124"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="152"/>
         <source>Profiles</source>
         <translation>設定檔</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="145"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="173"/>
         <source>Add Profile</source>
         <translation>增加設定檔</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="167"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="195"/>
         <source>D-Pad</source>
         <translation>方向鍵</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="219"/>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="456"/>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="474"/>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1977"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="247"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="484"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="502"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2005"/>
         <source>Up</source>
         <translation>上</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="237"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="265"/>
         <source>W</source>
         <translation>W</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="268"/>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="505"/>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="523"/>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2026"/>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2205"/>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2280"/>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2437"/>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2512"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="296"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="533"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="551"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2054"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2233"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2308"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2465"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2540"/>
         <source>Left</source>
         <translation>左</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="286"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="314"/>
         <source>A</source>
         <translation>A</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="299"/>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="536"/>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="554"/>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2057"/>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2232"/>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2310"/>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2464"/>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2542"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="327"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="564"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="582"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2085"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2260"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2338"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2492"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2570"/>
         <source>Right</source>
         <translation>右</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="317"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="345"/>
         <source>D</source>
         <translation>D</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="360"/>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="597"/>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="615"/>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2118"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="388"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="625"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="643"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2146"/>
         <source>Down</source>
         <translation>下</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="378"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="406"/>
         <source>S</source>
         <translation>S</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="410"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="438"/>
         <source>Left Stick</source>
         <oldsource>Left Analog</oldsource>
         <translation>左搖桿</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="716"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="744"/>
         <source>Trigger Thresholds</source>
         <translation>觸發定限</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="773"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="801"/>
         <source>Enable Vibration</source>
         <translation>啟用振動</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="791"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="819"/>
         <source>Large</source>
         <translation>大</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="801"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="829"/>
         <source>Small</source>
         <translation>小</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="811"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="839"/>
         <source>Switch</source>
         <translation>開關</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="878"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="906"/>
         <source>Mouse Acceleration</source>
         <translation>滑鼠加速</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="896"/>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="977"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="924"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1005"/>
         <source>x</source>
         <translation>x</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="926"/>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1003"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="954"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1031"/>
         <source>y</source>
         <translation>y</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="959"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="987"/>
         <source>Mouse Deadzone</source>
         <translation>滑鼠盲區</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1558"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1586"/>
         <source>Device Class</source>
         <translation>裝置類別</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1106"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1134"/>
         <source>L1</source>
         <translation>L1</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="647"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="124"/>
+        <source>Motion Controls</source>
+        <translation>動態控制器</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="142"/>
+        <source>Configure</source>
+        <translation>組態</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="675"/>
         <source>Pressure Sensitivity Mode</source>
         <translation>壓力感應模式</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="665"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="693"/>
         <source>-</source>
         <translation>-</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="672"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="700"/>
         <source>%</source>
         <translation>%</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="821"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="849"/>
         <source>Stick Preview</source>
         <translation>搖桿預覽</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="839"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="867"/>
         <source>Show Emulated Values</source>
         <translation>顯示模擬值</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1032"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1060"/>
         <source>Mouse Movement Mode</source>
         <translation>滑鼠移動模式</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1124"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1152"/>
         <source>Q</source>
         <translation>Q</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1137"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1165"/>
         <source>L2</source>
         <translation>L2</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1155"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1183"/>
         <source>R</source>
         <translation>R</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1190"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1218"/>
         <source>Select</source>
         <translation>選擇</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1208"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1236"/>
         <source>Space</source>
         <translation>Space</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1221"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1249"/>
         <source>Start</source>
         <translation>開始</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1239"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1267"/>
         <source>Enter</source>
         <translation>Enter</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1298"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1326"/>
         <source>PS Button</source>
         <translation>PS 按鍵</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1316"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1344"/>
         <source>Backspace</source>
         <translation>Backspace</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1349"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1377"/>
         <source>R1</source>
         <translation>R1</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1367"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1395"/>
         <source>E</source>
         <translation>E</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1380"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1408"/>
         <source>R2</source>
         <translation>R2</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1398"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1426"/>
         <source>T</source>
         <translation>T</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1476"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1504"/>
         <source>L3</source>
         <translation>L3</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1494"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1522"/>
         <source>F</source>
         <translation>F</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1507"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1535"/>
         <source>R3</source>
         <translation>R3</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1525"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1553"/>
         <source>G</source>
         <translation>G</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1591"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1619"/>
         <source>Battery status and LED</source>
         <translation>電池狀態與 LED</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1631"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1659"/>
         <source>LED Settings</source>
         <translation>LED 設定</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1659"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1687"/>
         <source>Description</source>
         <translation>描述</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1694"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1722"/>
         <source>Face Buttons</source>
         <translation>正面按鍵</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1740"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1768"/>
         <source>Triangle</source>
         <translation>△</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1758"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1786"/>
         <source>V</source>
         <translation>V</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1789"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1817"/>
         <source>Square</source>
         <translation>□</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1807"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1835"/>
         <source>Z</source>
         <translation>Z</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1820"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1848"/>
         <source>Circle</source>
         <translation>○</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1838"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1866"/>
         <source>C</source>
         <translation>C</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1881"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1909"/>
         <source>Cross</source>
         <translation>╳</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1899"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1927"/>
         <source>X</source>
         <translation>X</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1931"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1959"/>
         <source>Right Stick</source>
         <oldsource>Right Analog</oldsource>
         <translation>右搖桿</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="1995"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2023"/>
         <source>PgUp</source>
         <translation>PgUp</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2044"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2072"/>
         <source>Home</source>
         <translation>Home</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2075"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2103"/>
         <source>End</source>
         <translation>End</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2136"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2164"/>
         <source>PgDown</source>
         <translation>PgDown</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2187"/>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2419"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2215"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2447"/>
         <source>Stick Multipliers</source>
         <translation>搖桿倍增器</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2262"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2290"/>
         <source>Squircle Values</source>
         <translation>方圓形值</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2340"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2368"/>
         <source>Analog Stick Deadzones</source>
         <oldsource>Analog Deadzones</oldsource>
         <translation>類比搖桿盲區</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2494"/>
+        <location filename="rpcs3qt/pad_settings_dialog.ui" line="2522"/>
         <source>Stick Interpolation</source>
         <translation>搖桿插值</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="138"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="139"/>
         <source>Filter Noise</source>
         <translation>過濾雜訊</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="67"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="68"/>
         <source>Gamepad Settings: [%0] %1</source>
         <translation>遊戲控制器設定: [%0] %1</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="71"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="72"/>
         <source>Gamepad Settings</source>
         <translation>遊戲控制器設定</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="111"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="112"/>
         <source>Player %0</source>
         <translation>玩家 %0</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1562"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1634"/>
         <source>Choose a unique name</source>
         <translation>命名唯一的名稱</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1563"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1635"/>
         <source>Profile Name: </source>
         <translation>設定檔名: </translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1572"/>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1577"/>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1582"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1644"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1649"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1654"/>
         <source>Error</source>
         <translation>錯誤</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1572"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1644"/>
         <source>Name cannot be empty</source>
         <translation>名稱不能是空的</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1577"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1649"/>
         <source>Must choose a name without &apos;.&apos;</source>
         <translation>必須命名不帶 &apos;.&apos; 的名稱</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1582"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1654"/>
         <source>Please choose a non-existing name</source>
         <translation>請命名不存在的名稱</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="163"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="164"/>
         <source>Standard (Pad)</source>
         <translation>標準 (Pad)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="164"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="165"/>
         <source>Guitar</source>
         <translation>吉他</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="165"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="166"/>
         <source>Drum</source>
         <translation>鼓</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="166"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="167"/>
         <source>DJ</source>
         <translation>DJ</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="167"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="168"/>
         <source>Dance Mat</source>
         <translation>跳舞墊</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="168"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="169"/>
         <source>Navigation</source>
         <translation>巡覽控制器</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="182"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="183"/>
         <source>Relative</source>
         <translation>相對</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="183"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="184"/>
         <source>Absolute</source>
         <translation>絕對</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="300"/>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1191"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="301"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1252"/>
         <source>[ Waiting %1 ]</source>
         <translation>[ 等候 %1 ]</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1356"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1423"/>
         <source>Custom Controller</source>
         <translation>自訂控制器</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1404"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1469"/>
         <source>No Device Detected</source>
         <translation>未偵測到裝置</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1512"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1584"/>
         <source>PS3 Controller</source>
         <comment>PlayStation 3 Controller</comment>
         <translation>PS3 控制器</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1517"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1589"/>
         <source>Dance Dance Revolution</source>
         <comment>Dance Dance Revolution Mat</comment>
         <translation>勁爆熱舞</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1522"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1594"/>
         <source>DJ Hero Turntable</source>
         <comment>DJ Hero Turntable</comment>
         <translation>DJ 英雄轉盤</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1527"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1599"/>
         <source>Rock Band</source>
         <comment>Harmonix Rock Band Drum Kit</comment>
         <translation>搖滾樂隊</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1532"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1604"/>
         <source>Rock Band Pro</source>
         <comment>Harmonix Rock Band Pro-Drum Kit</comment>
         <translation>搖滾樂隊專業版</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1537"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1609"/>
         <source>Rock Band</source>
         <comment>Harmonix Rock Band Guitar</comment>
         <translation>搖滾樂隊</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1542"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1614"/>
         <source>Guitar Hero</source>
         <comment>RedOctane Guitar Hero Drum Kit</comment>
         <translation>吉他英雄</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1547"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1619"/>
         <source>Guitar Hero</source>
         <comment>RedOctane Guitar Hero Guitar</comment>
         <translation>吉他英雄</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1552"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1624"/>
         <source>Rock Revolution</source>
         <comment>Rock Revolution Drum Controller</comment>
         <translation>搖滾革命</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1604"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1676"/>
         <source>Reserved</source>
         <translation>預留</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1729"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1801"/>
         <source>Warning!</source>
         <translation>警告!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1730"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1802"/>
         <source>The %0 button &lt;b&gt;%1&lt;/b&gt; of &lt;b&gt;Player %2&lt;/b&gt; was assigned at least twice.&lt;br&gt;Please consider adjusting the configuration.&lt;br&gt;&lt;br&gt;Continue anyway?&lt;br&gt;</source>
         <translation>&lt;b&gt;玩家 %2&lt;/b&gt; 的 %0 按鈕&lt;b&gt;%1&lt;/b&gt; 至少被指派了兩次。&lt;br&gt;請考慮調整組態。&lt;br&gt;&lt;br&gt;仍要繼續嗎?&lt;br</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1764"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1836"/>
         <source>Null</source>
         <translation>空</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1765"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1837"/>
         <source>Keyboard</source>
         <translation>鍵盤</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1766"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1838"/>
         <source>DualShock 3</source>
         <translation>DualShock 3</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1767"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1839"/>
         <source>DualShock 4</source>
         <translation>DualShock 4</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1768"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1840"/>
         <source>DualSense</source>
         <translation>DualSense</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1770"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1842"/>
         <source>XInput</source>
         <translation>XInput</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1771"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1843"/>
         <source>MMJoystick</source>
         <translation>MMJoystick</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1774"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1846"/>
         <source>Evdev</source>
         <translation>Evdev</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.h" line="92"/>
+        <location filename="rpcs3qt/pad_settings_dialog.h" line="86"/>
         <source> (disconnected)</source>
         <translation> (未連結)</translation>
     </message>
@@ -9272,103 +9364,103 @@ Check your email for your token!</source>
         <translation>RSX 偵錯器</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rsx_debugger.cpp" line="51"/>
+        <location filename="rpcs3qt/rsx_debugger.cpp" line="52"/>
         <source>Frame</source>
         <translation>Frame</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rsx_debugger.cpp" line="52"/>
-        <location filename="rpcs3qt/rsx_debugger.cpp" line="140"/>
+        <location filename="rpcs3qt/rsx_debugger.cpp" line="53"/>
+        <location filename="rpcs3qt/rsx_debugger.cpp" line="141"/>
         <source>Texture</source>
         <translation>Texture</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rsx_debugger.cpp" line="53"/>
+        <location filename="rpcs3qt/rsx_debugger.cpp" line="54"/>
         <source>Draw</source>
         <translation>Draw</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rsx_debugger.cpp" line="54"/>
+        <location filename="rpcs3qt/rsx_debugger.cpp" line="55"/>
         <source>Primitive</source>
         <translation>Primitive</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rsx_debugger.cpp" line="55"/>
+        <location filename="rpcs3qt/rsx_debugger.cpp" line="56"/>
         <source>Command</source>
         <translation>Command</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rsx_debugger.cpp" line="69"/>
+        <location filename="rpcs3qt/rsx_debugger.cpp" line="70"/>
         <source>Break on:</source>
         <translation>Break on:</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rsx_debugger.cpp" line="105"/>
+        <location filename="rpcs3qt/rsx_debugger.cpp" line="106"/>
         <source>Captured Frame</source>
         <translation>Captured Frame</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rsx_debugger.cpp" line="106"/>
+        <location filename="rpcs3qt/rsx_debugger.cpp" line="107"/>
         <source>Captured Draw Calls</source>
         <translation>Captured Draw Calls</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rsx_debugger.cpp" line="108"/>
+        <location filename="rpcs3qt/rsx_debugger.cpp" line="109"/>
         <source>Column</source>
         <translation>Column</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rsx_debugger.cpp" line="111"/>
+        <location filename="rpcs3qt/rsx_debugger.cpp" line="112"/>
         <source>Draw calls</source>
         <translation>Draw calls</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rsx_debugger.cpp" line="134"/>
+        <location filename="rpcs3qt/rsx_debugger.cpp" line="135"/>
         <source>Color Buffer A</source>
         <translation>Color Buffer A</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rsx_debugger.cpp" line="135"/>
+        <location filename="rpcs3qt/rsx_debugger.cpp" line="136"/>
         <source>Color Buffer B</source>
         <translation>Color Buffer B</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rsx_debugger.cpp" line="136"/>
+        <location filename="rpcs3qt/rsx_debugger.cpp" line="137"/>
         <source>Color Buffer C</source>
         <translation>Color Buffer C</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rsx_debugger.cpp" line="137"/>
+        <location filename="rpcs3qt/rsx_debugger.cpp" line="138"/>
         <source>Color Buffer D</source>
         <translation>Color Buffer D</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rsx_debugger.cpp" line="138"/>
+        <location filename="rpcs3qt/rsx_debugger.cpp" line="139"/>
         <source>Depth Buffer</source>
         <translation>Depth Buffer</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rsx_debugger.cpp" line="139"/>
+        <location filename="rpcs3qt/rsx_debugger.cpp" line="140"/>
         <source>Stencil Buffer</source>
         <translation>Stencil Buffer</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rsx_debugger.cpp" line="165"/>
+        <location filename="rpcs3qt/rsx_debugger.cpp" line="166"/>
         <source>RTTs and DS</source>
         <translation>RTTs and DS</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rsx_debugger.cpp" line="166"/>
+        <location filename="rpcs3qt/rsx_debugger.cpp" line="167"/>
         <source>Transform program</source>
         <translation>Transform program</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rsx_debugger.cpp" line="167"/>
+        <location filename="rpcs3qt/rsx_debugger.cpp" line="168"/>
         <source>Shader program</source>
         <translation>Shader program</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rsx_debugger.cpp" line="168"/>
+        <location filename="rpcs3qt/rsx_debugger.cpp" line="169"/>
         <source>Index buffer</source>
         <translation>Index buffer</translation>
     </message>
