@@ -912,9 +912,13 @@ Numerical values control whether or not to enable the accurate version based on 
     <message>
         <location filename="rpcs3qt/tooltips.h" line="36"/>
         <source>&quot;Fast&quot; is the least accurate setting, RSX does not emulate atomic FIFO buffer.
-&quot;Atomic &amp; Ordered&quot; is the most accurate but it is the slowest and without much stability benefit in games over &quot;Atomic&quot; which benefits stability greatly in many games with little performance penalty.</source>
+&quot;Atomic&quot; benefits stability greatly in many games with little performance penalty.
+&quot;Atomic &amp; Ordered&quot; is the most accurate but it is the slowest and without much stability benefit in games.</source>
+        <oldsource>&quot;Fast&quot; is the least accurate setting, RSX does not emulate atomic FIFO buffer.
+&quot;Atomic &amp; Ordered&quot; is the most accurate but it is the slowest and without much stability benefit in games over &quot;Atomic&quot; which benefits stability greatly in many games with little performance penalty.</oldsource>
         <translation>「快速」是最不準確的設定，RSX 不模擬原子 FIFO 緩衝區。
-「Atomic &amp; Ordered」最為準確，但也會是最慢的，並且在遊戲中沒有太多的穩定性優勢，而「Atomic」在許多遊戲中極大地提高了穩定性，而效能損失很小。</translation>
+「Atomic」在許多遊戲中極大地提高了穩定性，而效能損失很小。
+「Atomic &amp; Ordered」最為準確，但也會是最慢的，並且在遊戲中沒有太多的穩定性優勢。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="38"/>
@@ -2602,7 +2606,7 @@ Applies on all breakpoints in all threads regardless if set before or after chan
         <translation>ASM</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_list.cpp" line="325"/>
+        <location filename="rpcs3qt/debugger_list.cpp" line="326"/>
         <source>RSX Command Detail</source>
         <translation>RSX 指令內容</translation>
     </message>
@@ -4670,22 +4674,22 @@ Any unsaved progress will be lost!
         <translation>插槽</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/kernel_explorer.cpp" line="709"/>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="723"/>
         <source>SPURS %1</source>
         <translation>SPURS %1</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/kernel_explorer.cpp" line="784"/>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="798"/>
         <source>IO-EA Table</source>
         <translation>IO-EA 表</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/kernel_explorer.cpp" line="785"/>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="799"/>
         <source>Zcull Bindings</source>
         <translation>Zcull 連結</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/kernel_explorer.cpp" line="786"/>
+        <location filename="rpcs3qt/kernel_explorer.cpp" line="800"/>
         <source>Display Buffers</source>
         <translation>顯示緩衝區</translation>
     </message>
