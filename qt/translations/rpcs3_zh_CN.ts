@@ -9809,11 +9809,6 @@ Check your email for your token!</source>
         <translation>启用 SPU 循环侦测</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="189"/>
-        <source>Full Width AVX-512</source>
-        <translation>全宽 AVX-512</translation>
-    </message>
-    <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="274"/>
         <source>TSX Instructions</source>
         <translation>TSX 指令</translation>
@@ -10432,6 +10427,11 @@ Check your email for your token!</source>
         <location filename="rpcs3qt/settings_dialog.ui" line="2380"/>
         <source>Clocks Scale</source>
         <translation>时钟比例</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/settings_dialog.ui" line="189"/>
+        <source>Increase AVX-512 instruction width</source>
+        <translation>增加 AVX-512 指令宽度</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="205"/>
