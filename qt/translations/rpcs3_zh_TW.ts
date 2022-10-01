@@ -11894,6 +11894,10 @@ Stop the emulator now?</source>
         <translation>您的密碼已成功儲存!</translation>
     </message>
     <message>
+        <source>Failed to connect to RPCN server:\n%0</source>
+        <translation>無法連線到 RPCN 伺服器:\n%0</translation>
+    </message>
+    <message>
         <source>Error Connecting</source>
         <translation>連線錯誤</translation>
     </message>
@@ -11922,8 +11926,20 @@ Stop the emulator now?</source>
         <translation>建立帳號時出錯</translation>
     </message>
     <message>
+        <source>Failed to create the account:\n%0</source>
+        <translation>建立帳號失敗:\n%0</translation>
+    </message>
+    <message>
+        <source>Failed to connect to RPCN:\n%0</source>
+        <translation>無法連線到 RPCN:\n%0</translation>
+    </message>
+    <message>
         <source>Error connecting to RPCN!</source>
         <translation>連線到 RPCN 時出錯!</translation>
+    </message>
+    <message>
+        <source>Failed to authentify to RPCN:\n%0</source>
+        <translation>向 RPCN 驗證失敗:\n%0</translation>
     </message>
     <message>
         <source>Error authentifying to RPCN!</source>
@@ -11978,6 +11994,10 @@ Stop the emulator now?</source>
         <translation>發送權杖時出錯</translation>
     </message>
     <message>
+        <source>Failed to send the token:\n%0</source>
+        <translation>發送權杖失敗:\n%0</translation>
+    </message>
+    <message>
         <source>Token Sent!</source>
         <translation>權杖已發送!</translation>
     </message>
@@ -11988,6 +12008,16 @@ Stop the emulator now?</source>
     <message>
         <source>Please confirm your username:</source>
         <translation>請確定您的用戶名:</translation>
+    </message>
+    <message>
+        <source>RPCN: Change Password</source>
+        <translation>RPCN: 變更密碼</translation>
+    </message>
+    <message>
+        <source>Do you already have a reset password token?\n
+Note that the reset password token is different from the email verification token.</source>
+        <translation>您是否已有重設密碼權杖?\n
+請注意，重設密碼權杖與電子信箱驗證權杖不同。</translation>
     </message>
 </context>
 <context>
@@ -12016,8 +12046,20 @@ Stop the emulator now?</source>
 <context>
     <name>rpcn_ask_email_dialog</name>
     <message>
+        <source>An email address is required, please note:\n
+- A valid email is needed to receive the token that validates your account.\n
+- Your email won&apos;t be used for anything beyond sending you this token or the password reset token.\n\n</source>
+        <translation>需要一個電子信箱位址，請注意:\n
+- 需要有效的電子信箱才能接收驗證您帳號的權杖。\n
+- 除了向您發送權杖或密碼重設權杖外，您的電子信箱不會用於任何其它用途。\n\n</translation>
+    </message>
+    <message>
         <source>RPCN: Account Creation</source>
         <translation>RPCN: 建立帳號</translation>
+    </message>
+    <message>
+        <source>You are about to create an account with:\n-Username:%0\n-Email:%1\n\nIs this correct?</source>
+        <translation>您即將建立一個帳號:\n-用戶名:%0\n-電子信箱:%1\n\n是否正確嗎?</translation>
     </message>
     <message>
         <source>RPCN: Email</source>
@@ -12030,6 +12072,10 @@ Stop the emulator now?</source>
     <message>
         <source>Enter your email a second time:</source>
         <translation>再次輸入您的電子信箱:</translation>
+    </message>
+    <message>
+        <source>Wrong Input</source>
+        <translation>輸入錯誤</translation>
     </message>
     <message>
         <source>The two emails you entered don&apos;t match!</source>
@@ -12065,6 +12111,24 @@ Stop the emulator now?</source>
     <message>
         <source>Invalid Token</source>
         <translation>權杖無效</translation>
+    </message>
+    <message>
+        <source>The token appears to be invalid:\n
+-Token should be 16 characters long\n
+-Token should only contain 0-9 and A-F</source>
+        <translation>權杖似乎無效:\n
+-權杖長度應為 16 個字元\n
+-權杖應該只包含 0-9 和 A-F</translation>
+    </message>
+    <message>
+        <source>Your account has been created successfully!\n
+Your account authentification was saved.\n
+Now all you need is to enter the token that was sent to your email.\n
+You can skip this step by leaving it empty and entering it later in the Edit Account section too.\n</source>
+        <translation>您的帳號已成功建立!\n
+您的帳號身份驗證已儲存。\n
+現在您只需輸入發送到您的電子信箱的權杖即可。\n
+您可以將其留空並稍後在&quot;編輯帳號&quot;部分中輸入來跳過此步驟。\n</translation>
     </message>
 </context>
 <context>
@@ -12144,6 +12208,14 @@ Stop the emulator now?</source>
         <source>Test Account</source>
         <translation>測試帳號</translation>
     </message>
+    <message>
+        <source>RPCN Account Valid!</source>
+        <translation>RPCN 帳號有效!</translation>
+    </message>
+    <message>
+        <source>Your account is valid!</source>
+        <translation>您的帳號有效!</translation>
+    </message>
 </context>
 <context>
     <name>rpcn_add_server_dialog</name>
@@ -12176,10 +12248,6 @@ Stop the emulator now?</source>
         <translation>您必須輸入伺服器的主機名!</translation>
     </message>
     <message>
-        <source>RPCN: Change Password</source>
-        <translation>RPCN: 變更密碼</translation>
-    </message>
-    <message>
         <source>Please enter the email you used to create the account:</source>
         <translation>請輸入您用於建立帳號的電子信箱:</translation>
     </message>
@@ -12198,6 +12266,14 @@ Stop the emulator now?</source>
     <message>
         <source>Error Sending Password Reset Token</source>
         <translation>發送密碼重設權杖時出錯</translation>
+    </message>
+    <message>
+        <source>Failed to send the password reset token:\n%0</source>
+        <translation>發送密碼重設權杖失敗:\n%0</translation>
+    </message>
+    <message>
+        <source>Failed to change the password:\n%0</source>
+        <translation>變更密碼失敗:\n%0</translation>
     </message>
     <message>
         <source>Password Reset Token Sent!</source>
@@ -12227,9 +12303,116 @@ Stop the emulator now?</source>
         <source>Your password has been successfully changed!</source>
         <translation>你的密碼已成功變更!</translation>
     </message>
+</context>
+<context>
+    <name>rpcn_friends_dialog</name>
     <message>
         <source>RPCN: Friends</source>
         <translation>RPCN: 好友</translation>
+    </message>
+    <message>
+        <source>Friends</source>
+        <translation>好友</translation>
+    </message>
+    <message>
+        <source>Add Friend</source>
+        <translation>新增好友</translation>
+    </message>
+    <message>
+        <source>Friend Requests</source>
+        <translation>好友邀請</translation>
+    </message>
+    <message>
+        <source>Blocked Users</source>
+        <translation>已封鎖的用戶</translation>
+    </message>
+    <message>
+        <source>Failed to connect to RPCN:\n%0</source>
+        <translation>無法連線到 RPCN:\n%0</translation>
+    </message>
+    <message>
+        <source>Error connecting to RPCN!</source>
+        <translation>連線到 RPCN 時出錯!</translation>
+    </message>
+    <message>
+        <source>Failed to authentify to RPCN:\n%0</source>
+        <translation>向 RPCN 驗證失敗:\n%0</translation>
+    </message>
+    <message>
+        <source>Error authentifying to RPCN!</source>
+        <translation>向 RPCN 進行身份驗證時出錯!</translation>
+    </message>
+    <message>
+        <source>&amp;Remove Friend</source>
+        <translation>刪除好友​​(&amp;R)</translation>
+    </message>
+    <message>
+        <source>Error removing a friend!</source>
+        <translation>刪除好友時出錯!</translation>
+    </message>
+    <message>
+        <source>An error occured trying to remove a friend!</source>
+        <translation>嘗試刪除好友時出錯!</translation>
+    </message>
+    <message>
+        <source>Friend removed!</source>
+        <translation>好友已刪除!</translation>
+    </message>
+    <message>
+        <source>You&apos;ve successfully removed a friend!</source>
+        <translation>您已成功刪除好友!</translation>
+    </message>
+    <message>
+        <source>&amp;Accept Request</source>
+        <translation>接受邀請(&amp;A)</translation>
+    </message>
+    <message>
+        <source>Error adding a friend!</source>
+        <translation>加入好友時出錯!</translation>
+    </message>
+    <message>
+        <source>An error occured trying to add a friend!</source>
+        <translation>嘗試加入好友時出錯!</translation>
+    </message>
+    <message>
+        <source>Friend added!</source>
+        <translation>好友已加入!</translation>
+    </message>
+    <message>
+        <source>You&apos;ve successfully added a friend!</source>
+        <translation>您已成功加入好友!</translation>
+    </message>
+    <message>
+        <source>Add a friend</source>
+        <translation>新增好友</translation>
+    </message>
+    <message>
+        <source>Friend&apos;s username:</source>
+        <translation>好友的用戶名:</translation>
+    </message>
+    <message>
+        <source>Error validating username</source>
+        <translation>驗證用戶名時出錯</translation>
+    </message>
+    <message>
+        <source>The username you entered is invalid</source>
+        <translation>您輸入的用戶名無效</translation>
+    </message>
+    <message>
+        <source>Error adding friend</source>
+        <translation>新增好友時出錯</translation>
+    </message>
+    <message>
+        <source>An error occured adding friend</source>
+        <translation>新增好友時發生錯誤</translation>
+    </message>
+    <message>
+        <source>Friend added</source>
+        <translation>新增了好友</translation>
+    </message>
+    <message>
+        <source>Friend was successfully added!</source>
+        <translation>新增好友成功!</translation>
     </message>
 </context>
 <context>
