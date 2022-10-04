@@ -12034,14 +12034,6 @@ Note that the reset password token is different from the email verification toke
         <source>Friends</source>
         <translation>好友</translation>
     </message>
-    <message>
-        <source>Existing Server</source>
-        <translation>现存伺服器</translation>
-    </message>
-    <message>
-        <source>You already have a server with this description &amp; hostname in the list.</source>
-        <translation>在列表中已经有一个具有此描述和主机名的伺服器。</translation>
-    </message>
 </context>
 <context>
     <name>rpcn_ask_email_dialog</name>
@@ -12215,6 +12207,30 @@ You can skip this step by leaving it empty and entering it later in the Edit Acc
     <message>
         <source>Your account is valid!</source>
         <translation>您的帐号有效!</translation>
+    </message>
+    <message>
+        <source>Existing Server</source>
+        <translation>现存伺服器</translation>
+    </message>
+    <message>
+        <source>You already have a server with this description &amp; hostname in the list.</source>
+        <translation>在列表中已经有一个具有此描述和主机名的伺服器。</translation>
+    </message>
+    <message>
+        <source>Failed to connect to RPCN:\n%0</source>
+        <translation>无法连线到 RPCN:\n%0</translation>
+    </message>
+    <message>
+        <source>Error connecting to RPCN!</source>
+        <translation>连线到 RPCN 时出错!</translation>
+    </message>
+    <message>
+        <source>Failed to authentify to RPCN:\n%0</source>
+        <translation>向 RPCN 验证失败:\n%0</translation>
+    </message>
+    <message>
+        <source>Error authentifying to RPCN!</source>
+        <translation>向 RPCN 进行身份验证时出错!</translation>
     </message>
 </context>
 <context>
