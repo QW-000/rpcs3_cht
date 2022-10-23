@@ -325,22 +325,22 @@
 <context>
     <name>QObject</name>
     <message>
-        <location filename="main.cpp" line="1066"/>
+        <location filename="main.cpp" line="1068"/>
         <source>Invalid command-line arguments!</source>
         <translation>無效的指令行引數!</translation>
     </message>
     <message>
-        <location filename="main.cpp" line="1066"/>
+        <location filename="main.cpp" line="1068"/>
         <source>Cannot perform multiple installations at the same time!</source>
         <translation>無法同時執行多個安裝!</translation>
     </message>
     <message>
-        <location filename="main.cpp" line="1180"/>
+        <location filename="main.cpp" line="1182"/>
         <source>Missing command-line arguments!</source>
         <translation>缺少命令行引數!</translation>
     </message>
     <message>
-        <location filename="main.cpp" line="1180"/>
+        <location filename="main.cpp" line="1182"/>
         <source>Cannot run no-gui mode without boot target.
 Terminating...</source>
         <translation>沒有啟動目標就無法執行無 GUI 模式。
@@ -6022,99 +6022,99 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
 <context>
     <name>log_frame</name>
     <message>
-        <location filename="rpcs3qt/log_frame.cpp" line="108"/>
-        <location filename="rpcs3qt/log_frame.cpp" line="149"/>
+        <location filename="rpcs3qt/log_frame.cpp" line="109"/>
+        <location filename="rpcs3qt/log_frame.cpp" line="150"/>
         <source>Log</source>
         <translation>Log</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/log_frame.cpp" line="134"/>
-        <location filename="rpcs3qt/log_frame.cpp" line="264"/>
-        <location filename="rpcs3qt/log_frame.cpp" line="270"/>
+        <location filename="rpcs3qt/log_frame.cpp" line="135"/>
+        <location filename="rpcs3qt/log_frame.cpp" line="265"/>
+        <location filename="rpcs3qt/log_frame.cpp" line="271"/>
         <source>Channel %0</source>
         <translation>通道 %0</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/log_frame.cpp" line="138"/>
-        <location filename="rpcs3qt/log_frame.cpp" line="253"/>
-        <location filename="rpcs3qt/log_frame.cpp" line="259"/>
+        <location filename="rpcs3qt/log_frame.cpp" line="139"/>
+        <location filename="rpcs3qt/log_frame.cpp" line="254"/>
+        <location filename="rpcs3qt/log_frame.cpp" line="260"/>
         <source>All user channels</source>
         <oldsource>All User Channels</oldsource>
         <translation>全部的使用者通道</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/log_frame.cpp" line="150"/>
+        <location filename="rpcs3qt/log_frame.cpp" line="151"/>
         <source>TTY</source>
         <translation>TTY</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/log_frame.cpp" line="229"/>
-        <location filename="rpcs3qt/log_frame.cpp" line="236"/>
+        <location filename="rpcs3qt/log_frame.cpp" line="230"/>
+        <location filename="rpcs3qt/log_frame.cpp" line="237"/>
         <source>Clear</source>
         <translation>清理</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/log_frame.cpp" line="243"/>
+        <location filename="rpcs3qt/log_frame.cpp" line="244"/>
         <source>Stack Mode (TTY)</source>
         <translation>堆疊模式 (TTY)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/log_frame.cpp" line="276"/>
+        <location filename="rpcs3qt/log_frame.cpp" line="277"/>
         <source>Nothing</source>
         <translation>空</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/log_frame.cpp" line="278"/>
+        <location filename="rpcs3qt/log_frame.cpp" line="279"/>
         <source>Fatal</source>
         <translation>嚴重</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/log_frame.cpp" line="279"/>
+        <location filename="rpcs3qt/log_frame.cpp" line="280"/>
         <source>Error</source>
         <translation>錯誤</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/log_frame.cpp" line="280"/>
+        <location filename="rpcs3qt/log_frame.cpp" line="281"/>
         <source>Todo</source>
         <translation>待辦事項</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/log_frame.cpp" line="281"/>
+        <location filename="rpcs3qt/log_frame.cpp" line="282"/>
         <source>Success</source>
         <translation>成功</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/log_frame.cpp" line="282"/>
+        <location filename="rpcs3qt/log_frame.cpp" line="283"/>
         <source>Warning</source>
         <translation>警告</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/log_frame.cpp" line="283"/>
+        <location filename="rpcs3qt/log_frame.cpp" line="284"/>
         <source>Notice</source>
         <translation>通知</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/log_frame.cpp" line="284"/>
+        <location filename="rpcs3qt/log_frame.cpp" line="285"/>
         <source>Trace</source>
         <translation>追蹤</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/log_frame.cpp" line="286"/>
+        <location filename="rpcs3qt/log_frame.cpp" line="287"/>
         <source>Stack Mode (Log)</source>
         <translation>堆疊模式 (Log)</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/log_frame.cpp" line="294"/>
+        <location filename="rpcs3qt/log_frame.cpp" line="295"/>
         <source>Stack Cell Errors</source>
         <translation>堆疊單元錯誤</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/log_frame.cpp" line="302"/>
+        <location filename="rpcs3qt/log_frame.cpp" line="303"/>
         <source>Show Thread Prefix</source>
         <translation>顯示執行緒前綴</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/log_frame.cpp" line="310"/>
+        <location filename="rpcs3qt/log_frame.cpp" line="311"/>
         <source>Enable TTY</source>
         <translation>啟用 TTY</translation>
     </message>
@@ -7873,7 +7873,7 @@ image</source>
     </message>
     <message>
         <location filename="rpcs3qt/pad_led_settings_dialog.ui" line="26"/>
-        <location filename="rpcs3qt/pad_led_settings_dialog.cpp" line="52"/>
+        <location filename="rpcs3qt/pad_led_settings_dialog.cpp" line="54"/>
         <source>LED Color</source>
         <translation>LED 色彩</translation>
     </message>
@@ -7884,26 +7884,36 @@ image</source>
     </message>
     <message>
         <location filename="rpcs3qt/pad_led_settings_dialog.ui" line="49"/>
+        <source>GroupBox</source>
+        <translation>組合框</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/pad_led_settings_dialog.ui" line="55"/>
+        <source>Enable player LED</source>
+        <translation>啟用播放器 LED</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/pad_led_settings_dialog.ui" line="65"/>
         <source>In-game battery status</source>
         <translation>遊戲中電池狀態</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_led_settings_dialog.ui" line="55"/>
+        <location filename="rpcs3qt/pad_led_settings_dialog.ui" line="71"/>
         <source>Blink LED when battery is low</source>
         <translation>電量過低時閃爍 LED</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_led_settings_dialog.ui" line="62"/>
+        <location filename="rpcs3qt/pad_led_settings_dialog.ui" line="78"/>
         <source>Use LED as a battery indicator</source>
         <translation>使用 LED 當作電池顯示器</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_led_settings_dialog.ui" line="72"/>
+        <location filename="rpcs3qt/pad_led_settings_dialog.ui" line="88"/>
         <source>LED battery indicator brightness</source>
         <translation>LED 電池顯示器亮度</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_led_settings_dialog.ui" line="78"/>
+        <location filename="rpcs3qt/pad_led_settings_dialog.ui" line="94"/>
         <source>100%</source>
         <translation>100%</translation>
     </message>
@@ -8404,34 +8414,34 @@ image</source>
         <translation>玩家 %0</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1636"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1634"/>
         <source>Choose a unique name</source>
         <translation>命名唯一的名稱</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1637"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1635"/>
         <source>Profile Name: </source>
         <translation>設定檔名: </translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1646"/>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1651"/>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1656"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1644"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1649"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1654"/>
         <source>Error</source>
         <translation>錯誤</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1646"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1644"/>
         <source>Name cannot be empty</source>
         <translation>名稱不能是空的</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1651"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1649"/>
         <source>Must choose a name without &apos;.&apos;</source>
         <translation>必須命名不帶 &apos;.&apos; 的名稱</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1656"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1654"/>
         <source>Please choose a non-existing name</source>
         <translation>請命名不存在的名稱</translation>
     </message>
@@ -8477,126 +8487,126 @@ image</source>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.cpp" line="301"/>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1254"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1252"/>
         <source>[ Waiting %1 ]</source>
         <translation>[ 等候 %1 ]</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1425"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1423"/>
         <source>Custom Controller</source>
         <translation>自訂控制器</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1471"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1469"/>
         <source>No Device Detected</source>
         <translation>未偵測到裝置</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1586"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1584"/>
         <source>PS3 Controller</source>
         <comment>PlayStation 3 Controller</comment>
         <translation>PS3 控制器</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1591"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1589"/>
         <source>Dance Dance Revolution</source>
         <comment>Dance Dance Revolution Mat</comment>
         <translation>勁爆熱舞</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1596"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1594"/>
         <source>DJ Hero Turntable</source>
         <comment>DJ Hero Turntable</comment>
         <translation>DJ 英雄轉盤</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1601"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1599"/>
         <source>Rock Band</source>
         <comment>Harmonix Rock Band Drum Kit</comment>
         <translation>搖滾樂隊</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1606"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1604"/>
         <source>Rock Band Pro</source>
         <comment>Harmonix Rock Band Pro-Drum Kit</comment>
         <translation>搖滾樂隊專業版</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1611"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1609"/>
         <source>Rock Band</source>
         <comment>Harmonix Rock Band Guitar</comment>
         <translation>搖滾樂隊</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1616"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1614"/>
         <source>Guitar Hero</source>
         <comment>RedOctane Guitar Hero Drum Kit</comment>
         <translation>吉他英雄</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1621"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1619"/>
         <source>Guitar Hero</source>
         <comment>RedOctane Guitar Hero Guitar</comment>
         <translation>吉他英雄</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1626"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1624"/>
         <source>Rock Revolution</source>
         <comment>Rock Revolution Drum Controller</comment>
         <translation>搖滾革命</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1678"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1676"/>
         <source>Reserved</source>
         <translation>預留</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1803"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1801"/>
         <source>Warning!</source>
         <translation>警告!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1804"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1802"/>
         <source>The %0 button &lt;b&gt;%1&lt;/b&gt; of &lt;b&gt;Player %2&lt;/b&gt; was assigned at least twice.&lt;br&gt;Please consider adjusting the configuration.&lt;br&gt;&lt;br&gt;Continue anyway?&lt;br&gt;</source>
         <translation>&lt;b&gt;玩家 %2&lt;/b&gt; 的 %0 按鈕&lt;b&gt;%1&lt;/b&gt; 至少被指派了兩次。&lt;br&gt;請考慮調整組態。&lt;br&gt;&lt;br&gt;仍要繼續嗎?&lt;br</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1838"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1836"/>
         <source>Null</source>
         <translation>空</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1839"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1837"/>
         <source>Keyboard</source>
         <translation>鍵盤</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1840"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1838"/>
         <source>DualShock 3</source>
         <translation>DualShock 3</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1841"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1839"/>
         <source>DualShock 4</source>
         <translation>DualShock 4</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1842"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1840"/>
         <source>DualSense</source>
         <translation>DualSense</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1844"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1842"/>
         <source>XInput</source>
         <translation>XInput</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1845"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1843"/>
         <source>MMJoystick</source>
         <translation>MMJoystick</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1848"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1846"/>
         <source>Evdev</source>
         <translation>Evdev</translation>
     </message>
