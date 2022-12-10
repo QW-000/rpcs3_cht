@@ -487,7 +487,7 @@ Affects software which uses system time to calculate things such as dynamic time
         <location filename="rpcs3qt/tooltips.h" line="40"/>
         <source>Controls how much time it takes for RSX to start processing after waking up by the Cell processor.
 Increasing wakeup delay improves stability, but very high values can lower RSX/GPU performance.
-It is recommend to adjust this at 20μs to 40μs increments until the best value for optimal stability is reached.</source>
+It is recommend to adjust this at 20µs to 40µs increments until the best value for optimal stability is reached.</source>
         <oldsource>Try fiddling with this setting when encountering unstable games. The higher value, the better stability it may provide.
 Increments/Decrements for each test should be around 100μs to 200μs until finding the best value for optimal stability.
 Values above 1000μs may cause noticeable performance penalties, use with caution.</oldsource>
