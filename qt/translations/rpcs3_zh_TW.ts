@@ -375,12 +375,12 @@ Terminating...</source>
 終止...</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="593"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="596"/>
         <source>Pause the SPU Thread!</source>
         <translation>暫停 SPU 執行緒!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="593"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="596"/>
         <source>Cannot perform SPU capture due to the thread need manual pausing!</source>
         <translation>由於執行緒需要手動暫停，無法執行 SPU 截取!</translation>
     </message>
@@ -2595,33 +2595,33 @@ Some settings seem to deviate from the default config:</source>
 <context>
     <name>debugger_frame</name>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="66"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="69"/>
         <source>Debugger</source>
         <translation>偵錯器</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="98"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="101"/>
         <source>Choose a thread</source>
         <translation>選取一個執行緒</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="103"/>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="1013"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="106"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="1016"/>
         <source>Go To Address</source>
         <translation>至 位址</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="104"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="107"/>
         <source>Go To PC</source>
         <translation>至 PC</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="105"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="108"/>
         <source>Step</source>
         <translation>步</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="106"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="109"/>
         <source>Step Over</source>
         <translation>躍步</translation>
     </message>
@@ -2638,41 +2638,41 @@ Some settings seem to deviate from the default config:</source>
         <translation>暫停</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="286"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="289"/>
         <source>Debugger Guide &amp; Shortcuts</source>
         <translation>偵錯器指南和捷徑方式</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="435"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="438"/>
         <source>Max MFC cmds logged</source>
         <translation>最大 MFC CMDS 日誌</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="256"/>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="1036"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="259"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="1039"/>
         <source>OK</source>
         <oldsource>Ok</oldsource>
         <translation>確定</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="245"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="248"/>
         <source>Breakpoint Settings</source>
         <translation>斷點設定</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="248"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="251"/>
         <source>Pause All Threads On Hit</source>
         <translation>暫停全部執行緒在命中</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="251"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="254"/>
         <source>When set: a breakpoint hit will pause the emulation instead of the current thread.
 Applies on all breakpoints in all threads regardless if set before or after changing this setting.</source>
         <translation>當設定: 斷點命中將暫停仿真，而不是當前執行緒。
 無論在更改此設定之前還是之後，都將應用於所有執行緒中的所有斷點。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="288"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="291"/>
         <source>Keys Ctrl+G: Go to typed address.
 Keys Ctrl+B: Open breakpoints settings.
 Keys Ctrl+S: Search memory string utility.
@@ -2717,18 +2717,18 @@ Page-Down 鍵: 向下捲動，步數等於檢視的指令數。
 雙擊: 設定斷點。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="435"/>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="491"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="438"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="494"/>
         <source>Decimal only, max allowed is %0.</source>
         <translation>僅小數點，最大允許為 %0。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="491"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="494"/>
         <source>Max PPU calls logged</source>
         <translation>記錄最大 PPU 調用</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="1037"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="1040"/>
         <source>Cancel</source>
         <translation>取消</translation>
     </message>
@@ -6330,31 +6330,46 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="189"/>
+        <source>Save Emulation State</source>
+        <translation>儲存仿真器狀態</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="190"/>
+        <source>Save Emulation State And Exit</source>
+        <translation>儲存仿真器狀態並結束</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="191"/>
+        <source>Reload Last Emulation State</source>
+        <translation>再啟動上次仿真器狀態</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/localized_emu.h" line="192"/>
         <source>Start/Stop Recording</source>
         <translation>開始/停止錄製</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="190"/>
+        <location filename="rpcs3qt/localized_emu.h" line="193"/>
         <source>Press and hold the START button to resume</source>
         <translation>按住 START 按鈕繼續</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="191"/>
+        <location filename="rpcs3qt/localized_emu.h" line="194"/>
         <source>Resuming...!</source>
         <translation>繼續...!</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="192"/>
+        <location filename="rpcs3qt/localized_emu.h" line="195"/>
         <source>The PS3 application has likely crashed, you can close it.</source>
         <translation>PS3 應用程式可能已崩潰，您可以將其關閉。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="193"/>
+        <location filename="rpcs3qt/localized_emu.h" line="196"/>
         <source>Invalid</source>
         <translation>無效</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/localized_emu.h" line="194"/>
+        <location filename="rpcs3qt/localized_emu.h" line="197"/>
         <source>Unknown</source>
         <translation>未知</translation>
     </message>
@@ -12485,7 +12500,7 @@ Please contact a developer.</source>
         <location filename="rpcs3qt/update_manager.cpp" line="332"/>
         <location filename="rpcs3qt/update_manager.cpp" line="340"/>
         <location filename="rpcs3qt/update_manager.cpp" line="352"/>
-        <location filename="rpcs3qt/update_manager.cpp" line="642"/>
+        <location filename="rpcs3qt/update_manager.cpp" line="640"/>
         <source>Auto-updater</source>
         <translation>自動更新</translation>
     </message>
@@ -12589,7 +12604,7 @@ Do you want to update to the latest official RPCS3 version?</source>
         <translation>在嘗試更新之前，請停止仿真。</translation>
     </message>
     <message>
-        <location filename="rpcs3qt/update_manager.cpp" line="642"/>
+        <location filename="rpcs3qt/update_manager.cpp" line="640"/>
         <source>Update successful!
 RPCS3 will now restart.</source>
         <translation>更新成功!
