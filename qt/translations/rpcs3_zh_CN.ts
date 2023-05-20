@@ -16,7 +16,7 @@
     <message>
         <location filename="rpcs3qt/auto_pause_settings_dialog.cpp" line="226"/>
         <source>Specify ID of System Call or Function Call below. You need to use a Hexadecimal ID.</source>
-        <translation>指定系统调用或函数调用的 ID。你需要使用一个十六进制的 ID。</translation>
+        <translation>指定系统调用或下方函数调用的 ID。你需要使用一个十六进制的 ID。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/auto_pause_settings_dialog.cpp" line="229"/>
