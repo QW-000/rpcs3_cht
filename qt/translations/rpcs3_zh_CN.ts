@@ -521,8 +521,8 @@ It is recommend to adjust this at 20µs to 40µs increments until the best value
 Increments/Decrements for each test should be around 100μs to 200μs until finding the best value for optimal stability.
 Values above 1000μs may cause noticeable performance penalties, use with caution.</oldsource>
         <translation>控制 RSX 在被 Cell 处理器唤醒后开始处理所需的时间。
-增加唤醒延迟可以提高稳定性，但非常高的值会降低 RSX/GPU 效能。
-建议以 20 微秒到 40 微秒的增量进行调整，直到达到最佳稳定性的最佳值。</translation>
+增加唤醒延迟可以提升稳定性，但非常高的值会降低 RSX/GPU 的表现。
+推荐以 20 到 40 微秒的增量来调整此值，直至达到最理想稳定性的最佳值。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="41"/>
@@ -530,8 +530,8 @@ Values above 1000μs may cause noticeable performance penalties, use with cautio
 Right-click a game in the game list and choose &quot;Configure&quot; instead.</source>
         <oldsource>Do not change this setting globally.
 Right-click the game in game list and choose &quot;Configure&quot; instead.</oldsource>
-        <translation>无法全局更改此设置。
-右击游戏清单中的游戏，然后选择 &quot;组态&quot;。</translation>
+        <translation>请勿全局更改此设置。
+右击游戏列表中的一款游戏，然后选择 &quot;配置&quot; 来替代。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="42"/>
@@ -541,16 +541,16 @@ Use &apos;Fast&apos; to use a faster but hacky version. This option is internall
         <oldsource>Determines how to schedule GPU async compute jobs when using asynchronous streaming.
 Use &apos;Host&apos; mode for more spec compliant behavior at the cost of CPU overhead.
 Use &apos;Device&apos; to let your driver handle this. Beware that &apos;device&apos; mode technically violates official spec but is the superior option.</oldsource>
-        <translation>确定使用非同步流时，如何安排 GPU 非同步计算作业。
-使用“安全”模式可实现更符合规范的行为，但会占用 CPU 资源。此设定适用于所有装置。
-使用“快速”可以更快，但带有骇客性质的版本。由于导致 GPU 停摆，此选项在 NVIDIA GPU 内部被禁用。</translation>
+        <translation>当使用异步流（asynchronous streaming）时，会决定如何调度 GPU 执行异步计算工作。
+使用“安全”模式以获得更符合规格的行为；会耗费一些 CPU 开销。此设置在所有设备上都可运行。
+使用“快速”来启用一个更快但略带黑客性质的版本。此选项在 NVIDIA GPU 内部被禁用，因会导致 GPU 挂起。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="44"/>
         <source>Disables Fast Math for MSL shaders, which may violate the IEEE 754 standard.
 Disabling it may fix some artefacts especially on Apple GPUs, at the cost of performance.</source>
-        <translation>停用 MSL 着色器的快速计算，这可能违反 IEEE 754 标准。
-停用它可能修复一些假影，尤其是在 Apple GPU 上，但得付出效能。</translation>
+        <translation>禁用 MSL 着色器的快速计算，这可能违反 IEEE 754 标准。
+禁用它会修复一些伪影现象———尤其在 Apple GPU 上，但会牺牲一部分性能。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="50"/>
@@ -558,8 +558,8 @@ Disabling it may fix some artefacts especially on Apple GPUs, at the cost of per
 XAudio2 uses native Windows sounds system, is the next best alternative.</source>
         <oldsource>XAudio2 is the recommended option and should be used whenever possible.
 OpenAL uses a cross-platform approach and is the next best alternative.</oldsource>
-        <translation>Cubeb 使用跨平台的方式，并支援音讯缓冲，所以这是建议的选项。
-XAudio2 使用原生 Windows 声音系统，是其次最佳的选择。</translation>
+        <translation>Cubeb 使用了跨平台的方案且支持音频缓冲，因此它是推荐选项。
+XAudio2 使用原生 Windows 声音系统，是仅次于最佳选项的一种方案。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="51"/>
@@ -567,52 +567,52 @@ XAudio2 使用原生 Windows 声音系统，是其次最佳的选择。</transla
 If it&apos;s not available, FAudio could be used instead.</source>
         <oldsource>Cubeb uses a cross-platform approach and supports audio buffering, so it is the recommended option.
 If it&apos;s not availiable, FAudio could be used instead.</oldsource>
-        <translation>Cubeb 使用跨平台的方式，并支援音讯缓冲，所以这是建议的选项。
-如果不可用，则可以改用 FAudio。</translation>
+        <translation>Cubeb 使用跨平台的方案且支持音频缓冲，因此它是推荐选项。
+如不可用，FAudio 可作为替选方案。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="55"/>
         <source>Saves all audio as a raw wave file. If unsure, leave this unchecked.</source>
-        <translation>将所有声音储存为 WAV 档案，如果不确定，请勿选取。</translation>
+        <translation>以原始 wave 文件来保存所有音频。如不确定，保留此项为未选状态。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="56"/>
         <source>Uses 16-bit audio samples instead of default 32-bit floating point.
 Use with buggy audio drivers if you have no sound or completely broken sound.</source>
-        <translation>使用 16-bit 声音样本，而不是预设的 32-bit 浮点。
-如果没有声音或完全破碎的声音，请使用 buggy 声音驱动程式。</translation>
+        <translation>使用 16 位音频取样，而非默认的 32 位浮点取样。
+如果你没有声音或完全损坏了声音，则是使用了有缺陷的音频驱动。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="58"/>
         <source>Controls the overall volume of the emulation.
 Values above 100% might reduce the audio quality.</source>
-        <translation>控制仿真的整体音量。
+        <translation>控制模拟的整体音量。
 高于 100% 的值可能会降低音质。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="59"/>
         <source>Enables audio buffering, which reduces crackle/stutter but increases audio latency.</source>
         <oldsource>Enables audio buffering, which reduces crackle/stutter but increases audio latency (requires XAudio2 or OpenAL).</oldsource>
-        <translation>启用音讯缓冲可减少爆音以及不顺，但会增加音讯延迟。</translation>
+        <translation>启用音频缓冲可减少爆音或断续，但会增加音频延迟。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="60"/>
         <source>Target buffer duration in milliseconds.
 Higher values make the buffering algorithm&apos;s job easier, but may introduce noticeable audio latency.</source>
-        <translation>目标缓冲存续期间以毫秒为单位。
-较高的值使缓冲演算法更加容易工作，但可能引入明显的音讯延迟。</translation>
+        <translation>目标缓冲时长，单位为毫秒。
+较高的值会使缓冲算法工作起来更轻松，但可能会导致显著的音频延迟。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="61"/>
         <source>Enables time stretching - requires buffering to be enabled.
 Reduces crackle/stutter further, but may cause a very noticeable reduction in audio quality on slower CPUs.</source>
-        <translation>启用时间延伸需要启用缓冲区。
-进一步减少爆音以及不顺，但可能导致较慢的 CPU 上的音质明显降低。</translation>
+        <translation>启用时间拉伸——需启用缓冲。
+进一步减少爆音或断续，但在较弱的 CPU 上可能会引起非常显著的音质下滑。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="62"/>
         <source>Buffer fill level (in percentage) below which time stretching will start.</source>
-        <translation>缓冲区使用率 (百分比) 低于此时间延伸将开始。</translation>
+        <translation>低于此缓冲填充率（百分比）时会开始时间拉伸。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="63"/>
