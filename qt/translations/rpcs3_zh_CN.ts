@@ -16,12 +16,12 @@
     <message>
         <location filename="rpcs3qt/auto_pause_settings_dialog.cpp" line="226"/>
         <source>Specify ID of System Call or Function Call below. You need to use a Hexadecimal ID.</source>
-        <translation>指定系统呼叫或以下函数呼叫的 ID， 您使用的 ID 必须是十六进位。</translation>
+        <translation>指定系统调用或函数调用的 ID。你需要使用一个十六进制的 ID。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/auto_pause_settings_dialog.cpp" line="229"/>
         <source>Currently it gets an id of &quot;Unset&quot;.</source>
-        <translation>目前得到的 ID 为&quot;未设定&quot;。</translation>
+        <translation>当前获取的 ID 为&quot;未设定&quot;。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/auto_pause_settings_dialog.cpp" line="287"/>
@@ -44,12 +44,12 @@
     <message>
         <location filename="rpcs3qt/rsx_debugger.cpp" line="382"/>
         <source>Save Image At</source>
-        <translation>影像储存在</translation>
+        <translation>图片储存在</translation>
     </message>
     <message>
         <location filename="rpcs3qt/rsx_debugger.cpp" line="388"/>
         <source>Save Image</source>
-        <translation>储存影像</translation>
+        <translation>储存图片</translation>
     </message>
 </context>
 <context>
@@ -64,7 +64,7 @@
         <location filename="rpcs3qt/localized.h" line="26"/>
         <source>Photo App</source>
         <oldsource>App Photo</oldsource>
-        <translation>相片应用</translation>
+        <translation>照片应用</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized.h" line="27"/>
@@ -81,22 +81,22 @@
         <location filename="rpcs3qt/localized.h" line="29"/>
         <source>Video App</source>
         <oldsource>App Video</oldsource>
-        <translation>影视应用</translation>
+        <translation>视频应用</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized.h" line="30"/>
         <source>Broadcast Video</source>
-        <translation>播送影视</translation>
+        <translation>播放视频</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized.h" line="31"/>
         <source>Disc Game</source>
-        <translation>光碟游戏</translation>
+        <translation>光盘游戏</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized.h" line="32"/>
         <source>HDD Game</source>
-        <translation>硬碟游戏</translation>
+        <translation>硬盘游戏</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized.h" line="33"/>
@@ -106,7 +106,7 @@
     <message>
         <location filename="rpcs3qt/localized.h" line="34"/>
         <source>Network</source>
-        <translation>网路</translation>
+        <translation>网络</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized.h" line="35"/>
@@ -116,12 +116,12 @@
     <message>
         <location filename="rpcs3qt/localized.h" line="36"/>
         <source>Web TV</source>
-        <translation>网路电视</translation>
+        <translation>网络电视</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized.h" line="37"/>
         <source>Operating System</source>
-        <translation>作业系统</translation>
+        <translation>操作系统</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized.h" line="40"/>
@@ -146,7 +146,7 @@
     <message>
         <location filename="rpcs3qt/localized.h" line="48"/>
         <source>PSP Minis</source>
-        <translation>PSP 秀珍</translation>
+        <translation>PSP 迷你游戏</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized.h" line="49"/>
@@ -156,22 +156,22 @@
     <message>
         <location filename="rpcs3qt/localized.h" line="52"/>
         <source>PS3 Game Data</source>
-        <translation>PS3 游戏资料</translation>
+        <translation>PS3 游戏数据</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized.h" line="53"/>
         <source>PS2 Emulator Data</source>
-        <translation>PS2 模拟器资料</translation>
+        <translation>PS2 模拟器数据</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized.h" line="56"/>
         <source>PS3 Save Data</source>
-        <translation>PS3 储存资料</translation>
+        <translation>PS3 保存数据</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized.h" line="57"/>
         <source>PSP Minis Save Data</source>
-        <translation>PSP 秀珍储存资料</translation>
+        <translation>PSP 迷你游戏保存数据</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized.h" line="60"/>
@@ -302,7 +302,7 @@
     <message>
         <location filename="rpcs3qt/localized.cpp" line="105"/>
         <source>The PS3 Interface (XMB, or VSH)</source>
-        <translation>PS3 介面 (XMB 或 VSH)</translation>
+        <translation>PS3 界面 (XMB，或 VSH)</translation>
     </message>
     <message numerus="yes">
         <location filename="rpcs3qt/localized.cpp" line="18"/>
@@ -336,19 +336,19 @@
         <location filename="rpcs3qt/localized.cpp" line="28"/>
         <source>%0 and %1</source>
         <comment>Days and hours</comment>
-        <translation>%0又 %1</translation>
+        <translation>%0 %1</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized.cpp" line="36"/>
         <source>%0 and %1</source>
         <comment>Hours and minutes</comment>
-        <translation>%0又 %1</translation>
+        <translation>%0 %1</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized.cpp" line="42"/>
         <source>%0 and %1</source>
         <comment>Minutes and seconds</comment>
-        <translation>%0又 %1</translation>
+        <translation>%0 %1</translation>
     </message>
 </context>
 <context>
@@ -356,34 +356,34 @@
     <message>
         <location filename="main.cpp" line="1147"/>
         <source>Invalid command-line arguments!</source>
-        <translation>无效的指令行引数!</translation>
+        <translation>无效的命令行参数！</translation>
     </message>
     <message>
         <location filename="main.cpp" line="1147"/>
         <source>Cannot perform multiple installations at the same time!</source>
-        <translation>无法同时执行多个安装!</translation>
+        <translation>无法同时执行多个安装！</translation>
     </message>
     <message>
         <location filename="main.cpp" line="1312"/>
         <source>Missing command-line arguments!</source>
-        <translation>缺少命令行引数!</translation>
+        <translation>缺少命令行参数！</translation>
     </message>
     <message>
         <location filename="main.cpp" line="1312"/>
         <source>Cannot run no-gui mode without boot target.
 Terminating...</source>
-        <translation>没有启动目标就无法执行无 GUI 模式。
-终止...</translation>
+        <translation>没有启动目标的情况下，无法启动无 GUI 模式。
+正在终止……</translation>
     </message>
     <message>
         <location filename="rpcs3qt/debugger_frame.cpp" line="586"/>
         <source>Pause the SPU Thread!</source>
-        <translation>暂停 SPU 执行绪!</translation>
+        <translation>暂停 SPU 线程！</translation>
     </message>
     <message>
         <location filename="rpcs3qt/debugger_frame.cpp" line="586"/>
         <source>Cannot perform SPU capture due to the thread need manual pausing!</source>
-        <translation>由于执行绪需要手动暂停，无法执行 SPU 截取!</translation>
+        <translation>因线程需要手动暂停，无法执行 SPU 捕获！</translation>
     </message>
 </context>
 <context>
@@ -398,10 +398,10 @@ If chosen wrongly, games will not work! If unsure, leave both lists empty. HLEin
 LLE - &quot;Low Level Emulated&quot;, function code inside the selected SPRX file will be used for exported firmware functions.
 HLE - &quot;High Level Emulated&quot;, alternative emulator code will be used instead for exported firmware functions.
 If choosen wrongly, games will not work! If unsure, leave both lists empty. HLEing all SPRX allows to boot without firmware installed. (experimental)</oldsource>
-        <translation>这些库预设为 LLE (下层清单)，选择将切换为 HLE。
-LLE - &quot;低阶仿真&quot;，所选 SPRX 档案中的功能码将用于输出韧体功能。
-HLE - &quot;高阶仿真&quot;，将使用替代仿真器代码代替输出韧体功能。
-若选择错误，游戏无法工作! 如不确定，请留空两个清单。透过 HLE 所有 SPRX 可在不安装韧体下启动。(实验)</translation>
+        <translation>这些库默认为低阶模拟（LLE）（下方列表），选择会切换至高阶模拟（HLE）。
+LLE - &quot;低阶模拟&quot;，选中的 SPRX 文件内的功能码会被用于输出固件功能。
+HLE - &quot;高阶模拟&quot;，可替用模拟器代码会被用以代替输出固件功能。
+如选择错误，游戏将无法工作！如不确定，两个列表请保留空选状态。高阶模拟所有 SPRX 可使游戏在固件未安装下启动。（实验性功能）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="23"/>
@@ -413,48 +413,48 @@ If chosen wrongly, games will not work! If unsure, leave both lists empty. HLEin
 LLE - &quot;Low Level Emulated&quot;, function code inside the selected SPRX file will be used for exported firmware functions.
 HLE - &quot;High Level Emulated&quot;, alternative emulator code will be used instead for exported firmware functions.
 If choosen wrongly, games will not work! If unsure, leave both lists empty. HLEing all SPRX allows to boot without firmware installed. (experimental)</oldsource>
-        <translation>这些库预设为 HLE (上层清单)，选择将切换为 LLE。
-LLE - &quot;低阶仿真&quot;，所选 SPRX 档案中的功能码将用于输出韧体功能。
-HLE - &quot;高阶仿真&quot;，将使用替代仿真器代码代替输出韧体功能。
-若选择错误，游戏无法工作! 如不确定，请留空两个清单。透过 HLE 所有 SPRX 可在不安装韧体下启动。(实验)</translation>
+        <translation>这些库默认为高阶模拟（HLE）（上方列表），选择会切换至低阶模拟（LLE）。
+LLE - &quot;低阶模拟&quot;，选中的 SPRX 文件内的功能码会被用于输出固件功能。
+HLE - &quot;高阶模拟&quot;，可替用模拟器代码会被用以代替输出固件功能。
+如选择错误，游戏将无法工作！如不确定，两个列表请保留空选状态。高阶模拟所有 SPRX 可使游戏在固件未安装下启动。（实验性功能）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="24"/>
         <source>Select to LLE. (HLE by default)</source>
-        <translation>选择 LLE。(预设为 HLE)</translation>
+        <translation>选择 LLE。（默认为 HLE）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="25"/>
         <source>Select to HLE. (LLE by default)</source>
-        <translation>选择 HLE。(预设为 LLE)</translation>
+        <translation>选择 HLE。（默认为 LLE）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="27"/>
         <source>Increases the amount of usable system memory to match a DECR console and more.
 Causes some software to behave differently than on retail hardware.</source>
-        <translation>增加可用系统储存量以符合 DECR 控制台等。
-引起一些软体的运作与零售硬体不同。</translation>
+        <translation>增加可用系统内存量以符合一台 DECR 主机或更多（别的不知道的主机）。
+这会使得一些软件的表现与在零售版硬件上的有所不同。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="28"/>
         <source>Stop writing any logs after game startup. Don&apos;t use unless you believe it&apos;s necessary.</source>
-        <translation>游戏启动后停止写入任何日志。 除非您认为必要，否则请勿使用。</translation>
+        <translation>游戏启动后停止写入任何日志。不要使用，除非你坚信它有必要。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="29"/>
         <location filename="rpcs3qt/tooltips.h" line="30"/>
         <source>Initializes render target memory using vm memory.</source>
-        <translation>使用 vm memory 初始化渲染目标记忆体。</translation>
+        <translation>使用虚拟机内存来初始化渲染目标的内存。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="31"/>
         <source>Writes depth buffer values to vm memory.</source>
-        <translation>将深度缓冲区值写入 vm memory。</translation>
+        <translation>将深度缓冲区的值写入虚拟机内存。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="32"/>
         <source>Disables the loading and saving of shaders from and to the shader cache in the data directory.</source>
-        <translation>禁止从资料目录着色快取中存取着色。</translation>
+        <translation>禁用从/往数据目录下的着色器缓存中对着色器的加载和保存。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="33"/>
@@ -466,10 +466,10 @@ Causes some software to behave differently than on retail hardware.</source>
 · Precise is the most accurate to PS3 behaviour.
 · Approximate is just a faster way to generate occlusion data which may not always match what the PS3 would generate.
 · Relaxed changes the synchronization method completely and can improve performance in some games or completely break others.</oldsource>
-        <translation>更改 ZCULL 报告同步行为。尝试为您的游戏找到最佳选择，在大多数游戏建议使用近似模式。
-· 准确是对 PS3 行为最正确。在 Demon&apos;s Souls 和 The Darkness 之类的游戏中获得准确的视觉效果是必需的。
-· 近似只是一种更快的产生遮挡资料的方法，并可能不会与 PS3 产生的资料相符合。适用于大多数 PS3 游戏。
-· 放缓彻底改变同步方式，在某些游戏中可以提高效能或是完全破坏游戏。</translation>
+        <translation>更改 ZCULL 报告的同步行为。尝试为你的游戏找到最佳选项。对大多数游戏，建议使用近似模式。
+· 精确是对 PS3 行为的最精确（模拟）。在一些作品中为求精确的视觉效果，此模式是必须的，如 Demon&apos;s Souls 和 The Darkness。
+· 近似是一种快得多的生成遮挡数据的方式，但和 PS3 生成的并不总是一致。适用于大多数 PS3 游戏。
+· 轻松完全改变了同步的方法，可以极大提升一些游戏的表现，或完全使有些游戏不能运行。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="34"/>
@@ -479,9 +479,9 @@ Limiting the number of threads is likely to cause crashes; it&apos;s recommended
         <oldsource>Limits the maximum number of SPURS threads in each thread group.
 May improve performance in some cases, especially on systems with limited number of hardware threads.
 Limiting the number of threads is likely to cause crashes; it&apos;s recommended to keep this at default value.</oldsource>
-        <translation>限制每个执行绪群组中最大的 SPURS 执行绪数。
-在某些情况下可能会提高效能，尤其是在硬体执行绪数量有限的系统上。
-限制执行绪数可能会导致崩溃，建议将此值保持为预设值。</translation>
+        <translation>限制每个线程组中的最大 SPURS 线程数量。
+在某些情形中可能提升表现，尤其是在硬件线程数量有限的系统上。
+限制线程数量很可能引起崩溃；推荐保留此项为默认值。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="35"/>
@@ -494,23 +494,23 @@ Can affect performance in unexpected ways.</source>
 &apos;Usleep Only&apos; limits the adjustments to usleep syscall only.
 Can affect perfomance in unexpected ways.</oldsource>
         <translation>改变睡眠周期的准确性。
-&apos;As Host&apos; 使用作业系统预设的准确度，而 &apos;All Timers&apos; 则会尝试改善它。
+&apos;As Host&apos; 使用底层操作系统的默认准确度，&apos;All Timers&apos; 则会尝试改善它。
 &apos;Usleep Only&apos; 限制仅对 usleep 系统调用进行调整。
-可能会意外影响效能。</translation>
+会以非预期的方式影响表现。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="37"/>
         <source>Adjusts the frequency of vertical blanking signals that the emulator sends.
 Affects timing of events which rely on these signals.</source>
-        <translation>调整仿真器发送的垂直消隐讯号的频率。
-影响依赖于这些讯号事件的时机。</translation>
+        <translation>调整模拟器发送的垂直消隐信号的频率。
+会影响依赖这些信号的事件的时序。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="39"/>
         <source>Changes the scale of emulated system time.
 Affects software which uses system time to calculate things such as dynamic timesteps.</source>
         <translation>更改模拟系统时间的比例。
-影响软体使用系统时间计算动态时间步长等事物。</translation>
+会影响使用系统时间来计算一些东西如动态时间步长（dynamic timesteps）的软件。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="40"/>
