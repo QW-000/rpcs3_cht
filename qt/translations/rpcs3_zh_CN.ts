@@ -706,7 +706,7 @@ Needs to be forced on some Haswell or Broadwell CPUs.
 Forcing this on older Hardware can lead to system instability, use it with caution.</oldsource>
         <translation>启用 TSX 指令的使用。
 在一些 Haswell 或 Boradwell CPU，或支持 TSX-FA 指令集的 CPU 上，此选项需要强制开启。
-在旧的硬件上强制开启此选项会导致系统的不稳定，请小心使用。</translation>
+在这些情况下，强制开启 TSX 会导致系统和性能的不稳定，请小心使用。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="77"/>
