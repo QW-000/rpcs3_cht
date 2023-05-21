@@ -372,7 +372,7 @@
         <location filename="main.cpp" line="1312"/>
         <source>Cannot run no-gui mode without boot target.
 Terminating...</source>
-        <translation>没有启动目标的情况下，无法启动无 GUI 模式。
+        <translation>没有启动目标的情况下，不能运行无 GUI 模式。
 正在终止……</translation>
     </message>
     <message>
@@ -620,10 +620,10 @@ Reduces crackle/stutter further, but may cause a very noticeable reduction in au
 SingStar emulates a SingStar device and should be used with SingStar games.
 Real SingStar should only be used with a REAL SingStar device with SingStar games.
 Rocksmith should be used with a Rocksmith dongle.</source>
-        <translation>“标准”应当用于大多数游戏。
-模拟“SingStar”装置，理应同 SingStar 的游戏使用。
-“Real SingStar”只能与拥有 SingStar 游戏的 REAL SingStar 装置使用。
-“Rocksmith”应同与 Rocksmith dongle 使用。</translation>
+        <translation>对大多数游戏，应当使用“标准”。
+“SingStar”模拟了一台 SingStar 设备，且应当用于 SingStar 游戏。
+“真 SingStar”应当且仅应当用于一台“真” SingStar 设备的 SingStar 游戏。
+“Rocksmith”应当用于 Rocksmith 适配器。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="69"/>
@@ -635,19 +635,19 @@ If unsure, use this option.</source>
 This is by far the fastest option and should always be used.
 Should you face compatibility issues, fall back to one of the Interpreters and retry.
 If unsure, use this option.</oldsource>
-        <translation>在首次执行游戏之前，使用“ LLVM 反编译” 将一次反编译和快取游戏的 PPU 代码。
-这是迄今为止最快的选项，应该始终使用。
-如果遇到相容性问题，退回其中一项“直译器”重试。
-如果不确定，请使用此选项。</translation>
+        <translation>在游戏首次运行之前，使用 LLVM 重编译器，重编译并缓存游戏的 PPU 码一次。
+这是迄今最为快速的选项，应当始终使用。
+若你遇到了兼容性问题，回落至直译器的一种，然后重试。
+如果不确定，则使用此选项。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="70"/>
         <source>Searches the game&apos;s directory and precompiles extra PPU modules during boot.
 If disabled, these modules will only be compiled when needed. Depending on the game, this might interrupt the gameplay unexpectedly and possibly frequently.
 Only disable this if you want to get ingame more quickly.</source>
-        <translation>在启动过程中搜寻游戏目录并预编译其它 PPU 模组。
-如果停用，则仅在需要时才编译这些模组。 根据游戏的不同，这可能会意外地或频繁地中断游戏。
-仅当您想更快地进入游戏时才要停用此功能。</translation>
+        <translation>在启动期间，搜索游戏目录并预编译额外的 PPU 模块。
+如果禁用，这些模块则仅在需要时才编译。根据游戏的不同，此选项可能会非预期且（也许）频繁地中断游戏游玩。
+仅当你想要更快地进入游戏时才禁用。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="73"/>
@@ -656,8 +656,8 @@ This is the fast option with very good compatibility.
 If unsure, use this option.</source>
         <oldsource>This is the fast option with very good compatibility.
 If unsure, use this option.</oldsource>
-        <translation>反编译使用 ASMJIT 反编译游戏的 SPU 代码。
-这是相容性非常好的快速的选项。
+        <translation>使用 ASMJIT 重编译器来重编译游戏的 SPU 码。
+这是非常好的兼容性的快速选项。
 如果不确定，请使用此选项。</translation>
     </message>
     <message>
@@ -668,9 +668,9 @@ If you experience issues, use the ASMJIT Recompiler.</source>
         <oldsource>This is the fastest option with very good compatibility.
 Recompiles the game&apos;s SPU LLVM cache before running which adds extra start-up time.
 If you experience issues, use the ASMJIT Recompiler.</oldsource>
-        <translation>在执行之前，使用“ LLVM 反编译”和快取游戏的 SPU 代码，将增加启动时间。
-这是相容性最好的最快选项。
-如果遇到问题，请使用“ASMJIT 反编译”。</translation>
+        <translation>在游戏运行之前，使用 LLVM 重编译器，重编译并缓存游戏的 SPU 码；会增加额外的启动时间。
+这是非常好的兼容性的最快选项。
+如果遇到问题，请使用 ASMJIT 重编译器。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="75"/>
@@ -681,8 +681,8 @@ This setting is only applied when SPU Decoder is set to Dynamic or LLVM.</source
 Fixes bugs in various games at the cost of performance.
 This setting is only applied when SPU Decoder is set to Dynamic or LLVM.</oldsource>
         <translation>控制 SPU 浮点向量处理的准确性。
-以效能付出修正各种游戏中的错误。
-仅当 SPU 译码器设定为“动态”或“ LLVM”时，才能应用此设定。</translation>
+牺牲一部分性能以在多个游戏中修复一些错误。
+仅当 SPU 解码器设定为动态或 LLVM 时，才应用此设置。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="76"/>
@@ -692,9 +692,9 @@ Changing the thread scheduler is not supported on CPUs with less than 12 threads
         <oldsource>Control how RPCS3 utilizes the threads of your system.
 Each option heavily depends on the game and on your CPU, it&apos;s recommended to try each option to find out which performs the best.
 Changing the thread scheduler is not supported on CPUs with less than 12 threads.</oldsource>
-        <translation>控制 RPCS3 如何利用系统执行绪。
-每个选项在很大程度上取决于游戏和您的 CPU，建议您尝试每个选项以找出执行效果最好的选项。
-少于 12 个执行绪的 CPU 不支援变更执行绪排程器。</translation>
+        <translation>控制 RPCS3 如何利用你的系统线程。
+每个选项很大程度上会因游戏和你的 CPU 而有所不同。推荐尝试一下每个选项以找出表现最佳者。
+调整线程调度器在少于 12 线程的 CPU 上是不支持的。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="78"/>
@@ -704,35 +704,34 @@ Forcing TSX in these cases may lead to system and performance instability, use i
         <oldsource>Enable usage of TSX instructions.
 Needs to be forced on some Haswell or Broadwell CPUs.
 Forcing this on older Hardware can lead to system instability, use it with caution.</oldsource>
-        <translation>启用 TSX 指令的应用
-需要强制使用的某些 Haswell 或 Broadwell 的 CPU 或带有 TSX-FA 指令集的 CPU。
-在这些情况下强制使用 TSX 可能会导致系统和效能不稳定，请谨慎使用。</translation>
+        <translation>启用 TSX 指令的使用。
+在一些 Haswell 或 Boradwell CPU，或支持 TSX-FA 指令集的 CPU 上，此选项需要强制开启。
+在旧的硬件上强制开启此选项会导致系统的不稳定，请小心使用。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="77"/>
         <source>Try to detect loop conditions in SPU kernels and use them as scheduling hints.
 Improves performance and reduces CPU usage.
 May cause severe audio stuttering in rare cases.</source>
-        <translation>尝试侦测 SPU 核心中的循环条件，并将其用作为排程点。
-提高效能并降低 CPU 使用率。
-在极少数情况下可能引起严重的声音延迟。</translation>
+        <translation>尝试在 SPU 内核中探测循环条件并使用它们作为调度提示。
+提升表现并减少 CPU 使用。
+在极少数情形下，会引起严重的音频断续问题。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="79"/>
         <source>This option controls the SPU analyser, particularly the size of compiled units. The Mega and Giga modes may improve performance by tying smaller units together, decreasing the number of compiled units but increasing their size.
 Use the Safe mode for maximum compatibility.</source>
-        <translation>此选项控制 SPU 分析器，尤其是编译单元的大小。
-“Mega”和“Giga”模式可以通过把小单元组合在一起减少编译单位的数量，但增加其大小来提高效能。
-使用“安全”模式可获得最大相容性。</translation>
+        <translation>此选项控制 SPU 分析器，尤其是编译单元的尺寸。Mega 和 Giga 模式通过将小的单元捆扎一起（减少编译的单元数量但增大其尺寸）来提升性能。
+如求最佳兼容性，请使用 Safe 模式。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="80"/>
         <source>Some SPU stages are sensitive to race conditions and allowing a limited number at a time helps alleviate performance stalls.
 Setting this to a smaller value might improve performance and reduce stuttering in some games.
 Leave this on auto if performance is negatively affected when setting a small value.</source>
-        <translation>有些 SPU 阶段对运行条件敏捷 ，允许一段有限数量助于缓解效能停滞。
-将其设定较小的值也许提高效能并减少某些游戏中的卡顿。
-如果设定较小的值时效能受到影响，请保持为“自动”。</translation>
+        <translation>一些 SPU 阶段对条件竞争敏感，同一时间只允许限定数量（的条件）以帮助缓解性能的下跌。
+设置此选项为一较小值，可能会提升一些游戏的表现并减少断续情况的出现。
+设置为小的数值时，如果性能遭受了负面影响，请保留此选项为 auto。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="81"/>
