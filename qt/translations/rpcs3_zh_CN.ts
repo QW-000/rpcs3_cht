@@ -637,7 +637,7 @@ Should you face compatibility issues, fall back to one of the Interpreters and r
 If unsure, use this option.</oldsource>
         <translation>在游戏首次运行之前，使用 LLVM 重编译器，重编译并缓存游戏的 PPU 码一次。
 这是迄今最为快速的选项，应当始终使用。
-若你遇到了兼容性问题，回落至直译器的一种，然后重试。
+若你遇到了兼容性问题，回落至解释器的一种，然后重试。
 如果不确定，则使用此选项。</translation>
     </message>
     <message>
@@ -738,16 +738,16 @@ Leave this on auto if performance is negatively affected when setting a small va
         <source>Enables the use of code with full width AVX-512.
 This code can be executed much faster, but may cause a loss in performance if your CPU model experiences downclocking on wide AVX-512 loads.
 Note that AVX-512 instructions will be used regardless of this option, just at 128 and 256 bit width.</source>
-        <translation>允许使用全宽 AVX-512 代码。
-此代码可以更快地执行，但是 CPU 型号在宽 AVX-512 负载下经历降频操作，则可能会导致效能损耗。
-注意，使用 AVX-512 指令时将忽略这个选项，只是在 128 和 256 位元的宽度。</translation>
+        <translation>启用对全宽 AVX-512 码的使用。
+此代码可以更快地执行，如果你的 CPU 型号在宽 AVX-512 负载下遭受了降频，则可能会在性能上有所损失。
+注意：AVX-512 指令只会在 128 和 256 位宽下忽略此选项而使用。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="93"/>
         <source>Creates PPU logs.
 Only useful to developers.
 Never use this.</source>
-        <translation>建立 PPU 日志。
+        <translation>创建 PPU 日志。
 仅对开发人员有用。
 请勿使用。</translation>
     </message>
@@ -756,7 +756,7 @@ Never use this.</source>
         <source>Creates SPU logs.
 Only useful to developers.
 Never use this.</source>
-        <translation>建立 SPU 日志。
+        <translation>创建 SPU 日志。
 仅对开发人员有用。
 请勿使用。</translation>
     </message>
@@ -765,7 +765,7 @@ Never use this.</source>
         <source>Creates MFC logs.
 Only useful to developers.
 Never use this.</source>
-        <translation>建立 MFC 日志。
+        <translation>创建 MFC 日志。
 仅对开发人员有用。
 请勿使用。</translation>
     </message>
@@ -775,47 +775,47 @@ Never use this.</source>
 Only used in PPU thread when it&apos;s not precise.
 Only useful to developers.
 Never use this.</source>
-        <translation>设定专用的 MXCSR 标志以侦错 SSE 运算中的错误。
-仅在不使用精确时的 PPU 执行绪中使用。
+        <translation>设定特殊 MXCSR 标志位来调试在 SSE 运算中的错误信息。
+仅在不精确的 PPU 线程中使用。
 仅对开发人员有用。
 请勿使用。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="97"/>
         <source>Accurately processes SPU MFC_GETLLAR operation.</source>
-        <translation>准确处理 SPU MFC_GETLLAR 运算。</translation>
+        <translation>精准处理 SPU MFC_GETLLAR 运算。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="98"/>
         <source>Accurately processes SPU DMA operations.</source>
         <oldsource>Accurately processes SPU MFC_PUTLLUC operation.</oldsource>
-        <translation>准确处理 SPU DMA 运算。</translation>
+        <translation>精准处理 SPU DMA 运算。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="99"/>
         <source>Accurately processes PPU DCBZ instruction.
 In addition, when combined with Accurate SPU DMA, SPU PUT cache line accesses will be processed atomically.</source>
-        <translation>准确处理 PPU DCBZ 指令。
-此外，当与准确 SPU DMA 组合使用时，将自动处理 SPU PUT 快取列存取。</translation>
+        <translation>精准处理 PPU DCBZ 指令。
+此外，在与精准 SPU DMA 组合使用时，SPU PUT 缓存线的存取会被原子性地处理。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="100"/>
         <source>Forces RSX pauses on SPU MFC_GETLLAR and SPU MFC_PUTLLUC operations.</source>
-        <translation>在 SPU MFC_GETLLAR 和 SPU MFC_PUTLLUC 运算上强制 RSX 暂停。</translation>
+        <translation>在 SPU MFC_GETLLAR 和 SPU MFC_PUTLLUC 运算中强制 RSX 暂停。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="101"/>
         <source>Forces delaying any odd MFC command, waits for at least 2 pending commands to execute them in a random order.
 Must be used with either SPU interpreters currently.
 Severely degrades performance! If unsure, don&apos;t use this option.</source>
-        <translation>强制延迟任何奇数的 MFC 指令，等待至少 2 个待处理命令以随机顺序执行。
-当前必须与任一 SPU 直译器一起使用。
-严重降低效能! 如果不确定，请勿使用此选项。</translation>
+        <translation>强制延迟所有奇数 MFC 指令，至少等待两个待处理命令，以使用随机序列执行它们。
+当前必须与任一 SPU 解释器一起使用。
+严重降低性能！如不确定，请勿使用此选项。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="102"/>
         <source>Allows to hook some functions like &apos;memcpy&apos; replacing them with high-level implementations. May do nothing or break things. Experimental.</source>
-        <translation>允许挂钩某些功能，例如&apos;memcpy&apos;替代与高阶实现。可能什么也不会做或破坏一些项目(实验)。</translation>
+        <translation>允许钩住某些函数如&apos;memcpy&apos;，并使用更高级的实现来替换它们。可能什么也不做，也可能搞砸一些东西。实验性功能。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="103"/>
@@ -824,18 +824,18 @@ Also allows vulkan to use debug markers for nicer Renderdoc captures.
 If unsure, don&apos;t use this option.</source>
         <oldsource>Enables use of classic OpenGL buffers which allows capturing tools to work with RPCS3 e.g RenderDoc.
 If unsure, don&apos;t use this option.</oldsource>
-        <translation>“使用旧版的 OpenGL 缓冲”允许截取工具使用 RPCS3，例如;RenderDoc。
-也允许 Vulkan 使用侦错标志进行更好的 Renderdoc 截取。
-如果不确定，请勿使用此选项。</translation>
+        <translation>启用经典 OpenGL 缓冲的使用，以允许一些捕获工具能和 RPCS3 一起工作，如 RenderDoc。
+为求更棒的 Renderdoc 捕获，也允许 Vulkan 使用调试标记。
+如不确定，请勿使用此选项。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="104"/>
         <source>Only useful when debugging differences in GPU hardware.
 Not necessary for average users.
 If unsure, don&apos;t use this option.</source>
-        <translation>仅当侦错 GPU 硬体差异时才有用。
+        <translation>仅在调试 GPU 硬件差异时有用。
 一般使用者不需要。
-如果不确定，请勿使用此选项。</translation>
+如不确定，请勿使用此选项。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="105"/>
@@ -843,31 +843,31 @@ If unsure, don&apos;t use this option.</source>
 Will cause severe performance degradation especially with Vulkan.
 Only useful to developers.
 If unsure, don&apos;t use this option.</source>
-        <translation>启用选定 API 内建侦错功能。
-将导致效能严重降低，特别是 vulkan。
-只对开发人员有用。
-如果不确定，请勿使用此选项。</translation>
+        <translation>启用已选择 API 的内置调试功能。
+会导致严重的性能下降，尤其是 Vulkan。
+仅对开发人员有用。
+如不确定，请勿使用此选项。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="106"/>
         <source>Provides a graphical overlay of various debugging information.
 If unsure, don&apos;t use this option.</source>
-        <translation>提供各种侦错讯息的图形重叠。
-如果不确定，请勿使用此选项。</translation>
+        <translation>提供多种调试信息的图形图层。
+如不确定，请勿使用此选项。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="107"/>
         <source>Dump game shaders to file. Only useful to developers.
 If unsure, don&apos;t use this option.</source>
-        <translation>倾印游戏着色器档案。 只对开发人员有用。
-如果不确定，请勿使用此选项。</translation>
+        <translation>将游戏着色器转储到文件中。仅对开发人员有用。
+如不确定，请勿使用此选项。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="108"/>
         <source>Disables running occlusion queries. Minor to moderate performance boost.
 Might introduce issues with broken occlusion e.g missing geometry and extreme pop-in.</source>
-        <translation>停用执行遮挡查询些微的中等效能提升。
-可能引入损坏遮挡的问题，例如缺少几何体和极端弹出。</translation>
+        <translation>禁止运行遮挡查询。轻微到中等的性能跃升。
+可能引起破坏遮挡的问题，如缺少几何体和极端 pop-in。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="110"/>
@@ -875,56 +875,56 @@ Might introduce issues with broken occlusion e.g missing geometry and extreme po
 Requires &apos;Write Color Buffers&apos; option to also be enabled in most cases to avoid missing graphics.
 Significantly degrades performance but is more accurate in some cases.
 This setting overrides the &apos;GPU texture scaling&apos; option.</source>
-        <translation>强制模拟 CPU 进行所有位块传输和图形处理操作。
-在大多数情况下还要启用“写入色彩缓冲”选项以避免丢失图形。
-在某些情况下效能显著降低了但更准确。
-此设定将覆盖“GPU 纹理缩放”选项。</translation>
+        <translation>强制所有 blit 和图像处理的模拟在 CPU 上运行。
+在大多数情形下，还需要启用“写入色彩缓冲”选项以避免图形丢失。
+极大降低性能，但在一些情形中会更精准。
+此设置会覆盖“GPU 纹理缩放”选项。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="111"/>
         <source>Disables the custom Vulkan memory allocator and reverts to direct calls to VkAllocateMemory/VkFreeMemory.</source>
-        <translation>停用自订 Vulkan 记忆分配器并还原为直接调用 VkAllocateMemory/VkFreeMemory。</translation>
+        <translation>禁用自定义的 Vulkan 内存分配器，并回复为直接调用 VkAllocateMemory/VkFreeMemory。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="112"/>
         <source>Disables RSX FIFO optimizations completely. Draws are processed as they are received by the DMA puller.</source>
-        <translation>完全停用 RSX FIFO 最佳化。 绘图在 DMA 拉出器接收时进行处理。</translation>
+        <translation>完全禁用 RSX FIFO 优化。绘制会在被 DMA 拉出器接收时处理。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="113"/>
         <source>Force all texture transfer, scaling and conversion operations on the GPU.
 May cause texture corruption in some cases.</source>
-        <translation>强制 GPU 上的所有纹理传送、缩放以及转换动作。
-在某些情况下可能会导致纹理损坏。</translation>
+        <translation>强制所有纹理的传输、缩放和转换在 GPU 上运行。
+在一些情形下可能会导致纹理损坏。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="114"/>
         <source>Forces texture flushing even in situations where it is not necessary/correct. Known to cause visual artifacts, but useful for debugging certain texture cache issues.</source>
-        <translation>即使没必要修正的情况下也会强制清理纹理。已知会导致视觉瑕疵，但对侦错某些纹理快取问题很有用。</translation>
+        <translation>强制纹理冲刷——即便在一些不那么需要或正确的情况下。已知会导致视觉伪影问题，但对调试特定纹理的缓存问题是有用的。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="116"/>
         <source>When enabled, PPU atomic operations will operate on entire cache line data, as opposed to a single 64bit block of memory when disabled.
 Numerical values control whether or not to enable the accurate version based on the atomic operation&apos;s length.</source>
-        <translation>启用后，PPU 原子作业将在整个快取列的资料进行运算，与禁用时的单个 64 位元记忆区块相反。
-数值根据原子作业的长度控制是否启用准确的版本。</translation>
+        <translation>启用后，PPU 原子操作会运行在整个缓存线数据上，与之相反，禁用后，则只有一个单独的 64 位内存块。
+数值基于原子操作的长度来控制是否启用精准版本。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="117"/>
         <source>Measure certain events and print a chart after the emulator is stopped. Don&apos;t enable if not asked to.</source>
-        <translation>停止仿真器后，测量某些事件并列印图表。 如果没有要求，请不要启用。</translation>
+        <translation>在模拟器停止后，测量特定事件并打印一个表格。如未被请求，请勿启用。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="118"/>
         <source>Affects maximum amount of PPU threads running concurrently, the value of 1 has very low compatibility with games.
 2 is the default, if unsure do not modify this setting.</source>
-        <translation>影响 PPU 的最大执行绪数同时执行，值为 1 对游戏的相容性非常低。
-2 是预设值，如果不确定请不要变更此设定。</translation>
+        <translation>会影响 PPU 并行线程的最大数量，值为 1 时对游戏的兼容性非常低。
+2 为默认值，如不确定，请勿修改此设置。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="67"/>
         <source>Interpreter (slow). Try this if PPU Recompiler (LLVM) doesn&apos;t work.</source>
-        <translation>直译器 (慢)。 如果 PPU“反编译 (LLVM)”不起作用，请尝试此选项。</translation>
+        <translation>解释器（慢）。如 PPU 重编译器（LLVM）不工作，可尝试此选项。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="36"/>
@@ -933,22 +933,21 @@ Numerical values control whether or not to enable the accurate version based on 
 &quot;Atomic &amp; Ordered&quot; is the most accurate but it is the slowest and without much stability benefit in games.</source>
         <oldsource>&quot;Fast&quot; is the least accurate setting, RSX does not emulate atomic FIFO buffer.
 &quot;Atomic &amp; Ordered&quot; is the most accurate but it is the slowest and without much stability benefit in games over &quot;Atomic&quot; which benefits stability greatly in many games with little performance penalty.</oldsource>
-        <translation>“快速”是最不准确的设定，RSX 不模拟原子 FIFO 缓冲区。
-“Atomic”在许多游戏中极大地提高了稳定性，而效能损失很小。
-“Atomic &amp; Ordered”最为准确，但也会是最慢的，并且在游戏中没有太多的稳定性优势。</translation>
+        <translation>“快速”是最不精准的设置，RSX 不会模拟原子 FIFO 缓冲。
+“原子”在许多游戏中极大地有利于其稳定性，只是会有一点点性能的损失。
+“有序原子”最精准，但也最慢，且对游戏的稳定性没多少好处。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="38"/>
         <source>Multiplies the rate of VBLANK by 1000/1001 for values like 59.94Hz.
 Known to fix the rhythm game Space Channel 5 Part 2</source>
-        <translation>将 VBLANK 的速率乘以 1000/1001 以获得 59.94Hz 等值。
-已知修正节奏游戏“Space Channel 5 Part 2”</translation>
+        <translation>为求像 59.94Hz 这样的值，将 VBLANK 的速率乘以 1000/1001。
+已知修复了节奏游戏“Space Channel 5 Part 2”（的相关问题）。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="43"/>
         <source>Allows the host GPU to synchronize with CELL directly. This incurs a performance penalty, but exposes the true state of GPU objects to the guest CPU. Can help eliminate visual noise and glitching at the cost of performance. Use with caution.</source>
-        <translation>允许主机 GPU 直接与 CELL 同步。 
-这会导致效能损失，但会将 GPU 物件的真实状态暴露给客体 CPU。 以付出效能帮助消除视觉杂讯和故障。 谨慎使用。</translation>
+        <translation>允许 host GPU 与 CELL 直接同步。这会带来性能的损失，但暴露了 GPU object 的真实状态给 guest CPU。以性能为代价，可以帮助消除视觉噪音和错误。请小心使用。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="45"/>
