@@ -42,12 +42,12 @@
 <context>
     <name>Buffer</name>
     <message>
-        <location filename="rpcs3qt/rsx_debugger.cpp" line="382"/>
+        <location filename="rpcs3qt/rsx_debugger.cpp" line="383"/>
         <source>Save Image At</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/rsx_debugger.cpp" line="388"/>
+        <location filename="rpcs3qt/rsx_debugger.cpp" line="389"/>
         <source>Save Image</source>
         <translation type="unfinished"></translation>
     </message>
@@ -350,12 +350,12 @@
 <context>
     <name>QObject</name>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="658"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="673"/>
         <source>Pause the SPU Thread!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="658"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="673"/>
         <source>Cannot perform SPU capture due to the thread need manual pausing!</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1463,74 +1463,79 @@ This can be very helpful during calibration screens.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/tooltips.h" line="232"/>
+        <location filename="rpcs3qt/tooltips.h" line="230"/>
+        <source>Locks the native overlay input to the first player.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/tooltips.h" line="234"/>
         <source>If set to Connected, RPCS3 will allow programs to use your internet connection.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/tooltips.h" line="233"/>
+        <location filename="rpcs3qt/tooltips.h" line="235"/>
         <source>If set to RPCN, RPCS3 will use the RPCN server as PSN connection if the game is supported.
 If set to Simulated, RPCS3 will try to fake the PSN connection, but any actual attempt at using the PSN functionality may result in errors or crashes.
 Simulated is only available in custom configurations.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/tooltips.h" line="234"/>
+        <location filename="rpcs3qt/tooltips.h" line="236"/>
         <source>DNS used to resolve hostnames by applications.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/tooltips.h" line="235"/>
+        <location filename="rpcs3qt/tooltips.h" line="237"/>
         <source>DNS Swap List.
 Only available in custom configurations.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/tooltips.h" line="236"/>
+        <location filename="rpcs3qt/tooltips.h" line="238"/>
         <source>Interface IP Address to bind to.
 Only available in custom configurations.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/tooltips.h" line="237"/>
+        <location filename="rpcs3qt/tooltips.h" line="239"/>
         <source>Enable UPNP.
 This will automatically forward ports bound on 0.0.0.0 if your router has UPNP enabled.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/tooltips.h" line="241"/>
+        <location filename="rpcs3qt/tooltips.h" line="243"/>
         <source>The console region defines the license area of the PS3.
 Depending on the license area, some games may not work.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/tooltips.h" line="242"/>
+        <location filename="rpcs3qt/tooltips.h" line="244"/>
         <source>Some games may fail to boot if the system language is not available in the game itself.
 Other games will switch language automatically to what is selected here.
 It is recommended leaving this on a language supported by the game.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/tooltips.h" line="243"/>
+        <location filename="rpcs3qt/tooltips.h" line="245"/>
         <source>Sets the used keyboard layout.
 Currently only US, Japanese and German layouts are fully supported at this moment.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/tooltips.h" line="244"/>
+        <location filename="rpcs3qt/tooltips.h" line="246"/>
         <source>The button used for enter/accept/confirm in system dialogs.
 Change this to use the Circle button instead, which is the default configuration on Japanese systems and in many Japanese games.
 In these cases having the cross button assigned can often lead to confusion.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/tooltips.h" line="245"/>
+        <location filename="rpcs3qt/tooltips.h" line="247"/>
         <source>Required for some Homebrew.
 If unsure, don&apos;t use this option.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/tooltips.h" line="246"/>
+        <location filename="rpcs3qt/tooltips.h" line="248"/>
         <source>Automatically removes older files from disk cache on boot if it grows larger than the specified value.
 Games can use the cache folder to temporarily store data outside of system memory. It is not used for long-term storage.
 
@@ -1538,141 +1543,146 @@ This setting is only available in the global configuration.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/tooltips.h" line="247"/>
+        <location filename="rpcs3qt/tooltips.h" line="249"/>
         <source>Sets the time to be used within the console. This will be applied as an offset that tracks wall clock time.
 Can be reset to current wallclock time by clicking &quot;Set to Now&quot;.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/tooltips.h" line="252"/>
+        <location filename="rpcs3qt/tooltips.h" line="254"/>
         <source>This controller is disabled and will appear as disconnected to software. Choose another handler to enable it.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/tooltips.h" line="253"/>
+        <location filename="rpcs3qt/tooltips.h" line="255"/>
         <source>This port is currently assigned to a custom controller by the application and can&apos;t be changed.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/tooltips.h" line="254"/>
+        <location filename="rpcs3qt/tooltips.h" line="256"/>
         <source>While it is possible to use a keyboard as a pad in RPCS3, the use of an actual controller is strongly recommended.&lt;br&gt;To bind mouse movement to a button or joystick, click on the desired button to activate it, then click and hold while dragging the mouse to a direction.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/tooltips.h" line="255"/>
+        <location filename="rpcs3qt/tooltips.h" line="257"/>
         <source>In order to use the DualShock 3 handler, you need to install the official DualShock 3 driver first.&lt;br&gt;See the &lt;a %0 href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 Wiki&lt;/a&gt; for instructions.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/tooltips.h" line="256"/>
+        <location filename="rpcs3qt/tooltips.h" line="258"/>
         <source>In order to use the DualShock 3 handler, you might need to add udev rules to let RPCS3 access the controller.&lt;br&gt;See the &lt;a %0 href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 Wiki&lt;/a&gt; for instructions.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/tooltips.h" line="257"/>
+        <location filename="rpcs3qt/tooltips.h" line="259"/>
         <source>The DualShock 3 handler is recommended for official DualShock 3 controllers.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/tooltips.h" line="258"/>
+        <location filename="rpcs3qt/tooltips.h" line="260"/>
         <source>If you have any issues with the DualShock 4 handler, it might be caused by third-party tools such as DS4Windows. It&apos;s recommended that you disable them while using this handler.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/tooltips.h" line="259"/>
+        <location filename="rpcs3qt/tooltips.h" line="261"/>
         <source>In order to use the DualShock 4 handler, you might need to add udev rules to let RPCS3 access the controller.&lt;br&gt;See the &lt;a %0 href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 Wiki&lt;/a&gt; for instructions.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/tooltips.h" line="260"/>
+        <location filename="rpcs3qt/tooltips.h" line="262"/>
         <source>The DualShock 4 handler is recommended for official DualShock 4 controllers.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/tooltips.h" line="261"/>
-        <location filename="rpcs3qt/tooltips.h" line="262"/>
         <location filename="rpcs3qt/tooltips.h" line="263"/>
+        <location filename="rpcs3qt/tooltips.h" line="264"/>
+        <location filename="rpcs3qt/tooltips.h" line="265"/>
         <source>The DualSense handler is recommended for official DualSense controllers.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/tooltips.h" line="264"/>
+        <location filename="rpcs3qt/tooltips.h" line="266"/>
         <source>The XInput handler will work with Xbox controllers and many third-party PC-compatible controllers. Pressure sensitive buttons from SCP are supported when SCP&apos;s XInput1_3.dll is placed in the main RPCS3 directory. For more details, see the &lt;a %0 href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 Wiki&lt;/a&gt;.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/tooltips.h" line="265"/>
+        <location filename="rpcs3qt/tooltips.h" line="267"/>
         <source>The evdev handler should work with any controller that has linux support.&lt;br&gt;If your joystick is not being centered properly, read the &lt;a %0 href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 Wiki&lt;/a&gt; for instructions.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/tooltips.h" line="266"/>
+        <location filename="rpcs3qt/tooltips.h" line="268"/>
         <source>The MMJoystick handler should work with almost any controller recognized by Windows. However, it is recommended that you use the more specific handlers if you have a controller that supports them.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/tooltips.h" line="267"/>
+        <location filename="rpcs3qt/tooltips.h" line="269"/>
         <source>The SDL handler supports a variety of controllers across different platforms.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/tooltips.h" line="269"/>
+        <location filename="rpcs3qt/tooltips.h" line="271"/>
         <source>Controls the intensity of pressure sensitive buttons while this special button is pressed.&lt;br&gt;Enable &quot;Toggle&quot; if you want to toggle the intensity on button press instead.&lt;br&gt;Use the percentage to change how hard you want to press a button.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/tooltips.h" line="270"/>
+        <location filename="rpcs3qt/tooltips.h" line="272"/>
         <source>The actual DualShock 3&apos;s stick range is not circular but formed like a rounded square (or squircle) which represents the maximum range of the emulated sticks. You can use the squircle values to modify the stick input if your sticks can&apos;t reach the corners of that range. A value of 0 does not apply any so called squircling. A value of 8000 is usually recommended.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/tooltips.h" line="271"/>
+        <location filename="rpcs3qt/tooltips.h" line="273"/>
         <source>The stick multipliers can be used to change the sensitivity of your stick movements.&lt;br&gt;The default setting is 1 and represents normal input.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/tooltips.h" line="272"/>
+        <location filename="rpcs3qt/tooltips.h" line="274"/>
         <source>A stick&apos;s deadzone determines how far the stick has to be moved until it is fully recognized by the game. The resulting range will be projected onto the full input range in order to give you a smooth experience. Movement inside the deadzone is actually simulated as a real DualShock 3&apos;s deadzone of ~13%, so don&apos;t worry if there is still movement shown in the emulated stick preview.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/tooltips.h" line="273"/>
+        <location filename="rpcs3qt/tooltips.h" line="275"/>
         <source>The PS3 activates two motors (large and small) to handle controller vibrations.&lt;br&gt;You can enable, disable or even switch these signals for the currently selected pad here.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/tooltips.h" line="274"/>
+        <location filename="rpcs3qt/tooltips.h" line="276"/>
         <source>Use this to configure the gamepad motion controls.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/tooltips.h" line="275"/>
+        <location filename="rpcs3qt/tooltips.h" line="277"/>
         <source>The emulated stick values (red dots) in the stick preview represent the actual stick positions as they will be visible to the game. The actual DualShock 3&apos;s stick range is not circular but formed like a rounded square (or squircle) which represents the maximum range of the emulated sticks. The blue regular dots represent the raw stick values (including stick multipliers) before they are converted for ingame usage.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/tooltips.h" line="276"/>
+        <location filename="rpcs3qt/tooltips.h" line="278"/>
         <source>A trigger&apos;s deadzone determines how far the trigger has to be moved until it is recognized by the game. The resulting range will be projected onto the full input range in order to give you a smooth experience.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/tooltips.h" line="277"/>
+        <location filename="rpcs3qt/tooltips.h" line="279"/>
         <source>With keyboards, you are inevitably restricted to 8 stick directions (4 straight + 4 diagonal). Furthermore, the stick will jump to the maximum value of the chosen direction immediately when a key is pressed. The stick interpolation can be used to work-around both of these issues by smoothening out these directional changes. The lower the value, the longer you have to press or release a key until the maximum amplitude is reached.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/tooltips.h" line="278"/>
+        <location filename="rpcs3qt/tooltips.h" line="280"/>
         <source>The mouse deadzones represent the games&apos; own deadzones on the x and y axes. Games usually enforce their own deadzones to filter out small unwanted stick movements. In consequence, mouse input feels unintuitive since it relies on immediate responsiveness. You can change these values temporarily during gameplay in order to find out the optimal values for your game (Alt+T and Alt+Y for x, Alt+U and Alt+I for y).</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/tooltips.h" line="279"/>
+        <location filename="rpcs3qt/tooltips.h" line="281"/>
         <source>The mouse acceleration can be used to amplify your mouse movements on the x and y axes. Increase these values if your mouse movements feel too slow while playing a game. You can change these values temporarily during gameplay in order to find out the optimal values (Alt+G and Alt+H for x, Alt+J and Alt+K for y). Keep in mind that modern mice usually provide different modes and settings that can be used to change mouse movement speeds as well.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/tooltips.h" line="280"/>
+        <location filename="rpcs3qt/tooltips.h" line="282"/>
         <source>The mouse movement mode determines how the mouse movement is translated to pad input.&lt;br&gt;Use the relative mode for traditional mouse movement.&lt;br&gt;Use the absolute mode to use the mouse&apos;s distance to the center of the screen as input value.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/tooltips.h" line="283"/>
+        <source>Left-click: remap this button.&lt;br&gt;Shift + Left-click: add an addition button mapping.&lt;br&gt;Right-click: clear this button mapping.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1690,12 +1700,12 @@ Can be reset to current wallclock time by clicking &quot;Set to Now&quot;.</sour
     </message>
     <message>
         <location filename="rpcs3qt/about_dialog.ui" line="218"/>
-        <source>&lt;p&gt;&lt;b&gt;Developers:&lt;/b&gt;&lt;br&gt;&lt;br&gt;¬DH&lt;br&gt;¬AlexAltea&lt;br&gt;¬Hykem&lt;br&gt;¬Oil&lt;br&gt;Nekotekina&lt;br&gt;¬Bigpet&lt;br&gt;¬gopalsr83&lt;br&gt;¬tambry&lt;br&gt;¬vlj&lt;br&gt;kd-11&lt;br&gt;¬jarveson&lt;br&gt;¬raven02&lt;br&gt;AniLeo&lt;br&gt;cornytrace&lt;br&gt;ssshadow&lt;br&gt;¬Numan&lt;br&gt;hcorion&lt;br&gt;Megamouse&lt;br&gt;¬flash-fire&lt;br&gt;DAGINATSUKO&lt;br&gt;GalCiv&lt;br&gt;eladash&lt;/p&gt;</source>
+        <source>&lt;p&gt;&lt;b&gt;Developers:&lt;/b&gt;&lt;br&gt;&lt;br&gt;¬DH&lt;br&gt;¬AlexAltea&lt;br&gt;¬Hykem&lt;br&gt;¬Oil&lt;br&gt;Nekotekina&lt;br&gt;¬Bigpet&lt;br&gt;¬gopalsr83&lt;br&gt;¬tambry&lt;br&gt;¬vlj&lt;br&gt;kd-11&lt;br&gt;¬jarveson&lt;br&gt;¬raven02&lt;br&gt;AniLeo&lt;br&gt;¬cornytrace&lt;br&gt;¬ssshadow&lt;br&gt;¬Numan&lt;br&gt;hcorion&lt;br&gt;Megamouse&lt;br&gt;¬flash-fire&lt;br&gt;DAGINATSUKO&lt;br&gt;GalCiv&lt;br&gt;eladash&lt;/p&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="rpcs3qt/about_dialog.ui" line="234"/>
-        <source>&lt;p&gt;&lt;b&gt;Contributors:&lt;/b&gt;&lt;br&gt;&lt;br&gt;BlackDaemon&lt;br&gt;elisha464&lt;br&gt;Aishou&lt;br&gt;krofna&lt;br&gt;xsacha&lt;br&gt;danilaml&lt;br&gt;unknownbrackets&lt;br&gt;Zangetsu38&lt;br&gt;lioncash&lt;br&gt;achurch&lt;br&gt;darkf&lt;br&gt;Syphurith&lt;br&gt;Blaypeg&lt;br&gt;Survanium90&lt;br&gt;georgemoralis&lt;br&gt;ikki84&lt;br&gt;scribam&lt;br&gt;TGE&lt;br&gt;velocity&lt;br&gt;Farseer&lt;br&gt;Dangles&lt;br&gt;ruipin&lt;br&gt;jbeich&lt;br&gt;CookiePLMonster&lt;br&gt;Whatcookie&lt;br&gt;rajkosto&lt;br&gt;Admiral Thrawn&lt;/p&gt;</source>
+        <source>&lt;p&gt;&lt;b&gt;Contributors:&lt;/b&gt;&lt;br&gt;&lt;br&gt;BlackDaemon&lt;br&gt;elisha464&lt;br&gt;Aishou&lt;br&gt;krofna&lt;br&gt;xsacha&lt;br&gt;danilaml&lt;br&gt;unknownbrackets&lt;br&gt;Zangetsu38&lt;br&gt;lioncash&lt;br&gt;achurch&lt;br&gt;darkf&lt;br&gt;Syphurith&lt;br&gt;Blaypeg&lt;br&gt;Survanium90&lt;br&gt;georgemoralis&lt;br&gt;ikki84&lt;br&gt;scribam&lt;br&gt;TGE&lt;br&gt;velocity&lt;br&gt;Farseer&lt;br&gt;Dangles&lt;br&gt;ruipin&lt;br&gt;jbeich&lt;br&gt;CookiePLMonster&lt;br&gt;Whatcookie&lt;br&gt;rajkosto&lt;br&gt;Admiral Thrawn&lt;br&gt;FlexBy&lt;br&gt;Dunastique&lt;br&gt;Jonathan44062&lt;br&gt;yurinator557&lt;br&gt;Satan&lt;br&gt;HoldTheMourning&lt;br&gt;illusion0001&lt;/p&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1763,11 +1773,21 @@ Can be reset to current wallclock time by clicking &quot;Set to Now&quot;.</sour
     </message>
     <message>
         <location filename="rpcs3qt/about_dialog.ui" line="358"/>
+        <source>Discord</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/about_dialog.ui" line="365"/>
+        <source>Wiki</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/about_dialog.ui" line="372"/>
         <source>Patreon</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/about_dialog.ui" line="378"/>
+        <location filename="rpcs3qt/about_dialog.ui" line="392"/>
         <source>Close</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2119,7 +2139,7 @@ Some settings seem to deviate from the default config:</source>
     </message>
     <message>
         <location filename="rpcs3qt/debugger_frame.cpp" line="106"/>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="1133"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="1148"/>
         <source>Go To Address</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2139,39 +2159,40 @@ Some settings seem to deviate from the default config:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="260"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="263"/>
         <source>Breakpoint Settings</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="263"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="266"/>
         <source>Pause All Threads On Hit</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="266"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="269"/>
         <source>When set: a breakpoint hit will pause the emulation instead of the current thread.
 Applies on all breakpoints in all threads regardless if set before or after changing this setting.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="271"/>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="1155"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="274"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="1170"/>
         <source>OK</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="305"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="308"/>
         <source>Debugger Guide &amp; Shortcuts</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="307"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="310"/>
         <source>Keys Ctrl+G: Go to typed address.
 Keys Ctrl+B: Open breakpoints settings.
 Keys Ctrl+C: Copy instruction contents.
 Keys Ctrl+F: Find thread.
 Keys Alt+S: Capture SPU images of selected SPU or generalized form when used from PPU.
+Keys Alt+S: Launch a memory viewer pointed to the current RSX semaphores location when used from RSX.
 Keys Alt+R: Load last saved SPU state capture.
 Key D: SPU MFC commands logger, MFC debug setting must be enabled.
 Key D: Also PPU calling history logger, interpreter and non-zero call history size must be used.
@@ -2192,23 +2213,23 @@ Double-click: Set breakpoints.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="482"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="486"/>
         <source>Max MFC cmds logged</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="482"/>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="538"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="486"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="542"/>
         <source>Decimal only, max allowed is %0.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="538"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="542"/>
         <source>Max PPU calls logged</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/debugger_frame.cpp" line="1156"/>
+        <location filename="rpcs3qt/debugger_frame.cpp" line="1171"/>
         <source>Cancel</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3949,11 +3970,11 @@ Make sure you are connected to the internet.</source>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="190"/>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="976"/>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1285"/>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1301"/>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1612"/>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1656"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="974"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1283"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1299"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1610"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1654"/>
         <source>Warning!</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3966,379 +3987,379 @@ Falling back to local database.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="320"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="318"/>
         <source>Loading games</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="320"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="318"/>
         <source>Loading games, please wait...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="320"/>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1834"/>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1919"/>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1960"/>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="2004"/>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="2049"/>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="2091"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="318"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1832"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1917"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1958"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="2002"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="2047"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="2089"/>
         <source>Cancel</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="972"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="970"/>
         <source>Success!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="972"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="970"/>
         <source>Successfully created shortcut(s).</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="976"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="974"/>
         <source>Failed to create shortcut(s)!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1017"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1015"/>
         <source>&amp;Reboot with global configuration</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1018"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1016"/>
         <source>&amp;Boot with global configuration</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1020"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1018"/>
         <source>&amp;Reboot</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1021"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1019"/>
         <source>&amp;Boot</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1029"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1027"/>
         <source>&amp;Reboot with custom configuration</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1030"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1028"/>
         <source>&amp;Boot with custom configuration</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1047"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1045"/>
         <source>&amp;Reboot with default configuration</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1048"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1046"/>
         <source>&amp;Boot with default configuration</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1057"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1055"/>
         <source>&amp;Reboot with manually selected configuration</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1058"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1056"/>
         <source>&amp;Boot with manually selected configuration</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1062"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1060"/>
         <source>Config Files (*.yml);;All files (*.*)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1079"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1077"/>
         <source>&amp;Reboot with savestate</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1080"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1078"/>
         <source>&amp;Boot with savestate</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1091"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1089"/>
         <source>&amp;Change Custom Configuration</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1092"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1090"/>
         <source>&amp;Create Custom Configuration</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1094"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1092"/>
         <source>&amp;Change Custom Gamepad Configuration</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1095"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1093"/>
         <source>&amp;Create Custom Gamepad Configuration</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1096"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1094"/>
         <source>&amp;Manage Game Patches</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1097"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1095"/>
         <source>&amp;Create PPU Cache</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1101"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1099"/>
         <source>&amp;Create Shortcut</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1102"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1100"/>
         <source>&amp;Create Desktop Shortcut</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1105"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1103"/>
         <source>&amp;Create Start Menu Shortcut</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1107"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1105"/>
         <source>&amp;Create Launchpad Shortcut</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1109"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1107"/>
         <source>&amp;Create Application Menu Shortcut</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1115"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1113"/>
         <source>&amp;Rename In Game List</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1116"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1114"/>
         <source>&amp;Hide From Game List</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1120"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1118"/>
         <source>&amp;Remove</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1121"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1119"/>
         <source>&amp;Remove %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1124"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1122"/>
         <source>&amp;Remove Custom Configuration</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1135"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1133"/>
         <source>&amp;Remove Custom Gamepad Configuration</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1147"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1145"/>
         <source>&amp;Remove Shaders Cache</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1152"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1150"/>
         <source>&amp;Remove PPU Cache</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1157"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1155"/>
         <source>&amp;Remove SPU Cache</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1162"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1160"/>
         <source>&amp;Remove All Caches</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1165"/>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1280"/>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1588"/>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1628"/>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1667"/>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1718"/>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1769"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1163"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1278"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1586"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1626"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1665"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1716"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1767"/>
         <source>Confirm Removal</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1165"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1163"/>
         <source>Remove all caches?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1175"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1173"/>
         <source>&amp;Open Install Folder</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1178"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1176"/>
         <source>&amp;Open Custom Config Folder</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1189"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1187"/>
         <source>&amp;Open Data Folder</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1196"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1194"/>
         <source>&amp;Check Game Compatibility</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1197"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1195"/>
         <source>&amp;Download Compatibility Database</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1199"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1197"/>
         <source>&amp;Edit Tooltip Notes</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1200"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1198"/>
         <source>&amp;Reset Time Played</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1202"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1200"/>
         <source>&amp;Custom Images</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1205"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1203"/>
         <source>&amp;Import Custom Icon</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1206"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1204"/>
         <source>&amp;Replace Custom Icon</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1207"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1205"/>
         <source>&amp;Remove Custom Icon</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1212"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1210"/>
         <source>&amp;Import Hover Gif</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1213"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1211"/>
         <source>&amp;Replace Hover Gif</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1214"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1212"/>
         <source>&amp;Remove Hover Gif</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1219"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1217"/>
         <source>&amp;Import Custom Shader Loading Background</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1220"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1218"/>
         <source>&amp;Replace Custom Shader Loading Background</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1221"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1219"/>
         <source>&amp;Remove Custom Shader Loading Background</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1250"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1248"/>
         <source>Select Custom Icon</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1253"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1251"/>
         <source>Select Custom Hover Gif</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1256"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1254"/>
         <source>Select Custom Shader Loading Background</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1259"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1257"/>
         <source>%0 (*.%0);;All files (*.*)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1269"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1267"/>
         <source>Remove Custom Icon of %0?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1272"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1270"/>
         <source>Remove Custom Hover Gif of %0?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1275"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1273"/>
         <source>Remove Custom Shader Loading Background of %0?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1285"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1283"/>
         <source>Failed to remove the old file!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1301"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1299"/>
         <source>Failed to import the new file!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1348"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1346"/>
         <source>&amp;Copy Info</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1349"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1347"/>
         <source>&amp;Copy Name + Serial</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1350"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1348"/>
         <source>&amp;Copy Name</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1351"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1349"/>
         <source>&amp;Copy Serial</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1414"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1412"/>
         <source>Game Directory Size: %0
 Current Free Disk Space: %1
 
@@ -4346,46 +4367,46 @@ Current Free Disk Space: %1
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1418"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1416"/>
         <source>Confirm %1 Removal</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1418"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1416"/>
         <source>Permanently remove %0 from drive?
 %1Path: %2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1419"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1417"/>
         <source>Remove caches and custom configs</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1446"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1444"/>
         <source>Failure!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1447"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1445"/>
         <source>Failed to remove %0 from drive!
 Path: %1
 Caches and custom configs have been left intact.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1448"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1446"/>
         <source>Failed to remove %0 from drive!
 Path: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1483"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1481"/>
         <source>Rename Title</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1483"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1481"/>
         <source>%0
 %1
 
@@ -4393,198 +4414,198 @@ You can clear the line in order to use the original title.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1507"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1505"/>
         <source>Edit Tooltip Notes</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1507"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1505"/>
         <source>%0
 %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1526"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1524"/>
         <source>Confirm Reset</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1526"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1524"/>
         <source>Reset time played?
 
 %0 [%1]</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1588"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1586"/>
         <source>Remove custom game configuration?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1612"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1610"/>
         <source>Failed to remove configuration file!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1629"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1627"/>
         <source>Remove custom pad configuration?
 Your configuration will revert to the global pad settings.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1630"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1628"/>
         <source>Remove custom pad configuration?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1656"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1654"/>
         <source>Failed to completely remove pad configuration directory!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1667"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1665"/>
         <source>Remove shaders cache?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1718"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1716"/>
         <source>Remove PPU cache?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1769"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1767"/>
         <source>Remove SPU cache?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1823"/>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1834"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1821"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1832"/>
         <source>PPU Cache Batch Creation</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1823"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1821"/>
         <source>No titles found</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1832"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1830"/>
         <source>Creating all PPU caches</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1857"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1855"/>
         <source>%0
 Progress: %1/%2. Compiling caches for VSH...</source>
         <comment>Second line after main label</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1873"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1871"/>
         <source>%0
 Progress: %1/%2. Compiling caches for %3...</source>
         <comment>Second line after main label</comment>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1899"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1897"/>
         <source>Created PPU Caches for %n title(s)</source>
         <translation type="unfinished">
             <numerusform></numerusform>
         </translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1900"/>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1941"/>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1982"/>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="2026"/>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="2071"/>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="2113"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1898"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1939"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1980"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="2024"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="2069"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="2111"/>
         <source>OK</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1915"/>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1919"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1913"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1917"/>
         <source>PPU Cache Batch Removal</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1915"/>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1956"/>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="2000"/>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="2045"/>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="2087"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1913"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1954"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1998"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="2043"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="2085"/>
         <source>No files found</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1919"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1917"/>
         <source>Removing all PPU caches</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1940"/>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1981"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1938"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1979"/>
         <source>%0/%1 caches cleared</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1956"/>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1960"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1954"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1958"/>
         <source>SPU Cache Batch Removal</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="1960"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1958"/>
         <source>Removing all SPU caches</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="2000"/>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="2004"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="1998"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="2002"/>
         <source>Custom Configuration Batch Removal</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="2004"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="2002"/>
         <source>Removing all custom configurations</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="2025"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="2023"/>
         <source>%0/%1 custom configurations cleared</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="2045"/>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="2049"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="2043"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="2047"/>
         <source>Custom Pad Configuration Batch Removal</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="2049"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="2047"/>
         <source>Removing all custom pad configurations</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="2070"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="2068"/>
         <source>%0/%1 custom pad configurations cleared</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="2087"/>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="2091"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="2085"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="2089"/>
         <source>Shader Cache Batch Removal</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="2091"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="2089"/>
         <source>Removing all shader caches</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/game_list_frame.cpp" line="2112"/>
+        <location filename="rpcs3qt/game_list_frame.cpp" line="2110"/>
         <source>%0/%1 shader caches cleared</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4661,17 +4682,17 @@ Notes:
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/gs_frame.cpp" line="1009"/>
+        <location filename="rpcs3qt/gs_frame.cpp" line="1012"/>
         <source>Screenshot saved: %0</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/gs_frame.cpp" line="1074"/>
+        <location filename="rpcs3qt/gs_frame.cpp" line="1077"/>
         <source>Exit Game?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/gs_frame.cpp" line="1075"/>
+        <location filename="rpcs3qt/gs_frame.cpp" line="1078"/>
         <source>Do you really want to exit the game?&lt;br&gt;&lt;br&gt;Any unsaved progress will be lost!&lt;br&gt;</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4679,12 +4700,12 @@ Notes:
 <context>
     <name>gui_application</name>
     <message>
-        <location filename="rpcs3qt/gui_application.cpp" line="75"/>
+        <location filename="rpcs3qt/gui_application.cpp" line="77"/>
         <source>Experimental Build Warning</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/gui_application.cpp" line="80"/>
+        <location filename="rpcs3qt/gui_application.cpp" line="82"/>
         <source>
 				&lt;p style=&quot;white-space: nowrap;&quot;&gt;
 					Please understand that this build is not an official RPCS3 release.&lt;br&gt;
@@ -4697,16 +4718,43 @@ Notes:
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/gui_application.cpp" line="146"/>
+        <location filename="rpcs3qt/gui_application.cpp" line="148"/>
         <source>Warning</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/gui_application.cpp" line="147"/>
+        <location filename="rpcs3qt/gui_application.cpp" line="149"/>
         <source>The current limit of maximum file descriptors is too low.
 Some games will crash.
 
 Please increase the limit before running RPCS3.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/gui_application.cpp" line="576"/>
+        <source>Stopping emulator took too long.
+Some thread has probably deadlocked. Aborting.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/gui_application.cpp" line="589"/>
+        <source>PS3 Game/Application Is Unresponsive</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/gui_application.cpp" line="593"/>
+        <source>Terminate RPCS3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/gui_application.cpp" line="594"/>
+        <source>Keep Waiting</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/gui_application.cpp" line="596"/>
+        <source>Waiting for %0 second(s) already to stop emulation without success.
+Keep waiting or terminate RPCS3 unsafely at your own risk?</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -4740,6 +4788,15 @@ Please increase the limit before running RPCS3.</source>
     <message>
         <location filename="rpcs3qt/gui_settings.cpp" line="203"/>
         <source>A game is currently running. Do you really want to close RPCS3?&lt;br&gt;&lt;br&gt;Any unsaved progress will be lost!&lt;br&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>headless_application</name>
+    <message>
+        <location filename="headless_application.cpp" line="146"/>
+        <source>Stopping emulator took too long.
+Some thread has probably deadlocked. Aborting.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -6631,724 +6688,729 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="394"/>
+        <location filename="rpcs3qt/main_window.ui" line="395"/>
         <source>Show tool bar</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="432"/>
+        <location filename="rpcs3qt/main_window.ui" line="433"/>
         <source>Boot SELF/ELF</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="437"/>
+        <location filename="rpcs3qt/main_window.ui" line="438"/>
         <source>Boot Test</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="442"/>
+        <location filename="rpcs3qt/main_window.ui" line="443"/>
         <source>Boot Game</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="447"/>
+        <location filename="rpcs3qt/main_window.ui" line="448"/>
         <source>Boot Savestate</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="452"/>
+        <location filename="rpcs3qt/main_window.ui" line="453"/>
         <source>Install Packages/Raps/Edats</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="455"/>
+        <location filename="rpcs3qt/main_window.ui" line="456"/>
         <source>Install application from a .pkg file</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="460"/>
+        <location filename="rpcs3qt/main_window.ui" line="461"/>
         <source>Install Firmware</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="463"/>
+        <location filename="rpcs3qt/main_window.ui" line="464"/>
         <source>Install firmware from PS3UPDAT.PUP</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="475"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1801"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1824"/>
+        <location filename="rpcs3qt/main_window.ui" line="476"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1811"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1834"/>
         <source>Pause</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="478"/>
-        <location filename="rpcs3qt/main_window.ui" line="943"/>
+        <location filename="rpcs3qt/main_window.ui" line="479"/>
+        <location filename="rpcs3qt/main_window.ui" line="949"/>
         <source>Start emulation</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="490"/>
-        <location filename="rpcs3qt/main_window.ui" line="952"/>
-        <location filename="rpcs3qt/main_window.cpp" line="169"/>
+        <location filename="rpcs3qt/main_window.ui" line="491"/>
+        <location filename="rpcs3qt/main_window.ui" line="958"/>
+        <location filename="rpcs3qt/main_window.cpp" line="168"/>
         <source>Stop</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="493"/>
-        <location filename="rpcs3qt/main_window.ui" line="955"/>
+        <location filename="rpcs3qt/main_window.ui" line="494"/>
+        <location filename="rpcs3qt/main_window.ui" line="961"/>
         <source>Stop emulation</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="501"/>
+        <location filename="rpcs3qt/main_window.ui" line="502"/>
         <source>Send Open System Menu CMD</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="506"/>
+        <location filename="rpcs3qt/main_window.ui" line="507"/>
         <source>CPU</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="509"/>
+        <location filename="rpcs3qt/main_window.ui" line="510"/>
         <source>Configure CPU</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="514"/>
+        <location filename="rpcs3qt/main_window.ui" line="515"/>
         <source>GPU</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="517"/>
+        <location filename="rpcs3qt/main_window.ui" line="518"/>
         <source>Configure graphics</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="522"/>
-        <location filename="rpcs3qt/main_window.ui" line="525"/>
-        <location filename="rpcs3qt/main_window.ui" line="976"/>
+        <location filename="rpcs3qt/main_window.ui" line="523"/>
+        <location filename="rpcs3qt/main_window.ui" line="526"/>
+        <location filename="rpcs3qt/main_window.ui" line="982"/>
         <source>Pads</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="528"/>
-        <location filename="rpcs3qt/main_window.ui" line="979"/>
+        <location filename="rpcs3qt/main_window.ui" line="529"/>
+        <location filename="rpcs3qt/main_window.ui" line="985"/>
         <source>Configure controls</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="533"/>
+        <location filename="rpcs3qt/main_window.ui" line="534"/>
         <source>Audio</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="536"/>
+        <location filename="rpcs3qt/main_window.ui" line="537"/>
         <source>Configure audio</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="541"/>
+        <location filename="rpcs3qt/main_window.ui" line="542"/>
         <source>Input/Output</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="544"/>
+        <location filename="rpcs3qt/main_window.ui" line="545"/>
         <source>Configure Input/Output</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="549"/>
+        <location filename="rpcs3qt/main_window.ui" line="550"/>
         <source>System</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="552"/>
+        <location filename="rpcs3qt/main_window.ui" line="553"/>
         <source>Configure system</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="557"/>
+        <location filename="rpcs3qt/main_window.ui" line="558"/>
         <source>Advanced</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="560"/>
+        <location filename="rpcs3qt/main_window.ui" line="561"/>
         <source>Configure advanced emulator settings</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="565"/>
+        <location filename="rpcs3qt/main_window.ui" line="566"/>
         <source>Emulator</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="568"/>
+        <location filename="rpcs3qt/main_window.ui" line="569"/>
         <source>Configure Emulator settings</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="573"/>
+        <location filename="rpcs3qt/main_window.ui" line="574"/>
         <source>GUI</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="576"/>
+        <location filename="rpcs3qt/main_window.ui" line="577"/>
         <source>Configure GUI settings</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="584"/>
+        <location filename="rpcs3qt/main_window.ui" line="585"/>
         <source>Auto Pause</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="587"/>
+        <location filename="rpcs3qt/main_window.ui" line="588"/>
         <source>Configure Auto Pause</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="592"/>
+        <location filename="rpcs3qt/main_window.ui" line="593"/>
         <source>Exit</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="595"/>
+        <location filename="rpcs3qt/main_window.ui" line="596"/>
         <source>Exit RPCS3</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="598"/>
+        <location filename="rpcs3qt/main_window.ui" line="599"/>
         <source>Exit the application.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="606"/>
+        <location filename="rpcs3qt/main_window.ui" line="607"/>
         <source>Save Data</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="609"/>
+        <location filename="rpcs3qt/main_window.ui" line="610"/>
         <source>Manage save data</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="617"/>
+        <location filename="rpcs3qt/main_window.ui" line="618"/>
         <source>Trophies</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="620"/>
+        <location filename="rpcs3qt/main_window.ui" line="621"/>
         <source>Manage trophies</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="625"/>
+        <location filename="rpcs3qt/main_window.ui" line="626"/>
         <source>User Accounts</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="628"/>
+        <location filename="rpcs3qt/main_window.ui" line="629"/>
         <source>Manage user accounts</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="633"/>
+        <location filename="rpcs3qt/main_window.ui" line="634"/>
         <source>Cg Disasm</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="641"/>
+        <location filename="rpcs3qt/main_window.ui" line="642"/>
         <source>Kernel Explorer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="649"/>
+        <location filename="rpcs3qt/main_window.ui" line="650"/>
         <source>Memory Viewer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="657"/>
+        <location filename="rpcs3qt/main_window.ui" line="658"/>
         <source>RSX Debugger</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="662"/>
+        <location filename="rpcs3qt/main_window.ui" line="663"/>
         <source>Decrypt PS3 Binaries</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="667"/>
+        <location filename="rpcs3qt/main_window.ui" line="668"/>
         <source>Extract MSELF</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="672"/>
+        <location filename="rpcs3qt/main_window.ui" line="673"/>
         <source>Extract PUP</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="677"/>
+        <location filename="rpcs3qt/main_window.ui" line="678"/>
         <source>Extract Encrypted TAR</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="680"/>
+        <location filename="rpcs3qt/main_window.ui" line="681"/>
         <source>Extract files from special .tar files inside PS3UPDAT.PUP</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="688"/>
+        <location filename="rpcs3qt/main_window.ui" line="689"/>
         <source>Show Debugger</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="696"/>
+        <location filename="rpcs3qt/main_window.ui" line="697"/>
         <source>Show Log/TTY</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="701"/>
+        <location filename="rpcs3qt/main_window.ui" line="702"/>
         <source>About RPCS3</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="706"/>
+        <location filename="rpcs3qt/main_window.ui" line="707"/>
         <source>About Qt</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="714"/>
+        <location filename="rpcs3qt/main_window.ui" line="715"/>
         <source>Show Game List</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="722"/>
+        <location filename="rpcs3qt/main_window.ui" line="723"/>
         <source>Show Tool Bar</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="730"/>
+        <location filename="rpcs3qt/main_window.ui" line="731"/>
         <source>Show Game Compatibility in Grid Mode</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="735"/>
+        <location filename="rpcs3qt/main_window.ui" line="736"/>
         <source>Game List Refresh</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="743"/>
+        <location filename="rpcs3qt/main_window.ui" line="744"/>
         <source>RAP Files</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="748"/>
+        <location filename="rpcs3qt/main_window.ui" line="749"/>
         <source>Check for Updates</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="753"/>
+        <location filename="rpcs3qt/main_window.ui" line="754"/>
+        <source>View The Welcome Dialog</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/main_window.ui" line="759"/>
         <source>Virtual File System</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="758"/>
+        <location filename="rpcs3qt/main_window.ui" line="764"/>
         <source>List Clear</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="766"/>
+        <location filename="rpcs3qt/main_window.ui" line="772"/>
         <source>List Freeze</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="774"/>
+        <location filename="rpcs3qt/main_window.ui" line="780"/>
         <source>Tiny</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="785"/>
+        <location filename="rpcs3qt/main_window.ui" line="791"/>
         <source>Small</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="793"/>
+        <location filename="rpcs3qt/main_window.ui" line="799"/>
         <source>Medium</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="801"/>
+        <location filename="rpcs3qt/main_window.ui" line="807"/>
         <source>Large</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="812"/>
+        <location filename="rpcs3qt/main_window.ui" line="818"/>
         <source>List View</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="820"/>
+        <location filename="rpcs3qt/main_window.ui" line="826"/>
         <source>Grid View</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="832"/>
-        <location filename="rpcs3qt/main_window.cpp" line="174"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1879"/>
-        <location filename="rpcs3qt/main_window.cpp" line="2924"/>
-        <location filename="rpcs3qt/main_window.cpp" line="2947"/>
+        <location filename="rpcs3qt/main_window.ui" line="838"/>
+        <location filename="rpcs3qt/main_window.cpp" line="173"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1887"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2938"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2961"/>
         <source>Restart</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="843"/>
-        <location filename="rpcs3qt/main_window.cpp" line="2719"/>
+        <location filename="rpcs3qt/main_window.ui" line="849"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2727"/>
         <source>HDD Games</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="854"/>
-        <location filename="rpcs3qt/main_window.cpp" line="2720"/>
+        <location filename="rpcs3qt/main_window.ui" line="860"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2728"/>
         <source>Disc Games</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="865"/>
-        <location filename="rpcs3qt/main_window.cpp" line="2721"/>
+        <location filename="rpcs3qt/main_window.ui" line="871"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2729"/>
         <source>PS1 Games</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="876"/>
-        <location filename="rpcs3qt/main_window.cpp" line="2722"/>
+        <location filename="rpcs3qt/main_window.ui" line="882"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2730"/>
         <source>PS2 Games</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="887"/>
-        <location filename="rpcs3qt/main_window.cpp" line="2723"/>
+        <location filename="rpcs3qt/main_window.ui" line="893"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2731"/>
         <source>PSP Games</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="898"/>
-        <location filename="rpcs3qt/main_window.cpp" line="2724"/>
+        <location filename="rpcs3qt/main_window.ui" line="904"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2732"/>
         <source>Home</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="909"/>
-        <location filename="rpcs3qt/main_window.cpp" line="2725"/>
+        <location filename="rpcs3qt/main_window.ui" line="915"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2733"/>
         <source>Audio/Video</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="920"/>
-        <location filename="rpcs3qt/main_window.cpp" line="2726"/>
+        <location filename="rpcs3qt/main_window.ui" line="926"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2734"/>
         <source>Game Data</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="931"/>
-        <location filename="rpcs3qt/main_window.cpp" line="2727"/>
+        <location filename="rpcs3qt/main_window.ui" line="937"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2735"/>
         <source>Unknown</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="940"/>
+        <location filename="rpcs3qt/main_window.ui" line="946"/>
         <source>Start</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="964"/>
+        <location filename="rpcs3qt/main_window.ui" line="970"/>
         <source>Config</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="967"/>
+        <location filename="rpcs3qt/main_window.ui" line="973"/>
         <source>Configure the emulator</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="988"/>
+        <location filename="rpcs3qt/main_window.ui" line="994"/>
         <source>FullScr</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="991"/>
+        <location filename="rpcs3qt/main_window.ui" line="997"/>
         <source>Toggle fullscreen</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="1000"/>
+        <location filename="rpcs3qt/main_window.ui" line="1006"/>
         <source>List</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="1003"/>
+        <location filename="rpcs3qt/main_window.ui" line="1009"/>
         <source>Switch to list mode</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="1012"/>
+        <location filename="rpcs3qt/main_window.ui" line="1018"/>
         <source>Grid</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="1015"/>
+        <location filename="rpcs3qt/main_window.ui" line="1021"/>
         <source>Switch to grid mode</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="1024"/>
+        <location filename="rpcs3qt/main_window.ui" line="1030"/>
         <source>Refresh</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="1027"/>
+        <location filename="rpcs3qt/main_window.ui" line="1033"/>
         <source>Refresh gamelist</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="1036"/>
+        <location filename="rpcs3qt/main_window.ui" line="1042"/>
         <source>Open</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="1039"/>
+        <location filename="rpcs3qt/main_window.ui" line="1045"/>
         <source>Boot a game</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="1050"/>
-        <location filename="rpcs3qt/main_window.cpp" line="2728"/>
+        <location filename="rpcs3qt/main_window.ui" line="1056"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2736"/>
         <source>Other</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="1058"/>
+        <location filename="rpcs3qt/main_window.ui" line="1064"/>
         <source>Show Hidden Entries</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="1063"/>
+        <location filename="rpcs3qt/main_window.ui" line="1069"/>
         <source>Open RSX Capture</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="1068"/>
+        <location filename="rpcs3qt/main_window.ui" line="1074"/>
         <source>Add Games</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="1076"/>
+        <location filename="rpcs3qt/main_window.ui" line="1082"/>
         <source>Show Title Bars</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="1081"/>
+        <location filename="rpcs3qt/main_window.ui" line="1087"/>
         <source>Create PPU Caches</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="1086"/>
+        <location filename="rpcs3qt/main_window.ui" line="1092"/>
         <source>Remove Custom Configurations</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="1091"/>
+        <location filename="rpcs3qt/main_window.ui" line="1097"/>
         <source>Remove PPU Caches</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="1096"/>
+        <location filename="rpcs3qt/main_window.ui" line="1102"/>
         <source>Remove SPU Caches</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="1101"/>
+        <location filename="rpcs3qt/main_window.ui" line="1107"/>
         <source>Remove Shader Caches</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="1106"/>
+        <location filename="rpcs3qt/main_window.ui" line="1112"/>
         <source>Remove Custom Pad Configurations</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="1111"/>
+        <location filename="rpcs3qt/main_window.ui" line="1117"/>
         <source>Remove Disk Cache</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="1116"/>
+        <location filename="rpcs3qt/main_window.ui" line="1122"/>
         <source>Skylanders Portal</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="1121"/>
+        <location filename="rpcs3qt/main_window.ui" line="1127"/>
         <source>Infinity Base</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="1126"/>
+        <location filename="rpcs3qt/main_window.ui" line="1132"/>
         <source>Cheats</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="1134"/>
+        <location filename="rpcs3qt/main_window.ui" line="1140"/>
         <source>English</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="1139"/>
+        <location filename="rpcs3qt/main_window.ui" line="1145"/>
         <source>Screenshots</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="1144"/>
+        <location filename="rpcs3qt/main_window.ui" line="1150"/>
         <source>Remove Firmware Cache</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="1149"/>
+        <location filename="rpcs3qt/main_window.ui" line="1155"/>
         <source>Create Firmware Cache</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="1157"/>
+        <location filename="rpcs3qt/main_window.ui" line="1163"/>
         <source>Create RSX Capture</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="1165"/>
+        <location filename="rpcs3qt/main_window.ui" line="1171"/>
         <source>Create Savestate</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="1170"/>
+        <location filename="rpcs3qt/main_window.ui" line="1176"/>
         <source>Game Patches</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="1175"/>
+        <location filename="rpcs3qt/main_window.ui" line="1181"/>
         <source>RPCN</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="1178"/>
+        <location filename="rpcs3qt/main_window.ui" line="1184"/>
         <source>Configure RPCN</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="1183"/>
+        <location filename="rpcs3qt/main_window.ui" line="1189"/>
         <source>IPC</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="1186"/>
+        <location filename="rpcs3qt/main_window.ui" line="1192"/>
         <source>Configure IPC</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="1191"/>
+        <location filename="rpcs3qt/main_window.ui" line="1197"/>
         <source>Log Viewer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="1202"/>
+        <location filename="rpcs3qt/main_window.ui" line="1208"/>
         <source>Show Custom Icons</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="1213"/>
+        <location filename="rpcs3qt/main_window.ui" line="1219"/>
         <source>Play Hover Gifs</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="1218"/>
+        <location filename="rpcs3qt/main_window.ui" line="1224"/>
         <source>Boot VSH/XMB</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="1223"/>
+        <location filename="rpcs3qt/main_window.ui" line="1229"/>
         <source>Patch Creator</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="1228"/>
+        <location filename="rpcs3qt/main_window.ui" line="1234"/>
         <source>Cameras</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="1236"/>
+        <location filename="rpcs3qt/main_window.ui" line="1242"/>
         <source>Eject Disc</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="1244"/>
+        <location filename="rpcs3qt/main_window.ui" line="1250"/>
         <source>Insert Disc</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="1249"/>
+        <location filename="rpcs3qt/main_window.ui" line="1255"/>
         <source>Check Config</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="1254"/>
+        <location filename="rpcs3qt/main_window.ui" line="1260"/>
         <source>Shortcuts</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="1262"/>
+        <location filename="rpcs3qt/main_window.ui" line="1268"/>
         <source>System Commands</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="1267"/>
+        <location filename="rpcs3qt/main_window.ui" line="1273"/>
         <source>Buzz</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="1272"/>
+        <location filename="rpcs3qt/main_window.ui" line="1278"/>
         <source>GHLtar</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="1277"/>
+        <location filename="rpcs3qt/main_window.ui" line="1283"/>
         <source>Turntable</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="1282"/>
+        <location filename="rpcs3qt/main_window.ui" line="1288"/>
         <source>USIO</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.ui" line="1287"/>
+        <location filename="rpcs3qt/main_window.ui" line="1293"/>
         <source>PS Move (Fake)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="145"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1854"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1912"/>
-        <location filename="rpcs3qt/main_window.cpp" line="2928"/>
-        <location filename="rpcs3qt/main_window.cpp" line="2938"/>
-        <location filename="rpcs3qt/main_window.cpp" line="2951"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1864"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1920"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2942"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2952"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2965"/>
         <source>Play %0</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="145"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1841"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1870"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1922"/>
-        <location filename="rpcs3qt/main_window.cpp" line="2931"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1851"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1878"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1930"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2945"/>
         <source>Play</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7358,159 +7420,164 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="199"/>
+        <location filename="rpcs3qt/main_window.cpp" line="198"/>
         <source>Update Available!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="201"/>
+        <location filename="rpcs3qt/main_window.cpp" line="200"/>
         <source>Download Update</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="275"/>
+        <location filename="rpcs3qt/main_window.cpp" line="274"/>
         <source>Missing Firmware Detected!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="276"/>
+        <location filename="rpcs3qt/main_window.cpp" line="275"/>
         <source>Commercial games require the firmware (PS3UPDAT.PUP file) to be installed.
 &lt;br&gt;For information about how to obtain the required firmware read the &lt;a %0 href=&quot;https://rpcs3.net/quickstart&quot;&gt;quickstart guide&lt;/a&gt;.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="282"/>
+        <location filename="rpcs3qt/main_window.cpp" line="281"/>
         <source>Locate PS3UPDAT.PUP</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="412"/>
+        <location filename="rpcs3qt/main_window.cpp" line="417"/>
         <source>No bootable content was found.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="415"/>
+        <location filename="rpcs3qt/main_window.cpp" line="420"/>
         <source>Disc could not be mounted properly. Make sure the disc is not in the dev_hdd0/game folder.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="418"/>
+        <location filename="rpcs3qt/main_window.cpp" line="423"/>
         <source>The selected file or folder is invalid or corrupted.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="421"/>
+        <location filename="rpcs3qt/main_window.cpp" line="426"/>
         <source>The virtual dev_bdvd folder does not exist or is not empty.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="424"/>
+        <location filename="rpcs3qt/main_window.cpp" line="429"/>
         <source>Additional content could not be installed.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="427"/>
+        <location filename="rpcs3qt/main_window.cpp" line="432"/>
         <source>Digital content could not be decrypted. This is usually caused by a missing or invalid license (RAP) file.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="430"/>
+        <location filename="rpcs3qt/main_window.cpp" line="435"/>
         <source>The emulator could not create files required for booting.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="433"/>
+        <location filename="rpcs3qt/main_window.cpp" line="438"/>
         <source>This disc type is not supported yet.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="436"/>
+        <location filename="rpcs3qt/main_window.cpp" line="441"/>
         <source>Savestate data is corrupted or it&apos;s not an RPCS3 savestate.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="439"/>
+        <location filename="rpcs3qt/main_window.cpp" line="444"/>
         <source>Savestate versioning data differes from your RPCS3 build.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="445"/>
+        <location filename="rpcs3qt/main_window.cpp" line="447"/>
+        <source>A game or PS3 application is still running or has yet to be fully stopped.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/main_window.cpp" line="453"/>
         <source>Unknown error.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="448"/>
+        <location filename="rpcs3qt/main_window.cpp" line="456"/>
         <source>&lt;br /&gt;&lt;br /&gt;For information on setting up the emulator and dumping your PS3 games, read the &lt;a %0 href=&quot;https://rpcs3.net/quickstart&quot;&gt;quickstart guide&lt;/a&gt;.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="451"/>
+        <location filename="rpcs3qt/main_window.cpp" line="459"/>
         <source>Boot Failed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="455"/>
+        <location filename="rpcs3qt/main_window.cpp" line="463"/>
         <source>Booting failed: %1 %2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="499"/>
-        <location filename="rpcs3qt/main_window.cpp" line="545"/>
+        <location filename="rpcs3qt/main_window.cpp" line="507"/>
+        <location filename="rpcs3qt/main_window.cpp" line="553"/>
         <source>Select (S)ELF To Boot</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="499"/>
+        <location filename="rpcs3qt/main_window.cpp" line="507"/>
         <source>(S)ELF files (*BOOT.BIN *.elf *.self);;ELF files (BOOT.BIN *.elf);;SELF files (EBOOT.BIN *.self);;BOOT files (*BOOT.BIN);;BIN files (*.bin);;All files (*.*)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="545"/>
+        <location filename="rpcs3qt/main_window.cpp" line="553"/>
         <source>(S)ELF files (*.elf *.self);;ELF files (*.elf);;SELF files (*.self);;All files (*.*)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="577"/>
+        <location filename="rpcs3qt/main_window.cpp" line="585"/>
         <source>Select Savestate To Boot</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="577"/>
+        <location filename="rpcs3qt/main_window.cpp" line="585"/>
         <source>Savestate files (*.SAVESTAT);;All files (*.*)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="608"/>
+        <location filename="rpcs3qt/main_window.cpp" line="616"/>
         <source>Select Game Folder</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="643"/>
+        <location filename="rpcs3qt/main_window.cpp" line="651"/>
         <source>Select RSX Capture</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="643"/>
+        <location filename="rpcs3qt/main_window.cpp" line="651"/>
         <source>RRC files (*.rrc *.RRC);;All files (*.*)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="721"/>
+        <location filename="rpcs3qt/main_window.cpp" line="729"/>
         <source>Select packages and/or rap files to install</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="722"/>
+        <location filename="rpcs3qt/main_window.cpp" line="730"/>
         <source>All relevant (*.pkg *.PKG *.rap *.RAP *.edat *.EDAT);;Package files (*.pkg *.PKG);;Rap files (*.rap *.RAP);;Edat files (*.edat *.EDAT);;All files (*.*)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="743"/>
+        <location filename="rpcs3qt/main_window.cpp" line="751"/>
         <source>Invalid package!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="743"/>
+        <location filename="rpcs3qt/main_window.cpp" line="751"/>
         <source>The selected package is invalid!
 
 Path:
@@ -7518,42 +7585,42 @@ Path:
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="751"/>
+        <location filename="rpcs3qt/main_window.cpp" line="759"/>
         <source>
 DLC</source>
         <comment>Block for package type (DLC)</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="755"/>
+        <location filename="rpcs3qt/main_window.cpp" line="763"/>
         <source>
 Update</source>
         <comment>Block for package type (Update)</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="760"/>
+        <location filename="rpcs3qt/main_window.cpp" line="768"/>
         <source>
 %0</source>
         <comment>Block for package type</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="765"/>
+        <location filename="rpcs3qt/main_window.cpp" line="773"/>
         <source>
 %0</source>
         <comment>Block for Title ID</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="770"/>
+        <location filename="rpcs3qt/main_window.cpp" line="778"/>
         <source>
 Version %0</source>
         <comment>Block for Version</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="775"/>
+        <location filename="rpcs3qt/main_window.cpp" line="783"/>
         <source>
 
 Changelog:
@@ -7562,81 +7629,81 @@ Changelog:
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="781"/>
+        <location filename="rpcs3qt/main_window.cpp" line="789"/>
         <source>PKG Decrypter / Installer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="781"/>
+        <location filename="rpcs3qt/main_window.cpp" line="789"/>
         <source>Do you want to install this package?
 
 %0</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="905"/>
+        <location filename="rpcs3qt/main_window.cpp" line="913"/>
         <source>RPCS3 Package Installer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="905"/>
+        <location filename="rpcs3qt/main_window.cpp" line="913"/>
         <source>Installing package, please wait...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="905"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1260"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1468"/>
+        <location filename="rpcs3qt/main_window.cpp" line="913"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1268"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1476"/>
         <source>Cancel</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="931"/>
+        <location filename="rpcs3qt/main_window.cpp" line="939"/>
         <source>v.%0</source>
         <comment>Package version for install progress dialog</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="981"/>
+        <location filename="rpcs3qt/main_window.cpp" line="989"/>
         <source>Installing package (%0/%1), please wait...
 
 %2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1053"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1058"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1555"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1061"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1066"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1563"/>
         <source>Success!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1053"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1061"/>
         <source>Successfully installed software from package(s)!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1062"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1070"/>
         <source>Add desktop shortcut(s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1064"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1072"/>
         <source>Add Start menu shortcut(s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1066"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1074"/>
         <source>Add dock shortcut(s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1068"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1076"/>
         <source>Add launcher shortcut(s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1070"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1078"/>
         <source>Successfully installed software from package(s)!
 Would you like to install shortcuts to the installed software? (%1 new software detected)
 
@@ -7644,23 +7711,23 @@ Would you like to install shortcuts to the installed software? (%1 new software 
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1155"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1163"/>
         <source>Warning!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1155"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1163"/>
         <source>The following package cannot be installed on top of the current data:
 %1!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1160"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1168"/>
         <source>Failure!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1160"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1168"/>
         <source>Failed to install software from package:
 %1!
 This is very likely caused by external interference from a faulty anti-virus software.
@@ -7668,290 +7735,290 @@ Please add RPCS3 to your anti-virus&apos; whitelist or use better anti-virus sof
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1173"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1181"/>
         <source>Select MSELF To extract</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1173"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1181"/>
         <source>All mself files (*.mself *.MSELF);;All files (*.*)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1180"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1226"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1251"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1188"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1234"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1259"/>
         <source>Extraction Directory</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1194"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1202"/>
         <source>Select PS3UPDAT.PUP To Install</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1194"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1219"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1202"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1227"/>
         <source>PS3 update file (PS3UPDAT.PUP);;All pup files (*.pup *.PUP);;All files (*.*)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1198"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1447"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1457"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1468"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1206"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1455"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1465"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1476"/>
         <source>RPCS3 Firmware Installer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1198"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1206"/>
         <source>Install firmware: %1?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1219"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1227"/>
         <source>Select PS3UPDAT.PUP To extract</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1244"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1252"/>
         <source>Select TAR To extract</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1244"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1252"/>
         <source>All tar files (*.tar *.TAR *.tar.aa.* *.TAR.AA.*);;All files (*.*)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1260"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1268"/>
         <source>TAR Extraction</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1260"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1268"/>
         <source>Extracting encrypted TARs
 Please wait...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1277"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1285"/>
         <source>The following TAR file(s) could not be extracted:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1291"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1299"/>
         <source>Tar extraction failed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1301"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1309"/>
         <source>Firmware Installation Failed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1308"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1316"/>
         <source>Firmware installation failed: The provided path is empty.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1327"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1335"/>
         <source>Firmware installation failed: The selected firmware file couldn&apos;t be opened.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1338"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1346"/>
         <source>Firmware installation failed: The provided file is empty.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1344"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1352"/>
         <source>Firmware installation failed: The provided file is not a PUP file.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1350"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1358"/>
         <source>Firmware installation failed: The provided file is incomplete. Try redownloading it.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1365"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1373"/>
         <source>Firmware installation failed: The provided file is corrupted.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1371"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1382"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1421"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1442"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1379"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1390"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1429"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1450"/>
         <source>Firmware installation failed: The provided file&apos;s contents are corrupted.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1395"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1403"/>
         <source>Firmware extraction failed: VFS mounting failed.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1402"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1410"/>
         <source>Firmware installation failed: Firmware contents could not be extracted.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1447"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1455"/>
         <source>Old firmware detected.
 The newest firmware version is %1 and you are trying to install version %2
 Continue installation?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1457"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1465"/>
         <source>Firmware of version %1 has already been installed.
 Overwrite current installation with version %2?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1468"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1476"/>
         <source>Installing firmware version %1
 Please wait...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1493"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1501"/>
         <source>Firmware installation failed: Firmware could not be decompressed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1502"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1510"/>
         <source>The firmware contents could not be extracted.
 This is very likely caused by external interference from a faulty anti-virus software.
 Please add RPCS3 to your anti-virus&apos; whitelist or use better anti-virus software.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1555"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1563"/>
         <source>Successfully installed PS3 firmware and LLE Modules!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1571"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1579"/>
         <source>Select binary files</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1571"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1579"/>
         <source>All Binaries (*.bin *.BIN *.self *.SELF *.sprx *.SPRX *.sdat *.SDAT *.edat *.EDAT);;BIN files (*.bin *.BIN);;SELF files (*.self *.SELF);;SPRX files (*.sprx *.SPRX);;SDAT/EDAT files (*.sdat *.SDAT *.edat *.EDAT);;All files (*.*)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1595"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1603"/>
         <source>Hint: KLIC (KLicense key) is a 16-byte long string. (32 hexadecimal characters, can be prefixed with &quot;KLIC=0x&quot; from the log message)
 And is logged with some sceNpDrm* functions when the game/application which owns &quot;%0&quot; is running.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1603"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1611"/>
         <source>Enter KLIC of %0</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1604"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1612"/>
         <source>Decryption failed with provided KLIC.
 %0</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1604"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1612"/>
         <source>Hexadecimal value.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1786"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1811"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1875"/>
-        <location filename="rpcs3qt/main_window.cpp" line="2921"/>
-        <location filename="rpcs3qt/main_window.cpp" line="2944"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1796"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1821"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1883"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2935"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2958"/>
         <source>Restart %0</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1787"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1812"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1797"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1822"/>
         <source>Pause %0</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1788"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1813"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1798"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1823"/>
         <source>Stop %0</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1798"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1821"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1808"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1831"/>
         <source>&amp;Pause</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1832"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1842"/>
         <source>Resume %0</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1838"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1848"/>
         <source>&amp;Resume</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="1858"/>
-        <location filename="rpcs3qt/main_window.cpp" line="1919"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1866"/>
+        <location filename="rpcs3qt/main_window.cpp" line="1927"/>
         <source>&amp;Play</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="2014"/>
-        <location filename="rpcs3qt/main_window.cpp" line="2059"/>
-        <location filename="rpcs3qt/main_window.cpp" line="2125"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2022"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2067"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2133"/>
         <source>Ctrl+%1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="2276"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2284"/>
         <source>Select a folder containing one or more games</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="2361"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2369"/>
         <source>Select Disc Game Folder</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="2372"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2380"/>
         <source>Failed to insert disc</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="2372"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2380"/>
         <source>Make sure that the emulation is running and that the selected path belongs to a valid disc game.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="2559"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2567"/>
         <source>Select rpcs3.log or config.yml</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="2559"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2567"/>
         <source>Log or Config files (*.log *.txt *.yml);;Log files (*.log);;Config Files (*.yml);;Text Files (*.txt);;All files (*.*)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="2570"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2578"/>
         <source>Weird file!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="2570"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2578"/>
         <source>This file seems to have an unexpected type:
 %0
 
@@ -7959,58 +8026,58 @@ Check anyway?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="2579"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2587"/>
         <source>Failed to open file</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="2579"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2587"/>
         <source>The file could not be opened:
 %0</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="2734"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2742"/>
         <source>Auto-updater</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="2734"/>
+        <location filename="rpcs3qt/main_window.cpp" line="2742"/>
         <source>The auto-updater isn&apos;t available for your OS currently.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="3097"/>
+        <location filename="rpcs3qt/main_window.cpp" line="3111"/>
         <source>Cache Cleared</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="3097"/>
+        <location filename="rpcs3qt/main_window.cpp" line="3111"/>
         <source>Disk cache was cleared successfully</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="3101"/>
+        <location filename="rpcs3qt/main_window.cpp" line="3115"/>
         <source>Error</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="3101"/>
+        <location filename="rpcs3qt/main_window.cpp" line="3115"/>
         <source>Could not remove disk cache</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="3112"/>
+        <location filename="rpcs3qt/main_window.cpp" line="3126"/>
         <source>Confirm Removal</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="3112"/>
+        <location filename="rpcs3qt/main_window.cpp" line="3126"/>
         <source>Remove firmware cache?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/main_window.cpp" line="3358"/>
+        <location filename="rpcs3qt/main_window.cpp" line="3347"/>
         <source>PARAM.SFO Information</source>
         <translation type="unfinished"></translation>
     </message>
@@ -8018,135 +8085,140 @@ Check anyway?</source>
 <context>
     <name>memory_viewer_panel</name>
     <message>
-        <location filename="rpcs3qt/memory_viewer_panel.cpp" line="59"/>
+        <location filename="rpcs3qt/memory_viewer_panel.cpp" line="62"/>
         <source>Memory Viewer Of %0</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/memory_viewer_panel.cpp" line="60"/>
+        <location filename="rpcs3qt/memory_viewer_panel.cpp" line="63"/>
         <source>Memory Viewer Of RSX[0x55555555]</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/memory_viewer_panel.cpp" line="61"/>
+        <location filename="rpcs3qt/memory_viewer_panel.cpp" line="64"/>
         <source>Memory Viewer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/memory_viewer_panel.cpp" line="80"/>
+        <location filename="rpcs3qt/memory_viewer_panel.cpp" line="83"/>
         <source>Memory Viewer Options</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/memory_viewer_panel.cpp" line="84"/>
+        <location filename="rpcs3qt/memory_viewer_panel.cpp" line="87"/>
         <source>Address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/memory_viewer_panel.cpp" line="97"/>
+        <location filename="rpcs3qt/memory_viewer_panel.cpp" line="100"/>
         <source>Words</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/memory_viewer_panel.cpp" line="114"/>
+        <location filename="rpcs3qt/memory_viewer_panel.cpp" line="117"/>
         <source>%0</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/memory_viewer_panel.cpp" line="125"/>
+        <location filename="rpcs3qt/memory_viewer_panel.cpp" line="128"/>
         <source>Control</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/memory_viewer_panel.cpp" line="152"/>
+        <location filename="rpcs3qt/memory_viewer_panel.cpp" line="148"/>
+        <source>Refresh</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/memory_viewer_panel.cpp" line="164"/>
         <source>Raw Image Preview Options</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/memory_viewer_panel.cpp" line="156"/>
+        <location filename="rpcs3qt/memory_viewer_panel.cpp" line="168"/>
         <source>Size</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/memory_viewer_panel.cpp" line="171"/>
+        <location filename="rpcs3qt/memory_viewer_panel.cpp" line="183"/>
         <source>Mode</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/memory_viewer_panel.cpp" line="188"/>
+        <location filename="rpcs3qt/memory_viewer_panel.cpp" line="202"/>
         <source>Tools</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/memory_viewer_panel.cpp" line="190"/>
+        <location filename="rpcs3qt/memory_viewer_panel.cpp" line="204"/>
         <source>View
 image</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/memory_viewer_panel.cpp" line="268"/>
+        <location filename="rpcs3qt/memory_viewer_panel.cpp" line="282"/>
         <source>Memory Search</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/memory_viewer_panel.cpp" line="274"/>
+        <location filename="rpcs3qt/memory_viewer_panel.cpp" line="288"/>
         <source>Search...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/memory_viewer_panel.cpp" line="277"/>
+        <location filename="rpcs3qt/memory_viewer_panel.cpp" line="291"/>
         <source>Search</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/memory_viewer_panel.cpp" line="280"/>
+        <location filename="rpcs3qt/memory_viewer_panel.cpp" line="294"/>
         <source>Case Insensitive</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/memory_viewer_panel.cpp" line="282"/>
+        <location filename="rpcs3qt/memory_viewer_panel.cpp" line="296"/>
         <source>When using string mode, the characters&apos; case will not matter both in string and in memory.
 Warning: this may reduce performance of the search.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/memory_viewer_panel.cpp" line="286"/>
-        <location filename="rpcs3qt/memory_viewer_panel.cpp" line="327"/>
+        <location filename="rpcs3qt/memory_viewer_panel.cpp" line="300"/>
+        <location filename="rpcs3qt/memory_viewer_panel.cpp" line="341"/>
         <source>Select search mode(s)..</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/memory_viewer_panel.cpp" line="287"/>
+        <location filename="rpcs3qt/memory_viewer_panel.cpp" line="301"/>
         <source>Deselect All Modes</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/memory_viewer_panel.cpp" line="288"/>
+        <location filename="rpcs3qt/memory_viewer_panel.cpp" line="302"/>
         <source>String</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/memory_viewer_panel.cpp" line="289"/>
+        <location filename="rpcs3qt/memory_viewer_panel.cpp" line="303"/>
         <source>HEX bytes/integer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/memory_viewer_panel.cpp" line="290"/>
+        <location filename="rpcs3qt/memory_viewer_panel.cpp" line="304"/>
         <source>Double</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/memory_viewer_panel.cpp" line="291"/>
+        <location filename="rpcs3qt/memory_viewer_panel.cpp" line="305"/>
         <source>Float</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/memory_viewer_panel.cpp" line="292"/>
+        <location filename="rpcs3qt/memory_viewer_panel.cpp" line="306"/>
         <source>Instruction</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/memory_viewer_panel.cpp" line="294"/>
+        <location filename="rpcs3qt/memory_viewer_panel.cpp" line="308"/>
         <source>String: search the memory for the specified string.
 HEX bytes/integer: search the memory for hexadecimal values. Spaces, commas, &quot;0x&quot;, &quot;0X&quot;, &quot;\x&quot;, &quot;h&quot;, &quot;H&quot; ensure separation of bytes but they are not mandatory.
 Double: reinterpret the string as 64-bit precision floating point value. Values are searched for exact representation, meaning -0 != 0.
@@ -8155,14 +8227,14 @@ Instruction: search an instruction contains the text of the string.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/memory_viewer_panel.cpp" line="303"/>
+        <location filename="rpcs3qt/memory_viewer_panel.cpp" line="317"/>
         <source>
 SPU Instruction: Search an SPU instruction contains the text of the string. For searching instructions within embedded SPU images.
 Tip: SPU floats are commented along forming instructions.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/memory_viewer_panel.cpp" line="332"/>
+        <location filename="rpcs3qt/memory_viewer_panel.cpp" line="346"/>
         <source>%0 mode(s) selected</source>
         <translation type="unfinished"></translation>
     </message>
@@ -8810,164 +8882,164 @@ Tip: SPU floats are commented along forming instructions.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="314"/>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1287"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="318"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1291"/>
         <source>[ Waiting %1 ]</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1448"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1452"/>
         <source>Custom Controller</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1500"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1504"/>
         <source>No Device Detected</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1617"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1621"/>
         <source>PS3 Controller</source>
         <comment>PlayStation 3 Controller</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1622"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1626"/>
         <source>Dance Dance Revolution</source>
         <comment>Dance Dance Revolution Mat</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1627"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1631"/>
         <source>DJ Hero Turntable</source>
         <comment>DJ Hero Turntable</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1632"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1636"/>
         <source>Rock Band</source>
         <comment>Harmonix Rock Band Drum Kit</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1637"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1641"/>
         <source>Rock Band Pro</source>
         <comment>Harmonix Rock Band Pro-Drum Kit</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1642"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1646"/>
         <source>Rock Band</source>
         <comment>Harmonix Rock Band Guitar</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1647"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1651"/>
         <source>Guitar Hero</source>
         <comment>RedOctane Guitar Hero Drum Kit</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1652"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1656"/>
         <source>Guitar Hero</source>
         <comment>RedOctane Guitar Hero Guitar</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1657"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1661"/>
         <source>Rock Revolution</source>
         <comment>Rock Revolution Drum Controller</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1667"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1671"/>
         <source>Choose a unique name</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1668"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1672"/>
         <source>Profile Name: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1677"/>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1682"/>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1687"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1681"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1686"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1691"/>
         <source>Error</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1677"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1681"/>
         <source>Name cannot be empty</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1682"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1686"/>
         <source>Must choose a name without &apos;.&apos;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1687"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1691"/>
         <source>Please choose a non-existing name</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1709"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1713"/>
         <source>Reserved</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1838"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1842"/>
         <source>Warning!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1839"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1843"/>
         <source>The %0 button &lt;b&gt;%1&lt;/b&gt; of &lt;b&gt;Player %2&lt;/b&gt; was assigned at least twice.&lt;br&gt;Please consider adjusting the configuration.&lt;br&gt;&lt;br&gt;Continue anyway?&lt;br&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1873"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1877"/>
         <source>Null</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1874"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1878"/>
         <source>Keyboard</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1875"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1879"/>
         <source>DualShock 3</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1876"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1880"/>
         <source>DualShock 4</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1877"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1881"/>
         <source>DualSense</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1879"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1883"/>
         <source>XInput</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1880"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1884"/>
         <source>MMJoystick</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1883"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1887"/>
         <source>SDL</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1886"/>
+        <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1890"/>
         <source>Evdev</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9129,7 +9201,7 @@ The export of invalid patches is not allowed.</source>
     <name>patch_manager_dialog</name>
     <message>
         <location filename="rpcs3qt/patch_manager_dialog.ui" line="17"/>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="988"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="995"/>
         <source>Patch Manager</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9215,105 +9287,105 @@ The export of invalid patches is not allowed.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="220"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="227"/>
         <source>Incompatible patches detected</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="221"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="228"/>
         <source>Some of your patches are not compatible with the current version of RPCS3&apos;s Patch Manager.
 
 Make sure that all the patches located in &quot;%0&quot; contain the proper formatting that is required for the Patch Manager Version %1.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="848"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="855"/>
         <source>Show Patch File</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="859"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="866"/>
         <source>Remove Patch</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="863"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="870"/>
         <source>Remove Patch?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="864"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="871"/>
         <source>Do you really want to remove the selected patch?
 This action is immediate and irreversible!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="875"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="882"/>
         <source>Success</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="875"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="882"/>
         <source>The patch was successfully removed!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="881"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="888"/>
         <source>Failure</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="881"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="888"/>
         <source>The patch could not be removed!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="895"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="902"/>
         <source>Collapse</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="906"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="913"/>
         <source>Expand Children</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="916"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="923"/>
         <source>Collapse Children</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="929"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="936"/>
         <source>Expand</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="940"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="947"/>
         <source>Expand All</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="944"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="951"/>
         <source>Collapse All</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="988"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="995"/>
         <source>What do you want to do with the patch file?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="989"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="996"/>
         <source>Import</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="990"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="997"/>
         <source>Validate</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1026"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1033"/>
         <source>
 
 Log:
@@ -9321,33 +9393,33 @@ Log:
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1030"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1037"/>
         <source>Nothing to import</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1030"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1037"/>
         <source>None of the found %0 patches were imported.%1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1035"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1042"/>
         <source>Import successful</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1035"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1042"/>
         <source>Imported %0/%1 patches to:
 %2%3</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1041"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1048"/>
         <source>Import failed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1041"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1048"/>
         <source>The patch file could not be imported.
 
 Log:
@@ -9355,25 +9427,25 @@ Log:
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1046"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1053"/>
         <source>Validation successful</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1046"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1053"/>
         <source>The patch file passed the validation.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1056"/>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1061"/>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1268"/>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1273"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1063"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1068"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1275"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1280"/>
         <source>Validation failed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1056"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1063"/>
         <source>Errors were found in the patch file.
 
 Log:
@@ -9381,57 +9453,57 @@ Log:
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1060"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1067"/>
         <source>Errors were found in the patch file.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1062"/>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1274"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1069"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1281"/>
         <source>To see the error log, please click &quot;Show Details&quot;.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1063"/>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1275"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1070"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1282"/>
         <source>%0</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1133"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1140"/>
         <source>Downloading latest patches</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1167"/>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1259"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1174"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1266"/>
         <source>Download successful</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1167"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1174"/>
         <source>Your patch file is already up to date.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1182"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1189"/>
         <source>Update patches?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1182"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1189"/>
         <source>New patches are available.
 
 Do you want to update?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1259"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1266"/>
         <source>Your patch file is now up to date</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1268"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1275"/>
         <source>Errors were found in the downloaded patch file.
 
 Log:
@@ -9439,7 +9511,7 @@ Log:
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1272"/>
+        <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1279"/>
         <source>Errors were found in the downloaded patch file.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9877,7 +9949,7 @@ No graphics will be rendered.</source>
     </message>
     <message>
         <location filename="rpcs3qt/save_manager_dialog.cpp" line="109"/>
-        <location filename="rpcs3qt/save_manager_dialog.cpp" line="614"/>
+        <location filename="rpcs3qt/save_manager_dialog.cpp" line="615"/>
         <source>Select an item to view details</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9936,23 +10008,23 @@ No graphics will be rendered.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/save_manager_dialog.cpp" line="609"/>
+        <location filename="rpcs3qt/save_manager_dialog.cpp" line="610"/>
         <source>%1 items selected</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/save_manager_dialog.cpp" line="637"/>
+        <location filename="rpcs3qt/save_manager_dialog.cpp" line="638"/>
         <source>Last modified: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/save_manager_dialog.cpp" line="638"/>
+        <location filename="rpcs3qt/save_manager_dialog.cpp" line="639"/>
         <source>Details:
 </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/save_manager_dialog.cpp" line="639"/>
+        <location filename="rpcs3qt/save_manager_dialog.cpp" line="640"/>
         <source>Note:
 </source>
         <translation type="unfinished"></translation>
@@ -10084,12 +10156,12 @@ No graphics will be rendered.</source>
         <location filename="rpcs3qt/settings_dialog.ui" line="666"/>
         <location filename="rpcs3qt/settings_dialog.ui" line="727"/>
         <location filename="rpcs3qt/settings_dialog.ui" line="834"/>
-        <location filename="rpcs3qt/settings_dialog.ui" line="2490"/>
-        <location filename="rpcs3qt/settings_dialog.ui" line="2565"/>
-        <location filename="rpcs3qt/settings_dialog.ui" line="2730"/>
-        <location filename="rpcs3qt/settings_dialog.ui" line="2773"/>
-        <location filename="rpcs3qt/settings_dialog.ui" line="3240"/>
-        <location filename="rpcs3qt/settings_dialog.ui" line="4308"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="2497"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="2572"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="2737"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="2780"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="3247"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="4315"/>
         <source>Reset</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10117,13 +10189,13 @@ No graphics will be rendered.</source>
         <location filename="rpcs3qt/settings_dialog.ui" line="362"/>
         <location filename="rpcs3qt/settings_dialog.ui" line="1020"/>
         <location filename="rpcs3qt/settings_dialog.ui" line="1556"/>
-        <location filename="rpcs3qt/settings_dialog.ui" line="1846"/>
-        <location filename="rpcs3qt/settings_dialog.ui" line="2099"/>
-        <location filename="rpcs3qt/settings_dialog.ui" line="2292"/>
-        <location filename="rpcs3qt/settings_dialog.ui" line="2825"/>
-        <location filename="rpcs3qt/settings_dialog.ui" line="3590"/>
-        <location filename="rpcs3qt/settings_dialog.ui" line="3994"/>
-        <location filename="rpcs3qt/settings_dialog.ui" line="4357"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="1853"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="2106"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="2299"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="2832"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="3597"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="4001"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="4364"/>
         <source>Description</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10131,13 +10203,13 @@ No graphics will be rendered.</source>
         <location filename="rpcs3qt/settings_dialog.ui" line="368"/>
         <location filename="rpcs3qt/settings_dialog.ui" line="1026"/>
         <location filename="rpcs3qt/settings_dialog.ui" line="1562"/>
-        <location filename="rpcs3qt/settings_dialog.ui" line="1852"/>
-        <location filename="rpcs3qt/settings_dialog.ui" line="2105"/>
-        <location filename="rpcs3qt/settings_dialog.ui" line="2298"/>
-        <location filename="rpcs3qt/settings_dialog.ui" line="2831"/>
-        <location filename="rpcs3qt/settings_dialog.ui" line="3596"/>
-        <location filename="rpcs3qt/settings_dialog.ui" line="4000"/>
-        <location filename="rpcs3qt/settings_dialog.ui" line="4363"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="1859"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="2112"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="2305"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="2838"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="3603"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="4007"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="4370"/>
         <source>Point your mouse at an option to display a description in here.
 
 
@@ -10146,8 +10218,8 @@ No graphics will be rendered.</source>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="391"/>
-        <location filename="rpcs3qt/settings_dialog.ui" line="2587"/>
-        <location filename="rpcs3qt/settings_dialog.ui" line="4034"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="2594"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="4041"/>
         <source>GPU</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10497,774 +10569,779 @@ No graphics will be rendered.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="1875"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="1809"/>
+        <source>Lock Overlay Input To Player One</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/settings_dialog.ui" line="1882"/>
         <source>System</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="1883"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="1890"/>
         <source>Console Language</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="1895"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="1902"/>
         <source>Keyboard Type</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="1907"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="1914"/>
         <source>Homebrew</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="1913"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="1920"/>
         <source>Enable /host_root/</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="1927"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="1934"/>
         <source>Console Region</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="1939"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="1946"/>
         <source>Console Time</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="1984"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="1991"/>
         <source>Set to Now</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="2003"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="2010"/>
         <source>Enter Button Assignment</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="2036"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="2043"/>
         <source>Disk cache</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="2042"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="2049"/>
         <source>Clear cache automatically</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="2049"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="2056"/>
         <source>Cache size: 3072 MB</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="2128"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="2135"/>
         <source>Network</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="2136"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="2143"/>
         <source>Network Configuration</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="2142"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="2149"/>
         <source>Network Status</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="2154"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="2161"/>
         <source>DNS</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="2173"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="2180"/>
         <source>IP/Hosts switches</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="2192"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="2199"/>
         <source>Bind address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="2211"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="2218"/>
         <source>Enable UPNP</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="2237"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="2244"/>
         <source>PSN Configuration</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="2243"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="2250"/>
         <source>PSN Status</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="2321"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="2328"/>
         <source>Advanced</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="2337"/>
-        <location filename="rpcs3qt/settings_dialog.ui" line="4149"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="2344"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="4156"/>
         <source>Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="2343"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="2350"/>
         <source>Debug Console Mode</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="2350"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="2357"/>
         <source>Accurate DFMA</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="2357"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="2364"/>
         <source>Accurate GETLLAR</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="2364"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="2371"/>
         <source>Accurate RSX reservation access</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="2371"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="2378"/>
         <source>Accurate SPU DMA</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="2378"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="2385"/>
         <source>PPU Non-Java Mode Fixup</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="2385"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="2392"/>
         <source>PPU Vector NaN Fixup</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="2392"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="2399"/>
         <source>PPU LLVM Precompilation</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="2399"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="2406"/>
         <source>Delay each odd MFC Command</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="2406"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="2413"/>
         <source>Suspend-Emulation Savestates Mode</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="2413"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="2420"/>
         <source>Silence All Logs</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="2429"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="2436"/>
         <source>Sleep Timers Accuracy</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="2447"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="2454"/>
         <source>Maximum Number of SPURS Threads</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="2465"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="2472"/>
         <source>Clocks Scale</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="2480"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="2487"/>
         <source>100%</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="2522"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="2529"/>
         <source>Firmware Libraries</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="2593"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="2600"/>
         <source>Read Depth Buffers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="2600"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="2607"/>
         <source>Write Depth Buffers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="2607"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="2614"/>
         <source>Read Color Buffers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="2614"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="2621"/>
         <source>Disable On-Disk Shader Cache</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="2621"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="2628"/>
         <source>Disable Vertex Cache</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="2628"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="2635"/>
         <source>Allow Host GPU Labels (Experimental)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="2635"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="2642"/>
         <source>Disable MSL Fast Math</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="2651"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="2658"/>
         <source>Vulkan Queue Scheduler</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="2669"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="2676"/>
         <source>RSX FIFO Accuracy</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="2687"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="2694"/>
         <source>Exclusive Fullscreen Mode</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="2705"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="2712"/>
         <source>Driver Wake-Up Delay</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="2720"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="2727"/>
         <source>1 µs</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="2748"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="2755"/>
         <source>VBlank Frequency</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="2763"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="2770"/>
         <source>60 Hz</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="2782"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="2789"/>
         <source>VBlank NTSC Fixup</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="2854"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="2861"/>
         <source>Emulator</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="2864"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="2871"/>
         <source>Emulator Settings</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="2870"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="2877"/>
         <source>Exit RPCS3 when process finishes</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="2877"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="2884"/>
         <source>Pause emulation after loading savestates</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="2884"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="2891"/>
         <source>Pause emulation during home menu</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="2891"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="2898"/>
         <source>Prevent display sleep while running games</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="2898"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="2905"/>
         <source>Show trophy popups</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="2905"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="2912"/>
         <source>Show PPU compilation hint</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="2912"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="2919"/>
         <source>Show shader compilation hint</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="2919"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="2926"/>
         <source>Start games in fullscreen mode</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="2926"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="2933"/>
         <source>Use native user interface</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="2952"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="2959"/>
         <source>Max LLVM Compile Threads</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="2968"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="2975"/>
         <source>Viewport</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="2974"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="2981"/>
         <source>Ignore doubleclicks for Fullscreen</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="2981"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="2988"/>
         <source>Ignore keyboard hotkeys</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="2988"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="2995"/>
         <source>Show mouse cursor in Fullscreen</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="2995"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="3002"/>
         <source>Lock mouse cursor in Fullscreen</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="3017"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="3024"/>
         <source>Hide mouse cursor if idle</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="3033"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="3040"/>
         <source>ms</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="3070"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="3077"/>
         <source>Resize game window on boot</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="3077"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="3084"/>
         <source>Resize manually</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="3086"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="3093"/>
         <source>Width</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="3117"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="3124"/>
         <source>Height</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="3159"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="3166"/>
         <source>Shader Loading Screen</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="3165"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="3172"/>
         <source>Allow custom background</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="3172"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="3179"/>
         <source>Background darkening:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="3186"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="3193"/>
         <source>Background blur:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="3219"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="3226"/>
         <source>Game Window Title</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="3237"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="3244"/>
         <source>Reset the game window title to default</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="3247"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="3254"/>
         <source>Edit the game window title</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="3250"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="3257"/>
         <source>Edit</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="3266"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="3273"/>
         <source>Performance Overlay</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="3272"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="3279"/>
         <source>Enable performance overlay</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="3279"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="3286"/>
         <source>Show framerate graph</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="3286"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="3293"/>
         <source>Show frametime graph</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="3308"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="3315"/>
         <source>Detail Level:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="3336"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="3343"/>
         <source>Position:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="3349"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="3356"/>
         <source>Horizontal Margin:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="3358"/>
-        <location filename="rpcs3qt/settings_dialog.ui" line="3379"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="3365"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="3386"/>
         <source>Centered</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="3370"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="3377"/>
         <source>Vertical Margin:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="3406"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="3413"/>
         <source>Update Interval:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="3444"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="3451"/>
         <source>Font Size: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="3476"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="3483"/>
         <source>Opacity:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="3505"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="3512"/>
         <source>Framerate datapoints:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="3534"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="3541"/>
         <source>Frametime datapoints:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="3619"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="3626"/>
         <source>GUI</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="3629"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="3636"/>
         <source>UI Stylesheets</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="3638"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="3645"/>
         <source>Apply</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="3648"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="3655"/>
         <source>UI Colors</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="3666"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="3673"/>
         <source>Use custom UI Colors</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="3673"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="3680"/>
         <source>Gamelist icons</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="3680"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="3687"/>
         <source>Save manager icons</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="3687"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="3694"/>
         <source>Trophy manager icons</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="3717"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="3724"/>
         <source>Log</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="3744"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="3751"/>
         <source>Maximum log blocks</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="3779"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="3786"/>
         <source>Maximum TTY blocks</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="3819"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="3826"/>
         <source>UI Options</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="3825"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="3832"/>
         <source>Show Welcome Screen</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="3832"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="3839"/>
         <source>Show Exit Game Dialog</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="3839"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="3846"/>
         <source>Show Boot Game Dialog</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="3846"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="3853"/>
         <source>Show PKG Installation Dialog</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="3853"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="3860"/>
         <source>Show PUP Installation Dialog</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="3860"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="3867"/>
         <source>Show Obsolete Settings Dialog</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="3867"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="3874"/>
         <source>Show Duplicate Buttons Dialog</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="3874"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="3881"/>
         <source>Show Restart Dialog</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="3900"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="3907"/>
         <source>Check for updates on startup</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="3912"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="3919"/>
         <source>Discord</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="3918"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="3925"/>
         <source>Use Discord Rich Presence</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="3925"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="3932"/>
         <source>Discord Status:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="3948"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="3955"/>
         <source>Installation ID</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="3954"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="3961"/>
         <source>UUID-placeholder</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="3964"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="3971"/>
         <source>Create new ID</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="4023"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="4030"/>
         <source>Debug</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="4043"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="4050"/>
         <source>Debug Output</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="4050"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="4057"/>
         <source>Debug Overlay</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="4057"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="4064"/>
         <source>Disable FIFO Reordering</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="4064"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="4071"/>
         <source>Disable Video Output</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="4071"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="4078"/>
         <source>Disable Vulkan Memory Allocator</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="4078"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="4085"/>
         <source>Disable ZCull Occlusion Queries</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="4085"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="4092"/>
         <source>Force CPU Blit Emulation</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="4092"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="4099"/>
         <source>Force GPU Texture Scaling</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="4099"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="4106"/>
         <source>Log Shader Programs</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="4109"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="4116"/>
         <source>Renderdoc Compatibility Mode</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="4116"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="4123"/>
         <source>Strict Texture Flushing</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="4123"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="4130"/>
         <source>Use High Precision Z-Buffer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="4155"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="4162"/>
         <source>Automatically start games after boot</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="4162"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="4169"/>
         <source>Enable performance report</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="4169"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="4176"/>
         <source>Hook static functions</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="4176"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="4183"/>
         <source>PPU Debug</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="4183"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="4190"/>
         <source>SPU Debug</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="4190"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="4197"/>
         <source>MFC Debug</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="4197"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="4204"/>
         <source>Set DAZ and FTZ</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="4204"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="4211"/>
         <source>Accurate PPU Saturation Bit</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="4211"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="4218"/>
         <source>Accurate PPU Non-Java Mode</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="4218"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="4225"/>
         <source>Accurate PPU Vector NaN Handling</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="4225"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="4232"/>
         <source>Accurate PPU Float Condition Control</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="4232"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="4239"/>
         <source>Accurate Cache Line Stores</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="4273"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="4280"/>
         <source>Accurate PPU 128 Reservations</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="4285"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="4292"/>
         <source>PPU Thread Count</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.ui" line="4297"/>
+        <location filename="rpcs3qt/settings_dialog.ui" line="4304"/>
         <source>LOD Bias Offset</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11403,7 +11480,7 @@ Each option heavily depends on the game and on your CPU, it&apos;s recommended t
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.cpp" line="680"/>
-        <source>100% (Default)</source>
+        <source>100% (1280x720) (Default)</source>
         <comment>Resolution scale</comment>
         <translation type="unfinished"></translation>
     </message>
@@ -11488,167 +11565,167 @@ Each option heavily depends on the game and on your CPU, it&apos;s recommended t
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1376"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1379"/>
         <source>dd MMM yyyy HH:mm</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1385"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1388"/>
         <source>Maximum size: %0 MB</source>
         <comment>Maximum cache size</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1514"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1517"/>
         <source>Unlimited (Default)</source>
         <comment>Max SPURS threads</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1544"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1547"/>
         <source>%0 Hz</source>
         <comment>VBlank rate</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1553"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1556"/>
         <source>%0 %</source>
         <comment>Clocks scale</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1618"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1621"/>
         <source>Do not touch libsysutil libs, development purposes only, will cause game crashes.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1625"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1628"/>
         <source>Search libraries</source>
         <comment>Library search box</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1721"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1724"/>
         <source>All (%1)</source>
         <comment>Max LLVM threads</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1823"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1826"/>
         <source>Update Interval: %0 ms</source>
         <comment>Performance overlay update interval</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1826"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1829"/>
         <source>Font Size: %0 px</source>
         <comment>Performance overlay font size</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1829"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1832"/>
         <source>Opacity: %0 %</source>
         <comment>Performance overlay opacity</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1832"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1835"/>
         <source>Framerate datapoints: %0</source>
         <comment>Framerate graph datapoints</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1835"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1838"/>
         <source>Frametime datapoints: %0</source>
         <comment>Frametime graph datapoints</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1838"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1841"/>
         <source>Background darkening: %0 %</source>
         <comment>Shader load background darkening</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1841"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1844"/>
         <source>Background blur: %0 %</source>
         <comment>Shader load background blur</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1846"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1849"/>
         <source>px</source>
         <comment>Performance overlay margin x</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1849"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1852"/>
         <source>px</source>
         <comment>Performance overlay margin y</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1962"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="1965"/>
         <source>My Game</source>
         <comment>Game window title</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1997"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="2000"/>
         <source>GPU Model</source>
         <comment>Game window title</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1998"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="2001"/>
         <source>CPU Model</source>
         <comment>Game window title</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="1999"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="2002"/>
         <source>Thread Count</source>
         <comment>Game window title</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="2000"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="2003"/>
         <source>System Memory</source>
         <comment>Game window title</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="2001"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="2004"/>
         <source>Framerate</source>
         <comment>Game window title</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="2002"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="2005"/>
         <source>Renderer</source>
         <comment>Game window title</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="2003"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="2006"/>
         <source>Title</source>
         <comment>Game window title</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="2004"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="2007"/>
         <source>Title ID</source>
         <comment>Game window title</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="2005"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="2008"/>
         <source>RPCS3 Version</source>
         <comment>Game window title</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="2015"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="2018"/>
         <source>Glossary:
 
 %0
@@ -11660,94 +11737,94 @@ Preview:
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="2022"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="2025"/>
         <source>Game Window Title Format</source>
         <comment>Game window title</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="2099"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="2102"/>
         <source>Error</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="2099"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="2102"/>
         <source>Failed to create new installation ID!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="2162"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="2165"/>
         <source>Yes</source>
         <comment>Updates</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="2163"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="2166"/>
         <source>Background</source>
         <comment>Updates</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="2164"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="2167"/>
         <source>Automatic</source>
         <comment>Updates</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="2165"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="2168"/>
         <source>No</source>
         <comment>Updates</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="2246"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="2249"/>
         <source>Choose gamelist icon color</source>
         <comment>Settings: color dialog</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="2250"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="2253"/>
         <source>Choose save manager icon color</source>
         <comment>Settings: color dialog</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="2254"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="2257"/>
         <source>Choose trophy manager icon color</source>
         <comment>Settings: color dialog</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="2353"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="2356"/>
         <source>Always Enabled</source>
         <comment>Accurate PPU 128 Reservations</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="2354"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="2357"/>
         <source>Disabled</source>
         <comment>Accurate PPU 128 Reservations</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="2411"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="2419"/>
         <source>None</source>
         <comment>Stylesheets</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="2412"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="2420"/>
         <source>Default (Bright)</source>
         <comment>Stylesheets</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="2471"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="2479"/>
         <source>Remove obsolete settings?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/settings_dialog.cpp" line="2472"/>
+        <location filename="rpcs3qt/settings_dialog.cpp" line="2480"/>
         <source>Your config file contains one or more obsolete entries.&lt;br&gt;Consider that a removal might render them invalid for other versions of RPCS3.&lt;br&gt;&lt;br&gt;Do you wish to let the program remove them for you now?&lt;br&gt;This change will only be final when you save the config.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11773,80 +11850,85 @@ Preview:
 <context>
     <name>shortcut_settings</name>
     <message>
-        <location filename="rpcs3qt/shortcut_settings.cpp" line="39"/>
+        <location filename="rpcs3qt/shortcut_settings.cpp" line="40"/>
         <source>Start</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/shortcut_settings.cpp" line="40"/>
+        <location filename="rpcs3qt/shortcut_settings.cpp" line="41"/>
         <source>Stop</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/shortcut_settings.cpp" line="41"/>
+        <location filename="rpcs3qt/shortcut_settings.cpp" line="42"/>
         <source>Pause</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/shortcut_settings.cpp" line="42"/>
-        <location filename="rpcs3qt/shortcut_settings.cpp" line="54"/>
+        <location filename="rpcs3qt/shortcut_settings.cpp" line="43"/>
+        <location filename="rpcs3qt/shortcut_settings.cpp" line="56"/>
         <source>Restart</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/shortcut_settings.cpp" line="43"/>
-        <location filename="rpcs3qt/shortcut_settings.cpp" line="46"/>
+        <location filename="rpcs3qt/shortcut_settings.cpp" line="44"/>
+        <location filename="rpcs3qt/shortcut_settings.cpp" line="48"/>
         <source>Toggle Fullscreen</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/shortcut_settings.cpp" line="44"/>
-        <location filename="rpcs3qt/shortcut_settings.cpp" line="47"/>
+        <location filename="rpcs3qt/shortcut_settings.cpp" line="45"/>
+        <location filename="rpcs3qt/shortcut_settings.cpp" line="49"/>
         <source>Exit Fullscreen</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/shortcut_settings.cpp" line="45"/>
+        <location filename="rpcs3qt/shortcut_settings.cpp" line="46"/>
         <source>Refresh</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/shortcut_settings.cpp" line="48"/>
-        <source>Add Log Mark</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="rpcs3qt/shortcut_settings.cpp" line="49"/>
-        <source>Mouse lock</source>
+        <location filename="rpcs3qt/shortcut_settings.cpp" line="47"/>
+        <source>Show Welcome Dialog</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="rpcs3qt/shortcut_settings.cpp" line="50"/>
-        <source>Start/Stop Recording</source>
+        <source>Add Log Mark</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="rpcs3qt/shortcut_settings.cpp" line="51"/>
-        <source>Screenshot</source>
+        <source>Mouse lock</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="rpcs3qt/shortcut_settings.cpp" line="52"/>
-        <source>Pause/Play</source>
+        <source>Start/Stop Recording</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="rpcs3qt/shortcut_settings.cpp" line="53"/>
-        <source>Savestate</source>
+        <source>Screenshot</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/shortcut_settings.cpp" line="54"/>
+        <source>Pause/Play</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="rpcs3qt/shortcut_settings.cpp" line="55"/>
+        <source>Savestate</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/shortcut_settings.cpp" line="57"/>
         <source>RSX Capture</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/shortcut_settings.cpp" line="56"/>
+        <location filename="rpcs3qt/shortcut_settings.cpp" line="58"/>
         <source>Toggle Framelimit</source>
         <translation type="unfinished"></translation>
     </message>
@@ -12736,22 +12818,32 @@ Stop the emulator now?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/welcome_dialog.ui" line="204"/>
+        <location filename="rpcs3qt/welcome_dialog.ui" line="190"/>
+        <source>Create desktop shortcut</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/welcome_dialog.ui" line="197"/>
+        <source>Create Start Menu shortcut</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/welcome_dialog.ui" line="231"/>
         <source>Continue</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/welcome_dialog.ui" line="227"/>
+        <location filename="rpcs3qt/welcome_dialog.ui" line="254"/>
         <source>I have read the Quickstart guide</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/welcome_dialog.ui" line="247"/>
+        <location filename="rpcs3qt/welcome_dialog.ui" line="274"/>
         <source>Do not show again</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/welcome_dialog.cpp" line="22"/>
+        <location filename="rpcs3qt/welcome_dialog.cpp" line="30"/>
         <source>
 			&lt;p style=&quot;white-space: nowrap;&quot;&gt;
 				RPCS3 is an open-source Sony PlayStation 3 emulator and debugger.&lt;br&gt;
@@ -12763,7 +12855,7 @@ Stop the emulator now?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3qt/welcome_dialog.cpp" line="33"/>
+        <location filename="rpcs3qt/welcome_dialog.cpp" line="41"/>
         <source>
 			&lt;p style=&quot;white-space: nowrap;&quot;&gt;
 				To get started, you must first install the &lt;span style=&quot;font-weight:600;&quot;&gt;PlayStation 3 firmware&lt;/span&gt;.&lt;br&gt;
@@ -12772,6 +12864,21 @@ Stop the emulator now?</source>
 				Otherwise, further discussion and support can be found on the &lt;a %0 href=&quot;https://forums.rpcs3.net&quot;&gt;Forums&lt;/a&gt; or on our &lt;a %0 href=&quot;https://discord.me/RPCS3&quot;&gt;Discord&lt;/a&gt; server.
 			&lt;/p&gt;
 		</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/welcome_dialog.cpp" line="68"/>
+        <source>&amp;Create Start Menu shortcut</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/welcome_dialog.cpp" line="70"/>
+        <source>&amp;Create Launchpad shortcut</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/welcome_dialog.cpp" line="72"/>
+        <source>&amp;Create Application Menu shortcut</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
